@@ -1,0 +1,24 @@
+{
+  "name": "kappa_eff",
+  "claim": "Along the gradient-ascent weight-perturbation ray, effective curvature kappa_eff = |v'Hv|/v'v peaks before held-out accuracy collapses, robustly across the choice of accuracy-drop threshold, and with a larger lead than a random ray gives.",
+  "seeds": [0, 1, 2, 3, 4],
+  "sweeps": {"accuracy_drop_threshold": [0.02, 0.05, 0.10]},
+  "null_model": "random_ray",
+  "refute_if": "K1 or K2 fires on the gradient ray, OR lead_gradient - lead_random <= 0 - either at >=3 of 5 seeds in any swept accuracy_drop_threshold",
+  "refute_params": {
+    "refute_at_seeds": 3,
+    "support_at_seeds": 4
+  },
+  "tier": 1,
+  "runtime_estimate_s": 120,
+  "depends_on": [],
+  "model": {
+    "n_samples": 2000,
+    "n_train": 1500,
+    "hidden": 32,
+    "epochs": 200,
+    "lr": 0.003,
+    "hvp_eps": 1e-4,
+    "alphas": [0.0, 0.05, 0.1, 0.2, 0.3, 0.5, 0.75, 1.0, 1.5, 2.0, 3.0]
+  }
+}
