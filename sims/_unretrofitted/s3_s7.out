@@ -1,0 +1,23 @@
+S3a cleanup-based bundling recovery (M=500):
+  d=256: k=2:1.00 k=4:1.00 k=8:1.00 k=16:0.75 k=32:0.75
+  d=1024: k=2:1.00 k=4:1.00 k=8:1.00 k=16:1.00 k=32:1.00
+S3b FDM amplitude recovery rel-error vs channel count (N=512):
+  noise=0.01: k=1:0.001 k=4:0.001 k=8:0.001 k=16:0.001 k=32:0.001
+  noise=0.1: k=1:0.016 k=4:0.005 k=8:0.008 k=16:0.008 k=32:0.006
+S4 curvature=0.0: global-PCA err=0.3511  2-chart err=0.0000  ratio=351068335.73x
+S4 curvature=0.5: global-PCA err=0.3596  2-chart err=0.0233  ratio=15.44x
+S4 curvature=1.0: global-PCA err=0.4048  2-chart err=0.0848  ratio=4.77x
+S4 curvature=2.0: global-PCA err=0.6949  2-chart err=0.3229  ratio=2.15x
+S5 citation cascade (bias = preferential supportive citing):
+  bias=0.0: supportive fraction=0.34, top-hub concentration=44.4x mean
+  bias=0.3: supportive fraction=0.90, top-hub concentration=33.9x mean
+  bias=0.6: supportive fraction=0.80, top-hub concentration=37.3x mean
+  bias=0.9: supportive fraction=0.89, top-hub concentration=38.9x mean
+S6 EWS on fold-approach series (30 trials):
+  variance tau: mean=0.308  frac>0.3: 0.60
+  AC1 tau:      mean=0.281  frac>0.3: 0.47
+  null false-alarm: var=0.00  ac1=0.00
+S7: objects=200, conflicting derivations=29
+S7 error: keep-both=0.000 delete-A=0.200 delete-B=0.145 delete-both=0.200
+S7 error after LGG-refinement of A: 0.000
+S7 true-alarm retention: delete-B keeps A=1.00  LGG-refined=1.00

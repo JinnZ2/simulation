@@ -1,0 +1,18 @@
+reference edge length: 1.4142
+residual delta=0.00 -> Procrustes distortion=0.00000
+residual delta=0.05 -> Procrustes distortion=0.02335
+residual delta=0.10 -> Procrustes distortion=0.04702
+residual delta=0.20 -> Procrustes distortion=0.09552
+residual delta=0.40 -> Procrustes distortion=0.19862
+
+drill-down (delta=0.2): per-vertex displacement mags (vertices 0,1 carry the faulted edge):
+   [0.1445, 0.0225, 0.1445, 0.0225, 0.0774, 0.0774]
+  Laplacian eigenvalues (0=rigid translation; higher=shape modes):
+   [0.0, 4.0, 4.0, 4.0, 6.0, 6.0]
+  mode decomposition of displacement magnitude:
+    mode 0 (lambda=0.000): amplitude +0.1995
+    mode 1 (lambda=4.000): amplitude +0.0974
+    mode 2 (lambda=4.000): amplitude -0.0426
+    mode 3 (lambda=4.000): amplitude +0.0598
+    mode 4 (lambda=6.000): amplitude +0.0034
+    mode 5 (lambda=6.000): amplitude -0.0062

@@ -1,0 +1,2 @@
+VERDICT: REFUTED — seeds failing 15% lead: 0/5; null detection rate 0.96
+outputs -> /mnt/agents/output/sims/ep2_prereg/results/2026-08-13T1755Z

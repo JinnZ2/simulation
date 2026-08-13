@@ -1,0 +1,8 @@
+threshold | scalar: det FP | mode-filtered: det FP
+  tau>0.2   | scalar: 0.08 0.25 | modal: 0.00 0.17
+  tau>0.3   | scalar: 0.08 0.08 | modal: 0.00 0.00
+  tau>0.4   | scalar: 0.08 0.00 | modal: 0.00 0.00
+  tau>0.5   | scalar: 0.08 0.00 | modal: 0.00 0.00
+
+  fold mean tau: scalar=+0.065 modal=-0.488
+  null mean tau: scalar=+0.055 modal=+0.037

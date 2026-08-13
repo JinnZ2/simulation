@@ -1,0 +1,2 @@
+VERDICT: REFUTED — fails=0/5, null rate 0.82
+-> /mnt/agents/output/sims/ep2_prereg_v2/results/2026-08-13T1757Z

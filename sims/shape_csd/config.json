@@ -1,0 +1,36 @@
+{
+  "name": "shape_csd",
+  "claim": "In an octahedron with one bistable strut, probe-recovery time diverges before the snap with at least 15% of the compression range of warning, and a matched monostable arm does not produce the same divergence - so the signal is the fold, not the loading.",
+  "seeds": [0, 1, 2, 3, 4],
+  "sweeps": {"probe_magnitude": [0.03, 0.05, 0.08]},
+  "null_model": "monostable_strut",
+  "refute_if": "lead_frac < 0.15 OR null_lead_frac >= lead_frac - either at >=3 of 5 seeds in any swept probe_magnitude",
+  "refute_params": {
+    "min_lead_frac": 0.15,
+    "ratio_threshold": 1.5,
+    "baseline_points": 3,
+    "refute_at_seeds": 3,
+    "support_at_seeds": 4
+  },
+  "tier": 0,
+  "runtime_estimate_s": 300,
+  "depends_on": [],
+  "mechanics": {
+    "l1": 1.2,
+    "l2": 1.8,
+    "aa": 1.2,
+    "relax_rate": 0.05,
+    "settle_iters": 400,
+    "snap_scan_steps": 180,
+    "snap_step": 0.005,
+    "snap_threshold": 1.45,
+    "n_compressions": 12,
+    "max_compression_frac": 0.95,
+    "recovery_iters": 10,
+    "recovery_max_t": 600,
+    "recovery_tol": 0.05,
+    "monostable_stiffness": 1.0,
+    "variance_kicks": 40,
+    "variance_sigma": 0.02
+  }
+}

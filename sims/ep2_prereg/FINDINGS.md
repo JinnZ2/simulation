@@ -50,13 +50,44 @@ runs. Comparing:
 | v2 differential scan | 0.82 | 0.395 – 0.475 |
 | v3 differential checkpoint | 0.05 | 0.020 – 0.065 |
 
-v1 and v3 replicate closely. **v2 does not** — 44% here against 82% reported. Flagging it rather
-than smoothing it over: my differential arm draws an independent rigid reference per trial, so on
-the null the ratio is one noisy rigid measurement over another and carries no residual trend at
-all. A v2 that shared creep structure between numerator and denominator, or used more scan steps,
-would sit higher. The qualitative conclusion is identical either way — sequential scanning on the
-ratio is unusable — but the specific number is implementation-dependent and should not be quoted
-as 82% without knowing which variant produced it.
+v1 and v3 replicate closely. **v2 did not** — 44% here against 82% reported.
+
+### The v2 gap, resolved
+
+The original v1/v2/v3 implementations were supplied later and are preserved under
+[`prior_versions/`](prior_versions/). With both in hand the cause is identifiable, and it is
+neither a physics difference nor a bug: **it is how the baseline of the t-test is formed.**
+
+My first guess was wrong. Their rigid arm uses a different creep law (`τ₀·(1 + 0.5·creep)` against
+my `τ₀/(1 − creep)`) and adds a ±20% per-arm creep realization, so creep does not divide out of
+their ratio. That looked like the obvious candidate. It is not — swapping either or both in gives
+0.81–0.83 regardless:
+
+| null physics | differential-scan false positive |
+|---|---:|
+| my creep law, no jitter | 0.81 |
+| their creep law, no jitter | 0.81 |
+| my creep law, their jitter | 0.83 |
+| their creep law, their jitter | 0.82 |
+
+The actual difference is in the statistics. On **identical physics and identical data**, varying
+only the baseline:
+
+| t-test construction | false positive |
+|---|---:|
+| mine — baseline is 25 raw probe samples (5 steps × 5 probes) | **0.45** |
+| theirs — baseline is 5 step-level means; the current value is re-noised | **0.78** |
+
+Their baseline entries are already averaged over 5 flicks, so their variance is smaller by roughly
+5×, while the current sample carries full probe noise. The Welch denominator therefore
+under-estimates the baseline's spread and the t-statistic is inflated, which fires more often on
+the null. Mine keeps the same noise structure on both sides.
+
+**Mine is the statistically consistent construction; theirs is the conservative one**, in that it
+reports a worse null rate than the data warrants. The qualitative conclusion is identical and both
+are far above 5%: sequential scanning is unusable either way. But the 82% figure quoted in notes/15
+is inflated by a variance mismatch, and the defensible number for a consistent test is ~44%. Worth
+knowing before either is cited as the cost of scanning.
 
 ## What this does and does not establish
 

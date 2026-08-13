@@ -1,0 +1,173 @@
+{
+ "config": {
+  "name": "ep2_prereg_v2",
+  "claim": "DIFFERENTIAL probe-flick recovery time (bistable arm minus rigid-arm drift) leads the snap by >=15% of the load range (E-P2 v2)",
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "sweeps": {
+   "timing_noise": [
+    0.02,
+    0.05,
+    0.1
+   ]
+  },
+  "null_model": "differential_null: TWO rigid struts with independent creep realizations; their difference must NOT trigger detection",
+  "refute_if": "median differential detection lead < 15% of load range at >=3 of 5 seeds, OR differential-null detection rate > 20%",
+  "params": {
+   "snap_compression": 0.495,
+   "tau0": 70.0,
+   "baseline_compression": 0.3,
+   "step": 0.01,
+   "creep_per_step": 0.004,
+   "flicks_per_step": 5,
+   "t_stat_threshold": 1.86,
+   "n_trials_per_seed": 40
+  },
+  "tier": 1,
+  "runtime_estimate_s": 300,
+  "depends_on": [
+   "shape_csd_probes"
+  ]
+ },
+ "arms": {
+  "differential_noise0.02": {
+   "0": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   },
+   "1": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   },
+   "2": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   },
+   "3": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   },
+   "4": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   }
+  },
+  "differential_null_noise0.02": {
+   "0": {
+    "detection_rate": 0.9,
+    "median_lead": 0.38333333333333314
+   },
+   "1": {
+    "detection_rate": 0.85,
+    "median_lead": 0.38333333333333314
+   },
+   "2": {
+    "detection_rate": 0.775,
+    "median_lead": 0.38333333333333314
+   },
+   "3": {
+    "detection_rate": 0.9,
+    "median_lead": 0.4166666666666665
+   },
+   "4": {
+    "detection_rate": 0.875,
+    "median_lead": 0.28333333333333305
+   }
+  },
+  "differential_noise0.05": {
+   "0": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   },
+   "1": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   },
+   "2": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   },
+   "3": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   },
+   "4": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   }
+  },
+  "differential_null_noise0.05": {
+   "0": {
+    "detection_rate": 0.85,
+    "median_lead": 0.4166666666666665
+   },
+   "1": {
+    "detection_rate": 0.825,
+    "median_lead": 0.34999999999999976
+   },
+   "2": {
+    "detection_rate": 0.825,
+    "median_lead": 0.34999999999999976
+   },
+   "3": {
+    "detection_rate": 0.725,
+    "median_lead": 0.38333333333333314
+   },
+   "4": {
+    "detection_rate": 0.875,
+    "median_lead": 0.38333333333333314
+   }
+  },
+  "differential_noise0.1": {
+   "0": {
+    "detection_rate": 1.0,
+    "median_lead": 0.44999999999999984
+   },
+   "1": {
+    "detection_rate": 1.0,
+    "median_lead": 0.46666666666666656
+   },
+   "2": {
+    "detection_rate": 1.0,
+    "median_lead": 0.44999999999999984
+   },
+   "3": {
+    "detection_rate": 1.0,
+    "median_lead": 0.44999999999999984
+   },
+   "4": {
+    "detection_rate": 1.0,
+    "median_lead": 0.4833333333333332
+   }
+  },
+  "differential_null_noise0.1": {
+   "0": {
+    "detection_rate": 0.7,
+    "median_lead": 0.34999999999999976
+   },
+   "1": {
+    "detection_rate": 0.825,
+    "median_lead": 0.28333333333333305
+   },
+   "2": {
+    "detection_rate": 0.825,
+    "median_lead": 0.38333333333333314
+   },
+   "3": {
+    "detection_rate": 0.8,
+    "median_lead": 0.34999999999999976
+   },
+   "4": {
+    "detection_rate": 0.8,
+    "median_lead": 0.2666666666666664
+   }
+  }
+ },
+ "verdict": "REFUTED",
+ "verdict_reason": "fails=0/5, null rate 0.82"
+}
