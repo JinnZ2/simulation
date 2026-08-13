@@ -101,7 +101,38 @@ curvature, detector — against `research/notes/08` Part B, which identifies eig
 governing equations instantiate the cusp normal form directly. These are prompts for a human, not
 evidence, and the tool says so where it prints them.
 
-Tests: `python3 -m pytest tests/ -q` (72 tests, mostly about what the harness and the recycler *refuse*).
+## Shadow cartography
+
+What the apparatus *cannot* see, inferred from residuals in what it did. See
+[`SHADOWS.md`](SHADOWS.md) for the register and the method.
+
+```bash
+python3 shadow.py                  # full map
+python3 shadow.py --backtest       # does it find shadows we already paid for?
+python3 shadow.py --kind censoring # one detector
+```
+
+Five detectors, each built on a specific residual rather than on absence: **censoring** (a metric
+piling up at a config limit), **discretization** (mesh parameters never varied), **cross-sim** (a
+parameter one sim sweeps and another pins), **claim** (assertions no refutation condition reaches),
+and **null monoculture** (one null excludes one alternative).
+
+`--backtest` is the honest check. Three shadows here were found the hard way — `N` in
+`fractal_basin`, `hidden` and `epochs` in `kappa_eff` — and the detectors recover all three from
+artifacts that existed *before* those follow-ups ran. That is the weakest test that could have
+failed.
+
+Since then it has found two nobody spotted by hand, including one in a result from the same
+session: **`shape_csd_g1`'s lead is right-censored at 0.7409**, the maximum the design can measure.
+Detection fires at the first compression past baseline, so "74% lead" means "at or before the first
+point we looked." The verdict is unaffected — a censored value still clears a 0.15 threshold — but
+the number is not a measurement of how early the warning arrives.
+
+Known false positives are documented in `SHADOWS.md` rather than hidden: coincidental value
+matches, symbol-versus-word gaps in the claim detector, and name-based mesh matching. Claim and
+discretization findings are candidates for triage, not verdicts.
+
+Tests: `python3 -m pytest tests/ -q` (90 tests, mostly about what the harness and the recycler *refuse*).
 
 ## Layout
 
@@ -114,6 +145,8 @@ sims/
 ├── ledger_hook.py          # §1 central ledger
 ├── ledger.jsonl            # append-only
 ├── explore.py              # recycle refuted claims into successor candidates
+├── shadow.py               # map what the apparatus cannot see
+├── SHADOWS.md              # the shadow register: detected vs merely named
 ├── unknown_journal.jsonl   # lineages that hit the escape hatch
 ├── adapters/               # foreign claim formats in (see adapters/README.md)
 ├── tests/

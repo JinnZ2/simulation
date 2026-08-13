@@ -49,6 +49,32 @@ difference.** The parent's mismatched control still rose under compression, whic
 ordinary softening the two-arm design exists to subtract. The fix was to make the control fair, not
 to remove it.
 
+## Amendment: the lead is right-censored (found by `shadow.py`)
+
+The reported leads are **saturated at the instrument's ceiling**, which I did not notice when
+writing this up.
+
+With 12 compressions over `[0, 0.95·c_snap]` and a 3-point baseline, the first testable compression
+is 0.128, giving a maximum measurable lead of `(0.495 − 0.128)/0.495 = 0.7409`. That exact value
+appears in **60% of observations**. Detection is firing at the earliest compression the design can
+test.
+
+So "lead = 0.74" does not mean the warning arrives 74% of the range early. It means **the warning
+arrives at or before the first point we looked**, and how much earlier is unmeasured. The true lead
+is right-censored at 0.74.
+
+This does not change the verdict. The pre-committed condition was `lead_frac >= 0.15`, and a
+censored value of 0.74 clears it however far past the boundary the true value lies — a censored
+observation is still an observation that the threshold was met. But the *number* should not be
+quoted as a measurement of how early the signal appears.
+
+Fixing it is cheap: extend the compression grid below 0.128, or shrink the baseline window. Both
+are new pre-registrations.
+
+`tau_final` is censored too, and more severely — 93% of observations sit exactly at the 600-step
+`recovery_max_t` ceiling. The recovery-time divergence is therefore measured largely through a wall.
+That much was flagged below before `shadow.py` existed; the lead saturation was not.
+
 ## What this does not establish
 
 **A simulated matched control is the friendliest possible case.** Both arms here are configurations
