@@ -2,6 +2,11 @@
 
 Status: open / not started. This is a research charter, not a backlog of chores.
 
+> **Verification note.** This charter was written from the original memo. `notes/09_nn_compression_manifolds.md`
+> §1.2 records corrections found when the memo's claims were checked against sources — including
+> resolved citations and at least one refuted claim about compression ordering. Read the two
+> together; where they disagree, notes/09 is the verified source.
+
 ## Framing
 
 Treat NN compression as a **multi-objective constrained optimization problem**: preserve task
