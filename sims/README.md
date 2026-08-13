@@ -55,7 +55,44 @@ python3 ledger_hook.py --check    # verify hashes, write nothing
 `ledger_hook.py --check` re-hashes every `metrics.json` and compares it against what the ledger
 recorded, so a results file edited after the fact is detectable rather than merely discouraged.
 
-Tests: `python3 -m pytest tests/ -q` (43 tests, mostly about what the harness *refuses*).
+## Recycling a refuted claim
+
+Three of five verdicts here are REFUTED, each with a diagnosed cause and a "what a corrected test
+would look like" section. `explore.py` carries that forward into the next pre-registration.
+
+```bash
+python3 explore.py                        # what's recyclable, and what's hiding in the metrics
+python3 explore.py --hidden               # hidden-variable scan only
+python3 explore.py --cross-domain         # where this structure recurs
+python3 explore.py --scaffold shape_csd   # write a successor candidate
+```
+
+**It does not write refutation conditions and it does not run anything.** A tool that reformulated
+a claim until it passed would automate exactly what HARNESS.md §4 forbids, and would be fast at it.
+So `--scaffold` emits a folder whose `refute_if` is empty — `harness/manifest.py` refuses to load
+it — plus a REFUTE.md of TODO prompts carrying the parent's diagnosis, hidden-variable candidates,
+and cross-domain leads. A person writes the condition, or the successor never runs.
+
+Three guards, each mirroring something the ecosystem already does:
+
+| guard | mirrors |
+|---|---|
+| only REFUTED/INCONCLUSIVE claims may be recycled | the falsification ledger's `refute()` gate — no retuning a claim that survived (notes/08 §A.3) |
+| lineage bounded at generation 3, then journalled to `unknown_journal.jsonl` | `hypothesis_engine.py`'s escape hatch at 3 reformulations |
+| successors carry `exploratory: true` | HARNESS.md §4 — reformulated claims never re-enter as PREDICT |
+
+**Hidden-variable scan.** Correlates every recorded-but-ungraded metric against the swept
+parameters, flagging `|r| > 0.5` — the same trigger the hypothesis engine's HND stage uses. A
+strong correlate that no refutation condition mentions is either a confound or the measurement that
+should have been graded. Metrics that are affine restatements of a graded one (`d_boundary = 2 − α`)
+are detected and labelled as such rather than reported as discoveries.
+
+**Cross-domain transfer.** Matches a sim's structural signature — fold, information channel,
+curvature, detector — against `research/notes/08` Part B, which identifies eight domains whose
+governing equations instantiate the cusp normal form directly. These are prompts for a human, not
+evidence, and the tool says so where it prints them.
+
+Tests: `python3 -m pytest tests/ -q` (63 tests, mostly about what the harness and the recycler *refuse*).
 
 ## Layout
 
@@ -67,6 +104,8 @@ sims/
 │   └── runner.py           # §3 execution contract, §4 verdict discipline
 ├── ledger_hook.py          # §1 central ledger
 ├── ledger.jsonl            # append-only
+├── explore.py              # recycle refuted claims into successor candidates
+├── unknown_journal.jsonl   # lineages that hit the escape hatch
 ├── adapters/               # foreign claim formats in (see adapters/README.md)
 ├── tests/
 └── <name>/
