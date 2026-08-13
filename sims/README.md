@@ -17,6 +17,9 @@ being caught downstream.
 | [`snap_information`](snap_information/) | **REFUTED** | Excess information over the null was *negative* at 5/5 seeds. Diagnosis: the load cancels out of the equations of motion, so the effect is zero by algebra — the claim was never testable in this model |
 | [`shape_csd`](shape_csd/) | **REFUTED** | The recovery-time divergence is real and large (110→600 steps, variance up 11–83×) — but a *monostable* frame with no fold shows the same rise under the same compression, at 4/5 seeds with hard probes. Compressing a spring network softens it; a single-arm measurement can't tell that from CSD |
 | [`kappa_eff`](kappa_eff/) | **REFUTED** | Curvature rises early but *peaks* late, and the kill criteria are peak-based. K1/K2 fired at 5/5 seeds at every drop threshold. "Spikes before failure" doesn't distinguish onset from maximum, and they have opposite lead properties |
+| [`shape_csd_g1`](shape_csd_g1/) | **SUPPORTED** | Successor with a *geometry-matched* control. The null now never fires — 0.000 at all 15 runs — and the CSD claim passes at 5/5 seeds at every probe magnitude. The parent's refutation was the confound, not the physics |
+| [`kappa_eff_g1`](kappa_eff_g1/) | **REFUTED** | Successor testing onset rather than peak. At widths 16 and 64 curvature never rises at all — it declines monotonically. Baseline κ spans 0.23 to 59 across widths, and the networks turn out not to be trained to a minimum |
+| [`basin_convergence`](basin_convergence/) | **REFUTED** | Audit of a SUPPORTED result. α is **not converged in grid resolution**: doubling N moves it 0.08–0.15 against a 0.001–0.019 noise floor. Wada at γ=0.25 goes 8% → 0%. Integration time is converged |
 
 Each writes findings alongside the raw artifacts — see the `FINDINGS.md` in each folder.
 
@@ -26,9 +29,15 @@ headline CSD claim), **3** (`kappa_eff`), **4** (`fractal_basin`) and part of **
 `rosetta_shape_sim.py`, `shape_specialization_sim.py`, `shape_mode_filtered_ews.py` — sits
 unretrofitted in [`_unretrofitted/`](_unretrofitted/) with the originals' recorded output.
 
-**Three of five verdicts are REFUTED, and every one of them was refuted by its null.** That is the
-standard working, not the sims failing: each had a real-looking signal that survived until it was
-compared against a matched control.
+**Five of eight verdicts are REFUTED, and the nulls did most of the work.** That is the standard
+working, not the sims failing. Two results are worth singling out:
+
+- `shape_csd_g1` **reversed** its parent's refutation by fixing the control. A refutation is a
+  claim too, and it can be wrong.
+- `basin_convergence` refuted a result that was SUPPORTED at 5/5 seeds *and* had been replicated
+  exactly against notes/17. Replication cannot catch a shared discretization error — two faithful
+  implementations at the same grid resolution agree on the same wrong number, and their agreement
+  reads as confirmation. Only varying the discretization catches it.
 
 ## Run one
 
@@ -92,7 +101,7 @@ curvature, detector — against `research/notes/08` Part B, which identifies eig
 governing equations instantiate the cusp normal form directly. These are prompts for a human, not
 evidence, and the tool says so where it prints them.
 
-Tests: `python3 -m pytest tests/ -q` (63 tests, mostly about what the harness and the recycler *refuse*).
+Tests: `python3 -m pytest tests/ -q` (72 tests, mostly about what the harness and the recycler *refuse*).
 
 ## Layout
 

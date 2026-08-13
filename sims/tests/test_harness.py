@@ -246,7 +246,8 @@ def test_grade_receives_every_seed_and_sweep_point(tmp_path):
 # The two retrofitted sims conform
 # --------------------------------------------------------------------------
 
-SHIPPED = ["fractal_basin", "snap_information", "ep2_prereg", "kappa_eff", "shape_csd"]
+SHIPPED = ["fractal_basin", "snap_information", "ep2_prereg", "kappa_eff", "shape_csd",
+           "kappa_eff_g1", "shape_csd_g1", "basin_convergence"]
 
 
 @pytest.mark.parametrize("name", SHIPPED)
@@ -282,8 +283,12 @@ def test_every_graded_number_is_pre_committed_in_writing(name):
     for key, value in config["refute_params"].items():
         if key.endswith("_at_seeds"):
             continue
-        forms = {str(value), str(value).rstrip("0").rstrip("."), f"{value:.0%}"
-                 if isinstance(value, float) and value < 1 else str(value)}
+        forms = {str(value), str(value).rstrip("0").rstrip(".")}
+        if isinstance(value, float) and 0 < value < 1:
+            # a fraction is routinely written in prose as a percentage or as
+            # "N points" / "Npt"; those are the same pre-commitment
+            pct = f"{value * 100:g}"
+            forms |= {f"{value:.0%}", f"{pct}%", f"{pct}-point", f"{pct} point", f"{pct}pt"}
         assert any(f in committed for f in forms), (
             f"{name}: refute_params.{key}={value} appears in neither refute_if "
             "nor REFUTE.md — it was never pre-committed")

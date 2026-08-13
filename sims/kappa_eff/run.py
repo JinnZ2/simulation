@@ -70,7 +70,7 @@ def forward(params: list[np.ndarray], X: np.ndarray):
 
 def softmax_ce(logits: np.ndarray, y: np.ndarray) -> float:
     shifted = logits - logits.max(axis=1, keepdims=True)
-    logsumexp = np.log(np.exp(shifted).sum(axis=1)) + shifted.max(axis=1)
+    logsumexp = np.log(np.exp(shifted).sum(axis=1)) + logits.max(axis=1)
     return float(np.mean(logsumexp - logits[np.arange(len(y)), y]))
 
 

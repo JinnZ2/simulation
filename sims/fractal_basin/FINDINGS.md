@@ -1,5 +1,18 @@
 # Findings — fractal_basin
 
+> **Amendment, added after `basin_convergence` ran.** The caveat below about missing convergence
+> checks turned out to be the important one. `sims/basin_convergence` measured it: **α is not
+> converged in grid resolution.** Doubling N from 200 to 400 moves α by 0.08–0.15 at 5/5 seeds in
+> every γ, against a reseed noise floor of 0.001–0.019. Integration time is fine (Δ = 0.000).
+> The Wada fraction at γ = 0.25 goes from 8% to **0%** when the grid is doubled.
+>
+> The verdict below is not withdrawn — its three conditions were graded as pre-committed, and two
+> of them still hold at N = 400 (the third, the double/triple gap, was not measured there). But the
+> α and Wada *values* reported here are properties of a 200×200 grid, not of the potential, and the
+> exact agreement with notes/17 §1 is evidence of a faithful reimplementation rather than of a
+> correct number. See [`../basin_convergence/FINDINGS.md`](../basin_convergence/FINDINGS.md).
+
+
 **Verdict: SUPPORTED.** All three pre-committed conditions met at 5 of 5 seeds, in all three swept
 damping values.
 
