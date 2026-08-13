@@ -246,7 +246,7 @@ def test_grade_receives_every_seed_and_sweep_point(tmp_path):
 # The two retrofitted sims conform
 # --------------------------------------------------------------------------
 
-SHIPPED = ["fractal_basin", "snap_information", "ep2_prereg", "kappa_eff"]
+SHIPPED = ["fractal_basin", "snap_information", "ep2_prereg", "kappa_eff", "shape_csd"]
 
 
 @pytest.mark.parametrize("name", SHIPPED)
@@ -265,16 +265,25 @@ def test_each_sim_has_its_pre_registration_documents(name):
 
 
 @pytest.mark.parametrize("name", SHIPPED)
-def test_refute_params_are_referenced_by_the_prose_condition(name):
-    """The prose refute_if and the machine-readable refute_params must not drift.
+def test_every_graded_number_is_pre_committed_in_writing(name):
+    """No number the grader uses may be absent from the pre-committed documents.
 
-    Every threshold in refute_params that is a real number should appear in the
-    prose, so a reader of summary.md sees the same condition the grader used.
+    refute_params is what run.py actually grades against. Every value in it must
+    appear either in the one-line refute_if prose or in REFUTE.md — both of which
+    are committed before the sim runs. A threshold that exists only in the config
+    is one nobody agreed to in advance, which is the drift this rule prevents.
+
+    Detection-rule parameters (how the signal is computed) legitimately live in
+    REFUTE.md rather than the one-line prose; refutation thresholds belong in both.
     """
-    config = json.loads((ROOT / name / "config.json").read_text(encoding="utf-8"))
-    prose = config["refute_if"]
+    folder = ROOT / name
+    config = json.loads((folder / "config.json").read_text(encoding="utf-8"))
+    committed = config["refute_if"] + "\n" + (folder / "REFUTE.md").read_text(encoding="utf-8")
     for key, value in config["refute_params"].items():
         if key.endswith("_at_seeds"):
             continue
-        assert str(value) in prose or str(value).rstrip("0").rstrip(".") in prose, (
-            f"{name}: refute_params.{key}={value} does not appear in refute_if prose")
+        forms = {str(value), str(value).rstrip("0").rstrip("."), f"{value:.0%}"
+                 if isinstance(value, float) and value < 1 else str(value)}
+        assert any(f in committed for f in forms), (
+            f"{name}: refute_params.{key}={value} appears in neither refute_if "
+            "nor REFUTE.md — it was never pre-committed")

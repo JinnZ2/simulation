@@ -15,14 +15,20 @@ being caught downstream.
 | [`fractal_basin`](fractal_basin/) | **SUPPORTED** | Three-well boundary is fractal at every damping tested; boundary dimension falls 1.75 → 1.45 as γ goes 0.1 → 0.5, and the Wada property vanishes entirely by γ = 0.5 |
 | [`ep2_prereg`](ep2_prereg/) | **SUPPORTED** | The physical instrument's E-P2 protocol has the power to detect an approaching snap with 18.3% lead at 10% timing noise — but only with two arms and one pre-committed checkpoint. The criteria it replaces fire on a rigid null 44% and ~95% of the time |
 | [`snap_information`](snap_information/) | **REFUTED** | Excess information over the null was *negative* at 5/5 seeds. Diagnosis: the load cancels out of the equations of motion, so the effect is zero by algebra — the claim was never testable in this model |
+| [`shape_csd`](shape_csd/) | **REFUTED** | The recovery-time divergence is real and large (110→600 steps, variance up 11–83×) — but a *monostable* frame with no fold shows the same rise under the same compression, at 4/5 seeds with hard probes. Compressing a spring network softens it; a single-arm measurement can't tell that from CSD |
 | [`kappa_eff`](kappa_eff/) | **REFUTED** | Curvature rises early but *peaks* late, and the kill criteria are peak-based. K1/K2 fired at 5/5 seeds at every drop threshold. "Spikes before failure" doesn't distinguish onset from maximum, and they have opposite lead properties |
 
 Each writes findings alongside the raw artifacts — see the `FINDINGS.md` in each folder.
 
-Retrofit queue status (HARNESS.md §5): items **1** (`ep2_prereg`), **3** (`kappa_eff`),
-**4** (`fractal_basin`) and part of **5** (`snap_information`) are done. Item **2**
-(`shape_csd_probes.py`, the headline CSD claim) and the rest of item 5 (`s3_s7.py`,
-`shape_fold_*.py`) are not in the repo yet.
+Retrofit queue status (HARNESS.md §5): items **1** (`ep2_prereg`), **2** (`shape_csd`, the
+headline CSD claim), **3** (`kappa_eff`), **4** (`fractal_basin`) and part of **5**
+(`snap_information`) are done. The rest of item 5 — `s3_s7.py`, `shape_fold_*.py`,
+`rosetta_shape_sim.py`, `shape_specialization_sim.py`, `shape_mode_filtered_ews.py` — sits
+unretrofitted in [`_unretrofitted/`](_unretrofitted/) with the originals' recorded output.
+
+**Three of five verdicts are REFUTED, and every one of them was refuted by its null.** That is the
+standard working, not the sims failing: each had a real-looking signal that survived until it was
+compared against a matched control.
 
 ## Run one
 
@@ -31,6 +37,7 @@ cd sims/fractal_basin    && python3 run.py    # ~25s
 cd sims/snap_information && python3 run.py    # ~20s
 cd sims/ep2_prereg       && python3 run.py    # ~2s
 cd sims/kappa_eff        && python3 run.py    # ~5s
+cd sims/shape_csd        && python3 run.py    # ~10s, stdlib only
 ```
 
 Needs numpy (the sims; the harness itself is stdlib-only). Options: `--seeds N [N...]` to override,
@@ -48,7 +55,7 @@ python3 ledger_hook.py --check    # verify hashes, write nothing
 `ledger_hook.py --check` re-hashes every `metrics.json` and compares it against what the ledger
 recorded, so a results file edited after the fact is detectable rather than merely discouraged.
 
-Tests: `python3 -m pytest tests/ -q` (40 tests, mostly about what the harness *refuses*).
+Tests: `python3 -m pytest tests/ -q` (43 tests, mostly about what the harness *refuses*).
 
 ## Layout
 
