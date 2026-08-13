@@ -1,0 +1,81 @@
+{
+  "topics": [
+    {
+      "name": "calibration and falsifiability of LLM agents",
+      "queries": [
+        "calibration large language model agents",
+        "falsifiability epistemic grounding LLM",
+        "confidence elicitation language models"
+      ],
+      "sources": ["arxiv", "semantic_scholar", "crossref"]
+    },
+    {
+      "name": "hidden variable detection / causal discovery from residuals",
+      "queries": [
+        "hidden variable detection residual correlation",
+        "causal discovery latent variables time series"
+      ],
+      "sources": ["arxiv", "semantic_scholar"]
+    },
+    {
+      "name": "world models and curiosity-driven learning",
+      "queries": [
+        "world models model-based reinforcement learning",
+        "curiosity-driven exploration intrinsic motivation",
+        "surprise minimization active inference agents"
+      ],
+      "sources": ["arxiv", "semantic_scholar"]
+    },
+
+    {
+      "name": "activation-aware quantization",
+      "queries": [
+        "activation aware weight quantization LLM",
+        "post-training quantization outlier channels transformers",
+        "second-order Hessian weight quantization GPTQ"
+      ],
+      "sources": ["arxiv", "semantic_scholar"],
+      "charter_hypothesis": "H1 — activation-informed schemes beat weight-only heuristics at equal bit budgets"
+    },
+    {
+      "name": "structured sparsity and hardware-matched pruning",
+      "queries": [
+        "structured pruning inference latency accelerator",
+        "semi-structured 2:4 sparsity speedup",
+        "unstructured sparsity dense kernel acceleration gap"
+      ],
+      "sources": ["arxiv", "semantic_scholar"],
+      "charter_hypothesis": "H2 — structured sparsity wins real latency only when it matches the runtime"
+    },
+    {
+      "name": "compression composition and ordering",
+      "queries": [
+        "compression order pruning quantization sequence",
+        "composite model compression noncommutative",
+        "joint pruning quantization low-rank pipeline"
+      ],
+      "sources": ["arxiv", "semantic_scholar", "crossref"],
+      "charter_hypothesis": "H4 — compression composition is noncommutative; C2(C1(M)) != C1(C2(M))"
+    },
+    {
+      "name": "representation geometry under compression",
+      "queries": [
+        "centered kernel alignment representation similarity compression",
+        "effective rank activation covariance spectrum neural network",
+        "intrinsic dimension manifold hypothesis deep representations"
+      ],
+      "sources": ["arxiv", "semantic_scholar"],
+      "charter_hypothesis": "H3/H5 — quantization error is anisotropic; distillation may restore behavior but not geometry"
+    },
+    {
+      "name": "deployment-aware compression metrics",
+      "queries": [
+        "energy per inference measurement neural network edge",
+        "Pareto front accuracy latency memory model compression",
+        "expected calibration error quantized models"
+      ],
+      "sources": ["arxiv", "semantic_scholar", "crossref"],
+      "charter_hypothesis": "Pareto atlas deliverable — physical cost vs representational damage"
+    }
+  ]
+}

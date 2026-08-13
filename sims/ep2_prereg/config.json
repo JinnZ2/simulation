@@ -1,0 +1,35 @@
+{
+  "name": "ep2_prereg",
+  "claim": "Differential probe-recovery time (bistable arm / rigid arm) tested at one pre-committed compression checkpoint detects an approaching snap-through with at least 15% lead on the load range, at >=80% detection and <=10% false positive on a rigid creep-only null, robust to timing noise up to 10%.",
+  "seeds": [0, 1, 2, 3, 4],
+  "sweeps": {"timing_noise": [0.02, 0.05, 0.10]},
+  "null_model": "rigid_arm_creep_only",
+  "refute_if": "detection_rate_checkpoint < 0.80 OR null_false_positive_checkpoint > 0.10 - either at >=3 of 5 seeds in any swept timing_noise",
+  "refute_params": {
+    "min_detection_rate": 0.80,
+    "max_false_positive": 0.10,
+    "refute_at_seeds": 3,
+    "support_at_seeds": 4
+  },
+  "tier": 0,
+  "runtime_estimate_s": 60,
+  "depends_on": [],
+  "physics": {
+    "snap_compression": 0.495,
+    "tau0": 70.0,
+    "baseline_compression": 0.30,
+    "checkpoint_compression": 0.44,
+    "load_range": 0.30,
+    "creep_per_step": 0.004,
+    "step": 0.01,
+    "probes_per_step": 5,
+    "baseline_steps": 5,
+    "t_threshold": 1.86,
+    "trials": 200
+  },
+  "criteria_recorded": [
+    "absolute_scan",
+    "differential_scan",
+    "differential_checkpoint"
+  ]
+}

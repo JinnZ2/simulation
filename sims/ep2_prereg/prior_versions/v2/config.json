@@ -1,0 +1,35 @@
+{
+ "name": "ep2_prereg_v2",
+ "claim": "DIFFERENTIAL probe-flick recovery time (bistable arm minus rigid-arm drift) leads the snap by >=15% of the load range (E-P2 v2)",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "sweeps": {
+  "timing_noise": [
+   0.02,
+   0.05,
+   0.1
+  ]
+ },
+ "null_model": "differential_null: TWO rigid struts with independent creep realizations; their difference must NOT trigger detection",
+ "refute_if": "median differential detection lead < 15% of load range at >=3 of 5 seeds, OR differential-null detection rate > 20%",
+ "params": {
+  "snap_compression": 0.495,
+  "tau0": 70.0,
+  "baseline_compression": 0.3,
+  "step": 0.01,
+  "creep_per_step": 0.004,
+  "flicks_per_step": 5,
+  "t_stat_threshold": 1.86,
+  "n_trials_per_seed": 40
+ },
+ "tier": 1,
+ "runtime_estimate_s": 300,
+ "depends_on": [
+  "shape_csd_probes"
+ ]
+}

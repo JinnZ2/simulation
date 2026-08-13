@@ -1,0 +1,21 @@
+snap compression ~ 0.495 (strut 1.8->1.45)
+
+compression | rest length | recovery time (CSD signature)
+  0.000 (0% of snap) | 1.500 | 70
+  0.062 (12% of snap) | 1.500 | 70
+  0.124 (25% of snap) | 1.500 | 70
+  0.186 (37% of snap) | 1.500 | 70
+  0.247 (50% of snap) | 1.500 | 70
+  0.309 (62% of snap) | 1.500 | 80
+  0.371 (75% of snap) | 1.498 | 600
+  0.433 (88% of snap) | 1.263 | 600
+
+compression | strut-length fluctuation variance (noisy relaxation)
+  0.000 (0%) | var=0.000007
+  0.062 (12%) | var=0.000007
+  0.124 (25%) | var=0.000007
+  0.186 (37%) | var=0.000007
+  0.247 (50%) | var=0.000007
+  0.309 (62%) | var=0.000006
+  0.371 (75%) | var=0.000005
+  0.433 (88%) | var=0.000021

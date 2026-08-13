@@ -1,0 +1,47 @@
+world:
+  name: "Basin"
+  cycles: 10000
+  seed: 42
+
+resources:
+  type: "regenerating_pool"
+  initial: 1000.0
+  capacity: 10000.0
+  regeneration_rate: 0.02   # logistic growth rate
+  depletion_penalty: 0.3    # regen slows by this fraction below the threshold
+  depletion_threshold: 0.2  # ...i.e. below 20% of capacity
+
+agents:
+  count: 100
+  memory_length: 50         # how many past cycles they consider
+  initial_resources: 10.0
+  consume_fraction: 0.02    # of the pool, per consume action
+  share_fraction: 0.25      # of own holdings, per share action
+  build_fraction: 0.35      # of own holdings converted to rigid capital
+  forget_fraction: 0.2      # Jubilee prunes this share of capital and memory
+  deference_review_rate: 0.05   # chance per cycle an agent re-picks its idol
+  observation_sample: 8         # how many peers it can see when re-picking
+  action_space:
+    - consume   # uses resource, increases local holdings
+    - share     # transfers resource to another agent
+    - build     # converts resource to structural capital (rigidity)
+    - forget    # localized Jubilee: prunes 20% of own capital/deference
+
+idolatry:
+  enabled: true
+  measure: "deference_concentration"     # 1 - normalized entropy of influence
+  threshold: 0.65                        # above this, innovation is suppressed
+  threshold_measure: "deference_concentration"   # or "max_share" — see README
+  innovation_penalty: 0.4                # build weight drops 40% while active
+  decay_rate: 0.005                      # natural dissipation of influence
+  warmup_cycles: 0                       # ignore the threshold for this many cycles
+
+shocks:
+  enabled: true
+  frequency: 0.001                    # per-cycle probability of perturbation
+  intensity_range: [0.1, 0.4]         # fraction of the pool hit
+  redistribute_probability: 0.5       # else destroyed outright
+
+logging:
+  level: "raw"
+  output: "logs/run_{timestamp}.jsonl"

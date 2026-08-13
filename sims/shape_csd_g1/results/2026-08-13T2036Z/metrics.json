@@ -1,0 +1,543 @@
+{
+  "details": {
+    "0.03": {
+      "fail_lead": 0,
+      "fail_null": 0,
+      "leads": [
+        0.5682,
+        0.3955,
+        0.7409,
+        0.7409,
+        0.5682
+      ],
+      "n": 5,
+      "null_leads": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_both": 5
+    },
+    "0.05": {
+      "fail_lead": 0,
+      "fail_null": 0,
+      "leads": [
+        0.5682,
+        0.7409,
+        0.7409,
+        0.7409,
+        0.5682
+      ],
+      "n": 5,
+      "null_leads": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_both": 5
+    },
+    "0.08": {
+      "fail_lead": 0,
+      "fail_null": 0,
+      "leads": [
+        0.7409,
+        0.7409,
+        0.5682,
+        0.7409,
+        0.7409
+      ],
+      "n": 5,
+      "null_leads": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_both": 5
+    }
+  },
+  "elapsed_s": 9.038,
+  "environment": {
+    "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+    "python": "3.11.15"
+  },
+  "name": "shape_csd_g1",
+  "null_model": "geometry_matched_monostable_strut",
+  "null_observations": [
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 0,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 1,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 2,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 3,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 4,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 0,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 1,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 2,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 3,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 4,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.3235294117647058,
+        "null_tau_baseline": 453.3333333333333,
+        "null_tau_final": 600.0
+      },
+      "seed": 0,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 1,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.3235294117647058,
+        "null_tau_baseline": 453.3333333333333,
+        "null_tau_final": 600.0
+      },
+      "seed": 2,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 3,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    },
+    {
+      "metrics": {
+        "null_lead_frac": 0.0,
+        "null_rise_factor": 1.0,
+        "null_tau_baseline": 600.0,
+        "null_tau_final": 600.0
+      },
+      "seed": 4,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    }
+  ],
+  "observations": [
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 5.0,
+        "lead_frac": 0.5681818181818182,
+        "snap_compression": 0.495,
+        "tau_baseline": 210.0,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.00017137067956548207,
+        "variance_low": 5.9509619953823835e-06,
+        "variance_ratio": 28.797138966516037
+      },
+      "seed": 0,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 6.0,
+        "lead_frac": 0.3954545454545454,
+        "snap_compression": 0.495,
+        "tau_baseline": 260.0,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.000200087693054896,
+        "variance_low": 8.847193965499285e-06,
+        "variance_ratio": 22.61594962596756
+      },
+      "seed": 1,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 7.0,
+        "lead_frac": 0.740909090909091,
+        "snap_compression": 0.495,
+        "tau_baseline": 110.0,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 5.70780636385208e-05,
+        "variance_low": 5.0890894060635326e-06,
+        "variance_ratio": 11.215771444398994
+      },
+      "seed": 2,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 7.0,
+        "lead_frac": 0.740909090909091,
+        "snap_compression": 0.495,
+        "tau_baseline": 286.6666666666667,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.0002012804917514322,
+        "variance_low": 5.209801955144084e-06,
+        "variance_ratio": 38.63496030836464
+      },
+      "seed": 3,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 5.0,
+        "lead_frac": 0.5681818181818182,
+        "snap_compression": 0.495,
+        "tau_baseline": 303.3333333333333,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.0003877798479761506,
+        "variance_low": 4.655873293551069e-06,
+        "variance_ratio": 83.28831639668357
+      },
+      "seed": 4,
+      "sweep": {
+        "probe_magnitude": 0.03
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 5.0,
+        "lead_frac": 0.5681818181818182,
+        "snap_compression": 0.495,
+        "tau_baseline": 186.66666666666666,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.00017137067956548207,
+        "variance_low": 5.9509619953823835e-06,
+        "variance_ratio": 28.797138966516037
+      },
+      "seed": 0,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 4.0,
+        "lead_frac": 0.740909090909091,
+        "snap_compression": 0.495,
+        "tau_baseline": 113.33333333333333,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.000200087693054896,
+        "variance_low": 8.847193965499285e-06,
+        "variance_ratio": 22.61594962596756
+      },
+      "seed": 1,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 7.0,
+        "lead_frac": 0.740909090909091,
+        "snap_compression": 0.495,
+        "tau_baseline": 123.33333333333333,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 5.70780636385208e-05,
+        "variance_low": 5.0890894060635326e-06,
+        "variance_ratio": 11.215771444398994
+      },
+      "seed": 2,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 6.0,
+        "lead_frac": 0.740909090909091,
+        "snap_compression": 0.495,
+        "tau_baseline": 140.0,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.0002012804917514322,
+        "variance_low": 5.209801955144084e-06,
+        "variance_ratio": 38.63496030836464
+      },
+      "seed": 3,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 5.0,
+        "lead_frac": 0.5681818181818182,
+        "snap_compression": 0.495,
+        "tau_baseline": 300.0,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.0003877798479761506,
+        "variance_low": 4.655873293551069e-06,
+        "variance_ratio": 83.28831639668357
+      },
+      "seed": 4,
+      "sweep": {
+        "probe_magnitude": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 5.0,
+        "lead_frac": 0.740909090909091,
+        "snap_compression": 0.495,
+        "tau_baseline": 180.0,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.00017137067956548207,
+        "variance_low": 5.9509619953823835e-06,
+        "variance_ratio": 28.797138966516037
+      },
+      "seed": 0,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 3.0,
+        "lead_frac": 0.740909090909091,
+        "snap_compression": 0.495,
+        "tau_baseline": 123.33333333333333,
+        "tau_final": 250.0,
+        "tau_ratio_final": 0.4166666666666667,
+        "variance_high": 0.000200087693054896,
+        "variance_low": 8.847193965499285e-06,
+        "variance_ratio": 22.61594962596756
+      },
+      "seed": 1,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 1.0,
+        "censored_points": 6.0,
+        "lead_frac": 0.5681818181818182,
+        "snap_compression": 0.495,
+        "tau_baseline": 130.0,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 5.70780636385208e-05,
+        "variance_low": 5.0890894060635326e-06,
+        "variance_ratio": 11.215771444398994
+      },
+      "seed": 2,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 6.0,
+        "lead_frac": 0.740909090909091,
+        "snap_compression": 0.495,
+        "tau_baseline": 153.33333333333334,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.0002012804917514322,
+        "variance_low": 5.209801955144084e-06,
+        "variance_ratio": 38.63496030836464
+      },
+      "seed": 3,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    },
+    {
+      "metrics": {
+        "barrier_crossings": 0.0,
+        "censored_points": 5.0,
+        "lead_frac": 0.740909090909091,
+        "snap_compression": 0.495,
+        "tau_baseline": 300.0,
+        "tau_final": 600.0,
+        "tau_ratio_final": 1.0,
+        "variance_high": 0.0003877798479761506,
+        "variance_low": 4.655873293551069e-06,
+        "variance_ratio": 83.28831639668357
+      },
+      "seed": 4,
+      "sweep": {
+        "probe_magnitude": 0.08
+      }
+    }
+  ],
+  "pilot": false,
+  "reason": "recovery-time ratio crosses 1.5x with >= 15% lead, beating the monostable null, at >= 4/5 seeds at every probe magnitude",
+  "run_at": "2026-08-13T20:36:07Z",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "probe_magnitude": [
+      0.03,
+      0.05,
+      0.08
+    ]
+  },
+  "verdict": "SUPPORTED"
+}

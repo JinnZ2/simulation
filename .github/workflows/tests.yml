@@ -1,0 +1,51 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        piece: [simulation, hypothesis-engine, sims]
+    defaults:
+      run:
+        working-directory: ${{ matrix.piece }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pytest
+        run: pip install pytest
+      - name: Install numpy (sims only)
+        if: matrix.piece == 'sims'
+        run: pip install numpy
+      - name: Tests
+        run: python -m pytest tests/ -q
+      - name: Ledger integrity
+        if: matrix.piece == 'sims'
+        run: python3 ledger_hook.py --check
+
+  # The simulation must also run with no third-party packages at all — the
+  # config loader's YAML fallback exists for exactly this case.
+  stdlib-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: simulation
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Confirm PyYAML is absent
+        run: python -c "import importlib.util, sys; sys.exit(importlib.util.find_spec('yaml') is not None)"
+      - name: Run without PyYAML
+        run: python run.py --cycles 200 --log-level cycle --output -

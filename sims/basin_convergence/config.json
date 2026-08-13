@@ -1,0 +1,52 @@
+{
+  "name": "basin_convergence",
+  "claim": "The uncertainty exponent measured for the triple-well basin boundary is converged in grid resolution and integration time: doubling either changes alpha by less than 0.05, at every damping swept.",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "gamma": [
+      0.1,
+      0.25,
+      0.5
+    ]
+  },
+  "null_model": "same_resolution_reseed",
+  "refute_if": "|alpha(2N) - alpha(N)| >= 0.05 OR |alpha(2T) - alpha(T)| >= 0.05 - either at >=3 of 5 seeds in any swept gamma",
+  "refute_params": {
+    "max_delta": 0.05,
+    "refute_at_seeds": 3,
+    "support_at_seeds": 4
+  },
+  "tier": 0,
+  "runtime_estimate_s": 400,
+  "depends_on": [
+    "fractal_basin"
+  ],
+  "grid": {
+    "N": 200,
+    "N_doubled": 400,
+    "T": 120.0,
+    "T_doubled": 240.0,
+    "dt": 0.05,
+    "n_probe": 4000,
+    "wada_radius": 2,
+    "triple_centers": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "triple_xr": [
+      0.4,
+      3.6
+    ],
+    "triple_vr": [
+      -1.5,
+      1.5
+    ]
+  }
+}

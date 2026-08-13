@@ -1,0 +1,8 @@
+Shape EWS under fold dynamics:
+  seed=0: t_snap=581, var_alarm_lead=506, ac1_alarm_lead=551
+  seed=1: t_snap=478, var_alarm_lead=223, ac1_alarm_lead=448
+  seed=2: t_snap=440, var_alarm_lead=None, ac1_alarm_lead=410
+  seed=3: t_snap=528, var_alarm_lead=93, ac1_alarm_lead=498
+  seed=4: t_snap=529, var_alarm_lead=424, ac1_alarm_lead=499
+  mean lead: variance=279.6 steps (8/10 fired), ac1=492.5 steps (10/10 fired)
+  null (no fold): variance-alarm false-positive rate = 0.60

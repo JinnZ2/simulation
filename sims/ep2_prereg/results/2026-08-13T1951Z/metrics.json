@@ -1,0 +1,555 @@
+{
+  "details": {
+    "0.02": {
+      "abs_scan_fp": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "detect": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fail_detect": 0,
+      "fail_fp": 0,
+      "fp": [
+        0.06,
+        0.055,
+        0.065,
+        0.03,
+        0.05
+      ],
+      "n": 5,
+      "pass_both": 5,
+      "scan_fp": [
+        0.465,
+        0.435,
+        0.47,
+        0.415,
+        0.475
+      ]
+    },
+    "0.05": {
+      "abs_scan_fp": [
+        1.0,
+        1.0,
+        1.0,
+        0.995,
+        1.0
+      ],
+      "detect": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fail_detect": 0,
+      "fail_fp": 0,
+      "fp": [
+        0.06,
+        0.055,
+        0.06,
+        0.025,
+        0.05
+      ],
+      "n": 5,
+      "pass_both": 5,
+      "scan_fp": [
+        0.44,
+        0.42,
+        0.43,
+        0.395,
+        0.465
+      ]
+    },
+    "0.1": {
+      "abs_scan_fp": [
+        0.895,
+        0.905,
+        0.92,
+        0.9,
+        0.935
+      ],
+      "detect": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fail_detect": 0,
+      "fail_fp": 0,
+      "fp": [
+        0.055,
+        0.055,
+        0.055,
+        0.02,
+        0.04
+      ],
+      "n": 5,
+      "pass_both": 5,
+      "scan_fp": [
+        0.405,
+        0.39,
+        0.39,
+        0.37,
+        0.425
+      ]
+    }
+  },
+  "elapsed_s": 2.286,
+  "environment": {
+    "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+    "python": "3.11.15"
+  },
+  "name": "ep2_prereg",
+  "null_model": "rigid_arm_creep_only",
+  "null_observations": [
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.44999999999999984,
+        "fp_median_lead_differential_scan": 0.28333333333333305,
+        "fp_rate_absolute_scan": 1.0,
+        "fp_rate_differential_checkpoint": 0.06,
+        "fp_rate_differential_scan": 0.465
+      },
+      "seed": 0,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.44999999999999984,
+        "fp_median_lead_differential_scan": 0.34999999999999976,
+        "fp_rate_absolute_scan": 1.0,
+        "fp_rate_differential_checkpoint": 0.055,
+        "fp_rate_differential_scan": 0.435
+      },
+      "seed": 1,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.44999999999999984,
+        "fp_median_lead_differential_scan": 0.31666666666666643,
+        "fp_rate_absolute_scan": 1.0,
+        "fp_rate_differential_checkpoint": 0.065,
+        "fp_rate_differential_scan": 0.47
+      },
+      "seed": 2,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.44999999999999984,
+        "fp_median_lead_differential_scan": 0.31666666666666643,
+        "fp_rate_absolute_scan": 1.0,
+        "fp_rate_differential_checkpoint": 0.03,
+        "fp_rate_differential_scan": 0.415
+      },
+      "seed": 3,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.44999999999999984,
+        "fp_median_lead_differential_scan": 0.31666666666666643,
+        "fp_rate_absolute_scan": 1.0,
+        "fp_rate_differential_checkpoint": 0.05,
+        "fp_rate_differential_scan": 0.475
+      },
+      "seed": 4,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.34999999999999976,
+        "fp_median_lead_differential_scan": 0.28333333333333305,
+        "fp_rate_absolute_scan": 1.0,
+        "fp_rate_differential_checkpoint": 0.06,
+        "fp_rate_differential_scan": 0.44
+      },
+      "seed": 0,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.38333333333333314,
+        "fp_median_lead_differential_scan": 0.3333333333333331,
+        "fp_rate_absolute_scan": 1.0,
+        "fp_rate_differential_checkpoint": 0.055,
+        "fp_rate_differential_scan": 0.42
+      },
+      "seed": 1,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.38333333333333314,
+        "fp_median_lead_differential_scan": 0.34999999999999976,
+        "fp_rate_absolute_scan": 1.0,
+        "fp_rate_differential_checkpoint": 0.06,
+        "fp_rate_differential_scan": 0.43
+      },
+      "seed": 2,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.38333333333333314,
+        "fp_median_lead_differential_scan": 0.31666666666666643,
+        "fp_rate_absolute_scan": 0.995,
+        "fp_rate_differential_checkpoint": 0.025,
+        "fp_rate_differential_scan": 0.395
+      },
+      "seed": 3,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.34999999999999976,
+        "fp_median_lead_differential_scan": 0.31666666666666643,
+        "fp_rate_absolute_scan": 1.0,
+        "fp_rate_differential_checkpoint": 0.05,
+        "fp_rate_differential_scan": 0.465
+      },
+      "seed": 4,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.31666666666666643,
+        "fp_median_lead_differential_scan": 0.28333333333333305,
+        "fp_rate_absolute_scan": 0.895,
+        "fp_rate_differential_checkpoint": 0.055,
+        "fp_rate_differential_scan": 0.405
+      },
+      "seed": 0,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.31666666666666643,
+        "fp_median_lead_differential_scan": 0.31666666666666643,
+        "fp_rate_absolute_scan": 0.905,
+        "fp_rate_differential_checkpoint": 0.055,
+        "fp_rate_differential_scan": 0.39
+      },
+      "seed": 1,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.31666666666666643,
+        "fp_median_lead_differential_scan": 0.31666666666666643,
+        "fp_rate_absolute_scan": 0.92,
+        "fp_rate_differential_checkpoint": 0.055,
+        "fp_rate_differential_scan": 0.39
+      },
+      "seed": 2,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.31666666666666643,
+        "fp_median_lead_differential_scan": 0.31666666666666643,
+        "fp_rate_absolute_scan": 0.9,
+        "fp_rate_differential_checkpoint": 0.02,
+        "fp_rate_differential_scan": 0.37
+      },
+      "seed": 3,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "fp_checkpoint_lead_frac": 0.18333333333333332,
+        "fp_median_lead_absolute_scan": 0.31666666666666643,
+        "fp_median_lead_differential_scan": 0.31666666666666643,
+        "fp_rate_absolute_scan": 0.935,
+        "fp_rate_differential_checkpoint": 0.04,
+        "fp_rate_differential_scan": 0.425
+      },
+      "seed": 4,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    }
+  ],
+  "observations": [
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 0,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 1,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 2,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 3,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 4,
+      "sweep": {
+        "timing_noise": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 0,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 1,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 2,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 3,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.4833333333333332,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 4,
+      "sweep": {
+        "timing_noise": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.44999999999999984,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 0,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.44999999999999984,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 1,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.44999999999999984,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 2,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.44999999999999984,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 3,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "detection_checkpoint_lead_frac": 0.18333333333333332,
+        "detection_median_lead_absolute_scan": 0.4833333333333332,
+        "detection_median_lead_differential_scan": 0.44999999999999984,
+        "detection_rate_absolute_scan": 1.0,
+        "detection_rate_differential_checkpoint": 1.0,
+        "detection_rate_differential_scan": 1.0
+      },
+      "seed": 4,
+      "sweep": {
+        "timing_noise": 0.1
+      }
+    }
+  ],
+  "pilot": false,
+  "reason": "pre-committed checkpoint: detection >= 0.8 and null false positive <= 0.1 at >= 4/5 seeds in every swept timing noise",
+  "run_at": "2026-08-13T19:51:13Z",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "timing_noise": [
+      0.02,
+      0.05,
+      0.1
+    ]
+  },
+  "verdict": "SUPPORTED"
+}

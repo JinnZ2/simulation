@@ -1,0 +1,14 @@
+Shape-trajectory EWS (distortion threshold 0.05):
+  seed=0: t_visible=84, var_tau=+0.71, ac1_tau=+0.14, alarm_lead=0 steps
+  seed=1: t_visible=88, var_tau=+0.71, ac1_tau=+0.33, alarm_lead=0 steps
+  seed=2: t_visible=87, var_tau=+0.81, ac1_tau=+0.52, alarm_lead=0 steps
+  seed=3: t_visible=86, var_tau=+0.52, ac1_tau=-0.05, alarm_lead=0 steps
+  seed=4: t_visible=86, var_tau=+0.52, ac1_tau=-0.14, alarm_lead=0 steps
+  seed=5: t_visible=85, var_tau=+0.33, ac1_tau=-0.24, alarm_lead=0 steps
+  mean alarm lead over 12 trials: 0.0 steps
+  null (fixed delta=0.3, no growth): var_tau mean=-0.17, frac>0.4: 0.00
+
+XOR-type face fault (edge A +15%, edge B -15%, same face):
+  per-vertex displacement: [0.1252, 0.0179, 0.146, 0.0619, 0.1616, 0.0743]
+  total Procrustes: 0.1101
+  face(0,2,4) displacement mass=0.4329 vs off-face=0.1541 (ratio 2.81x)
