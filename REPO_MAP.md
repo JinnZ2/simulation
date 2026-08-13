@@ -7,16 +7,18 @@ another folder — that's deliberate.
 |---|---|---|
 | `simulation/` | the bounded world — logistic regeneration, deference/idolatry, shocks, Jubilee | **live**; 42 tests, full 10k-cycle run verified |
 | `hypothesis-engine/` | autonomous research pipeline — explore → log → claim → test → modify → hidden-variables → consolidate | **live**; 10 tests, offline run verified, CI wired |
+| `sims/` | physics sims under Sim Harness Standard v1 — pre-registered, self-grading, ledger-native | **live**; 32 tests, 2 sims run (1 SUPPORTED, 1 REFUTED) |
 | `research/` | imported research bundle — notes 00–10, plans, cross-repo integration matrix, and `TODO.md` (the NN-compression charter) | reference material |
 | `assumption_lab.py` | `AssumptionPlayground` — label exploration | standalone |
 | `culture_ontology_notes.py` | cultural ontology notes script | standalone |
-| `.github/workflows/` | `tests.yml` (both suites + a no-PyYAML run), `hypothesis-engine.yml` | active on push |
+| `.github/workflows/` | `tests.yml` (all three suites + a no-PyYAML run), `hypothesis-engine.yml` | active on push |
 
 ## Quick start
 
 ```bash
-cd simulation        && python3 run.py --cycles 500
-cd hypothesis-engine && python3 scripts/hypothesis_engine.py --dry-run
+cd simulation           && python3 run.py --cycles 500
+cd hypothesis-engine    && python3 scripts/hypothesis_engine.py --dry-run
+cd sims/fractal_basin   && python3 run.py
 ```
 
 Note the root README's `python run.py --config config/default.yaml` now means
@@ -32,14 +34,20 @@ Only one link exists so far, and it is one-directional documentation — no code
   `charter_hypothesis`. Running the engine accumulates literature drafts against H1–H5 in
   `hypothesis-engine/hypotheses/`.
 
-`simulation/` is not connected to either. The obvious future link is the engine's hidden-variable
-scan (`stage_hidden`) reading the simulation's per-cycle JSONL instead of only its own findings
-log — both already speak residual series. Nothing has been built for that.
+`simulation/` and `sims/` are not connected to either. Two obvious future links, neither built:
+
+- The engine's hidden-variable scan (`stage_hidden`) could read `simulation/`'s per-cycle JSONL
+  instead of only its own findings log — both already speak residual series.
+- `simulation/` could be brought under `sims/`'s harness. It currently asserts invariants in tests
+  but has no NULL.md, no pre-committed refutation condition, and no self-grading verdict. Its
+  idolatry finding is exactly the kind of claim the harness exists to discipline.
 
 ## Not yet integrated
 
-- `simulation/` and `hypothesis-engine/` share no code. Both implement their own notion of a
-  measured series; neither knows about the other.
+- `simulation/`, `hypothesis-engine/` and `sims/` share no code. Each implements its own notion of
+  a measured series; none knows about the others.
+- `sims/snap_information` is REFUTED for a structural reason — the load cancels out of the
+  equations of motion. Rebuilding it is a new pre-registration, not an edit; see its `FINDINGS.md`.
 - `research/` targets five repos (COH, GBCB, MCPM, CDT, hypothesis-engine); only the
   hypothesis-engine drop-in has been promoted into this repo and made to run.
 - Phase 7 research outputs (`notes/11`, `integration/EXPLORE_AND_EXPERIMENT.md`) are referenced by

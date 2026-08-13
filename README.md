@@ -103,6 +103,7 @@ full picture.
 |---|---|
 | [`simulation/`](simulation/) | the bounded world described above |
 | [`hypothesis-engine/`](hypothesis-engine/) | an autonomous research pipeline — reads scholarly APIs, stakes each finding as a falsifiable claim, tests claims against each other, and files what survives |
+| [`sims/`](sims/) | physics simulations run under a standard that makes them state, in advance and in writing, what would prove them wrong — then grade themselves against it |
 | [`research/`](research/) | research notes and plans imported from related work — reference material, not running code |
 
 ---

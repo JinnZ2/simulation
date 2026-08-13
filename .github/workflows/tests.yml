@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        piece: [simulation, hypothesis-engine]
+        piece: [simulation, hypothesis-engine, sims]
     defaults:
       run:
         working-directory: ${{ matrix.piece }}
@@ -23,8 +23,14 @@ jobs:
           python-version: "3.12"
       - name: Install pytest
         run: pip install pytest
+      - name: Install numpy (sims only)
+        if: matrix.piece == 'sims'
+        run: pip install numpy
       - name: Tests
         run: python -m pytest tests/ -q
+      - name: Ledger integrity
+        if: matrix.piece == 'sims'
+        run: python3 ledger_hook.py --check
 
   # The simulation must also run with no third-party packages at all — the
   # config loader's YAML fallback exists for exactly this case.

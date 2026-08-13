@@ -1,0 +1,474 @@
+{
+  "details": {
+    "0.02": {
+      "excess": [
+        -0.023,
+        -0.0647,
+        -0.0338,
+        -0.0268,
+        -0.0456
+      ],
+      "fail": 5,
+      "n": 5,
+      "pass": 0
+    },
+    "0.05": {
+      "excess": [
+        -0.023,
+        -0.0647,
+        -0.0338,
+        -0.0268,
+        -0.0456
+      ],
+      "fail": 5,
+      "n": 5,
+      "pass": 0
+    },
+    "0.1": {
+      "excess": [
+        -0.023,
+        -0.0647,
+        -0.0338,
+        -0.0268,
+        -0.0456
+      ],
+      "fail": 5,
+      "n": 5,
+      "pass": 0
+    }
+  },
+  "elapsed_s": 19.31,
+  "environment": {
+    "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+    "python": "3.11.15"
+  },
+  "name": "snap_information",
+  "null_model": "shuffle_load_labels",
+  "null_observations": [
+    {
+      "metrics": {
+        "mi_null_bits": 0.13449290287246418,
+        "mi_null_p95": 0.22376200994043852,
+        "mi_null_std": 0.04846274976754117
+      },
+      "seed": 0,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.13799750098777622,
+        "mi_null_p95": 0.20097213570911576,
+        "mi_null_std": 0.04891942438092172
+      },
+      "seed": 1,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.1624233765394046,
+        "mi_null_p95": 0.2756966106093258,
+        "mi_null_std": 0.05587728330649515
+      },
+      "seed": 2,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.15717997693500121,
+        "mi_null_p95": 0.25682612605570826,
+        "mi_null_std": 0.0744591056371485
+      },
+      "seed": 3,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.14625236123953114,
+        "mi_null_p95": 0.23719352409791025,
+        "mi_null_std": 0.05419817996287386
+      },
+      "seed": 4,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.13449290287246418,
+        "mi_null_p95": 0.22376200994043852,
+        "mi_null_std": 0.04846274976754117
+      },
+      "seed": 0,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.13799750098777622,
+        "mi_null_p95": 0.20097213570911576,
+        "mi_null_std": 0.04891942438092172
+      },
+      "seed": 1,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.1624233765394046,
+        "mi_null_p95": 0.2756966106093258,
+        "mi_null_std": 0.05587728330649515
+      },
+      "seed": 2,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.15717997693500121,
+        "mi_null_p95": 0.25682612605570826,
+        "mi_null_std": 0.0744591056371485
+      },
+      "seed": 3,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.14625236123953114,
+        "mi_null_p95": 0.23719352409791025,
+        "mi_null_std": 0.05419817996287386
+      },
+      "seed": 4,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.13449290287246418,
+        "mi_null_p95": 0.22376200994043852,
+        "mi_null_std": 0.04846274976754117
+      },
+      "seed": 0,
+      "sweep": {
+        "gamma": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.13799750098777622,
+        "mi_null_p95": 0.20097213570911576,
+        "mi_null_std": 0.04891942438092172
+      },
+      "seed": 1,
+      "sweep": {
+        "gamma": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.1624233765394046,
+        "mi_null_p95": 0.2756966106093258,
+        "mi_null_std": 0.05587728330649515
+      },
+      "seed": 2,
+      "sweep": {
+        "gamma": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.15717997693500121,
+        "mi_null_p95": 0.25682612605570826,
+        "mi_null_std": 0.0744591056371485
+      },
+      "seed": 3,
+      "sweep": {
+        "gamma": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "mi_null_bits": 0.14625236123953114,
+        "mi_null_p95": 0.23719352409791025,
+        "mi_null_std": 0.05419817996287386
+      },
+      "seed": 4,
+      "sweep": {
+        "gamma": 0.1
+      }
+    }
+  ],
+  "observations": [
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.11150501803674917,
+        "ringdown_freq_mean": 0.13598414627206815,
+        "ringdown_freq_std": 0.0019069644233033023
+      },
+      "seed": 0,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.07334312671525733,
+        "ringdown_freq_mean": 0.13584686817977304,
+        "ringdown_freq_std": 0.0018395390424955833
+      },
+      "seed": 1,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.12858929771980865,
+        "ringdown_freq_mean": 0.13595793798613548,
+        "ringdown_freq_std": 0.0018140958338738523
+      },
+      "seed": 2,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.13038346772268827,
+        "ringdown_freq_mean": 0.13619647396971724,
+        "ringdown_freq_std": 0.001996973782715857
+      },
+      "seed": 3,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.10068826258533381,
+        "ringdown_freq_mean": 0.13626547707851003,
+        "ringdown_freq_std": 0.0019170883966251452
+      },
+      "seed": 4,
+      "sweep": {
+        "gamma": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.11150501803674917,
+        "ringdown_freq_mean": 0.13598414627206815,
+        "ringdown_freq_std": 0.0019069644233033023
+      },
+      "seed": 0,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.07334312671525733,
+        "ringdown_freq_mean": 0.13584686817977304,
+        "ringdown_freq_std": 0.0018395390424955833
+      },
+      "seed": 1,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.12858929771980865,
+        "ringdown_freq_mean": 0.13595793798613548,
+        "ringdown_freq_std": 0.0018140958338738523
+      },
+      "seed": 2,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.13038346772268827,
+        "ringdown_freq_mean": 0.13619647396971724,
+        "ringdown_freq_std": 0.001996973782715857
+      },
+      "seed": 3,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.10068826258533381,
+        "ringdown_freq_mean": 0.13626547707851003,
+        "ringdown_freq_std": 0.0019170883966251452
+      },
+      "seed": 4,
+      "sweep": {
+        "gamma": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.11150501803674917,
+        "ringdown_freq_mean": 0.13598414627206815,
+        "ringdown_freq_std": 0.0019069644233033023
+      },
+      "seed": 0,
+      "sweep": {
+        "gamma": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.07334312671525733,
+        "ringdown_freq_mean": 0.13584686817977304,
+        "ringdown_freq_std": 0.0018395390424955833
+      },
+      "seed": 1,
+      "sweep": {
+        "gamma": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.12858929771980865,
+        "ringdown_freq_mean": 0.13595793798613548,
+        "ringdown_freq_std": 0.0018140958338738523
+      },
+      "seed": 2,
+      "sweep": {
+        "gamma": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.13038346772268827,
+        "ringdown_freq_mean": 0.13619647396971724,
+        "ringdown_freq_std": 0.001996973782715857
+      },
+      "seed": 3,
+      "sweep": {
+        "gamma": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "amp_from_compression": 0.30000000000000004,
+        "amp_from_tension": 0.30000000000000004,
+        "amp_separation": 0.0,
+        "k_implied_from_ringdown": 0.7301928120101951,
+        "k_true_landing": 0.7200000000000002,
+        "mi_bits": 0.10068826258533381,
+        "ringdown_freq_mean": 0.13626547707851003,
+        "ringdown_freq_std": 0.0019170883966251452
+      },
+      "seed": 4,
+      "sweep": {
+        "gamma": 0.1
+      }
+    }
+  ],
+  "pilot": false,
+  "reason": "gamma=0.02: excess MI < 0.2 bits at 5/5 seeds; gamma=0.05: excess MI < 0.2 bits at 5/5 seeds; gamma=0.1: excess MI < 0.2 bits at 5/5 seeds",
+  "run_at": "2026-08-13T19:39:37Z",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "gamma": [
+      0.02,
+      0.05,
+      0.1
+    ]
+  },
+  "verdict": "REFUTED"
+}
