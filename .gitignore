@@ -1,3 +1,11 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.env
+
+# simulation output
+logs/
+simulation/logs/
+
+# engine output is committed by CI, not by hand
+hypothesis-engine/config/topics.effective.json
