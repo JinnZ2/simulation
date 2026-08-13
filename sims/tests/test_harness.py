@@ -246,7 +246,7 @@ def test_grade_receives_every_seed_and_sweep_point(tmp_path):
 # The two retrofitted sims conform
 # --------------------------------------------------------------------------
 
-SHIPPED = ["fractal_basin", "snap_information", "ep2_prereg", "kappa_eff", "shape_csd",
+SHIPPED = ["fractal_basin", "snap_information", "ep2_prereg", "kappa_eff", "shape_csd", "kappa_eff_g2",
            "kappa_eff_g1", "shape_csd_g1", "basin_convergence"]
 
 

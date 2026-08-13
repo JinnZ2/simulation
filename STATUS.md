@@ -6,9 +6,9 @@ next-steps section is hand-written and survives regeneration.*
 <!-- generated:begin -->
 ## Where things stand
 
-**8 experiments run** — 3 supported, 5 refuted.
+**9 experiments run** — 3 supported, 5 refuted, 1 inconclusive.
 
-**142 tests pass** (sims 90, simulation 42, hypothesis-engine 10).
+**145 tests pass** (sims 93, simulation 42, hypothesis-engine 10).
 
 *A refutation is a working experiment, not a broken one.*
 
@@ -17,6 +17,7 @@ next-steps section is hand-written and survives regeneration.*
 - `ep2_prereg` — **supported**
 - `fractal_basin` — **supported**
 - `shape_csd_g1` — **supported** *(exploratory)*
+- `kappa_eff_g2` — **inconclusive** *(exploratory)*
 - `basin_convergence` — **refuted**
 - `kappa_eff` — **refuted**
 - `kappa_eff_g1` — **refuted** *(exploratory)*
@@ -41,11 +42,15 @@ next-steps section is hand-written and survives regeneration.*
 
 ## Next, in order
 
-**1. `kappa_eff_g2` — train to a minimum first.**
-Both generations measured curvature from networks
-that were not converged (grad norm 0.57 at width 64).
-Gate on `‖∇L‖` before anything else. Until then GM's
-claim is neither established nor refuted.
+**1. ~~`kappa_eff_g2`~~ — done, inconclusive.**
+Ran from converged minima (‖∇L‖ ≤ 0.007). The effect
+is real and large at width 16 — curvature rises
+10–20× vs a random ray — and degrades with width,
+because wider nets often don't collapse in range at
+all. The lineage hit the escape hatch at generation 3
+and is closed. Successor question, if any: *what
+decides whether a model collapses within a bounded
+perturbation of its minimum?* Nothing has measured it.
 
 **2. `shape_csd_g1` lead is censored.**
 Reported 0.74 is the *maximum measurable* value —

@@ -19,6 +19,7 @@ being caught downstream.
 | [`kappa_eff`](kappa_eff/) | **REFUTED** | Curvature rises early but *peaks* late, and the kill criteria are peak-based. K1/K2 fired at 5/5 seeds at every drop threshold. "Spikes before failure" doesn't distinguish onset from maximum, and they have opposite lead properties |
 | [`shape_csd_g1`](shape_csd_g1/) | **SUPPORTED** | Successor with a *geometry-matched* control. The null now never fires — 0.000 at all 15 runs — and the CSD claim passes at 5/5 seeds at every probe magnitude. The parent's refutation was the confound, not the physics |
 | [`kappa_eff_g1`](kappa_eff_g1/) | **REFUTED** | Successor testing onset rather than peak. At widths 16 and 64 curvature never rises at all — it declines monotonically. Baseline κ spans 0.23 to 59 across widths, and the networks turn out not to be trained to a minimum |
+| [`kappa_eff_g2`](kappa_eff_g2/) | **INCONCLUSIVE** | Measured from genuine minima this time (‖∇L‖ ≤ 0.007 against a 0.02 gate). Curvature rises 10–20× along the ascent ray vs ~1× for a random ray at width 16, 5/5 seeds — but degrades with width, because wide nets often show no accuracy collapse in range to lead. Escape hatch fired; lineage closed |
 | [`basin_convergence`](basin_convergence/) | **REFUTED** | Audit of a SUPPORTED result. α is **not converged in grid resolution**: doubling N moves it 0.08–0.15 against a 0.001–0.019 noise floor. Wada at γ=0.25 goes 8% → 0%. Integration time is converged |
 
 Each writes findings alongside the raw artifacts — see the `FINDINGS.md` in each folder.

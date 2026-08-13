@@ -55,12 +55,15 @@ def generated_block() -> str:
     rows = ledger_rows()
     supported = [r for r in rows if r["verdict"] == "SUPPORTED"]
     refuted = [r for r in rows if r["verdict"] == "REFUTED"]
+    inconclusive = [r for r in rows if r["verdict"] == "INCONCLUSIVE"]
     counts = {f: test_count(f) for f in SUITES}
     total = sum(v for v in counts.values() if v)
 
     lines = ["## Where things stand", ""]
-    lines.append(f"**{len(rows)} experiments run** — "
-                 f"{len(supported)} supported, {len(refuted)} refuted.")
+    tally = f"{len(supported)} supported, {len(refuted)} refuted"
+    if inconclusive:
+        tally += f", {len(inconclusive)} inconclusive"
+    lines.append(f"**{len(rows)} experiments run** — {tally}.")
     lines.append("")
     lines.append(f"**{total} tests pass** "
                  f"({', '.join(f'{k} {v}' for k, v in counts.items() if v)}).")

@@ -1,0 +1,591 @@
+{
+  "details": {
+    "16": {
+      "grad_norm": [
+        0.00039,
+        0.00034,
+        0.00027,
+        0.00028,
+        0.00025
+      ],
+      "grad_ratio": [
+        9.657,
+        13.846,
+        20.479,
+        15.009,
+        21.131
+      ],
+      "n": 5,
+      "no_collapse": 0,
+      "no_gain": 0,
+      "no_lead": 0,
+      "pass_all": 5,
+      "rand_ratio": [
+        1.388,
+        1.079,
+        0.901,
+        0.56,
+        1.333
+      ]
+    },
+    "32": {
+      "grad_norm": [
+        0.0002,
+        0.00033,
+        0.00013,
+        0.00033,
+        0.00013
+      ],
+      "grad_ratio": [
+        1.393,
+        0.455,
+        5.034,
+        24.208
+      ],
+      "n": 5,
+      "no_collapse": 1,
+      "no_gain": 1,
+      "no_lead": 2,
+      "pass_all": 2,
+      "rand_ratio": [
+        0.627,
+        0.673,
+        1.0,
+        1.0
+      ]
+    },
+    "64": {
+      "grad_norm": [
+        0.00707,
+        0.00037,
+        0.00013,
+        0.00611,
+        0.00076
+      ],
+      "grad_ratio": [
+        1.137,
+        5.179,
+        2.325
+      ],
+      "n": 5,
+      "no_collapse": 2,
+      "no_gain": 1,
+      "no_lead": 1,
+      "pass_all": 2,
+      "rand_ratio": [
+        1.852,
+        0.953,
+        1.0
+      ]
+    }
+  },
+  "elapsed_s": 205.646,
+  "environment": {
+    "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+    "python": "3.11.15"
+  },
+  "name": "kappa_eff_g2",
+  "null_model": "random_ray",
+  "null_observations": [
+    {
+      "metrics": {
+        "rand_alpha_drop": 1.0,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.918,
+        "rand_collapsed": 1.0,
+        "rand_grad_norm": 0.00038876352809467506,
+        "rand_kappa_baseline": 0.05801974155952832,
+        "rand_kappa_ratio_at_drop": 1.387893471005102,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": 2.0,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.912,
+        "rand_collapsed": 1.0,
+        "rand_grad_norm": 0.00034261649997128395,
+        "rand_kappa_baseline": 0.05371072961324014,
+        "rand_kappa_ratio_at_drop": 1.078944667187863,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": 3.0,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.92,
+        "rand_collapsed": 1.0,
+        "rand_grad_norm": 0.00026552453283519383,
+        "rand_kappa_baseline": 0.022462341965109777,
+        "rand_kappa_ratio_at_drop": 0.9012076234832995,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": 2.5,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.886,
+        "rand_collapsed": 1.0,
+        "rand_grad_norm": 0.000279923292199325,
+        "rand_kappa_baseline": 0.06466866884373056,
+        "rand_kappa_ratio_at_drop": 0.5600981769820988,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": 1.5,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.86,
+        "rand_collapsed": 1.0,
+        "rand_grad_norm": 0.00025178713774101825,
+        "rand_kappa_baseline": 0.07833168598510318,
+        "rand_kappa_ratio_at_drop": 1.3334972335465318,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": 2.0,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.918,
+        "rand_collapsed": 1.0,
+        "rand_grad_norm": 0.00020194287620100792,
+        "rand_kappa_baseline": 0.042477987544917745,
+        "rand_kappa_ratio_at_drop": 0.6274874805823192,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": 2.5,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.914,
+        "rand_collapsed": 1.0,
+        "rand_grad_norm": 0.00032975253569173505,
+        "rand_kappa_baseline": 0.041627569727077526,
+        "rand_kappa_ratio_at_drop": 0.6732972721151986,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": NaN,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.92,
+        "rand_collapsed": 0.0,
+        "rand_grad_norm": 0.00012733249760631005,
+        "rand_kappa_baseline": 0.01309240009321922,
+        "rand_kappa_ratio_at_drop": NaN,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": NaN,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.886,
+        "rand_collapsed": 0.0,
+        "rand_grad_norm": 0.00032605643408485657,
+        "rand_kappa_baseline": 0.023198463545902586,
+        "rand_kappa_ratio_at_drop": NaN,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": NaN,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.858,
+        "rand_collapsed": 0.0,
+        "rand_grad_norm": 0.00012975975363748544,
+        "rand_kappa_baseline": 0.029606743610649387,
+        "rand_kappa_ratio_at_drop": NaN,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": 3.0,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.916,
+        "rand_collapsed": 1.0,
+        "rand_grad_norm": 0.007070632552033337,
+        "rand_kappa_baseline": 0.02916655076829944,
+        "rand_kappa_ratio_at_drop": 1.8520237139116527,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "hidden_width": 64
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": 3.0,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.914,
+        "rand_collapsed": 1.0,
+        "rand_grad_norm": 0.0003736000667163088,
+        "rand_kappa_baseline": 0.01936160473209349,
+        "rand_kappa_ratio_at_drop": 0.9529225398527112,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "hidden_width": 64
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": NaN,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.92,
+        "rand_collapsed": 0.0,
+        "rand_grad_norm": 0.00012540147709355894,
+        "rand_kappa_baseline": 0.02103279597766061,
+        "rand_kappa_ratio_at_drop": NaN,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "hidden_width": 64
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": NaN,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.888,
+        "rand_collapsed": 0.0,
+        "rand_grad_norm": 0.006105459940238647,
+        "rand_kappa_baseline": 0.013459966428529145,
+        "rand_kappa_ratio_at_drop": NaN,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "hidden_width": 64
+      }
+    },
+    {
+      "metrics": {
+        "rand_alpha_drop": NaN,
+        "rand_alpha_rise": NaN,
+        "rand_base_acc": 0.858,
+        "rand_collapsed": 0.0,
+        "rand_grad_norm": 0.0007595237964592475,
+        "rand_kappa_baseline": 0.016218407485441386,
+        "rand_kappa_ratio_at_drop": NaN,
+        "rand_rise_leads": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "hidden_width": 64
+      }
+    }
+  ],
+  "observations": [
+    {
+      "metrics": {
+        "grad_alpha_drop": 2.0,
+        "grad_alpha_rise": 0.3,
+        "grad_base_acc": 0.918,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.00038876352809467506,
+        "grad_kappa_baseline": 0.013400429425585595,
+        "grad_kappa_ratio_at_drop": 9.657113791035886,
+        "grad_rise_leads": 1.0
+      },
+      "seed": 0,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 2.5,
+        "grad_alpha_rise": 0.5,
+        "grad_base_acc": 0.912,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.00034261649997128395,
+        "grad_kappa_baseline": 0.008387724327776788,
+        "grad_kappa_ratio_at_drop": 13.845953002459146,
+        "grad_rise_leads": 1.0
+      },
+      "seed": 1,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 2.0,
+        "grad_alpha_rise": 0.3,
+        "grad_base_acc": 0.92,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.00026552453283519383,
+        "grad_kappa_baseline": 0.008402674335583714,
+        "grad_kappa_ratio_at_drop": 20.47939296303178,
+        "grad_rise_leads": 1.0
+      },
+      "seed": 2,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 1.5,
+        "grad_alpha_rise": 0.2,
+        "grad_base_acc": 0.886,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.000279923292199325,
+        "grad_kappa_baseline": 0.013328720265004743,
+        "grad_kappa_ratio_at_drop": 15.00901752561662,
+        "grad_rise_leads": 1.0
+      },
+      "seed": 3,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 2.5,
+        "grad_alpha_rise": 0.3,
+        "grad_base_acc": 0.86,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.00025178713774101825,
+        "grad_kappa_baseline": 0.006878722199428868,
+        "grad_kappa_ratio_at_drop": 21.13102274378168,
+        "grad_rise_leads": 1.0
+      },
+      "seed": 4,
+      "sweep": {
+        "hidden_width": 16
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 2.5,
+        "grad_alpha_rise": NaN,
+        "grad_base_acc": 0.918,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.00020194287620100792,
+        "grad_kappa_baseline": 0.048632061494230217,
+        "grad_kappa_ratio_at_drop": 1.3928453516269048,
+        "grad_rise_leads": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 2.0,
+        "grad_alpha_rise": NaN,
+        "grad_base_acc": 0.914,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.00032975253569173505,
+        "grad_kappa_baseline": 0.03145812372783557,
+        "grad_kappa_ratio_at_drop": 0.454513993043702,
+        "grad_rise_leads": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 3.0,
+        "grad_alpha_rise": 2.0,
+        "grad_base_acc": 0.92,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.00012733249760631005,
+        "grad_kappa_baseline": 0.017090648917875005,
+        "grad_kappa_ratio_at_drop": 5.033538486266717,
+        "grad_rise_leads": 1.0
+      },
+      "seed": 2,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": NaN,
+        "grad_alpha_rise": NaN,
+        "grad_base_acc": 0.886,
+        "grad_collapsed": 0.0,
+        "grad_grad_norm": 0.00032605643408485657,
+        "grad_kappa_baseline": 0.057782989744142005,
+        "grad_kappa_ratio_at_drop": NaN,
+        "grad_rise_leads": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 2.5,
+        "grad_alpha_rise": 0.25,
+        "grad_base_acc": 0.858,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.00012975975363748544,
+        "grad_kappa_baseline": 0.007044234741377845,
+        "grad_kappa_ratio_at_drop": 24.208285919832832,
+        "grad_rise_leads": 1.0
+      },
+      "seed": 4,
+      "sweep": {
+        "hidden_width": 32
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 0.1,
+        "grad_alpha_rise": NaN,
+        "grad_base_acc": 0.916,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.007070632552033337,
+        "grad_kappa_baseline": 5.7175092283237126,
+        "grad_kappa_ratio_at_drop": 1.1371257063030196,
+        "grad_rise_leads": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "hidden_width": 64
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 2.0,
+        "grad_alpha_rise": 1.25,
+        "grad_base_acc": 0.914,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.0003736000667163088,
+        "grad_kappa_baseline": 0.09001561009974438,
+        "grad_kappa_ratio_at_drop": 5.178858129383421,
+        "grad_rise_leads": 1.0
+      },
+      "seed": 1,
+      "sweep": {
+        "hidden_width": 64
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": NaN,
+        "grad_alpha_rise": NaN,
+        "grad_base_acc": 0.92,
+        "grad_collapsed": 0.0,
+        "grad_grad_norm": 0.00012540147709355894,
+        "grad_kappa_baseline": 0.012933757600567954,
+        "grad_kappa_ratio_at_drop": NaN,
+        "grad_rise_leads": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "hidden_width": 64
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": NaN,
+        "grad_alpha_rise": NaN,
+        "grad_base_acc": 0.888,
+        "grad_collapsed": 0.0,
+        "grad_grad_norm": 0.006105459940238647,
+        "grad_kappa_baseline": 0.07675786310965298,
+        "grad_kappa_ratio_at_drop": NaN,
+        "grad_rise_leads": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "hidden_width": 64
+      }
+    },
+    {
+      "metrics": {
+        "grad_alpha_drop": 1.25,
+        "grad_alpha_rise": 0.15,
+        "grad_base_acc": 0.858,
+        "grad_collapsed": 1.0,
+        "grad_grad_norm": 0.0007595237964592475,
+        "grad_kappa_baseline": 0.004194742282032347,
+        "grad_kappa_ratio_at_drop": 2.3251456314029286,
+        "grad_rise_leads": 1.0
+      },
+      "seed": 4,
+      "sweep": {
+        "hidden_width": 64
+      }
+    }
+  ],
+  "pilot": false,
+  "reason": "the indicator is width-dependent \u2014 width=32: 2/5 seeds passed; width=64: 2/5 seeds passed",
+  "run_at": "2026-08-13T21:39:21Z",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "hidden_width": [
+      16,
+      32,
+      64
+    ]
+  },
+  "verdict": "INCONCLUSIVE"
+}
