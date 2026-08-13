@@ -12,6 +12,8 @@ The repo will stay here.
 
 ---
 
+**Current state:** [`STATUS.md`](STATUS.md) — one screen, always current.
+
 ## Start here
 
 ```bash
