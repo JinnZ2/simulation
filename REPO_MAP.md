@@ -1,5 +1,7 @@
 # Repo map
 
+For current state rather than layout, see [`STATUS.md`](STATUS.md).
+
 Pieces live in separate folders until they're integrated. Nothing below imports anything from
 another folder — that's deliberate.
 

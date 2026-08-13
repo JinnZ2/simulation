@@ -32,6 +32,20 @@ jobs:
         if: matrix.piece == 'sims'
         run: python3 ledger_hook.py --check
 
+  # STATUS.md is the first thing anyone reads; a stale one is worse than none.
+  status:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pytest
+        run: pip install pytest
+      - name: STATUS.md is current
+        run: python3 status.py --check
+
   # The simulation must also run with no third-party packages at all — the
   # config loader's YAML fallback exists for exactly this case.
   stdlib-only:
