@@ -1,0 +1,30 @@
+{
+  "name": "snap_information",
+  "claim": "A snap-through event acts as an analogue-to-digital converter: mutual information between the load at which the snap occurred and the post-snap ringdown frequency exceeds a permutation null by a margin not attributable to estimator bias, across damping.",
+  "seeds": [0, 1, 2, 3, 4],
+  "sweeps": {"gamma": [0.02, 0.05, 0.10]},
+  "null_model": "shuffle_load_labels",
+  "refute_if": "MI(load; ringdown) - MI_null < 0.20 bits at >=3 of 5 seeds in any swept gamma",
+  "refute_params": {
+    "min_excess_bits": 0.20,
+    "refute_at_seeds": 3,
+    "support_at_seeds": 4
+  },
+  "tier": 0,
+  "runtime_estimate_s": 240,
+  "depends_on": [],
+  "physics": {
+    "a": 1.0,
+    "well_centers": [1.2, 1.8],
+    "dt": 0.01,
+    "T": 250.0,
+    "n_loads": 11,
+    "load_max": 0.25,
+    "reps_per_load": 8,
+    "tail_frac": 0.5,
+    "v0_jitter": 0.05,
+    "sensor_noise": 0.002,
+    "mi_bins": 5,
+    "null_permutations": 20
+  }
+}

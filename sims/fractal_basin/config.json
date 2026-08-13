@@ -1,0 +1,31 @@
+{
+  "name": "fractal_basin",
+  "claim": "In a damped oscillator with a three-well potential the basin boundary is fractal: its uncertainty exponent is bounded away from the smooth value of 1 and away from the structureless shuffled floor of ~0, and the two-well boundary is not fractal. Holds across damping.",
+  "seeds": [0, 1, 2, 3, 4],
+  "sweeps": {"gamma": [0.1, 0.25, 0.5]},
+  "null_model": "shuffle_labels",
+  "refute_if": "alpha_triple >= 0.90, OR (alpha_double - alpha_triple) < 0.10, OR (alpha_triple - alpha_null) < 0.20 - any one of these at >=3 of 5 seeds in any swept gamma",
+  "refute_params": {
+    "smooth_alpha_ceiling": 0.90,
+    "min_double_minus_triple": 0.10,
+    "min_triple_above_null": 0.20,
+    "refute_at_seeds": 3,
+    "support_at_seeds": 4
+  },
+  "tier": 0,
+  "runtime_estimate_s": 420,
+  "depends_on": [],
+  "grid": {
+    "N": 200,
+    "T": 120.0,
+    "dt": 0.05,
+    "n_probe": 4000,
+    "double_centers": [1.2, 1.8],
+    "double_xr": [0.6, 2.4],
+    "double_vr": [-1.2, 1.2],
+    "triple_centers": [1.0, 2.0, 3.0],
+    "triple_xr": [0.4, 3.6],
+    "triple_vr": [-1.5, 1.5],
+    "wada_radius": 2
+  }
+}
