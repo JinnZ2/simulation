@@ -1,7 +1,9 @@
 # simulation
 
-The bounded world described in the repo root README, implemented. No goals. No rewards. No
-controller, no objective function, nothing being maximized. Resources regenerate on a logistic
+The bounded world from the [root README](../README.md), implemented. That page is the friendly
+tour; this one is the reference — how it works, what the numbers mean, and what we measured.
+
+No goals, no rewards, no controller, nothing being maximized. Resources regenerate on a logistic
 curve, deference concentration is measured every cycle, and agents can consume, share, build, or
 call a localized Jubilee.
 
