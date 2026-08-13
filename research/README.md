@@ -48,15 +48,12 @@ several other repos in the ecosystem.
 |---|---|
 | `integration/INTEGRATION_POINTS.md` | Cross-repo integration matrix (IP-1 …) across COH, hypothesis-engine, GBCB, MCPM, CDT |
 
-### Drop-in code
-| Path | What it is |
-|---|---|
-| `hypothesis-engine/` | Autonomous hypothesis engine — GitHub Action workflow, `scripts/hypothesis_engine.py`, topics config, docs, tests |
+### Drop-in code — promoted out of this folder
 
-`hypothesis-engine/.github/workflows/hypothesis-engine.yml` is **inert here** — only a workflow at
-the repository root's `.github/workflows/` is executed by GitHub Actions. It is a drop-in intended
-for another repo; moving it to the root would activate a scheduled job on this repo, so it stays
-nested until someone decides that deliberately.
+The hypothesis engine that shipped in this bundle now lives at the repo root as
+[`../hypothesis-engine/`](../hypothesis-engine/), with its workflow at
+`.github/workflows/hypothesis-engine.yml`. It is a running piece, not reference material, so it
+was moved out. Its topics config now carries one topic per hypothesis in `TODO.md`.
 
 ## The five repos this material targets
 

@@ -14,6 +14,11 @@ on:
         required: false
         default: "5"
         type: string
+      dry_run:
+        description: "Skip network, use bundled sample findings"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -23,10 +28,38 @@ concurrency:
   group: hypothesis-engine
   cancel-in-progress: false
 
+defaults:
+  run:
+    working-directory: hypothesis-engine
+
 jobs:
-  run-engine:
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pytest
+        run: pip install pytest
+
+      - name: Unit tests
+        run: python -m pytest tests/ -q
+
+      - name: Offline smoke run
+        run: |
+          python scripts/hypothesis_engine.py --dry-run \
+            --data-dir "$RUNNER_TEMP/data" \
+            --hypotheses-dir "$RUNNER_TEMP/hypotheses"
+
+  run-engine:
+    needs: test
+    runs-on: ubuntu-latest
+    # 23 queries x up to 3 sources = 55 calls; each _fetch() has a 20s timeout,
+    # so a pathological all-timeout run needs ~18 min. 15 was too tight.
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -34,59 +67,52 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install package (if pyproject exists)
-        run: |
-          if [ -f pyproject.toml ]; then
-            pip install -e .
-          else
-            echo "No pyproject.toml; running stdlib-only from repo root"
-          fi
-
       - name: Resolve config (topic override)
+        env:
+          TOPIC_OVERRIDE: ${{ inputs.topic }}
         run: |
           python - <<'EOF'
           import json, os, shutil
           override = os.environ.get("TOPIC_OVERRIDE", "").strip()
+          src, dst = "config/topics.json", "config/topics.effective.json"
           if override:
-              cfg = json.load(open("config/topics.json"))
+              cfg = json.load(open(src))
               match = [t for t in cfg["topics"] if t["name"] == override]
               if match:
-                  json.dump({"topics": match}, open("config/topics.effective.json", "w"), indent=2)
+                  json.dump({"topics": match}, open(dst, "w"), indent=2)
                   print("Using topic override:", override)
-              else:
-                  print("Override topic not found; running full config")
-                  shutil.copy("config/topics.json", "config/topics.effective.json")
-          else:
-              shutil.copy("config/topics.json", "config/topics.effective.json")
+                  raise SystemExit(0)
+              print("Override topic not found; running full config")
+          shutil.copy(src, dst)
           EOF
-        env:
-          TOPIC_OVERRIDE: ${{ github.event.inputs.topic }}
 
       - name: Run hypothesis engine
         run: |
           python scripts/hypothesis_engine.py \
             --config config/topics.effective.json \
-            --max-per-topic "${{ github.event.inputs.max_per_topic || '5' }}"
+            --max-per-topic "${{ inputs.max_per_topic || '5' }}" \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: hypothesis-engine-output
           path: |
-            data/
-            hypotheses/
+            hypothesis-engine/data/
+            hypothesis-engine/hypotheses/
           if-no-files-found: ignore
           retention-days: 30
 
       - name: Commit results
         run: |
+          rm -f config/topics.effective.json
           git config user.name "hypothesis-engine[bot]"
           git config user.email "hypothesis-engine[bot]@users.noreply.github.com"
-          git add data/ hypotheses/ docs/hypothesis_engine.md
+          git add data/ hypotheses/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore(engine): weekly research digest $(date -u +%Y-%m-%d)"
+            git commit -m "chore(engine): research digest $(date -u +%Y-%m-%d)"
             git push
           fi
 
@@ -99,7 +125,8 @@ jobs:
             gh issue create \
               --title "Hypothesis engine: new hypotheses $(date -u +%Y-%m-%d)" \
               --body-file data/engine_report.md \
-              --label "hypothesis-engine" || gh issue create \
+              --label "hypothesis-engine" \
+            || gh issue create \
               --title "Hypothesis engine: new hypotheses $(date -u +%Y-%m-%d)" \
               --body-file data/engine_report.md
           else
