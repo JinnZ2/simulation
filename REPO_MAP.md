@@ -7,8 +7,8 @@ another folder — that's deliberate.
 |---|---|---|
 | `simulation/` | the bounded world — logistic regeneration, deference/idolatry, shocks, Jubilee | **live**; 42 tests, full 10k-cycle run verified |
 | `hypothesis-engine/` | autonomous research pipeline — explore → log → claim → test → modify → hidden-variables → consolidate | **live**; 10 tests, offline run verified, CI wired |
-| `sims/` | physics sims under Sim Harness Standard v1 — pre-registered, self-grading, ledger-native | **live**; 32 tests, 2 sims run (1 SUPPORTED, 1 REFUTED) |
-| `research/` | imported research bundle — notes 00–10, plans, cross-repo integration matrix, and `TODO.md` (the NN-compression charter) | reference material |
+| `sims/` | physics sims under Sim Harness Standard v1 — pre-registered, self-grading, ledger-native | **live**; 40 tests, 4 sims run (2 SUPPORTED, 2 REFUTED) |
+| `research/` | imported research bundle — notes 00–18, plans, cross-repo integration matrix, and `TODO.md` (the NN-compression charter) | reference material |
 | `assumption_lab.py` | `AssumptionPlayground` — label exploration | standalone |
 | `culture_ontology_notes.py` | cultural ontology notes script | standalone |
 | `.github/workflows/` | `tests.yml` (all three suites + a no-PyYAML run), `hypothesis-engine.yml` | active on push |
@@ -50,7 +50,10 @@ Only one link exists so far, and it is one-directional documentation — no code
   equations of motion. Rebuilding it is a new pre-registration, not an edit; see its `FINDINGS.md`.
 - `research/` targets five repos (COH, GBCB, MCPM, CDT, hypothesis-engine); only the
   hypothesis-engine drop-in has been promoted into this repo and made to run.
-- Phase 7 research outputs (`notes/11`, `integration/EXPLORE_AND_EXPERIMENT.md`) are referenced by
-  `research/TODO.md` but were not in the imported archive.
+- `research/notes/16_*` is missing from the sequence (11–15, 17, 18 are present), as is
+  `integration/EXPLORE_AND_EXPERIMENT.md`, which `research/TODO.md` references.
+- HARNESS.md §5's retrofit queue is partly done: items 1, 3, 4 and part of 5 are in `sims/`.
+  Item 2 (`shape_csd_probes.py` — the headline CSD claim) and the rest of item 5 (`s3_s7.py`,
+  `shape_fold_*.py`) have not been supplied.
 - The `hypothesis-engine` cron is inert until this branch merges — GitHub runs scheduled workflows
   only from the default branch.

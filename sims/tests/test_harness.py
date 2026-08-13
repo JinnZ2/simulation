@@ -246,7 +246,10 @@ def test_grade_receives_every_seed_and_sweep_point(tmp_path):
 # The two retrofitted sims conform
 # --------------------------------------------------------------------------
 
-@pytest.mark.parametrize("name", ["fractal_basin", "snap_information"])
+SHIPPED = ["fractal_basin", "snap_information", "ep2_prereg", "kappa_eff"]
+
+
+@pytest.mark.parametrize("name", SHIPPED)
 def test_shipped_configs_conform_to_the_standard(name):
     config = json.loads((ROOT / name / "config.json").read_text(encoding="utf-8"))
     validate(config)
@@ -255,7 +258,23 @@ def test_shipped_configs_conform_to_the_standard(name):
     assert config["claim"]
 
 
-@pytest.mark.parametrize("name", ["fractal_basin", "snap_information"])
+@pytest.mark.parametrize("name", SHIPPED)
 def test_each_sim_has_its_pre_registration_documents(name):
     for doc in ("NULL.md", "REFUTE.md"):
         assert (ROOT / name / doc).exists(), f"{name}/{doc} missing"
+
+
+@pytest.mark.parametrize("name", SHIPPED)
+def test_refute_params_are_referenced_by_the_prose_condition(name):
+    """The prose refute_if and the machine-readable refute_params must not drift.
+
+    Every threshold in refute_params that is a real number should appear in the
+    prose, so a reader of summary.md sees the same condition the grader used.
+    """
+    config = json.loads((ROOT / name / "config.json").read_text(encoding="utf-8"))
+    prose = config["refute_if"]
+    for key, value in config["refute_params"].items():
+        if key.endswith("_at_seeds"):
+            continue
+        assert str(value) in prose or str(value).rstrip("0").rstrip(".") in prose, (
+            f"{name}: refute_params.{key}={value} does not appear in refute_if prose")

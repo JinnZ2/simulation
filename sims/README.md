@@ -13,17 +13,24 @@ being caught downstream.
 | Sim | Verdict | What happened |
 |---|---|---|
 | [`fractal_basin`](fractal_basin/) | **SUPPORTED** | Three-well boundary is fractal at every damping tested; boundary dimension falls 1.75 → 1.45 as γ goes 0.1 → 0.5, and the Wada property vanishes entirely by γ = 0.5 |
+| [`ep2_prereg`](ep2_prereg/) | **SUPPORTED** | The physical instrument's E-P2 protocol has the power to detect an approaching snap with 18.3% lead at 10% timing noise — but only with two arms and one pre-committed checkpoint. The criteria it replaces fire on a rigid null 44% and ~95% of the time |
 | [`snap_information`](snap_information/) | **REFUTED** | Excess information over the null was *negative* at 5/5 seeds. Diagnosis: the load cancels out of the equations of motion, so the effect is zero by algebra — the claim was never testable in this model |
+| [`kappa_eff`](kappa_eff/) | **REFUTED** | Curvature rises early but *peaks* late, and the kill criteria are peak-based. K1/K2 fired at 5/5 seeds at every drop threshold. "Spikes before failure" doesn't distinguish onset from maximum, and they have opposite lead properties |
 
-Both write findings alongside the raw artifacts:
-[`fractal_basin/FINDINGS.md`](fractal_basin/FINDINGS.md),
-[`snap_information/FINDINGS.md`](snap_information/FINDINGS.md).
+Each writes findings alongside the raw artifacts — see the `FINDINGS.md` in each folder.
+
+Retrofit queue status (HARNESS.md §5): items **1** (`ep2_prereg`), **3** (`kappa_eff`),
+**4** (`fractal_basin`) and part of **5** (`snap_information`) are done. Item **2**
+(`shape_csd_probes.py`, the headline CSD claim) and the rest of item 5 (`s3_s7.py`,
+`shape_fold_*.py`) are not in the repo yet.
 
 ## Run one
 
 ```bash
-cd sims/fractal_basin && python3 run.py       # ~25s
+cd sims/fractal_basin    && python3 run.py    # ~25s
 cd sims/snap_information && python3 run.py    # ~20s
+cd sims/ep2_prereg       && python3 run.py    # ~2s
+cd sims/kappa_eff        && python3 run.py    # ~5s
 ```
 
 Needs numpy (the sims; the harness itself is stdlib-only). Options: `--seeds N [N...]` to override,
@@ -41,7 +48,7 @@ python3 ledger_hook.py --check    # verify hashes, write nothing
 `ledger_hook.py --check` re-hashes every `metrics.json` and compares it against what the ledger
 recorded, so a results file edited after the fact is detectable rather than merely discouraged.
 
-Tests: `python3 -m pytest tests/ -q` (32 tests, mostly about what the harness *refuses*).
+Tests: `python3 -m pytest tests/ -q` (40 tests, mostly about what the harness *refuses*).
 
 ## Layout
 
@@ -53,6 +60,7 @@ sims/
 │   └── runner.py           # §3 execution contract, §4 verdict discipline
 ├── ledger_hook.py          # §1 central ledger
 ├── ledger.jsonl            # append-only
+├── adapters/               # foreign claim formats in (see adapters/README.md)
 ├── tests/
 └── <name>/
     ├── run.py              # reads ONLY config.json + CLI overrides
@@ -82,28 +90,50 @@ result means and what we should do about it," written after the fact by a person
 §4 says a `refute_if` edited after seeing data makes the entry EXPLORATORY, never PREDICT. That is
 only enforceable if you can tell when the condition was written.
 
-Both sims' `NULL.md`, `REFUTE.md` and `config.json` were committed **in a commit that deliberately
+Every sim's `NULL.md`, `REFUTE.md` and `config.json` were committed **in a commit that deliberately
 contained no `run.py` and no results** — the thresholds could not have been fitted to data that did
 not exist yet. `git log --follow sims/*/REFUTE.md` against the timestamps in `results/` is the
 check. If you retrofit another sim, do the same: commit the pre-registration on its own first.
 
-## What the two retrofits changed
+## What the retrofits changed
 
-Both originals are kept beside the retrofit as `original_*.py` for comparison. Neither original was
-reproducible: `fractal_basin_sim.py` measured α at a single damping with one probe seed,
-`snap_information_sim.py` used unseeded `np.random` throughout.
+Every original is kept beside its retrofit as `original_*.py`. **None of the four was
+reproducible**: two used a single hard-coded seed, two used unseeded `np.random`. None had a null.
 
-| | fractal_basin | snap_information |
-|---|---|---|
-| seeds | 1 → 5 | unseeded → 5 |
-| sweep | γ = 0.25 only → {0.1, 0.25, 0.5} | γ = 0.05 only → {0.02, 0.05, 0.10} |
-| null | none → `shuffle_labels` | none → `shuffle_load_labels` |
-| verdict | none → self-graded | none → self-graded |
-| other | `.npy` writes to a path outside the repo dropped; basin grid computed once per γ and shared across probe seeds | trajectories vectorized into one ensemble integration, ~50× faster, identical physics |
+| | fractal_basin | snap_information | ep2_prereg | kappa_eff |
+|---|---|---|---|---|
+| seeds | 1 → 5 | unseeded → 5 | unseeded → 5 | 1 fixed → 5 |
+| sweep | γ=0.25 → {0.1, 0.25, 0.5} | γ=0.05 → {0.02, 0.05, 0.10} | noise 5% → {2%, 5%, 10%} | drop threshold 5pt → {2, 5, 10} |
+| null | none → `shuffle_labels` | none → `shuffle_load_labels` | none → `rigid_arm_creep_only` | none → `random_ray` |
+| verdict | none → self-graded | none → self-graded | none → self-graded | printed → self-graded |
+| other | `.npy` writes outside the repo dropped; grid computed once per γ | ensemble vectorized, ~50× faster, identical physics | all three criteria measured on both arms every run | torch → numpy (Tier-1 discipline, notes/10 §2.2) |
 
-The γ sweep was mandated by HARNESS.md §5 item 4 for `fractal_basin`. It earned its keep
-immediately: α moves from 0.25 to 0.55 across the swept range, so the original's single-damping
-number described one operating point, not the potential.
+Two sweeps were mandated by HARNESS.md §5 itself — γ for `fractal_basin` (item 4) and the criterion
+sweep for `kappa_eff` (item 3). Both earned their keep, in opposite ways: α moves from 0.25 to 0.55
+across γ, so the original's single-damping number described one operating point rather than the
+potential; while the `kappa_eff` verdict turned out **not** to depend on the swept criterion at all,
+which located the real criterion-dependence somewhere else entirely (peak versus onset).
+
+## Cross-validation against the research notes
+
+`fractal_basin` reproduces `research/notes/17_fractals_bio_cosmo_trig.md` §1 exactly, at the
+original's damping:
+
+| quantity | notes/17 | measured here (γ = 0.25) |
+|---|---:|---:|
+| α double-well | 0.69 | 0.691 |
+| α triple-well | 0.39 | 0.390 |
+| Wada fraction | 8% | 8.0% |
+
+Three significant figures on all three, from an independent reimplementation under the harness.
+That is a genuine replication of the earlier result, and it makes the γ sweep's finding — that
+these numbers move a lot with damping — a claim about the same measurement rather than a different
+one.
+
+`snap_information` is consistent with `research/notes/18_flip_as_event.md` §3, which already called
+the load-to-ringdown channel an "honest null" at 0.22 bits of 3.46. The harness strengthens that:
+the MI is not merely small, it is *below a permutation null*, and the cause is structural rather
+than statistical.
 
 ## The snap_information result is the argument for the standard
 

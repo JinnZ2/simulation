@@ -42,6 +42,13 @@ several other repos in the ecosystem.
 | `notes/08_cross_domain_toolkit.md` | Code-verified deep-read + 30-domain equation atlas + logic/knowledge-systems layer |
 | `notes/09_nn_compression_manifolds.md` | Compression science verified (GPTQ/AWQ/SparseGPT exact numbers) + manifold/representation geometry |
 | `notes/10_integration_theories_languages.md` | Perceptron & integration theories; language/stack strategy |
+| `notes/11_meta_structures_consciousness_bio_intelligence.md` | Meta-structures, parallel processing, geometric overlays, consciousness studies 2024–26, biological intelligences |
+| `notes/12_seven_questions_shape.md` | Seven under-mapped questions, measured (sheaf consistency, integral calibration, overlay capacity, atlas compression, citation cascades, marker batteries, anti-unification repair) |
+| `notes/13_geometric_manifold_combinations.md` | Geometric-manifold- (Basin Repair) × the seven questions × the ecosystem |
+| `notes/14_rosetta_shape_grounding.md` | Shapes as deformable containers of equation-complexes — morphometrics, equivariant bifurcation, Kendall shape space |
+| `notes/15_physical_shape_instrument.md` | The physical octahedron: build, instrument, falsify (E-P1…E-P8) |
+| `notes/17_fractals_bio_cosmo_trig.md` | Fractals, biological solution search, cosmology, trigonometry — and the fold normal form tying them together |
+| `notes/18_flip_as_event.md` | The flip as event: zoom states, snap information, shape specialization, coordination |
 
 ### Integration
 | File | What it is |
@@ -67,9 +74,12 @@ was moved out. Its topics config now carries one topic per hypothesis in `TODO.m
 
 ## Known gaps in this bundle
 
-- **Phase 7 outputs are missing.** `TODO.md`'s session log describes
-  `notes/11_meta_structures_consciousness_bio_intelligence.md` and
-  `integration/EXPLORE_AND_EXPERIMENT.md`; neither is in the archive. The bundle stops at Phase 6.
+- **Phase 7 notes have since arrived** — `notes/11` through `notes/18` are here, with two gaps:
+  `notes/16` is absent from the sequence, and `integration/EXPLORE_AND_EXPERIMENT.md`, which
+  `TODO.md`'s session log describes, has still not been supplied.
+- Several of these notes are **load-bearing for `sims/`**: notes/15 specifies the E-P2 protocol
+  that `sims/ep2_prereg` pre-registers, notes/13 states the κ_eff claim that `sims/kappa_eff`
+  tests, and notes/17 §1 contains the fractal-basin numbers that `sims/fractal_basin` replicates.
 - Several documents reference `/mnt/agents/output/...` paths from the workspace that produced them.
   Those paths correspond to this folder's root — mentally substitute `research/`.
 - Citations in `TODO.md` are still bracketed placeholders (`[ieee]`, `[arxiv]`, …). `notes/09` has

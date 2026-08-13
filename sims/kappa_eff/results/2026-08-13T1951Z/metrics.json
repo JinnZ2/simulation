@@ -1,0 +1,555 @@
+{
+  "details": {
+    "0.02": {
+      "kill_fired": 5,
+      "leads": [
+        -0.7,
+        0.05,
+        -0.25,
+        -0.95,
+        0.65
+      ],
+      "n": 5,
+      "no_collapse": 0,
+      "no_gain_over_null": 3,
+      "pass_all": 0
+    },
+    "0.05": {
+      "kill_fired": 5,
+      "leads": [
+        -0.75,
+        0.05,
+        -0.25,
+        -1.75,
+        0.0
+      ],
+      "n": 5,
+      "no_collapse": 0,
+      "no_gain_over_null": 4,
+      "pass_all": 0
+    },
+    "0.1": {
+      "kill_fired": 5,
+      "leads": [
+        -1.5,
+        0.05,
+        -0.25,
+        0.0,
+        -0.5
+      ],
+      "n": 5,
+      "no_collapse": 0,
+      "no_gain_over_null": 4,
+      "pass_all": 0
+    }
+  },
+  "elapsed_s": 4.613,
+  "environment": {
+    "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+    "python": "3.11.15"
+  },
+  "name": "kappa_eff",
+  "null_model": "random_ray",
+  "null_observations": [
+    {
+      "metrics": {
+        "rand_base_acc": 0.914,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 0.5,
+        "rand_k1": 1.0,
+        "rand_k2": 0.0,
+        "rand_lead": 0.5,
+        "rand_peak_alpha": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.662,
+        "rand_collapsed": 0.0,
+        "rand_drop_alpha": NaN,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": NaN,
+        "rand_peak_alpha": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.854,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 0.75,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": 0.25,
+        "rand_peak_alpha": 0.5
+      },
+      "seed": 2,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.894,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 2.0,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": 0.5,
+        "rand_peak_alpha": 1.5
+      },
+      "seed": 3,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.856,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 0.75,
+        "rand_k1": 0.0,
+        "rand_k2": 1.0,
+        "rand_lead": -0.75,
+        "rand_peak_alpha": 1.5
+      },
+      "seed": 4,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.914,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 0.75,
+        "rand_k1": 1.0,
+        "rand_k2": 0.0,
+        "rand_lead": 0.75,
+        "rand_peak_alpha": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.662,
+        "rand_collapsed": 0.0,
+        "rand_drop_alpha": NaN,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": NaN,
+        "rand_peak_alpha": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.854,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 0.75,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": 0.25,
+        "rand_peak_alpha": 0.5
+      },
+      "seed": 2,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.894,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 3.0,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": 1.5,
+        "rand_peak_alpha": 1.5
+      },
+      "seed": 3,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.856,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 1.5,
+        "rand_k1": 0.0,
+        "rand_k2": 1.0,
+        "rand_lead": 0.0,
+        "rand_peak_alpha": 1.5
+      },
+      "seed": 4,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.914,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 1.5,
+        "rand_k1": 1.0,
+        "rand_k2": 0.0,
+        "rand_lead": 1.5,
+        "rand_peak_alpha": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.662,
+        "rand_collapsed": 0.0,
+        "rand_drop_alpha": NaN,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": NaN,
+        "rand_peak_alpha": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.854,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 0.75,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": 0.25,
+        "rand_peak_alpha": 0.5
+      },
+      "seed": 2,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.894,
+        "rand_collapsed": 0.0,
+        "rand_drop_alpha": NaN,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": NaN,
+        "rand_peak_alpha": 1.5
+      },
+      "seed": 3,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "rand_base_acc": 0.856,
+        "rand_collapsed": 1.0,
+        "rand_drop_alpha": 2.0,
+        "rand_k1": 0.0,
+        "rand_k2": 0.0,
+        "rand_lead": 0.5,
+        "rand_peak_alpha": 1.5
+      },
+      "seed": 4,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    }
+  ],
+  "observations": [
+    {
+      "metrics": {
+        "grad_base_acc": 0.914,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.1,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": -0.19999999999999998,
+        "grad_peak_alpha": 0.3,
+        "random_collapsed": 1.0,
+        "random_lead": 0.5
+      },
+      "seed": 0,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.662,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.05,
+        "grad_k1": 1.0,
+        "grad_k2": 0.0,
+        "grad_lead": 0.05,
+        "grad_peak_alpha": 0.0,
+        "random_collapsed": 0.0,
+        "random_lead": NaN
+      },
+      "seed": 1,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.854,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.2,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": 0.0,
+        "grad_peak_alpha": 0.2,
+        "random_collapsed": 1.0,
+        "random_lead": 0.25
+      },
+      "seed": 2,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.894,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.3,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": -0.45,
+        "grad_peak_alpha": 0.75,
+        "random_collapsed": 1.0,
+        "random_lead": 0.5
+      },
+      "seed": 3,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.856,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.1,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": -0.1,
+        "grad_peak_alpha": 0.2,
+        "random_collapsed": 1.0,
+        "random_lead": -0.75
+      },
+      "seed": 4,
+      "sweep": {
+        "accuracy_drop_threshold": 0.02
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.914,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.3,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": 0.0,
+        "grad_peak_alpha": 0.3,
+        "random_collapsed": 1.0,
+        "random_lead": 0.75
+      },
+      "seed": 0,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.662,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.05,
+        "grad_k1": 1.0,
+        "grad_k2": 0.0,
+        "grad_lead": 0.05,
+        "grad_peak_alpha": 0.0,
+        "random_collapsed": 0.0,
+        "random_lead": NaN
+      },
+      "seed": 1,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.854,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.2,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": 0.0,
+        "grad_peak_alpha": 0.2,
+        "random_collapsed": 1.0,
+        "random_lead": 0.25
+      },
+      "seed": 2,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.894,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.5,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": -0.25,
+        "grad_peak_alpha": 0.75,
+        "random_collapsed": 1.0,
+        "random_lead": 1.5
+      },
+      "seed": 3,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.856,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.2,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": 0.0,
+        "grad_peak_alpha": 0.2,
+        "random_collapsed": 1.0,
+        "random_lead": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "accuracy_drop_threshold": 0.05
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.914,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.3,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": 0.0,
+        "grad_peak_alpha": 0.3,
+        "random_collapsed": 1.0,
+        "random_lead": 1.5
+      },
+      "seed": 0,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.662,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.05,
+        "grad_k1": 1.0,
+        "grad_k2": 0.0,
+        "grad_lead": 0.05,
+        "grad_peak_alpha": 0.0,
+        "random_collapsed": 0.0,
+        "random_lead": NaN
+      },
+      "seed": 1,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.854,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.2,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": 0.0,
+        "grad_peak_alpha": 0.2,
+        "random_collapsed": 1.0,
+        "random_lead": 0.25
+      },
+      "seed": 2,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.894,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.75,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": 0.0,
+        "grad_peak_alpha": 0.75,
+        "random_collapsed": 0.0,
+        "random_lead": NaN
+      },
+      "seed": 3,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "grad_base_acc": 0.856,
+        "grad_collapsed": 1.0,
+        "grad_drop_alpha": 0.2,
+        "grad_k1": 0.0,
+        "grad_k2": 1.0,
+        "grad_lead": 0.0,
+        "grad_peak_alpha": 0.2,
+        "random_collapsed": 1.0,
+        "random_lead": 0.5
+      },
+      "seed": 4,
+      "sweep": {
+        "accuracy_drop_threshold": 0.1
+      }
+    }
+  ],
+  "pilot": false,
+  "reason": "threshold=0.02: K1/K2 fired at 5/5 seeds; threshold=0.02: gradient ray's lead no better than a random ray's at 3/5 seeds; threshold=0.05: K1/K2 fired at 5/5 seeds; threshold=0.05: gradient ray's lead no better than a random ray's at 4/5 seeds; threshold=0.1: K1/K2 fired at 5/5 seeds; threshold=0.1: gradient ray's lead no better than a random ray's at 4/5 seeds",
+  "run_at": "2026-08-13T19:51:18Z",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "accuracy_drop_threshold": [
+      0.02,
+      0.05,
+      0.1
+    ]
+  },
+  "verdict": "REFUTED"
+}
