@@ -1,0 +1,1729 @@
+{
+  "claims": [
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Blazar Boosted Dark Matter in IceCube reports: We study the sensitivity of IceCube to blazar-boosted dark matter in a fermionic dark matter model with a massive vector mediator coupling to quarks.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.75,
+      "passed": 2,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 0,
+      "id": "e1ed167e9c9aa3624fddb369",
+      "source_url": "http://arxiv.org/abs/2608.14549v1",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Forging Self-Funded Marketplaces among Strategic Agents reports: We introduce the problem of designing mechanisms that incentivize strategic agents to form self-funded marketplaces.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 1,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 0,
+      "id": "f5d960d4543816f887b595e1",
+      "source_url": "http://arxiv.org/abs/2608.14548v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Cosmic Ray Diffusion and the Origin of Very High Energy Gamma-Ray Emission in Young Massive Stellar Clusters reports: The search for Galactic sources capable of accelerating cosmic rays (CRs) to PeV energies has advanced significantly in recent years.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 0,
+      "id": "aa637d01d446e92d7bb4c789",
+      "source_url": "http://arxiv.org/abs/2608.14547v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing reports: With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 3,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 0,
+      "id": "84ed0102fd920ba97e6fbab9",
+      "source_url": "http://arxiv.org/abs/2608.14546v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, MagnifiQ: Patch-aware Text Guided Progressive Upscaling for High-Resolution Image Restoration reports: High-resolution image restoration from degraded inputs is challenging because it must preserve global structural consistency while recovering fine-grained local details, especially at 4K resolution where direct diffusion-based restoration is computationally expensive and prone to repeated or inconsi",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 0,
+      "id": "f462262a6f26cfa1b2e993ed",
+      "source_url": "http://arxiv.org/abs/2608.14543v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Personality Traits as Moderators of Human Trust and Reliance on Large Language Model-Powered Conversational Agents: A Scoping Review and the Personality–Trust Calibration Framework reports: Large language model (LLM)-powered conversational agents now mediate consequential decisions, yet individuals differ markedly in how far they trust and rely on them.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8,
+      "passed": 3,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "f2d8dd55c37978043e112137",
+      "source_url": "https://doi.org/10.31234/osf.io/2mdu8_v1",
+      "status_override": "",
+      "beta_confidence": 0.8,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Enhancing Automatic Text Evaluation through Calibration-Aware Large Language Model Autoraters reports: The rapid proliferation of large language models has created an urgent need for reliable, scalable, and cost-effective automatic evaluation methods.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8571428571428571,
+      "passed": 11,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "a0c6da4c536c012509c81520",
+      "source_url": "https://doi.org/10.14293/pr2199.003506.v1",
+      "status_override": "",
+      "beta_confidence": 0.8571428571428571,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Evaluating Large Language Model Agents for Simulink Model Repair reports: Simulink is widely used for model-based design and simulation across engineering domains, yet debugging Simulink models remains labor intensive, especially when errors do not produce compilation diagnostics. [restricted: narrower scope within calibration and falsifiability of LLM agents (run 2026-08-17)]",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 1,
+      "id": "c394f32d30e0465ef17bca93",
+      "source_url": "https://doi.org/10.2139/ssrn.7138608",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Large Language Model Agents reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8181818181818182,
+      "passed": 8,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "6926d0d7c22af7cbf293e3b0",
+      "source_url": "https://doi.org/10.1007/978-3-031-92285-5_8",
+      "status_override": "",
+      "beta_confidence": 0.8181818181818182,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Exploring Large Language Model Agents in Game Theory: A Comprehensive Survey reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8,
+      "passed": 7,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "2ac4cb4615c5183c5a663c1f",
+      "source_url": "https://doi.org/10.5220/0014378900004918",
+      "status_override": "",
+      "beta_confidence": 0.8,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils reports: Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 0,
+      "id": "fb076f8e1279620b41b7c798",
+      "source_url": "http://arxiv.org/abs/2608.14539v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Finding Vulnerabilities via LLM-Augmented Semantics-Aware Type-Checking reports: Vulnerability detection via static analysis traditionally relies on security experts encoding insecure coding patterns into algorithmic rules.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 0,
+      "id": "7f2cc0d2cb27664b651d7b72",
+      "source_url": "http://arxiv.org/abs/2608.14533v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Marionette: Predicting World States, Rendering Geometry, Painting Appearance reports: Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintained by the same generative sequence.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 0,
+      "id": "b02b0036995c5b0fabea2451",
+      "source_url": "http://arxiv.org/abs/2608.14530v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Validating LLM-Modernized Scientific Software Through Differential Fault Injection reports: Large language model (LLM) agents are increasingly used to modernize the legacy Fortran underlying production scientific software, but validation of these transformations emphasizes nominal executions and may not test whether a modernization preserves the original code's response to faults, perturba [restricted: narrower scope within calibration and falsifiability of LLM agents (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv",
+        "restrictions": [
+          "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 1,
+      "id": "3006c2204b82f583f4e2f9f2",
+      "source_url": "http://arxiv.org/abs/2608.14527v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Split the Labor: Separating Evidence Interpretation from Decision Aggregation reports: Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.7142857142857143,
+      "passed": 4,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "arxiv"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / arxiv findings",
+      "reformulation_count": 0,
+      "id": "2459bee67df9a2541e9924a8",
+      "source_url": "http://arxiv.org/abs/2608.14509v1",
+      "status_override": "",
+      "beta_confidence": 0.7142857142857143,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Epistemic Closure and Falsifiability in AI-Mediated Self-Referential Systems reports: The proliferation of complex conceptual systems developed in interaction with artificial intelligence agents poses an epistemological problem not anticipated by classical theories of falsification: in such systems, the external validation agent is simultaneously a structural generator of narrative c [restricted: narrower scope within calibration and falsifiability of LLM agents (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 1,
+      "id": "644eeef8380744c4d5953166",
+      "source_url": "https://doi.org/10.20944/preprints202603.1068.v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Data2Dialogue: Structured Enterprise Knowledge Grounding in LLM Agents for Personalized Wellness Sales reports: Large language models (LLMs) have the potential to revolutionize various domains, including personalized wellness sales, by integrating structured enterprise knowledge into their frameworks.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8461538461538461,
+      "passed": 10,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "39e5ccd6ac4a84d96fb4a4ba",
+      "source_url": "https://doi.org/10.36227/techrxiv.174857733.39555292/v1",
+      "status_override": "",
+      "beta_confidence": 0.8461538461538461,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Network-Centric Distributed LLM Architecture with Epistemic Sovereignty reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "a3b74a43c786f5f8ac1ea378",
+      "source_url": "https://doi.org/10.2139/ssrn.5618412",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Elaboration Drift: How Human–LLM Interaction Erodes Epistemic Traction reports: Sycophancy-a system's tendency to agree with the user-is a recognized epistemic risk in human-LLM interaction.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 3,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "976b4680f1fa63a9bd3b6bbb",
+      "source_url": "https://doi.org/10.2139/ssrn.6480298",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Data2Dialogue: Structured Enterprise Knowledge Grounding in LLM Agents for Personalized Wellness Sales reports: Abstract\n        Large language models (LLMs) have the potential to revolutionize various domains, including personalized wellness sales, by integrating structured enterprise knowledge into their frameworks.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8181818181818182,
+      "passed": 8,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "a3b344387abf6b20cee0088c",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-6727135/v1",
+      "status_override": "",
+      "beta_confidence": 0.8181818181818182,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Confidence Elicitation Improves Selective Generation in Black-Box Large Language Models reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8461538461538461,
+      "passed": 10,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "2ca8c4130afd7c9fe9109898",
+      "source_url": "https://doi.org/10.1109/smc54092.2024.10831438",
+      "status_override": "",
+      "beta_confidence": 0.8461538461538461,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Large Language Models for Behavioral Economics: Internal Validity and Elicitation of Mental Models reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8666666666666667,
+      "passed": 12,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "9d1d00e6c3317fc613a1069c",
+      "source_url": "https://doi.org/10.2139/ssrn.4880892",
+      "status_override": "",
+      "beta_confidence": 0.8666666666666667,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, GrACE: A Generative Approach to Better Confidence Elicitation and Efficient Test-Time Scaling in Large Language Models reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8666666666666667,
+      "passed": 12,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "f5b38f718abc84c825c0354c",
+      "source_url": "https://doi.org/10.18653/v1/2026.acl-long.1069",
+      "status_override": "",
+      "beta_confidence": 0.8666666666666667,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Automating Requirements Elicitation using Large Language Models and Speech Processing reports: Problem:The elicitation of user requirements represents a critical first step in successful planning software projects, particularly when a diverse set of use cases must be considered.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.875,
+      "passed": 6,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "29936ebf8e98e7d74b762ce2",
+      "source_url": "https://doi.org/10.5194/egusphere-egu26-20967",
+      "status_override": "",
+      "beta_confidence": 0.875,
+      "status": "survived"
+    },
+    {
+      "text": "On topic calibration and falsifiability of LLM agents, Interpretable Cancer Staging Using Knowledge Elicitation in Large Language Models reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8666666666666667,
+      "passed": 12,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "calibration and falsifiability of LLM agents",
+        "source": "crossref"
+      },
+      "reference_class": "calibration and falsifiability of LLM agents / crossref findings",
+      "reformulation_count": 0,
+      "id": "3c9fdb05c10bc7cd881bd9ef",
+      "source_url": "https://doi.org/10.1109/ichi64645.2025.00080",
+      "status_override": "",
+      "beta_confidence": 0.8666666666666667,
+      "status": "survived"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, Vector-Like Fermions at FCC-ee: NLO Higgs-Strahlung Signatures and Constraints reports: We compute the one-loop effects of vector-like fermions (VLFs) on the Higgs-strahlung cross-section, the flagship precision observable of future $e^+e^-$ Higgs factories such as FCC-ee.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "arxiv"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / arxiv findings",
+      "reformulation_count": 0,
+      "id": "7fde7b1085aab4537beb7300",
+      "source_url": "http://arxiv.org/abs/2608.14538v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, Mixed identities for simple locally finite groups reports: A mixed identity of a group is a nontrivial word with constants that vanishes under every substitution of its variables.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "arxiv"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / arxiv findings",
+      "reformulation_count": 0,
+      "id": "32175d0ae531101042b997e8",
+      "source_url": "http://arxiv.org/abs/2608.14537v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "arxiv"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / arxiv findings",
+      "reformulation_count": 0,
+      "id": "3eb86edead452e98717b4561",
+      "source_url": "http://arxiv.org/abs/2608.14536v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, Building a Quantum Black Hole Microstate: A Bulk Path Integral for a Heavy Virasoro Primary reports: Consider level-$k$ $SL(2,R) \\times SL(2,R)$ Chern-Simons theory on a semi-infinite solid cylinder, with a Wilson line in the unitary principal continuous series inserted along the time direction at the center of the spatial disc.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "arxiv"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / arxiv findings",
+      "reformulation_count": 0,
+      "id": "fa8a7c9a5e104cd151d17f76",
+      "source_url": "http://arxiv.org/abs/2608.14541v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, ATLAS. IV. A JWST+MUSE Demographic Study of Ly$α$ Profiles in Little Red Dots reports: We present an initial demographic study of Ly$α$ profiles in little red dots (LRDs) at $z=3$--9 using $R\\sim1000$--4000 spectroscopy.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "arxiv"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / arxiv findings",
+      "reformulation_count": 0,
+      "id": "a6164e7efd4b76ffe367c07d",
+      "source_url": "http://arxiv.org/abs/2608.14534v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Skyrmion Fractional Chern Insulator: An Intrinsically Multiband Route to Fractionalization in Rhombohedral Graphene reports: We propose an unconventional microscopic origin for the fractional quantum anomalous Hall (FQAH) effect in rhombohedral graphene moiré superlattices: skyrmion fractionalization.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "9ecb1b6d3587fb859b4b6e86",
+      "source_url": "http://arxiv.org/abs/2608.14535v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, The inverse Galois problem of iterated Galois groups and their fixed-point proportion reports: In 1985, Odoni initiated the study of arboreal representations and the fixed-point proportion, motivated by prime density problems in arithmetic dynamics.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "0af250dc648c289fff8b1387",
+      "source_url": "http://arxiv.org/abs/2608.14524v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Limitations of post accelerating ion beams using the snowplow field in a near-critical density target reports: Laser-matter interaction at relativistic intensities is central to almost every scientific case for multi-PW laser facilities.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "3f57404d6e80d846b5c80514",
+      "source_url": "http://arxiv.org/abs/2608.14521v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Perfect Divisibility, Linear Divisibility and Chair-Free Graphs reports: A graph is perfectly divisible if every induced subgraph with at least one edge admits a partition into a perfect induced subgraph and an induced subgraph with smaller clique number.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "638ecc920a719b64a88e27a8",
+      "source_url": "http://arxiv.org/abs/2608.14519v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Visualizing Uncertainty in Non-linear Projections with Ensembles reports: Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "925aae14311bd411900a43a8",
+      "source_url": "http://arxiv.org/abs/2608.14513v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Generation-Powered Inference for Distribution-Valued Outcomes reports: Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "ff2cb69bde5a5e9d9e084d65",
+      "source_url": "http://arxiv.org/abs/2608.14542v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, Compressive Domains and a Bound for the Number of Components of the Fixed Locus of a Self-Map of the Berkovich Line reports: We introduce the notion of a \"compressive domain\" for the action of a rational function on the Berkovich projective line over a complete nontrivially-valued algebraically closed nonarchimedean field.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "arxiv"
+      },
+      "reference_class": "activation-aware quantization / arxiv findings",
+      "reformulation_count": 0,
+      "id": "245ea381550d8d109fa30474",
+      "source_url": "http://arxiv.org/abs/2608.14545v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, Learning-to-Transition for Large-scale and High-Order MIMO Detection reports: High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "arxiv"
+      },
+      "reference_class": "activation-aware quantization / arxiv findings",
+      "reformulation_count": 0,
+      "id": "c54fba1e321ecf7faa63c0ce",
+      "source_url": "http://arxiv.org/abs/2608.14511v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, Coverage-Based Calibration for Post-Training Quantization via Weighted Set Cover over Outlier Channels reports: Post-Training Quantization (PTQ) compresses large language models to low bit-widths using a small calibration set, and its quality depends strongly on which samples are chosen. [restricted: narrower scope within activation-aware quantization (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "semantic_scholar",
+        "restrictions": [
+          "narrower scope within activation-aware quantization (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "activation-aware quantization / semantic_scholar findings",
+      "reformulation_count": 1,
+      "id": "16ca01ec44e71fe7ab889a04",
+      "source_url": "https://doi.org/10.48550/arXiv.2604.24008",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, DopQ-ViT: Towards Distribution-Friendly and Outlier-Aware Post-Training Quantization for Vision Transformers reports: Vision Transformers (ViTs) have gained significant attention, but their high computing cost limits the practical applications. [restricted: narrower scope within activation-aware quantization (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "semantic_scholar",
+        "restrictions": [
+          "narrower scope within activation-aware quantization (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "activation-aware quantization / semantic_scholar findings",
+      "reformulation_count": 1,
+      "id": "30e6c6a2c1f763d22590f1d7",
+      "source_url": "https://doi.org/10.48550/arXiv.2408.03291",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, ORQ-ViT: Outlier resilient Post Training Quantization for vision transformers via outlier decomposition reports: (no abstract) [restricted: narrower scope within activation-aware quantization (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "semantic_scholar",
+        "restrictions": [
+          "narrower scope within activation-aware quantization (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "activation-aware quantization / semantic_scholar findings",
+      "reformulation_count": 1,
+      "id": "495cb28eda8d4f92d9c09e99",
+      "source_url": "https://doi.org/10.1016/j.sysarc.2025.103530",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, PTQ4DiT: Post-training Quantization for Diffusion Transformers reports: The recent introduction of Diffusion Transformers (DiTs) has demonstrated exceptional capabilities in image generation by using a different backbone architecture, departing from traditional U-Nets and embracing the scalable nature of transformers.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "activation-aware quantization / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "11f7a0ae51222791e54c949c",
+      "source_url": "https://doi.org/10.48550/arXiv.2405.16005",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, APHQ-ViT: Post-Training Quantization with Average Perturbation Hessian Based Reconstruction for Vision Transformers reports: Vision Transformers (ViTs) have become one of the most commonly used backbones for vision tasks.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.75,
+      "passed": 2,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "activation-aware quantization / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "96a1720d4ff65561200e3321",
+      "source_url": "https://doi.org/10.1109/CVPR52734.2025.00905",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, On quantitative sufficient second-order optimality conditions for elliptic optimal control problems reports: In this paper, a quantitative condition for optimality for distributed optimal control problems with box-constraints that are subject to a semilinear elliptic equation is considered.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "arxiv"
+      },
+      "reference_class": "activation-aware quantization / arxiv findings",
+      "reformulation_count": 0,
+      "id": "447432467afde21fbffbe5f7",
+      "source_url": "http://arxiv.org/abs/2608.14525v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, GPU implementation of mixed quantum-classical Liouville molecular dynamics without momentum jump reports: We implemented on GPU a mixed quantum-classical Liouville molecular dynamics simulation based on a momentum-jump-free theory.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "1ecc03415ef5bf4bc09a7421",
+      "source_url": "http://arxiv.org/abs/2608.14544v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training reports: Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "ed5f62a46f26d9cdc89602f0",
+      "source_url": "http://arxiv.org/abs/2608.14498v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Shimura curves of discriminant 14 and 15 and associated Heun Functions reports: The Shimura curve of discriminant $D$ for $D=14, 15$ is uniformized by a subgroup of an arithmetic quadrilateral Fuchsian group $(2, 2, 2, q)$, where $q=4, 6$.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "60790057e002ebbf6edaee19",
+      "source_url": "http://arxiv.org/abs/2608.14495v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, A Fixed Universal Determinant is Variationally Complete for Continuum Fermions reports: How many Slater determinants does an accurate variational description of interacting fermions require?",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "aac6c6cbfa6990e2cf32f0e0",
+      "source_url": "http://arxiv.org/abs/2608.14476v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Polynomial-Factor Deterministic NP-Hardness for SVP in Every lp Norm with p > 2 reports: For every constant $2<p<\\infty$ and every constant \\[\n  0<\\varepsilon<\n  \\min\\left\\{\\frac{p-2}{4p},\\frac18\\right\\}, \\] we give a deterministic polynomial-time reduction from 3SAT to $M^\\varepsilon$-GapSVP$_p$, where $M$ is the lattice rank.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "da5bdf7b7fd469b771052e05",
+      "source_url": "http://arxiv.org/abs/2608.14529v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, Model Compression with Keras Pruning and Post-Training Quantization reports: This talks about the techniques used to compress a model as well as improve the inference latency: training a baseline model, fine-tuning it with magnitude-based weight pruning to high sparsity, and then exporting a deployment-ready TensorFlow Lite (TFLite) model using post-training quantization (PT",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8888888888888888,
+      "passed": 7,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "f6b874c25ac60404c94204db",
+      "source_url": "https://doi.org/10.36227/techrxiv.176761848.82072851/v1",
+      "status_override": "",
+      "beta_confidence": 0.8888888888888888,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, PQK: Model Compression via Pruning, Quantization, and Knowledge Distillation reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.875,
+      "passed": 6,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "fc72a2385edecd993c6ec6a7",
+      "source_url": "https://doi.org/10.21437/interspeech.2021-248",
+      "status_override": "",
+      "beta_confidence": 0.875,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, Hierarchical Patch Compression for ColPali: Efficient Multi-Vector Document Retrieval with Dynamic Pruning and Quantization reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8333333333333334,
+      "passed": 4,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "5c13997f61f309d76a151449",
+      "source_url": "https://doi.org/10.5220/0013732500004000",
+      "status_override": "",
+      "beta_confidence": 0.8333333333333334,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, Structured Pruning and Quantization for Learned Image Compression reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8888888888888888,
+      "passed": 7,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "defa5df4182cf15052bd91e3",
+      "source_url": "https://doi.org/10.1109/icip51287.2024.10648236",
+      "status_override": "",
+      "beta_confidence": 0.8888888888888888,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8571428571428571,
+      "passed": 5,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "923032647b9cfbe2ab1f2cbf",
+      "source_url": "https://doi.org/10.52202/068431-0323",
+      "status_override": "",
+      "beta_confidence": 0.8571428571428571,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, Failure Characteristics and Strength Model of Composite Rock Samples in Contact Zone Under Compression reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.75,
+      "passed": 2,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "9f20fc2a0f5cc8cd9e233f66",
+      "source_url": "https://doi.org/10.24425/ams.2020.133197",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, Low-velocity impact and compression after impact modeling of composites using modified mesoscale model reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.75,
+      "passed": 2,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "bff2cd3348c9267fb259e590",
+      "source_url": "https://doi.org/10.1016/j.compstruct.2023.116821",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, A tension–compression asymmetric constitutive model for foam cores: FE implementation and experimental validation reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "a869f555273a13be9e220729",
+      "source_url": "https://doi.org/10.1016/j.compstruct.2026.120570",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, Failure analysis of thin-walled composite profiles subjected to axial compression using progressive failure analysis (PFA) and cohesive zone model (CZM) reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8333333333333334,
+      "passed": 4,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "e400160363f3c2eff70f4907",
+      "source_url": "https://doi.org/10.1016/j.compstruct.2021.113597",
+      "status_override": "",
+      "beta_confidence": 0.8333333333333334,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, Analytical model for CFRP confined masonry columns subjected to monotonic and cyclic compression reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "1b51e7ee818c957bfca54849",
+      "source_url": "https://doi.org/10.1016/j.compstruct.2022.115696",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers reports: As AI systems make more morally loaded decisions across society, one response has been moral preference elicitation.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "arxiv"
+      },
+      "reference_class": "compression composition and ordering / arxiv findings",
+      "reformulation_count": 0,
+      "id": "232faa1bc00bfa0016b7b52e",
+      "source_url": "http://arxiv.org/abs/2608.14522v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, Approximate Muon with low-rank adapters reports: The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "arxiv"
+      },
+      "reference_class": "compression composition and ordering / arxiv findings",
+      "reformulation_count": 0,
+      "id": "db3d30f72c1f33ff5c9d15b0",
+      "source_url": "http://arxiv.org/abs/2608.14492v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, An Empirical Comparison of Quantization, Pruning and Low-rank Neural Network Compression using the LC Toolkit reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8333333333333334,
+      "passed": 9,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "b531cae105094bf654556ad6",
+      "source_url": "https://doi.org/10.1109/ijcnn52387.2021.9533730",
+      "status_override": "",
+      "beta_confidence": 0.8333333333333334,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, Joint Compression Strategies for CNNs: A Case Study on Low Rank Factorization, Filter-based Pruning and Unstructured Pruning reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8,
+      "passed": 3,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "7e9d0751d85b2831b8433108",
+      "source_url": "https://doi.org/10.1109/isvlsi65124.2025.11130268",
+      "status_override": "",
+      "beta_confidence": 0.8,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, Learning Low-Precision Structured Subnetworks Using Joint Layerwise Channel Pruning and Uniform Quantization reports: Pruning and quantization are core techniques used to reduce the inference costs of deep neural networks.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.9166666666666666,
+      "passed": 10,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "82701e5644671b7db26e110f",
+      "source_url": "https://doi.org/10.3390/app12157829",
+      "status_override": "",
+      "beta_confidence": 0.9166666666666666,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, HAPQ: A Hardware-Aware Pruning and Quantization Pipeline for Event-Based SNN Detection reports: Autonomous driving perception demands low latency, high temporal resolution, and stringent hardware efficiency.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8888888888888888,
+      "passed": 7,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "2f338bb09c124ae6e945e9e6",
+      "source_url": "https://doi.org/10.3390/s26092910",
+      "status_override": "",
+      "beta_confidence": 0.8888888888888888,
+      "status": "survived"
+    },
+    {
+      "text": "On topic compression composition and ordering, ICE-Pruning: An Iterative Cost-Efficient Pruning Pipeline for Deep Neural Networks reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.875,
+      "passed": 6,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "ebd5b22a4947fba9212027bb",
+      "source_url": "https://doi.org/10.1109/ijcnn64981.2025.11227410",
+      "status_override": "",
+      "beta_confidence": 0.875,
+      "status": "survived"
+    },
+    {
+      "text": "On topic representation geometry under compression, A remark on the full support property reports: We show that a mass-Hom bound for a numerical pre-stability condition on a projective scheme over a field implies the support property with respect to the full numerical Grothendieck group.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "representation geometry under compression",
+        "source": "arxiv"
+      },
+      "reference_class": "representation geometry under compression / arxiv findings",
+      "reformulation_count": 0,
+      "id": "fdafc478dd5363656fdc130d",
+      "source_url": "http://arxiv.org/abs/2608.14540v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Secure Neural Network Inference for Edge Intelligence: Implications of Bandwidth and Energy Constraints reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "2eff3cd3006be7b09e9a6b8b",
+      "source_url": "https://doi.org/10.1007/978-3-031-58388-9_9",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Energy-Efficient Cooperative Inference Via Adaptive Deep Neural Network Splitting at the Edge reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "2c84360da8bb5182a4c3f33f",
+      "source_url": "https://doi.org/10.1109/icc45041.2023.10279444",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, MMORR-PCNN: A Mode-Wavelength Multiplexed Photonic Neural Network for Edge AI Inference reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "1a7009614f4503d6d2265b1f",
+      "source_url": "https://doi.org/10.2139/ssrn.5650693",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, An Energy-Efficient FPGA Accelerator for Edge AI Inference applications with unified dataflow for both Convolutional Neural Network and Depthwise Convolutional Neural Networks reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "f6364f072fc14576a6b7ebb1",
+      "source_url": "https://doi.org/10.1109/etecom66111.2025.11319073",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Poster: Scaling Up Deep Neural Network optimization for Edge Inference reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "09df8352f8413bb6cecab2e4",
+      "source_url": "https://doi.org/10.1109/sec50012.2020.00025",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, A review of state-of-the-art techniques for large language model compression reports: The rapid advancement of large language models (LLMs) has driven significant progress in natural language processing (NLP) and related domains. [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "semantic_scholar",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / semantic_scholar findings",
+      "reformulation_count": 1,
+      "id": "5c26c189e07f6ba99410ba52",
+      "source_url": "https://doi.org/10.1007/s40747-025-02019-z",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, KV Pareto: Systems-Level Optimization of KV Cache and Model Compression for Long Context Inference reports: Long-context Large Language Models (LLMs) face significant memory bottlenecks during inference due to the linear growth of key-value (KV) cache with sequence length. [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "semantic_scholar",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / semantic_scholar findings",
+      "reformulation_count": 1,
+      "id": "937ff5c880935a8ae8744158",
+      "source_url": "https://doi.org/10.48550/arXiv.2512.01953",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Low-Latency Model Compression for Real-Time Human Motion Prediction reports: One of the enablers of safety-critical and interactive cyber-physical systems, including human-robot collaboration, wearable assistive devices and intelligent surveillance, is real-time human motion prediction. [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "semantic_scholar",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / semantic_scholar findings",
+      "reformulation_count": 1,
+      "id": "2a6803174738992ac85f11ab",
+      "source_url": "https://doi.org/10.66054/jaarfe/01.01.06",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, When Compression Meets Model Compression: Memory-Efficient Double Compression for Large Language Models reports: Large language models (LLMs) exhibit excellent performance in various tasks. [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "semantic_scholar",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / semantic_scholar findings",
+      "reformulation_count": 1,
+      "id": "ebd753f017ea1ba3a4e041a1",
+      "source_url": "https://doi.org/10.18653/v1/2024.findings-emnlp.988",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, A Survey of Model Compression Techniques for TinyML Applications reports: The convergence of embedded systems and artificial intelligence has led to the rapid growth of TinyML, which enables ML inference on highly resource-constrained devices. [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "semantic_scholar",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / semantic_scholar findings",
+      "reformulation_count": 1,
+      "id": "c9e85186b0f15de85d7599a1",
+      "source_url": "https://doi.org/10.1109/ICCSC66714.2025.11135279",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Accuracy-Latency Trade-offs Under Neural Network Compression in Safety-Critical Edge AI Applications: A Controlled Simulation Study reports: Abstract\n                Neural network compression is indispensable for deploying AI on resource-constrained edge hardware across safety-critical domains including healthcare monitoring, prosthetic limb control, educational robotics, and autonomous navigation. [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "18239c2e220b9a3f8f0b27ae",
+      "source_url": "https://doi.org/10.21203/rs.3.rs-9384240/v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, On-Device Large Language Models for Mobile Applications: A Systematic Survey of Compression, Runtime Efficiency, and Accuracy Latency Privacy Energy Trade-offs reports: The rapid advancement of large language models (LLMs) has accelerated a major transition from cloud-centric inference toward on-device deployment on smartphones and edge devices. [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "b749a0fc2b17a612253d7774",
+      "source_url": "https://doi.org/10.14293/pr2199.003569.v2",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, DevOps-Aware Model Evaluation: Simulating Latency-Accuracy Trade-Offs in ML Pipelines reports: An extensive machine learning model was suggested to predict early stroke, and real-life clinical characteristics were considered. [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "7fc125cfa76ceb1c4e763d5f",
+      "source_url": "https://doi.org/10.2139/ssrn.6519939",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Auxiliary-predicted Compress Memory Model (ApCM Model): A Neural Memory Storage Model Based on Invertible Compression and Learnable Prediction reports: Current artificial intelligence systems, such as Large Language Models (LLMs), generally lack effective \"runtime\" memory mechanisms, making it difficult to adapt to dynamic and personalized interaction needs. [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "fe40f2a0fb1f22d2bfe0bf14",
+      "source_url": "https://doi.org/10.2139/ssrn.6614743",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, VillainNet: Targeted Poisoning Attacks Against SuperNets Along the Accuracy-Latency Pareto Frontier reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "dbb9c3f9016e6fc6d92d7469",
+      "source_url": "https://doi.org/10.1145/3719027.3765185",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Information-theoretic Generalization Analysis for Expected Calibration Error reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "ce047dc0b36c8184919dee49",
+      "source_url": "https://doi.org/10.52202/079017-2677",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Regression Calibration for Covariate Measurement Error reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "a83effb504ab547bea46f729",
+      "source_url": "https://doi.org/10.1201/9781315101279-7",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Calibration of Variational Quantum Classifiers Under Depolarizing Noise: Expected Calibration Error, Ansatz Expressibility, and Post-Hoc Temperature Scaling reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6,
+      "passed": 2,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref"
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 0,
+      "id": "71d0b7d0f9956ea29445e1bf",
+      "source_url": "https://doi.org/10.1109/icosaas68663.2026.11648877",
+      "status_override": "",
+      "beta_confidence": 0.6,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, Quantized Can Still Be Calibrated: A Unified Framework to Calibration in Quantized Large Language Models reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref",
+        "restrictions": [
+          "narrower scope within deployment-aware compression metrics (run 2026-08-17)"
+        ]
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 1,
+      "id": "70bb04f87436331664ad89a6",
+      "source_url": "https://doi.org/10.18653/v1/2025.acl-long.1473",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic deployment-aware compression metrics, RegCalReliab: Regression Calibration Using Reliability Studies reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 1,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "deployment-aware compression metrics",
+        "source": "crossref"
+      },
+      "reference_class": "deployment-aware compression metrics / crossref findings",
+      "reformulation_count": 0,
+      "id": "1b3a71a0dfe61f468237d396",
+      "source_url": "https://doi.org/10.32614/cran.package.regcalreliab",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    }
+  ]
+}
