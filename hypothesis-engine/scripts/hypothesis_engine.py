@@ -591,20 +591,35 @@ def stage_hidden(tree: DependencyTree, findings: list[dict[str, Any]],
             "exogenous:findings_rate": [float(findings_per_period[i % len(findings_per_period)])
                                         for i in range(n)] if findings_per_period else [],
             "exogenous:claim_outcomes": outcomes,
-            "exogenous:confidence_trend": conf_series,
-            "exogenous:source_diversity": [float(len(source_counts))] * n,
         }
+        # Two former candidates were removed after the 2026-08-17 live run:
+        #
+        #   confidence_trend = [c.beta_confidence ...]  -- NOT exogenous. The
+        #     residual is |beta_confidence - 0.5|, so when every confidence sits
+        #     on one side of 0.5 the "candidate" is an exact affine map of the
+        #     residual and r == 1.0 by algebra. Both suggestions that run emitted
+        #     were this artefact, at r = 1.0 to four decimals.
+        #   source_diversity = [len(source_counts)] * n  -- a constant series, so
+        #     pearson_r is 0 by construction and it can never fire. It padded the
+        #     candidate set without ever being a candidate.
         for name, series in candidates.items():
             if name == "exogenous:claim_outcomes":
                 continue  # trivially related; keep for future numeric checks
             r = pearson_r(residuals, series)
-            if abs(r) > 0.5:
-                suggestions.append({
-                    "topic": topic, "suggested_variable": f"hidden:{topic} vs {name}",
-                    "pearson_r": round(r, 4),
-                    "mean_abs_residual": round(sum(residuals) / len(residuals), 4),
-                    "confidence": round(min(0.95, abs(r)), 4), "at": now_iso(),
-                    "type": "hidden_variable_suggestion"})
+            if abs(r) <= 0.5:
+                continue
+            # A candidate perfectly correlated with the residual is a restatement
+            # of it, not a discovery. Real exogenous series do not hit |r| = 1.
+            if abs(abs(r) - 1.0) < 1e-9:
+                log(f"  [hidden] {name} rejected for {topic!r}: |r| = 1 means it "
+                    "restates the residual rather than explaining it")
+                continue
+            suggestions.append({
+                "topic": topic, "suggested_variable": f"hidden:{topic} vs {name}",
+                "pearson_r": round(r, 4),
+                "mean_abs_residual": round(sum(residuals) / len(residuals), 4),
+                "confidence": round(min(0.95, abs(r)), 4), "at": now_iso(),
+                "type": "hidden_variable_suggestion"})
     if suggestions:
         append_jsonl(out_path, suggestions)
     return suggestions
