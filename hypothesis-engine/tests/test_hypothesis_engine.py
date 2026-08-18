@@ -86,17 +86,29 @@ def test_reformulation_escape_hatch(workspace):
 
 
 def test_hidden_variable_scan_triggers(workspace):
+    """Fires on a genuine correlation between residuals and an exogenous rate.
+
+    The original fixture here alternated (5,0)/(0,5), which gives residuals that
+    are equal in exact arithmetic and differ by one ULP in floating point
+    (|6/7-0.5| vs |0.5-1/7| differ by 5.6e-17). The detector read that last bit
+    as r = -0.71 and the test asserted the firing. It was enshrining round-off.
+    This fixture varies the residuals for real.
+    """
     hidden = workspace / "data" / "hidden_variables.jsonl"
     tree = he.DependencyTree()
-    # synthetic claims whose residuals correlate with findings rate
-    for i, (p, f) in enumerate([(5, 0), (0, 5), (5, 0), (0, 5), (5, 0), (0, 5)]):
+    # ascending-ish residuals: beta = (1+p)/(2+p+f)
+    for i, (p, f) in enumerate([(1, 0), (9, 0), (3, 0), (19, 0), (6, 0)]):
         tree.add_claim(he.Claim(text=f"claim {i}", falsification="x",
                                 passed=p, failed=f, scope={"topic": "t"}))
-    findings = [{"date": f"2024-0{(i % 6) + 1}-01", "topic": "t",
-                 "source": "arxiv"} for i in range(12)]
+    # one period per claim, with counts that track the residuals imperfectly
+    counts = [1, 4, 2, 5, 3]
+    findings = [{"date": f"2024-0{period + 1}-01", "topic": "t", "source": "arxiv"}
+                for period, n in enumerate(counts) for _ in range(n)]
     suggestions = he.stage_hidden(tree, findings, hidden)
     assert suggestions, "expected hidden-variable suggestion on correlated series"
     assert all(s["type"] == "hidden_variable_suggestion" for s in suggestions)
+    assert all(abs(abs(s["pearson_r"]) - 1.0) > 1e-9 for s in suggestions), \
+        "a perfect correlation would be a restatement, not a discovery"
     assert he.read_jsonl(hidden)
 
 
@@ -173,3 +185,53 @@ def test_full_dry_run_main(topics, workspace, monkeypatch):
                   "--sample", str(SAMPLE)])
     assert rc == 0
     assert len(he.read_jsonl(workspace / "data" / "findings_log.jsonl")) == 5
+
+
+# --------------------------------------------------------------------------
+# stage_hidden: a candidate must be exogenous, not a restatement
+# --------------------------------------------------------------------------
+
+def _tree_from_passes(passes):
+    """A claim tree with the given pass counts (0 failures).
+
+    beta_confidence is a read-only property, (1+passed)/(2+passed+failed), so
+    the confidences are driven through the counts rather than assigned.
+    """
+    tree = he.DependencyTree()
+    for i, p in enumerate(passes):
+        tree.add_claim(he.Claim(text=f"claim {i}", falsification="x",
+                                passed=p, failed=0, scope={"topic": "t"}))
+    return tree
+
+
+def test_hidden_stage_rejects_a_candidate_that_restates_the_residual(tmp_path):
+    """The 2026-08-17 live run emitted two suggestions at r = 1.0.
+
+    Both were `confidence_trend`, which is the variable the residual is computed
+    from: residual = |beta_confidence - 0.5|, so with every confidence on one
+    side of 0.5 the two are affinely related and r is 1 by algebra. A detector
+    that reports that is reporting its own arithmetic.
+    """
+    tree = _tree_from_passes([1, 3, 7, 15])          # all confidences > 0.5
+    out = tmp_path / "hidden.jsonl"
+    suggestions = he.stage_hidden(tree, [], out)
+    assert not [s for s in suggestions if abs(abs(s["pearson_r"]) - 1.0) < 1e-9], \
+        "a perfectly correlated candidate is a restatement, not a hidden variable"
+
+
+def test_hidden_stage_no_longer_offers_confidence_trend_or_source_diversity(tmp_path):
+    tree = _tree_from_passes([1, 3, 7, 15])
+    suggestions = he.stage_hidden(tree, [], tmp_path / "h.jsonl")
+    names = " ".join(s["suggested_variable"] for s in suggestions)
+    assert "confidence_trend" not in names
+    assert "source_diversity" not in names
+
+
+def test_hidden_stage_still_reports_a_genuine_correlate(tmp_path):
+    """The guard must not silence real findings — only perfect ones."""
+    tree = _tree_from_passes([1, 9, 3, 19, 6])
+    findings = [{"date": f"2026-0{i}-01", "source": "arxiv"} for i in range(1, 6)]
+    suggestions = he.stage_hidden(tree, findings, tmp_path / "h.jsonl")
+    # findings_rate is genuinely exogenous; it may or may not clear |r| > 0.5,
+    # but nothing should be rejected as a restatement here
+    assert all(abs(abs(s["pearson_r"]) - 1.0) > 1e-9 for s in suggestions)

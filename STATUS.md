@@ -8,7 +8,7 @@ next-steps section is hand-written and survives regeneration.*
 
 **9 experiments run** — 3 supported, 5 refuted, 1 inconclusive.
 
-**145 tests pass** (sims 93, simulation 42, hypothesis-engine 10).
+**148 tests pass** (sims 93, simulation 42, hypothesis-engine 13).
 
 *A refutation is a working experiment, not a broken one.*
 
@@ -90,7 +90,23 @@ first real link between the two halves of this repo.
 - `shadow.py` found a censored result from the same
   session that produced it.
 
+## The engine is live
+
+Merged (PR #3). The cron fired **Mon 17 Aug 06:35 UTC**
+and succeeded — first real network run.
+
+- 170 findings → 87 new, 83 deduped
+- 87 claims staked, 275 pass / 92 fail
+- 24 reformulations, 0 escape-hatched
+- 8 hypothesis files, 2 new-hypothesis markers
+
+**But its hidden-variable stage was reporting
+artifacts.** Both r = 1.0 suggestions came from a
+candidate that restates the residual it's correlated
+against. Fixed; the stage is now quiet, which is
+correct. See below.
+
 ## Branch
 
-`claude/nn-compression-research-f2qg2x` — pushed.
-Not merged. Merging arms the engine's cron.
+`claude/nn-compression-research-f2qg2x` — restarted
+from main after the merge.
