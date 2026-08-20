@@ -22,3 +22,32 @@
 {"id": "ce047dc0b36c8184919dee49", "count": 1, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-17)", "at": "2026-08-17T06:37:34+00:00"}
 {"id": "a83effb504ab547bea46f729", "count": 1, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-17)", "at": "2026-08-17T06:37:34+00:00"}
 {"id": "70bb04f87436331664ad89a6", "count": 1, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-17)", "at": "2026-08-17T06:37:34+00:00"}
+{"id": "f5d960d4543816f887b595e1", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "c394f32d30e0465ef17bca93", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "3006c2204b82f583f4e2f9f2", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "644eeef8380744c4d5953166", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "16ca01ec44e71fe7ab889a04", "count": 2, "condition": "narrower scope within activation-aware quantization (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "2eff3cd3006be7b09e9a6b8b", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "2c84360da8bb5182a4c3f33f", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "1a7009614f4503d6d2265b1f", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "f6364f072fc14576a6b7ebb1", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "09df8352f8413bb6cecab2e4", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "5c26c189e07f6ba99410ba52", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "937ff5c880935a8ae8744158", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "2a6803174738992ac85f11ab", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "ebd753f017ea1ba3a4e041a1", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "c9e85186b0f15de85d7599a1", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "18239c2e220b9a3f8f0b27ae", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "b749a0fc2b17a612253d7774", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "7fc125cfa76ceb1c4e763d5f", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "fe40f2a0fb1f22d2bfe0bf14", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "71d0b7d0f9956ea29445e1bf", "count": 1, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "70bb04f87436331664ad89a6", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "1b3a71a0dfe61f468237d396", "count": 1, "condition": "narrower scope within deployment-aware compression metrics (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "8fd9ddb176625b283a88aad8", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "ecd1731ac5782f92f3435f25", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "79c68d1e805c80fc396b8bff", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "b2c836b3c249bf0808f4e23a", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "5ee94b272d576dfa5a52f9c1", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "357e05e3e7b1a5976f568f8b", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
+{"id": "9fe43aa05932104fe4678b29", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-20)", "at": "2026-08-20T06:31:04+00:00"}
