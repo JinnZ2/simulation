@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-08-20T06:31:04+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-08-24T06:40:02+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -24,10 +24,10 @@ Status: **NEW HYPOTHESIS** (16 surviving claims)
 - (0.83) On topic compression composition and ordering, Low-velocity impact and compression after impact modeling of composites using modified mesoscale model reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2023.116821)
 - (0.83) On topic compression composition and ordering, Failure analysis of thin-walled composite profiles subjected to axial compression using progressive failure analysis (PFA) and cohesive zone model (CZM) reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2021.113597)
 - (0.83) On topic compression composition and ordering, An Empirical Comparison of Quantization, Pruning and Low-rank Neural Network Compression using the LC Toolkit reports: (no abstract) — [source](https://doi.org/10.1109/ijcnn52387.2021.9533730)
+- (0.80) On topic compression composition and ordering, A tension–compression asymmetric constitutive model for foam cores: FE implementation and experimental validation reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2026.120570)
+- (0.80) On topic compression composition and ordering, Analytical model for CFRP confined masonry columns subjected to monotonic and cyclic compression reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2022.115696)
+- (0.80) On topic compression composition and ordering, Approximate Muon with low-rank adapters reports: The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. — [source](http://arxiv.org/abs/2608.14492v1)
 - (0.80) On topic compression composition and ordering, Joint Compression Strategies for CNNs: A Case Study on Low Rank Factorization, Filter-based Pruning and Unstructured Pruning reports: (no abstract) — [source](https://doi.org/10.1109/isvlsi65124.2025.11130268)
-- (0.75) On topic compression composition and ordering, A tension–compression asymmetric constitutive model for foam cores: FE implementation and experimental validation reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2026.120570)
-- (0.75) On topic compression composition and ordering, Analytical model for CFRP confined masonry columns subjected to monotonic and cyclic compression reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2022.115696)
-- (0.75) On topic compression composition and ordering, Approximate Muon with low-rank adapters reports: The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. — [source](http://arxiv.org/abs/2608.14492v1)
 
 ## Contradicted/refuted claims
 
