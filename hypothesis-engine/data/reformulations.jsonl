@@ -81,3 +81,13 @@
 {"id": "5ee94b272d576dfa5a52f9c1", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-24)", "at": "2026-08-24T06:40:02+00:00"}
 {"id": "9fe43aa05932104fe4678b29", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-24)", "at": "2026-08-24T06:40:02+00:00"}
 {"id": "191cdb6012de4fc8a28afa3a", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-24)", "at": "2026-08-24T06:40:02+00:00"}
+{"id": "8fd9ddb176625b283a88aad8", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
+{"id": "79c68d1e805c80fc396b8bff", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
+{"id": "b2c836b3c249bf0808f4e23a", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
+{"id": "5ee94b272d576dfa5a52f9c1", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
+{"id": "9fe43aa05932104fe4678b29", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
+{"id": "8bb1e36cbb3f24d5adaf9def", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
+{"id": "ebd5ddbe29880be130d1235e", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
+{"id": "191cdb6012de4fc8a28afa3a", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
+{"id": "8ebc978c2e3bfda505304d64", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
+{"id": "1c0004833f4aec91cf1f79b3", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-08-27)", "at": "2026-08-27T17:10:27+00:00"}
