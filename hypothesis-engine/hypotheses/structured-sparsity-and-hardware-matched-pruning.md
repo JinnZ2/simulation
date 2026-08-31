@@ -1,6 +1,6 @@
 # Hypothesis draft: structured sparsity and hardware-matched pruning
 
-_Regenerated 2026-08-27T17:10:27+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-08-31T12:16:17+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -12,7 +12,7 @@ Status: **candidate** (1 surviving claims)
 
 ## Supporting claims
 
-- (0.75) On topic structured sparsity and hardware-matched pruning, Quantum Speedups Require Structure or Depth reports: One of the most basic conjectures in quantum complexity theory states that every $t$-query quantum algorithm can be simulated on most inputs by a $\mathrm{poly}(t)$-query classical algorithm. — [source](http://arxiv.org/abs/2608.19158v1)
+- (0.80) On topic structured sparsity and hardware-matched pruning, Quantum Speedups Require Structure or Depth reports: One of the most basic conjectures in quantum complexity theory states that every $t$-query quantum algorithm can be simulated on most inputs by a $\mathrm{poly}(t)$-query classical algorithm. — [source](http://arxiv.org/abs/2608.19158v1)
 
 ## Contradicted/refuted claims
 

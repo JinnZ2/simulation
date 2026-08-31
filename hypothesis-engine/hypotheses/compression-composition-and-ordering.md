@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-08-27T17:10:27+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-08-31T12:16:17+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic compression composition and ordering, Model Compression with Keras Pruning and Post-Training Quantization reports: This talks about the techniques used to compress a model as well as improve the inference latency: training a baseline model, fine-tuning it with magnitude-based weight pruning to high sparsity, and then exporting a deployment-ready TensorFlow Lite (TFLite) model using post-training quantization (PT
 
-Status: **NEW HYPOTHESIS** (22 surviving claims)
+Status: **NEW HYPOTHESIS** (23 surviving claims)
 
 ## Supporting claims
 
@@ -34,6 +34,7 @@ Status: **NEW HYPOTHESIS** (22 surviving claims)
 - (0.80) On topic compression composition and ordering, Approximate Muon with low-rank adapters reports: The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. — [source](http://arxiv.org/abs/2608.14492v1)
 - (0.80) On topic compression composition and ordering, Joint Compression Strategies for CNNs: A Case Study on Low Rank Factorization, Filter-based Pruning and Unstructured Pruning reports: (no abstract) — [source](https://doi.org/10.1109/isvlsi65124.2025.11130268)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
+- (0.75) On topic compression composition and ordering, GeBDA: Building Damage Assessment as Text-Based Sequence Prediction reports: Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. — [source](http://arxiv.org/abs/2608.28567v1)
 
 ## Contradicted/refuted claims
 
