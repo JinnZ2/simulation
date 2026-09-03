@@ -1,6 +1,6 @@
 # Hypothesis draft: structured sparsity and hardware-matched pruning
 
-_Regenerated 2026-08-31T12:16:17+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-03T10:28:01+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 

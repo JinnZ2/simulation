@@ -1,6 +1,6 @@
 # Hypothesis draft: deployment-aware compression metrics
 
-_Regenerated 2026-08-31T12:16:17+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-03T10:28:01+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -23,6 +23,7 @@ Status: **NEW HYPOTHESIS** (4 surviving claims)
 
 ## Hidden-variable suspects
 
+- `hidden:deployment-aware compression metrics vs exogenous:findings_rate` r=-0.5774 conf=0.5774
 - `hidden:deployment-aware compression metrics vs exogenous:findings_rate` r=-0.5774 conf=0.5774
 
 ## Open unknowns

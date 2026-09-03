@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-08-31T12:16:17+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-03T10:28:01+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -29,12 +29,12 @@ Status: **NEW HYPOTHESIS** (23 surviving claims)
 - (0.83) On topic compression composition and ordering, An Empirical Comparison of Quantization, Pruning and Low-rank Neural Network Compression using the LC Toolkit reports: (no abstract) — [source](https://doi.org/10.1109/ijcnn52387.2021.9533730)
 - (0.83) On topic compression composition and ordering, Compressive large deformation behavior of Ep-Al composite reactive materials: a particle content and compression induced temperature rise dependent constitutive model reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2025.119550)
 - (0.83) On topic compression composition and ordering, Residual Strength Prediction of Composite Laminates Subjected to Compression After Impact (CAI) Using Intelligent Reconstruction of Impact-Induced Damage reports: (no abstract) — [source](https://doi.org/10.1007/s10443-025-10337-1)
+- (0.83) On topic compression composition and ordering, GeBDA: Building Damage Assessment as Text-Based Sequence Prediction reports: Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. — [source](http://arxiv.org/abs/2608.28567v1)
 - (0.80) On topic compression composition and ordering, A tension–compression asymmetric constitutive model for foam cores: FE implementation and experimental validation reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2026.120570)
 - (0.80) On topic compression composition and ordering, Analytical model for CFRP confined masonry columns subjected to monotonic and cyclic compression reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2022.115696)
 - (0.80) On topic compression composition and ordering, Approximate Muon with low-rank adapters reports: The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. — [source](http://arxiv.org/abs/2608.14492v1)
 - (0.80) On topic compression composition and ordering, Joint Compression Strategies for CNNs: A Case Study on Low Rank Factorization, Filter-based Pruning and Unstructured Pruning reports: (no abstract) — [source](https://doi.org/10.1109/isvlsi65124.2025.11130268)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
-- (0.75) On topic compression composition and ordering, GeBDA: Building Damage Assessment as Text-Based Sequence Prediction reports: Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. — [source](http://arxiv.org/abs/2608.28567v1)
 
 ## Contradicted/refuted claims
 
