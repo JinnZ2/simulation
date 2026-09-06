@@ -28,7 +28,7 @@ STATUS = ROOT / "STATUS.md"
 BEGIN = "<!-- generated:begin -->"
 END = "<!-- generated:end -->"
 
-SUITES = ["sims", "simulation", "hypothesis-engine"]
+SUITES = ["sims", "simulation", "hypothesis-engine", "frame-instruments"]
 
 
 def test_count(folder: str) -> int | None:
@@ -85,6 +85,7 @@ def generated_block() -> str:
     lines.append("- `sims/` — experiments + harness, live")
     lines.append("- `simulation/` — the bounded world, live")
     lines.append("- `hypothesis-engine/` — research pipeline, live")
+    lines.append("- `frame-instruments/` — runner-up trace scoring, audit isolation, split authorship, live")
     lines.append("- `research/` — notes 00–18, reference only")
     lines.append("")
 

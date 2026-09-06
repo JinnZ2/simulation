@@ -10,10 +10,11 @@ another folder — that's deliberate.
 | `simulation/` | the bounded world — logistic regeneration, deference/idolatry, shocks, Jubilee | **live**; 42 tests, full 10k-cycle run verified |
 | `hypothesis-engine/` | autonomous research pipeline — explore → log → claim → test → modify → hidden-variables → consolidate | **live**; 10 tests, offline run verified, CI wired |
 | `sims/` | physics sims under Sim Harness Standard v1 — pre-registered, self-grading, ledger-native, with a guarded recycler for refuted claims | **live**; 90 tests, 8 sims run (3 SUPPORTED, 5 REFUTED), plus a claim recycler and a shadow cartographer |
+| `frame-instruments/` | three stdlib instruments — B1 runner-up trace scoring (offline half, with permutation null), B2 audit-isolation runner (A/B/C/D, commit lock, agreement not correctness), B3 split-authorship harness (arm-tagged cases feeding B2); every run writes a `runs.jsonl` row | **live**; 23 tests, no network |
 | `research/` | imported research bundle — notes 00–18, plans, briefs, terminology map, hardware, figures, cross-repo integration matrix, and `TODO.md` | reference material |
 | `assumption_lab.py` | `AssumptionPlayground` — label exploration | standalone |
 | `culture_ontology_notes.py` | cultural ontology notes script | standalone |
-| `.github/workflows/` | `tests.yml` (all three suites + a no-PyYAML run), `hypothesis-engine.yml` | active on push |
+| `.github/workflows/` | `tests.yml` (all four suites + a no-PyYAML run), `hypothesis-engine.yml` | active on push |
 
 ## Quick start
 
