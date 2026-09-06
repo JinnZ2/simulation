@@ -91,7 +91,7 @@ class Reconstruct(unittest.TestCase):
 
 class Shuffle(unittest.TestCase):
     def test_preserves_count_and_multiset(self):
-        out, unshuffled = nullshuffle.shuffle(FIXTURE, seed=5)
+        out, unshuffled, together = nullshuffle.shuffle(FIXTURE, seed=5)
         self.assertEqual(len(out), len(FIXTURE))
         self.assertEqual(Counter(r["requirement_text"] for r in out),
                          Counter(r["requirement_text"] for r in FIXTURE))
@@ -99,6 +99,19 @@ class Shuffle(unittest.TestCase):
         self.assertTrue(all(a["item_id"] != b["item_id"] for a, b in zip(FIXTURE, out)))
         self.assertTrue(all(r["seed"] == 5 for r in out))
         self.assertEqual(out, nullshuffle.shuffle(FIXTURE, seed=5)[0])
+        self.assertEqual(together, 2)  # two items: both reconstructors must swap, so pairs travel together
+
+    def test_lists_that_shared_an_item_are_separated_when_possible(self):
+        rows = [req("i%d" % k, rec, "q-%s-%d" % (rec, k), "x") for k in range(1, 5) for rec in ("r1", "r2", "r3")]
+        for seed in range(5):
+            out, _, together = nullshuffle.shuffle(rows, seed=seed)
+            self.assertEqual(together, 0, seed)
+            self.assertEqual(len({(r["reconstructor_id"], r["item_id"]) for r in out}), 12)
+        three = [r for r in rows if r["item_id"] != "i4"]
+        self.assertEqual(nullshuffle.shuffle(three, seed=0)[2], 3)  # 3 over 3: one pair must co-move
+        shuffled, _, _ = nullshuffle.shuffle(FIXTURE + [req("i3", "r1", "q8", "y"), req("i3", "r2", "q9", "z")], seed=3)
+        out = agreement.agreement(shuffled, MATCHES, "test")
+        self.assertEqual(out[0]["matches_cross_item"], 2)
 
 
 class Agreement(unittest.TestCase):
@@ -114,10 +127,10 @@ class Agreement(unittest.TestCase):
                          (0.0, 1, 2))
 
     def test_cross_item_matches_are_counted_not_joined(self):
-        shuffled, _ = nullshuffle.shuffle(FIXTURE, seed=1)
+        shuffled, _, together = nullshuffle.shuffle(FIXTURE, seed=1)
         out = agreement.agreement(shuffled, MATCHES, "test")
         self.assertEqual(out[0]["matches_true"], 2)
-        self.assertEqual(out[0]["matches_cross_item"], 0)
+        self.assertEqual((out[0]["matches_cross_item"], together), (0, 2))
         self.assertEqual(out[0]["seed"], 1)
 
 
