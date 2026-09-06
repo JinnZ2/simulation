@@ -8,7 +8,7 @@ next-steps section is hand-written and survives regeneration.*
 
 **9 experiments run** — 3 supported, 5 refuted, 1 inconclusive.
 
-**148 tests pass** (sims 93, simulation 42, hypothesis-engine 13).
+**154 tests pass** (sims 93, simulation 42, hypothesis-engine 19).
 
 *A refutation is a working experiment, not a broken one.*
 
