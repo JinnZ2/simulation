@@ -8,6 +8,12 @@ row is rejected with its file, line number and field name.
 Token convention (stated so a producer does not guess): continuation[0] is
 the first token generated AFTER forced_token; base_continuation[0] is the
 base token at position i+1. The two lists have equal length.
+
+selection_N is the smallest N in the stage-B sweep whose top-N-by-entropy
+set contained position i. Membership is nested, so a row with
+selection_N=10 belongs to the N=10, 25 and 50 cells downstream. It is
+required, not inferred: a producer that traced every position states the
+position count.
 """
 
 from __future__ import annotations
@@ -24,7 +30,7 @@ ENTROPY_BASES = ("full", "topk")
 BASE_FIELDS = ("case_id", "model_id", "i", "token_taken", "logprob_taken",
                "topk", "entropy_i", "entropy_basis")
 TRACE_FIELDS = ("case_id", "model_id", "i", "branch_rank", "forced_token",
-                "continuation", "base_continuation")
+                "selection_N", "continuation", "base_continuation")
 
 
 def _is_num(v) -> bool:
@@ -90,6 +96,8 @@ def check_trace_row(row: dict, lineno: int, name: str = "traces.jsonl") -> None:
         raise SchemaError(f"{where}: field 'i' must be a non-negative integer")
     if not _is_int(row["branch_rank"]) or row["branch_rank"] < 2:
         raise SchemaError(f"{where}: field 'branch_rank' must be an integer >= 2")
+    if not _is_int(row["selection_N"]) or row["selection_N"] < 1:
+        raise SchemaError(f"{where}: field 'selection_N' must be an integer >= 1")
     _tokens(row, "continuation", where)
     _tokens(row, "base_continuation", where)
     if len(row["continuation"]) != len(row["base_continuation"]):

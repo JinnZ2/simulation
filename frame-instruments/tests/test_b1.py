@@ -28,9 +28,9 @@ def base_row(i, ent=1.0, taken="a", runner="b"):
             "entropy_i": ent, "entropy_basis": "topk"}
 
 
-def trace_row(i, cont, base, rank=2, forced="b"):
-    return {"case_id": "c1", "model_id": "m", "i": i, "branch_rank": rank,
-            "forced_token": forced, "continuation": cont, "base_continuation": base}
+def trace_row(i, cont, base, rank=2, forced="b", N=10):
+    return {"case_id": "c1", "model_id": "m", "i": i, "branch_rank": rank, "forced_token": forced,
+            "selection_N": N, "continuation": cont, "base_continuation": base}
 
 
 def by_dl(rows):
@@ -126,12 +126,35 @@ class SchemaAndRecord(unittest.TestCase):
             self.assertIn("entropy_basis", recs[0]["notes"])
             self.assertEqual(len(recs[0]["input_files"]), 2)
 
+    def test_selection_N_required(self):
+        row = trace_row(0, ["x"], ["y"])
+        del row["selection_N"]
+        with self.assertRaises(schema.SchemaError) as cm:
+            schema.check_trace_row(row, 2)
+        self.assertIn("selection_N", str(cm.exception))
+        self.assertEqual(score.score([base_row(0)], [trace_row(0, ["x"], ["y"], N=25)])[0]["N"], 25)
+
     def test_extra_field_rejected(self):
         row = base_row(0)
         row["label"] = "x"
         with self.assertRaises(schema.SchemaError) as cm:
             schema.check_base_row(row, 5)
         self.assertIn("label", str(cm.exception))
+
+
+class NSweep(unittest.TestCase):
+    def test_nested_membership_and_N_stability(self):
+        base = [base_row(i, ent=float(i)) for i in range(6)]
+        traces = [trace_row(i, [f"c{i}{k}" for k in range(16)], [f"b{k}" for k in range(16)],
+                            N=10 if i < 2 else 25) for i in range(6)]
+        out = summarise.summarise(score.score(base, traces))
+        cells = {(c["N"], c["D"], c["L"]): c for c in out if c["kind"] == "cell"}
+        self.assertEqual(cells[(10, 8, 2)]["n_rows"], 2)
+        self.assertEqual(cells[(25, 8, 2)]["n_rows"], 6)
+        self.assertEqual(out[0]["N_values"], [10, 25])
+        n_axis = [s for s in out if s["kind"] == "stability" and s["axis"] == "N"]
+        self.assertEqual(len(n_axis), len(D_ALL) * len(L_ALL))
+        self.assertTrue(all(s["from"] == 10 and s["to"] == 25 and "D" in s and "L" in s for s in n_axis))
 
 
 class Pipeline(unittest.TestCase):
@@ -154,6 +177,8 @@ class Pipeline(unittest.TestCase):
             for h in ("## 1.", "## 2.", "## 3.", "## 4.", "## 5.", "## 6."):
                 self.assertIn(h, text)
             self.assertIn("N5", text)
+            self.assertIn("| D | L | N | model |", text)
+            self.assertIn("N values: [10]", text)
             statuses = [r["status"] for r in read_jsonl(t / "runs.jsonl")]
             self.assertEqual(statuses, ["ok", "ok", "void", "ok", "ok", "ok"])
             seeds = [r["seed"] for r in read_jsonl(t / "runs.jsonl") if r["script"] == "permute"]

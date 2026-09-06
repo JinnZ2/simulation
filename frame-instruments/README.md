@@ -49,6 +49,11 @@ python3 -m pytest tests/ -q
 
 - `traces.jsonl`: `continuation[0]` is the first token generated after
   `forced_token`; `base_continuation[0]` is the base token at `i+1`.
+  `selection_N` is the smallest stage-B N whose top-N-by-entropy set held
+  the position; membership is nested downstream, so the N=50 cell holds
+  the N=10 and N=25 positions too. Required.
+- `separations.jsonl` carries `N`, `D` and `L` on every row; `summarise.py`
+  sweeps all three and reports adjacent-N stability beside D and L.
 - `resync_D`: an L-gram ending at or before continuation token D occurs
   anywhere in the first D base tokens. Unaligned on purpose. L is swept
   over {2, 4, 8} and written into every row.

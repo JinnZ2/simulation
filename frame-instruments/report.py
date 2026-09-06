@@ -23,7 +23,7 @@ from runrecord import SchemaError, main_guard, read_jsonl  # noqa: E402
 
 N1_RESYNC_FLOOR = 0.9      # N1 if every cell's resync_rate >= this
 N2_OVERLAP_FLOOR = 0.9     # N2 if every cell's ent_div_overlap >= this
-N3_STABILITY_FLOOR = 0.5   # N3 if any adjacent-D or adjacent-L Jaccard < this
+N3_STABILITY_FLOOR = 0.5   # N3 if any adjacent-D, -L or -N Jaccard < this
 N4_MARGIN = 0.1            # N4 if permuted mean stability >= real mean stability - this
 
 
@@ -46,10 +46,18 @@ def _table(header, rows) -> list[str]:
 
 
 def _sweep(cells, axis, other) -> list[list]:
-    """Rows of (axis value, other value, model, n, mean_div, resync, n_top) sorted by axis."""
-    key = (lambda c: (c[axis], c[other], c["model_id"]))
-    return [[c[axis], c[other], c["model_id"], c["n_rows"], c["mean_div"], c["resync_rate"], c["n_top_decile"]]
+    """Rows of (axis value, other value, N, model, n, mean_div, resync, n_top) sorted by axis."""
+    key = (lambda c: (c[axis], c[other], c["N"], c["model_id"]))
+    return [[c[axis], c[other], c["N"], c["model_id"], c["n_rows"], c["mean_div"], c["resync_rate"], c["n_top_decile"]]
             for c in sorted(cells, key=key)]
+
+
+def _fixed(s) -> str:
+    return " ".join(f"{k}={s[k]}" for k in ("N", "D", "L") if k in s)
+
+
+def _srows(stab) -> list[list]:
+    return [[s["axis"], s["model_id"], _fixed(s), s["from"], s["to"], s["jaccard"]] for s in stab]
 
 
 def _mean(xs) -> float | None:
@@ -67,9 +75,11 @@ def nulls(cells, stab, p_stab) -> list[tuple[str, bool, str]]:
                 ov_min is not None and ov_min >= N2_OVERLAP_FLOOR,
                 f"min ent_div_overlap over cells = {_fmt(ov_min)} (trigger >= {N2_OVERLAP_FLOOR})"))
     j_min = min((s["jaccard"] for s in stab), default=None)
-    out.append(("N3 results depend on D or on L",
+    worst = min(stab, key=lambda s: s["jaccard"]) if stab else None
+    axis = f" on axis {worst['axis']}" if worst else ""
+    out.append(("N3 results depend on D, L or N",
                 j_min is not None and j_min < N3_STABILITY_FLOOR,
-                f"min adjacent Jaccard = {_fmt(j_min)} (trigger < {N3_STABILITY_FLOOR})"))
+                f"min adjacent Jaccard = {_fmt(j_min)}{axis} (trigger < {N3_STABILITY_FLOOR})"))
     real_m, perm_m = _mean([s["jaccard"] for s in stab]), _mean([s["jaccard"] for s in p_stab])
     fired = real_m is not None and perm_m is not None and perm_m >= real_m - N4_MARGIN
     out.append(("N4 permuted run clusters as well as the real run", fired,
@@ -87,17 +97,16 @@ def render(real, perm) -> str:
           f"- rows: {cases['n_rows']} real, {p_cases['n_rows']} permuted",
           f"- cases ({len(cases['case_ids'])}): " + ", ".join(cases["case_ids"]),
           f"- models ({len(cases['model_ids'])}): " + ", ".join(cases["model_ids"]),
-          f"- D values: {cases['D_values']}", f"- L values: {cases['L_values']}", ""]
-    head = ["D", "L", "model", "n", "mean_div", "resync", "n_top"]
+          f"- N values: {cases['N_values']}", f"- D values: {cases['D_values']}",
+          f"- L values: {cases['L_values']}", ""]
+    head = ["D", "L", "N", "model", "n", "mean_div", "resync", "n_top"]
     L += ["## 2. D sweep", ""] + _table(head, _sweep(cells, "D", "L")) + [""]
-    L += ["## 3. L sweep", ""] + _table(["L", "D", "model", "n", "mean_div", "resync", "n_top"], _sweep(cells, "L", "D")) + [""]
+    L += ["## 3. L sweep", ""] + _table(["L", "D", "N", "model", "n", "mean_div", "resync", "n_top"], _sweep(cells, "L", "D")) + [""]
     shead = ["axis", "model", "fixed", "from", "to", "jaccard"]
-    srows = [[s["axis"], s["model_id"], s.get("L", s.get("D")), s["from"], s["to"], s["jaccard"]] for s in stab]
-    L += ["## 4. Stability overlaps", ""] + _table(shead, srows) + [""]
+    L += ["## 4. Stability overlaps", ""] + _table(shead, _srows(stab)) + [""]
     L += ["## 5. Real vs permuted", "", "Real:", ""] + _table(head, _sweep(cells, "D", "L"))
     L += ["", "Permuted:", ""] + _table(head, _sweep(p_cells, "D", "L"))
-    prows = [[s["axis"], s["model_id"], s.get("L", s.get("D")), s["from"], s["to"], s["jaccard"]] for s in p_stab]
-    L += ["", "Real stability:", ""] + _table(shead, srows) + ["", "Permuted stability:", ""] + _table(shead, prows) + [""]
+    L += ["", "Real stability:", ""] + _table(shead, _srows(stab)) + ["", "Permuted stability:", ""] + _table(shead, _srows(p_stab)) + [""]
     L += ["## 6. Nulls triggered", ""]
     for name, fired, number in nulls(cells, stab, p_stab):
         L.append(f"- {'TRIGGERED' if fired else 'not triggered'} -- {name}: {number}")

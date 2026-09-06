@@ -16,6 +16,9 @@ div_D: Levenshtein distance over tokens between the two continuations,
 both truncated at D, divided by the longer length.
 
 gap_i: logprob_taken minus the logprob of forced_token in topk at i.
+
+N: the trace's selection_N, carried through so summarise.py can sweep the
+stage-B selection rule the same way it sweeps D and L.
 """
 
 from __future__ import annotations
@@ -29,7 +32,7 @@ from schema import load_base, load_traces  # noqa: E402
 
 D_SWEEP = (8, 16, 32, 64, 128)
 L_SWEEP = (2, 4, 8)
-FIELDS = ("case_id", "model_id", "i", "branch_rank", "D", "L",
+FIELDS = ("case_id", "model_id", "i", "branch_rank", "N", "D", "L",
           "ent_i", "gap_i", "resync_D", "div_D")
 
 
@@ -84,7 +87,7 @@ def score(base_rows, traces, name: str = "traces.jsonl") -> list[dict]:
             for L in L_SWEEP:
                 out.append({
                     "case_id": t["case_id"], "model_id": t["model_id"], "i": t["i"],
-                    "branch_rank": t["branch_rank"], "D": D, "L": L,
+                    "branch_rank": t["branch_rank"], "N": t["selection_N"], "D": D, "L": L,
                     "ent_i": b["entropy_i"], "gap_i": g,
                     "resync_D": resync(t["continuation"], t["base_continuation"], D, L),
                     "div_D": round(d, 6),

@@ -4,16 +4,20 @@ file and the permuted one; nothing here branches on which it received.
     python3 summarise.py separations.jsonl summary.jsonl
 
 Rows written, by "kind":
-  cases      case_ids, model_ids, D and L values present, row count
-  cell       per (D, L, model_id): n_rows, mean_div, resync_rate,
+  cases      case_ids, model_ids, N, D and L values present, row count
+  cell       per (N, D, L, model_id): n_rows, mean_div, resync_rate,
              n_top_decile, top_decile (position keys), ent_div_overlap
   stability  Jaccard overlap of top-decile position sets between adjacent
-             D values (L fixed) and adjacent L values (D fixed)
+             D values (N, L fixed), adjacent L values (N, D fixed) and
+             adjacent N values (D, L fixed)
 
-A position key is "case_id:i:branch_rank". The top decile is the top
-ceil(n/10) rows by div_D, ties broken by position key so the set is
-deterministic. ent_div_overlap is the Jaccard overlap between the top
-decile by entropy and the top decile by div_D in the same cell.
+N levels are the distinct selection_N values present. Membership is
+nested: a row belongs to every level >= its own N, so the N=50 cell holds
+the N=10 and N=25 positions too. A position key is
+"case_id:i:branch_rank". The top decile is the top ceil(n/10) rows by
+div_D, ties broken by position key so the set is deterministic.
+ent_div_overlap is the Jaccard overlap between the top decile by entropy
+and the top decile by div_D in the same cell.
 """
 
 from __future__ import annotations
@@ -26,7 +30,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from runrecord import SchemaError, main_guard, read_jsonl, write_jsonl  # noqa: E402
 
-NEEDED = ("case_id", "model_id", "i", "branch_rank", "D", "L", "ent_i", "resync_D", "div_D")
+NEEDED = ("case_id", "model_id", "i", "branch_rank", "N", "D", "L", "ent_i", "resync_D", "div_D")
 
 
 def pos_key(r: dict) -> str:
@@ -46,54 +50,60 @@ def jaccard(a, b) -> float:
     return len(a & b) / len(a | b)
 
 
+def _cell(key, cell, deciles, out):
+    N, D, L, model = key
+    by_div = top_decile(cell, "div_D")
+    deciles[key] = by_div
+    out.append({
+        "kind": "cell", "N": N, "D": D, "L": L, "model_id": model,
+        "n_rows": len(cell),
+        "mean_div": round(sum(r["div_D"] for r in cell) / len(cell), 6),
+        "resync_rate": round(sum(r["resync_D"] for r in cell) / len(cell), 6),
+        "n_top_decile": len(by_div),
+        "top_decile": by_div,
+        "ent_div_overlap": round(jaccard(top_decile(cell, "ent_i"), by_div), 6),
+    })
+
+
+def _stability(axis, model, fixed, a, b, deciles, ka, kb, out):
+    if ka in deciles and kb in deciles:
+        row = {"kind": "stability", "axis": axis, "model_id": model}
+        row.update(fixed)
+        row.update({"from": a, "to": b, "jaccard": round(jaccard(deciles[ka], deciles[kb]), 6)})
+        out.append(row)
+
+
 def summarise(rows: list[dict]) -> list[dict]:
     for n, r in enumerate(rows, 1):
         missing = [f for f in NEEDED if f not in r]
         if missing:
             raise SchemaError(f"separations.jsonl line {n}: missing field '{missing[0]}'")
+    Ns = sorted({r["N"] for r in rows})
+    Ds = sorted({r["D"] for r in rows})
+    Ls = sorted({r["L"] for r in rows})
+    models = sorted({r["model_id"] for r in rows})
     cells: dict[tuple, list[dict]] = defaultdict(list)
     for r in rows:
-        cells[(r["D"], r["L"], r["model_id"])].append(r)
-    out = [{
-        "kind": "cases",
-        "case_ids": sorted({r["case_id"] for r in rows}),
-        "model_ids": sorted({r["model_id"] for r in rows}),
-        "D_values": sorted({r["D"] for r in rows}),
-        "L_values": sorted({r["L"] for r in rows}),
-        "n_rows": len(rows),
-    }]
+        for N in Ns:
+            if r["N"] <= N:
+                cells[(N, r["D"], r["L"], r["model_id"])].append(r)
+    out = [{"kind": "cases", "case_ids": sorted({r["case_id"] for r in rows}), "model_ids": models,
+            "N_values": Ns, "D_values": Ds, "L_values": Ls, "n_rows": len(rows)}]
     deciles: dict[tuple, list[str]] = {}
     for key in sorted(cells):
-        D, L, model = key
-        cell = cells[key]
-        by_div = top_decile(cell, "div_D")
-        by_ent = top_decile(cell, "ent_i")
-        deciles[key] = by_div
-        out.append({
-            "kind": "cell", "D": D, "L": L, "model_id": model,
-            "n_rows": len(cell),
-            "mean_div": round(sum(r["div_D"] for r in cell) / len(cell), 6),
-            "resync_rate": round(sum(r["resync_D"] for r in cell) / len(cell), 6),
-            "n_top_decile": len(by_div),
-            "top_decile": by_div,
-            "ent_div_overlap": round(jaccard(by_ent, by_div), 6),
-        })
-    Ds = sorted({k[0] for k in cells})
-    Ls = sorted({k[1] for k in cells})
-    models = sorted({k[2] for k in cells})
+        _cell(key, cells[key], deciles, out)
     for model in models:
-        for L in Ls:
-            for a, b in zip(Ds, Ds[1:]):
-                if (a, L, model) in deciles and (b, L, model) in deciles:
-                    out.append({"kind": "stability", "axis": "D", "model_id": model, "L": L,
-                                "from": a, "to": b,
-                                "jaccard": round(jaccard(deciles[(a, L, model)], deciles[(b, L, model)]), 6)})
+        for N in Ns:
+            for L in Ls:
+                for a, b in zip(Ds, Ds[1:]):
+                    _stability("D", model, {"N": N, "L": L}, a, b, deciles, (N, a, L, model), (N, b, L, model), out)
+            for D in Ds:
+                for a, b in zip(Ls, Ls[1:]):
+                    _stability("L", model, {"N": N, "D": D}, a, b, deciles, (N, D, a, model), (N, D, b, model), out)
         for D in Ds:
-            for a, b in zip(Ls, Ls[1:]):
-                if (D, a, model) in deciles and (D, b, model) in deciles:
-                    out.append({"kind": "stability", "axis": "L", "model_id": model, "D": D,
-                                "from": a, "to": b,
-                                "jaccard": round(jaccard(deciles[(D, a, model)], deciles[(D, b, model)]), 6)})
+            for L in Ls:
+                for a, b in zip(Ns, Ns[1:]):
+                    _stability("N", model, {"D": D, "L": L}, a, b, deciles, (a, D, L, model), (b, D, L, model), out)
     return out
 
 
