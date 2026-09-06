@@ -1,33 +1,34 @@
 # Hypothesis engine run report
 
-Run at: 2026-09-03T10:28:01+00:00
+Run at: 2026-09-06T03:11:43+00:00
 
 ## Stage counts
 
 - **topics**: 8
-- **raw_findings**: 160
-- **new_findings**: 33
-- **duplicates_skipped**: 127
-- **claims_staked**: 33
+- **raw_findings**: 65
+- **new_findings**: 15
+- **duplicates_skipped**: 50
+- **claims_staked**: 15
 - **routed_to_unknown**: 0
-- **test_pass**: 72
-- **test_fail**: 31
-- **test_untested**: 121
-- **modify_reformulated**: 9
-- **modify_escape_hatched**: 0
-- **hidden_variable_suggestions**: [{'topic': 'deployment-aware compression metrics', 'suggested_variable': 'hidden:deployment-aware compression metrics vs exogenous:findings_rate', 'pearson_r': -0.5774, 'mean_abs_residual': 0.3167, 'confidence': 0.5774, 'at': '2026-09-03T10:28:01+00:00', 'type': 'hidden_variable_suggestion'}]
+- **test_pass**: 159
+- **test_fail**: 30
+- **test_untested**: 117
+- **modify_reformulated**: 5
+- **modify_escape_hatched**: 2
+- **hidden_variable_suggestions**: []
 - **hypothesis_files**: 8
-- **new_hypotheses**: ['calibration and falsifiability of LLM agents', 'deployment-aware compression metrics', 'compression composition and ordering', 'activation-aware quantization']
-- **total_claims_in_tree**: 241
+- **new_hypotheses**: ['activation-aware quantization', 'compression composition and ordering', 'deployment-aware compression metrics', 'hidden variable detection / causal discovery from residuals', 'calibration and falsifiability of LLM agents']
+- **total_claims_in_tree**: 254
 
 ## New hypotheses
 NEW HYPOTHESIS
 
-- calibration and falsifiability of LLM agents
-- deployment-aware compression metrics
-- compression composition and ordering
 - activation-aware quantization
+- compression composition and ordering
+- deployment-aware compression metrics
+- hidden variable detection / causal discovery from residuals
+- calibration and falsifiability of LLM agents
 
 ## Top hidden-variable suspects
 
-- hidden:deployment-aware compression metrics vs exogenous:findings_rate (r=-0.5774)
+- (none)
