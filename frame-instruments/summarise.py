@@ -10,6 +10,12 @@ Rows written, by "kind":
   stability  Jaccard overlap of top-decile position sets between adjacent
              D values (N, L fixed), adjacent L values (N, D fixed) and
              adjacent N values (D, L fixed)
+  cross_model per (N, D, L, case_id, model pair): Jaccard overlap of the
+             two models' top-decile positions on that case (RU-4). Only
+             written when two or more models are present. Positions are
+             compared by index i, so this is meaningful only where the
+             models share a tokenizer or the producer aligned positions;
+             the permuted file supplies the chance level.
 
 N levels are the distinct selection_N values present. Membership is
 nested: a row belongs to every level >= its own N, so the N=50 cell holds
@@ -73,6 +79,26 @@ def _stability(axis, model, fixed, a, b, deciles, ka, kb, out):
         out.append(row)
 
 
+def _cross_model(Ns, Ds, Ls, models, cases, deciles, out):
+    if len(models) < 2:
+        return
+    for N in Ns:
+        for D in Ds:
+            for L in Ls:
+                for case in cases:
+                    for ia, a in enumerate(models):
+                        for b in models[ia + 1:]:
+                            ka, kb = (N, D, L, a), (N, D, L, b)
+                            if ka not in deciles or kb not in deciles:
+                                continue
+                            sa = [k for k in deciles[ka] if k.startswith(case + ":")]
+                            sb = [k for k in deciles[kb] if k.startswith(case + ":")]
+                            if not sa and not sb:
+                                continue
+                            out.append({"kind": "cross_model", "N": N, "D": D, "L": L, "case_id": case,
+                                        "model_a": a, "model_b": b, "jaccard": round(jaccard(sa, sb), 6)})
+
+
 def summarise(rows: list[dict]) -> list[dict]:
     for n, r in enumerate(rows, 1):
         missing = [f for f in NEEDED if f not in r]
@@ -87,7 +113,8 @@ def summarise(rows: list[dict]) -> list[dict]:
         for N in Ns:
             if r["N"] <= N:
                 cells[(N, r["D"], r["L"], r["model_id"])].append(r)
-    out = [{"kind": "cases", "case_ids": sorted({r["case_id"] for r in rows}), "model_ids": models,
+    cases = sorted({r["case_id"] for r in rows})
+    out = [{"kind": "cases", "case_ids": cases, "model_ids": models,
             "N_values": Ns, "D_values": Ds, "L_values": Ls, "n_rows": len(rows)}]
     deciles: dict[tuple, list[str]] = {}
     for key in sorted(cells):
@@ -104,6 +131,7 @@ def summarise(rows: list[dict]) -> list[dict]:
             for L in Ls:
                 for a, b in zip(Ns, Ns[1:]):
                     _stability("N", model, {"D": D, "L": L}, a, b, deciles, (a, D, L, model), (b, D, L, model), out)
+    _cross_model(Ns, Ds, Ls, models, cases, deciles, out)
     return out
 
 
@@ -116,7 +144,8 @@ def _body(args):
     write_jsonl(args[1], out)
     counts = {"rows": len(rows),
               "cells": sum(1 for r in out if r["kind"] == "cell"),
-              "stability": sum(1 for r in out if r["kind"] == "stability")}
+              "stability": sum(1 for r in out if r["kind"] == "stability"),
+              "cross_model": sum(1 for r in out if r["kind"] == "cross_model")}
     return "ok", counts, ""
 
 

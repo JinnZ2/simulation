@@ -54,6 +54,10 @@ python3 -m pytest tests/ -q
   the N=10 and N=25 positions too. Required.
 - `separations.jsonl` carries `N`, `D` and `L` on every row; `summarise.py`
   sweeps all three and reports adjacent-N stability beside D and L.
+- Cross-model overlap (RU-4) is written only when two or more models are
+  present, and compares positions by index i. It is meaningful only where
+  the models share a tokenizer or the producer aligned positions. The
+  permuted file is its chance level; there is no threshold.
 - `resync_D`: an L-gram ending at or before continuation token D occurs
   anywhere in the first D base tokens. Unaligned on purpose. L is swept
   over {2, 4, 8} and written into every row.

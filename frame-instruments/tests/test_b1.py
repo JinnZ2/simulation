@@ -22,14 +22,14 @@ D_ALL = score.D_SWEEP
 L_ALL = score.L_SWEEP
 
 
-def base_row(i, ent=1.0, taken="a", runner="b"):
-    return {"case_id": "c1", "model_id": "m", "i": i, "token_taken": taken,
+def base_row(i, ent=1.0, taken="a", runner="b", model="m"):
+    return {"case_id": "c1", "model_id": model, "i": i, "token_taken": taken,
             "logprob_taken": -0.5, "topk": [[taken, -0.5], [runner, -1.5], ["z", -3.0]],
             "entropy_i": ent, "entropy_basis": "topk"}
 
 
-def trace_row(i, cont, base, rank=2, forced="b", N=10):
-    return {"case_id": "c1", "model_id": "m", "i": i, "branch_rank": rank, "forced_token": forced,
+def trace_row(i, cont, base, rank=2, forced="b", N=10, model="m"):
+    return {"case_id": "c1", "model_id": model, "i": i, "branch_rank": rank, "forced_token": forced,
             "selection_N": N, "continuation": cont, "base_continuation": base}
 
 
@@ -157,6 +157,31 @@ class NSweep(unittest.TestCase):
         self.assertTrue(all(s["from"] == 10 and s["to"] == 25 and "D" in s and "L" in s for s in n_axis))
 
 
+class CrossModel(unittest.TestCase):
+    def _two_models(self, flip):
+        base, traces = [], []
+        for model in ("m1", "m2"):
+            for i in range(10):
+                base.append(base_row(i, ent=float(i), model=model))
+                # m1 separates at i=9; m2 at i=9 too, or at i=0 when flipped
+                sep = (i == 9) if (model == "m1" or not flip) else (i == 0)
+                cont = [f"x{i}{k}" for k in range(16)] if sep else [f"b{k}" for k in range(16)]
+                traces.append(trace_row(i, cont, [f"b{k}" for k in range(16)], model=model))
+        return summarise.summarise(score.score(base, traces))
+
+    def test_same_positions_overlap_fully_and_disjoint_zero(self):
+        xm = [r for r in self._two_models(flip=False) if r["kind"] == "cross_model"]
+        self.assertEqual(len(xm), len(D_ALL) * len(L_ALL))
+        self.assertTrue(all(r["jaccard"] == 1.0 and r["case_id"] == "c1" for r in xm))
+        self.assertEqual({(r["model_a"], r["model_b"]) for r in xm}, {("m1", "m2")})
+        xm = [r for r in self._two_models(flip=True) if r["kind"] == "cross_model"]
+        self.assertTrue(all(r["jaccard"] == 0.0 for r in xm))
+
+    def test_single_model_writes_no_cross_rows(self):
+        out = summarise.summarise(score.score([base_row(0)], [trace_row(0, ["x"] * 8, ["y"] * 8)]))
+        self.assertFalse([r for r in out if r["kind"] == "cross_model"])
+
+
 class Pipeline(unittest.TestCase):
     def test_end_to_end_and_void_without_permuted(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -179,6 +204,7 @@ class Pipeline(unittest.TestCase):
             self.assertIn("N5", text)
             self.assertIn("| D | L | N | model |", text)
             self.assertIn("N values: [10]", text)
+            self.assertIn("one model present", text)
             statuses = [r["status"] for r in read_jsonl(t / "runs.jsonl")]
             self.assertEqual(statuses, ["ok", "ok", "void", "ok", "ok", "ok"])
             seeds = [r["seed"] for r in read_jsonl(t / "runs.jsonl") if r["script"] == "permute"]

@@ -32,7 +32,9 @@ def _load(path):
     cases = [r for r in rows if r.get("kind") == "cases"]
     if len(cases) != 1:
         raise SchemaError(f"{Path(path).name}: expected exactly one 'cases' row, found {len(cases)}")
-    return cases[0], [r for r in rows if r.get("kind") == "cell"], [r for r in rows if r.get("kind") == "stability"]
+    return (cases[0], [r for r in rows if r.get("kind") == "cell"],
+            [r for r in rows if r.get("kind") == "stability"],
+            [r for r in rows if r.get("kind") == "cross_model"])
 
 
 def _fmt(x) -> str:
@@ -54,6 +56,16 @@ def _sweep(cells, axis, other) -> list[list]:
 
 def _fixed(s) -> str:
     return " ".join(f"{k}={s[k]}" for k in ("N", "D", "L") if k in s)
+
+
+def _xrows(xm) -> list[list]:
+    return [[x["N"], x["D"], x["L"], x["case_id"], x["model_a"], x["model_b"], x["jaccard"]] for x in xm]
+
+
+def _xsection(xm, title) -> list[str]:
+    if not xm:
+        return [title, "", "(one model present; cross-model overlap needs two)", ""]
+    return [title, ""] + _table(["N", "D", "L", "case", "model_a", "model_b", "jaccard"], _xrows(xm)) + [""]
 
 
 def _srows(stab) -> list[list]:
@@ -90,8 +102,8 @@ def nulls(cells, stab, p_stab) -> list[tuple[str, bool, str]]:
 
 
 def render(real, perm) -> str:
-    cases, cells, stab = real
-    p_cases, p_cells, p_stab = perm
+    cases, cells, stab, xm = real
+    p_cases, p_cells, p_stab, p_xm = perm
     L = ["# Runner-up trace report", ""]
     L += ["## 1. Counts and case set", "",
           f"- rows: {cases['n_rows']} real, {p_cases['n_rows']} permuted",
@@ -104,9 +116,11 @@ def render(real, perm) -> str:
     L += ["## 3. L sweep", ""] + _table(["L", "D", "N", "model", "n", "mean_div", "resync", "n_top"], _sweep(cells, "L", "D")) + [""]
     shead = ["axis", "model", "fixed", "from", "to", "jaccard"]
     L += ["## 4. Stability overlaps", ""] + _table(shead, _srows(stab)) + [""]
+    L += _xsection(xm, "Cross-model overlap (RU-4; positions compared by index i):")
     L += ["## 5. Real vs permuted", "", "Real:", ""] + _table(head, _sweep(cells, "D", "L"))
     L += ["", "Permuted:", ""] + _table(head, _sweep(p_cells, "D", "L"))
     L += ["", "Real stability:", ""] + _table(shead, _srows(stab)) + ["", "Permuted stability:", ""] + _table(shead, _srows(p_stab)) + [""]
+    L += _xsection(xm, "Real cross-model:") + _xsection(p_xm, "Permuted cross-model (chance level):")
     L += ["## 6. Nulls triggered", ""]
     for name, fired, number in nulls(cells, stab, p_stab):
         L.append(f"- {'TRIGGERED' if fired else 'not triggered'} -- {name}: {number}")
@@ -120,7 +134,8 @@ def _body(args):
     text = render(real, perm)
     Path(args[2]).write_text(text, encoding="utf-8")
     fired = sum(1 for _, f, _ in nulls(real[1], real[2], perm[2]) if f)
-    return "ok", {"cells": len(real[1]), "stability": len(real[2]), "nulls_triggered": fired}, ""
+    counts = {"cells": len(real[1]), "stability": len(real[2]), "cross_model": len(real[3]), "nulls_triggered": fired}
+    return "ok", counts, ""
 
 
 def main(argv=None) -> int:
