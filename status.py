@@ -85,7 +85,7 @@ def generated_block() -> str:
     lines.append("- `sims/` — experiments + harness, live")
     lines.append("- `simulation/` — the bounded world, live")
     lines.append("- `hypothesis-engine/` — research pipeline, live")
-    lines.append("- `frame-instruments/` — runner-up trace scoring, audit isolation, split authorship, live")
+    lines.append("- `frame-instruments/` — runner-up trace scoring, audit isolation, split authorship, dilemma reconstruction, live")
     lines.append("- `research/` — notes 00–18, reference only")
     lines.append("")
 

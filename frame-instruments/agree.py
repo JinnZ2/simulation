@@ -19,6 +19,11 @@ Output rows, by "kind", in this order:
 
 Ratification is (posed, target) equal to the key's; it is a comparison
 with the artifact under test, not a correctness score.
+
+Every output row carries match_source: who or what decided that two
+calls match. Here it is "exact" (string equality). b4/agreement.py, which
+wraps this module, passes the external matcher's name instead. The
+matcher is a frame entry point and has to be visible in the record.
 """
 
 from __future__ import annotations
@@ -134,6 +139,15 @@ def anchoring(audits, keys) -> dict:
             "paired_D_readers": paired}
 
 
+def stamp(rows: list[dict], match_source: str) -> list[dict]:
+    """Add match_source to every output row. The one field B4 adds."""
+    if not isinstance(match_source, str) or not match_source.strip():
+        raise SchemaError("match_source must be a non-empty string")
+    for r in rows:
+        r["match_source"] = match_source
+    return rows
+
+
 def _body(args):
     audits = load_audits(args[0])
     keys = {c["case_id"]: {"kt": (c["key_posed"], c["key_target"]), "arm": c.get("arm")}
@@ -142,7 +156,7 @@ def _body(args):
         write_jsonl(args[2], [])
         return "empty", {"audits": 0}, ""
     oc = order_check(audits)
-    rows = [oc, anchoring(audits, keys)] + cells(audits, keys)
+    rows = stamp([oc, anchoring(audits, keys)] + cells(audits, keys), "exact")
     write_jsonl(args[2], rows)
     head = f"order_check divergent={oc['divergent']} gap={oc['gap']}"
     return "ok", {"audits": len(audits), "cells": len(rows) - 2}, head

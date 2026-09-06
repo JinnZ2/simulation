@@ -137,6 +137,7 @@ class Agreement(unittest.TestCase):
             self.assertAlmostEqual(anch["ratify_D1"], 0.0)
             self.assertAlmostEqual(anch["D1_to_D2_switched_to_key"], 0.5)
             self.assertTrue(all(r.get("arm") == "split" for r in rows if r["kind"] == "cell"))
+            self.assertTrue(all(r["match_source"] == "exact" for r in rows))
             self.assertFalse(any(k in r for r in rows for k in ("label", "category", "type", "interpretation")))
 
 
