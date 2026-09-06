@@ -37,8 +37,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -61,9 +61,9 @@ jobs:
     # so a pathological all-timeout run needs ~18 min. 15 was too tight.
     timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -87,6 +87,11 @@ jobs:
           EOF
 
       - name: Run hypothesis engine
+        env:
+          # Optional. Semantic Scholar rate-limits anonymous traffic hard; a
+          # key (free, https://www.semanticscholar.org/product/api) gives the
+          # engine its own quota. Absent, the source degrades to best-effort.
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
         run: |
           python scripts/hypothesis_engine.py \
             --config config/topics.effective.json \
@@ -94,7 +99,7 @@ jobs:
             ${{ inputs.dry_run && '--dry-run' || '' }}
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: hypothesis-engine-output
           path: |
@@ -103,7 +108,12 @@ jobs:
           if-no-files-found: ignore
           retention-days: 30
 
+      # A dry run reads the bundled sample corpus, so its output must never
+      # reach the repo or an issue: committing it would overwrite the real
+      # digest with fixture data, and that is the one path meant to be safe
+      # to test with.
       - name: Commit results
+        if: ${{ !inputs.dry_run }}
         run: |
           rm -f config/topics.effective.json
           git config user.name "hypothesis-engine[bot]"
@@ -113,22 +123,29 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore(engine): research digest $(date -u +%Y-%m-%d)"
-            git push
+            # Anything landing on the branch between checkout and here would
+            # otherwise reject the push and lose the run's digest entirely.
+            # Replaying on top is the right resolution: the digest only ever
+            # appends generated files. A genuine conflict fails the step
+            # loudly rather than resolving itself -- this must never clobber
+            # someone else's commit.
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
           fi
 
       - name: Open issue on new hypotheses
-        if: success()
+        if: ${{ success() && !inputs.dry_run }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -f data/engine_report.md ] && grep -q "NEW HYPOTHESIS" data/engine_report.md; then
+            # Idempotent: creates the label the first time, no-op after.
+            gh label create hypothesis-engine --color 0e8a16 \
+              --description "Autonomous research digest" --force
             gh issue create \
               --title "Hypothesis engine: new hypotheses $(date -u +%Y-%m-%d)" \
               --body-file data/engine_report.md \
-              --label "hypothesis-engine" \
-            || gh issue create \
-              --title "Hypothesis engine: new hypotheses $(date -u +%Y-%m-%d)" \
-              --body-file data/engine_report.md
+              --label "hypothesis-engine"
           else
             echo "No NEW HYPOTHESIS marker; skipping issue"
           fi
