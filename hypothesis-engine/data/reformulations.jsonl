@@ -112,3 +112,11 @@
 {"id": "745e82274bcec3d48bd9e341", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-06)", "at": "2026-09-06T03:11:43+00:00"}
 {"id": "f4ceb6769f5a12996225cad5", "count": 1, "condition": "narrower scope within compression composition and ordering (run 2026-09-06)", "at": "2026-09-06T03:11:43+00:00"}
 {"id": "f27c21e9eeafe6ab9922ec31", "count": 1, "condition": "narrower scope within compression composition and ordering (run 2026-09-06)", "at": "2026-09-06T03:11:43+00:00"}
+{"id": "8ebc978c2e3bfda505304d64", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
+{"id": "1c0004833f4aec91cf1f79b3", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
+{"id": "b2b6751bc1b5e4900d04c850", "count": 1, "condition": "narrower scope within hidden variable detection / causal discovery from residuals (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
+{"id": "b48eb7ee8dcaacc9800ca343", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
+{"id": "745e82274bcec3d48bd9e341", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
+{"id": "571fa0b54ba5b02fffc3afed", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
+{"id": "51b716c0e8857b4f6414ffe4", "count": 1, "condition": "narrower scope within hidden variable detection / causal discovery from residuals (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
+{"id": "f27c21e9eeafe6ab9922ec31", "count": 2, "condition": "narrower scope within compression composition and ordering (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}

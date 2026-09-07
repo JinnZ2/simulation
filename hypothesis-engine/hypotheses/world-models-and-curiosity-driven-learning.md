@@ -1,6 +1,6 @@
 # Hypothesis draft: world models and curiosity-driven learning
 
-_Regenerated 2026-09-06T03:11:43+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-07T11:13:31+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
