@@ -120,3 +120,15 @@
 {"id": "571fa0b54ba5b02fffc3afed", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
 {"id": "51b716c0e8857b4f6414ffe4", "count": 1, "condition": "narrower scope within hidden variable detection / causal discovery from residuals (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
 {"id": "f27c21e9eeafe6ab9922ec31", "count": 2, "condition": "narrower scope within compression composition and ordering (run 2026-09-07)", "at": "2026-09-07T11:13:31+00:00"}
+{"id": "f27c21e9eeafe6ab9922ec31", "count": 3, "condition": "narrower scope within compression composition and ordering (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "d5674b2715ce39950b0ff1b7", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "6c9c9356283f214eb070b7b8", "count": 1, "condition": "narrower scope within activation-aware quantization (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "b2bd8d3774f8dc2651b2f9f1", "count": 1, "condition": "narrower scope within representation geometry under compression (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "a6e9195c9e3dac77bd80c4a7", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "003ab55a406416234d5602fa", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "e5a03e7e15c0cd52eb7d2ca6", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "03ef139ed430a7a4096b2f78", "count": 1, "condition": "narrower scope within activation-aware quantization (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "2f19b55673077c1ea50aa17a", "count": 1, "condition": "narrower scope within activation-aware quantization (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "2779cb9652e6686c9a5bdfab", "count": 1, "condition": "narrower scope within activation-aware quantization (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "371dd2943393b51ec3412094", "count": 1, "condition": "narrower scope within activation-aware quantization (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
+{"id": "0f7ec4e3bc20475915854abe", "count": 1, "condition": "narrower scope within activation-aware quantization (run 2026-09-10)", "at": "2026-09-10T10:26:00+00:00"}
