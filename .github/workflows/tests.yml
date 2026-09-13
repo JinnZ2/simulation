@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        piece: [simulation, hypothesis-engine, sims]
+        piece: [simulation, hypothesis-engine, sims, frame-instruments]
     defaults:
       run:
         working-directory: ${{ matrix.piece }}

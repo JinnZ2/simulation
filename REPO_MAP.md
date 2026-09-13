@@ -10,11 +10,12 @@ another folder — that's deliberate.
 | `simulation/` | the bounded world — logistic regeneration, deference/idolatry, shocks, Jubilee | **live**; 42 tests, full 10k-cycle run verified |
 | `hypothesis-engine/` | autonomous research pipeline — explore → log → claim → test → modify → hidden-variables → consolidate | **live**; 10 tests, offline run verified, CI wired |
 | `sims/` | physics sims under Sim Harness Standard v1 — pre-registered, self-grading, ledger-native, with a guarded recycler for refuted claims | **live**; 90 tests, 8 sims run (3 SUPPORTED, 5 REFUTED), plus a claim recycler and a shadow cartographer |
+| `frame-instruments/` | four stdlib instruments — B1 runner-up trace scoring (offline half, with permutation null), B2 audit-isolation runner (A/B/C/D, commit lock, agreement not correctness), B3 split-authorship harness (arm-tagged cases feeding B2), B4 dilemma reconstruction protocol in `b4/` (five-state grading, external matching with its source recorded, shuffle null, documented-arm calibration); every run writes a `runs.jsonl` row | **live**; 36 tests, no network |
 | `research/` | imported research bundle — notes 00–18, plans, briefs, terminology map, hardware, figures, cross-repo integration matrix, and `TODO.md` | reference material |
 | `frame-instruments/` | frame-instrument bundle — README, two liftable procedures, three work orders, and the four builds B1–B4 under `b1/`–`b4/` with shared `runrecord.py` | **live**; stdlib-only, 35 tests (`python3 frame-instruments/bN/test_bN.py`); `runs/` empty until a real run |
 | `assumption_lab.py` | `AssumptionPlayground` — label exploration | standalone |
 | `culture_ontology_notes.py` | cultural ontology notes script | standalone |
-| `.github/workflows/` | `tests.yml` (all three suites + a no-PyYAML run), `hypothesis-engine.yml` | active on push |
+| `.github/workflows/` | `tests.yml` (all four suites + a no-PyYAML run), `hypothesis-engine.yml` | active on push |
 
 ## Quick start
 

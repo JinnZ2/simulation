@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-09-06T03:11:43+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-10T10:26:00+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic compression composition and ordering, Model Compression with Keras Pruning and Post-Training Quantization reports: This talks about the techniques used to compress a model as well as improve the inference latency: training a baseline model, fine-tuning it with magnitude-based weight pruning to high sparsity, and then exporting a deployment-ready TensorFlow Lite (TFLite) model using post-training quantization (PT
 
-Status: **NEW HYPOTHESIS** (32 surviving claims)
+Status: **NEW HYPOTHESIS** (34 surviving claims)
 
 ## Supporting claims
 
@@ -37,13 +37,15 @@ Status: **NEW HYPOTHESIS** (32 surviving claims)
 - (0.83) On topic compression composition and ordering, Compressive large deformation behavior of Ep-Al composite reactive materials: a particle content and compression induced temperature rise dependent constitutive model reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2025.119550)
 - (0.83) On topic compression composition and ordering, Residual Strength Prediction of Composite Laminates Subjected to Compression After Impact (CAI) Using Intelligent Reconstruction of Impact-Induced Damage reports: (no abstract) — [source](https://doi.org/10.1007/s10443-025-10337-1)
 - (0.83) On topic compression composition and ordering, GeBDA: Building Damage Assessment as Text-Based Sequence Prediction reports: Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. — [source](http://arxiv.org/abs/2608.28567v1)
+- (0.83) On topic compression composition and ordering, Pipeline of Pruning, Knowledge Distillation, and Quantization for Model Compression reports: (no abstract) [restricted: narrower scope within compression composition and ordering (run 2026-09-06)] — [source](https://doi.org/10.1007/s42835-025-02541-7)
 - (0.83) On topic compression composition and ordering, UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs reports: Deploying large language models (LLMs) on mobile platforms faces significant challenges due to the limited memory and shared computational resources of the device. — [source](https://doi.org/10.48550/arXiv.2512.03383)
+- (0.83) On topic compression composition and ordering, Data-Driven Generator Transient Prediction for Digital Twin Decision Support reports: This paper develops a calibrated transient forecasting surrogate model for generator digital twin (DT) decision support that evaluates planned active- and reactive power load commands before they are applied. — [source](http://arxiv.org/abs/2609.05356v1)
 - (0.80) On topic compression composition and ordering, A tension–compression asymmetric constitutive model for foam cores: FE implementation and experimental validation reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2026.120570)
 - (0.80) On topic compression composition and ordering, Analytical model for CFRP confined masonry columns subjected to monotonic and cyclic compression reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2022.115696)
 - (0.80) On topic compression composition and ordering, Approximate Muon with low-rank adapters reports: The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. — [source](http://arxiv.org/abs/2608.14492v1)
 - (0.80) On topic compression composition and ordering, Joint Compression Strategies for CNNs: A Case Study on Low Rank Factorization, Filter-based Pruning and Unstructured Pruning reports: (no abstract) — [source](https://doi.org/10.1109/isvlsi65124.2025.11130268)
+- (0.80) On topic compression composition and ordering, RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation reports: Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. — [source](http://arxiv.org/abs/2609.02847v1)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
-- (0.75) On topic compression composition and ordering, RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation reports: Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. — [source](http://arxiv.org/abs/2609.02847v1)
 
 ## Contradicted/refuted claims
 
@@ -55,4 +57,4 @@ Status: **NEW HYPOTHESIS** (32 surviving claims)
 
 ## Open unknowns
 
-- (none)
+- [escape-hatch] On topic compression composition and ordering, Order-Aware Compression for RF-DETR on Edge Devices: Overcoming Graph Fragmentation and Quantization Instability 
