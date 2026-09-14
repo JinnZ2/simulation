@@ -1,6 +1,6 @@
 # Hypothesis draft: deployment-aware compression metrics
 
-_Regenerated 2026-09-10T10:26:00+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-14T11:37:57+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic deployment-aware compression metrics, Information-theoretic Generalization Analysis for Expected Calibration Error reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]
 
-Status: **NEW HYPOTHESIS** (4 surviving claims)
+Status: **NEW HYPOTHESIS** (6 surviving claims)
 
 ## Supporting claims
 
@@ -16,6 +16,8 @@ Status: **NEW HYPOTHESIS** (4 surviving claims)
 - (0.83) On topic deployment-aware compression metrics, Calibration of Variational Quantum Classifiers Under Depolarizing Noise: Expected Calibration Error, Ansatz Expressibility, and Post-Hoc Temperature Scaling reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-20)] — [source](https://doi.org/10.1109/icosaas68663.2026.11648877)
 - (0.80) On topic deployment-aware compression metrics, Information-theoretic Generalization Analysis for Expected Calibration Error reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)] — [source](https://doi.org/10.52202/079017-2677)
 - (0.80) On topic deployment-aware compression metrics, RegCalReliab: Regression Calibration Using Reliability Studies reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-20)] — [source](https://doi.org/10.32614/cran.package.regcalreliab)
+- (0.80) On topic deployment-aware compression metrics, Soft Mean Expected Calibration Error (SMECE): A Calibration Metric for Probabilistic Labels reports: The Expected Calibration Error (ece), the dominant calibration metric in machine learning, compares predicted probabilities against empirical frequencies of binary outcomes. — [source](https://doi.org/10.48550/arXiv.2603.14092)
+- (0.71) On topic deployment-aware compression metrics, Understanding Model Calibration - A gentle introduction and visual exploration of calibration and the expected calibration error (ECE) reports: To be considered reliable, a model must be calibrated so that its confidence in each decision closely reflects its true outcome. — [source](https://doi.org/10.48550/arXiv.2501.19047)
 
 ## Contradicted/refuted claims
 
