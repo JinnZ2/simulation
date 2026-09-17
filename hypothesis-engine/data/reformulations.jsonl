@@ -143,3 +143,7 @@
 {"id": "de09144d567bcb0b3b2984b2", "count": 1, "condition": "narrower scope within deployment-aware compression metrics (run 2026-09-14)", "at": "2026-09-14T11:37:57+00:00"}
 {"id": "126bdd59c275dc4e14691ca4", "count": 1, "condition": "narrower scope within deployment-aware compression metrics (run 2026-09-14)", "at": "2026-09-14T11:37:57+00:00"}
 {"id": "16c30fe485be1bf488a749f8", "count": 1, "condition": "narrower scope within deployment-aware compression metrics (run 2026-09-14)", "at": "2026-09-14T11:37:57+00:00"}
+{"id": "6c9c9356283f214eb070b7b8", "count": 3, "condition": "narrower scope within activation-aware quantization (run 2026-09-17)", "at": "2026-09-17T10:48:22+00:00"}
+{"id": "371dd2943393b51ec3412094", "count": 3, "condition": "narrower scope within activation-aware quantization (run 2026-09-17)", "at": "2026-09-17T10:48:22+00:00"}
+{"id": "0f7ec4e3bc20475915854abe", "count": 3, "condition": "narrower scope within activation-aware quantization (run 2026-09-17)", "at": "2026-09-17T10:48:22+00:00"}
+{"id": "de09144d567bcb0b3b2984b2", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-09-17)", "at": "2026-09-17T10:48:22+00:00"}
