@@ -1,6 +1,6 @@
 # Hypothesis draft: activation-aware quantization
 
-_Regenerated 2026-09-17T10:48:22+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-21T11:38:17+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic activation-aware quantization, Compressive Domains and a Bound for the Number of Components of the Fixed Locus of a Self-Map of the Berkovich Line reports: We introduce the notion of a "compressive domain" for the action of a rational function on the Berkovich projective line over a complete nontrivially-valued algebraically closed nonarchimedean field.
 
-Status: **NEW HYPOTHESIS** (51 surviving claims)
+Status: **NEW HYPOTHESIS** (52 surviving claims)
 
 ## Supporting claims
 
@@ -58,6 +58,7 @@ Status: **NEW HYPOTHESIS** (51 surviving claims)
 - (0.80) On topic activation-aware quantization, Precision in Rice Variety Classification using Stacking-Based Ensemble Learning reports: Rice, a staple food for a significant portion of the global population, exhibits remarkable diversity in its varieties, presenting substantial challenges for accurate identification by consumers, traders, and farmers. — [source](http://arxiv.org/abs/2609.10524v1)
 - (0.80) On topic activation-aware quantization, An isoperimetric problem for Fourier zeros of centrally symmetric convex bodies reports: Given a centrally symmetric convex body, consider the zero set of the Fourier transform of its characteristic function. — [source](http://arxiv.org/abs/2609.10517v1)
 - (0.80) On topic activation-aware quantization, Field Converter: Geometry-Initialized Temporal Residual Refinement for World-Grounded Player Pose Estimation from Soccer Broadcasts reports: Recovering 3D human pose from monocular sports broadcasts remains challenging when players must be localized in a shared metric world coordinate system rather than only reconstructed relative to their own body. — [source](http://arxiv.org/abs/2609.10498v1)
+- (0.75) On topic activation-aware quantization, Time-Aware Tranformer-Based Prediction Model for AECOPD reports: The rapid symptom change of Acute exacerbation of chronic obstructive pulmonary disease (AECOPD) makes it critical to have time-sensitive prediction models. [restricted: narrower scope within activation-aware quantization (run 2026-09-14)] — [source](http://arxiv.org/abs/2608.21324v1)
 - (0.71) On topic activation-aware quantization, Text-speech collaboration LLM embedding low-rank adaptation, activation-aware weight quantization and knowledge distillation reports: Large Language Model, or LLM, are enabling more and more real world applications. [restricted: narrower scope within activation-aware quantization (run 2026-09-10)] — [source](https://doi.org/10.1109/CyberC66434.2025.00042)
 - (0.67) On topic activation-aware quantization, SignRR: Retrieve and Refine Real Motion for Sign Language Production reports: Sign language production (SLP) aims to generate continuous signing motion from spoken language, often through gloss-to-pose generation. — [source](http://arxiv.org/abs/2608.28568v1)
 - (0.67) On topic activation-aware quantization, Radiative and Dalitz decays of $Υ(1S)$ in the light of the ATOMKI X17 anomaly reports: We study the radiative decay $Υ(1S)\to η_bγ$ and the Dalitz decay $Υ(1S)\to η_b e^+ e^-$ within the framework of the Covariant Confined Quark Model. — [source](http://arxiv.org/abs/2609.02874v1)

@@ -147,3 +147,14 @@
 {"id": "371dd2943393b51ec3412094", "count": 3, "condition": "narrower scope within activation-aware quantization (run 2026-09-17)", "at": "2026-09-17T10:48:22+00:00"}
 {"id": "0f7ec4e3bc20475915854abe", "count": 3, "condition": "narrower scope within activation-aware quantization (run 2026-09-17)", "at": "2026-09-17T10:48:22+00:00"}
 {"id": "de09144d567bcb0b3b2984b2", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-09-17)", "at": "2026-09-17T10:48:22+00:00"}
+{"id": "51b716c0e8857b4f6414ffe4", "count": 3, "condition": "narrower scope within hidden variable detection / causal discovery from residuals (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "e659abded9fa2dc017ed1317", "count": 2, "condition": "narrower scope within activation-aware quantization (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "9c58e7e4aa6968ba51282143", "count": 2, "condition": "narrower scope within activation-aware quantization (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "de09144d567bcb0b3b2984b2", "count": 3, "condition": "narrower scope within deployment-aware compression metrics (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "126bdd59c275dc4e14691ca4", "count": 2, "condition": "narrower scope within deployment-aware compression metrics (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "f9fc097f482cfe7167e551c9", "count": 1, "condition": "narrower scope within representation geometry under compression (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "6c6ddebc397f312ba6ee9f8d", "count": 1, "condition": "narrower scope within representation geometry under compression (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "fb1a22f6ab67a91ecadfc241", "count": 1, "condition": "narrower scope within representation geometry under compression (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "91f9bf50eeab440d60ea6a0f", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "696551a09d39789c37c7807e", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}
+{"id": "980d701ac3755577116b287d", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-09-21)", "at": "2026-09-21T11:38:17+00:00"}

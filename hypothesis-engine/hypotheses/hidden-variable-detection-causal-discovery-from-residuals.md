@@ -1,6 +1,6 @@
 # Hypothesis draft: hidden variable detection / causal discovery from residuals
 
-_Regenerated 2026-09-17T10:48:22+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-21T11:38:17+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -34,4 +34,4 @@ Status: **NEW HYPOTHESIS** (11 surviving claims)
 
 ## Open unknowns
 
-- (none)
+- [escape-hatch] On topic hidden variable detection / causal discovery from residuals, Causal Discovery in High-Dimensional Time Series with Latent Confounders via Score-Based D
