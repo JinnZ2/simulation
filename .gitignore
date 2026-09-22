@@ -9,3 +9,6 @@ simulation/logs/
 
 # engine output is committed by CI, not by hand
 hypothesis-engine/config/topics.effective.json
+
+# arm run records are runtime state
+frame-instruments/arms/*/runs/runs.jsonl

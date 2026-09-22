@@ -28,7 +28,13 @@ STATUS = ROOT / "STATUS.md"
 BEGIN = "<!-- generated:begin -->"
 END = "<!-- generated:end -->"
 
-SUITES = ["sims", "simulation", "hypothesis-engine", "frame-instruments"]
+SUITES = ["sims", "simulation", "hypothesis-engine"]
+
+# frame-instruments holds more than one independent build of one work order.
+# Its suites are counted PER ARM and kept out of the repo total: summing two
+# arms would report 72 tests of coverage where there are two implementations
+# of one requirement set. See frame-instruments/ARMS.md.
+ARMED = "frame-instruments"
 
 
 def test_count(folder: str) -> int | None:
@@ -41,6 +47,27 @@ def test_count(folder: str) -> int | None:
         return None
     match = re.search(r"(\d+) tests? collected", out) or re.search(r"(\d+) test", out.strip().splitlines()[-1] if out.strip() else "")
     return int(match.group(1)) if match else None
+
+
+def arm_counts() -> dict:
+    """Tests per arm, never summed across arms. Empty dict if unavailable;
+    an absent count is not a zero."""
+    try:
+        out = subprocess.run(
+            [sys.executable, "run_arms.py", "--json"],
+            cwd=ROOT / ARMED, capture_output=True, text=True, timeout=300)
+    except Exception:
+        return {}
+    try:
+        data = json.loads(out.stdout)
+    except Exception:
+        return {}
+    res = {}
+    for arm, rows in data.items():
+        if any(r.get("ran") is None for r in rows):
+            continue
+        res[arm] = sum(r["ran"] for r in rows)
+    return res
 
 
 def ledger_rows() -> list[dict]:
@@ -58,6 +85,7 @@ def generated_block() -> str:
     inconclusive = [r for r in rows if r["verdict"] == "INCONCLUSIVE"]
     counts = {f: test_count(f) for f in SUITES}
     total = sum(v for v in counts.values() if v)
+    arms = arm_counts()
 
     lines = ["## Where things stand", ""]
     tally = f"{len(supported)} supported, {len(refuted)} refuted"
@@ -67,6 +95,15 @@ def generated_block() -> str:
     lines.append("")
     lines.append(f"**{total} tests pass** "
                  f"({', '.join(f'{k} {v}' for k, v in counts.items() if v)}).")
+    lines.append("")
+    if arms:
+        per = ", ".join(f"arm {a} {n}" for a, n in sorted(arms.items()))
+        lines.append(f"**`frame-instruments` passes per arm** ({per}) — two "
+                     f"independent builds of one work order, counted apart "
+                     f"rather than summed. See `frame-instruments/ARMS.md`.")
+    else:
+        lines.append("**`frame-instruments` arm counts unavailable** — "
+                     "`run_arms.py` did not report.")
     lines.append("")
     lines.append("*A refutation is a working experiment, not a broken one.*")
     lines.append("")
@@ -85,7 +122,8 @@ def generated_block() -> str:
     lines.append("- `sims/` — experiments + harness, live")
     lines.append("- `simulation/` — the bounded world, live")
     lines.append("- `hypothesis-engine/` — research pipeline, live")
-    lines.append("- `frame-instruments/` — runner-up trace scoring, audit isolation, split authorship, dilemma reconstruction, live")
+    lines.append("- `frame-instruments/` — runner-up trace scoring, audit isolation, split authorship, dilemma reconstruction; "
+                 "two arms held, neither canonical, live")
     lines.append("- `research/` — notes 00–18, reference only")
     lines.append("")
 
@@ -94,6 +132,8 @@ def generated_block() -> str:
     lines.append("- `sims/explore.py` — recycle refuted claims")
     lines.append("- `sims/shadow.py` — find what nothing measures")
     lines.append("- `sims/ledger_hook.py --check` — verify integrity")
+    lines.append("- `frame-instruments/coverage.py` — each arm against the work order")
+    lines.append("- `frame-instruments/coverage.py --queue` — where the arms differ")
     return "\n".join(lines)
 
 
@@ -114,6 +154,17 @@ def main(argv: list[str] | None = None) -> int:
 
     if not STATUS.exists():
         raise SystemExit("STATUS.md not found")
+
+    # An environment without pytest counts every suite as None, and the old
+    # code turned that into "0 tests pass ()" -- an absent measurement written
+    # as a zero, onto the repo's front page, by anyone who ran this to see
+    # what it said. Refuse instead. A count nobody could take is not a count.
+    if all(test_count(f) is None for f in SUITES):
+        print("cannot count any suite (is pytest installed?) -- "
+              "refusing to write a total this environment cannot measure",
+              file=sys.stderr)
+        return 3
+
     current = STATUS.read_text(encoding="utf-8")
     updated = render(current)
 

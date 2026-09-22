@@ -10,9 +10,8 @@ another folder — that's deliberate.
 | `simulation/` | the bounded world — logistic regeneration, deference/idolatry, shocks, Jubilee | **live**; 42 tests, full 10k-cycle run verified |
 | `hypothesis-engine/` | autonomous research pipeline — explore → log → claim → test → modify → hidden-variables → consolidate | **live**; 10 tests, offline run verified, CI wired |
 | `sims/` | physics sims under Sim Harness Standard v1 — pre-registered, self-grading, ledger-native, with a guarded recycler for refuted claims | **live**; 90 tests, 8 sims run (3 SUPPORTED, 5 REFUTED), plus a claim recycler and a shadow cartographer |
-| `frame-instruments/` | four stdlib instruments — B1 runner-up trace scoring (offline half, with permutation null), B2 audit-isolation runner (A/B/C/D, commit lock, agreement not correctness), B3 split-authorship harness (arm-tagged cases feeding B2), B4 dilemma reconstruction protocol in `b4/` (five-state grading, external matching with its source recorded, shuffle null, documented-arm calibration); every run writes a `runs.jsonl` row | **live**; 36 tests, no network |
+| `frame-instruments/` | four stdlib instruments B1–B4 built to three work orders — **two independent builds are held as arms, neither canonical**; the work orders sit at the top as the shared ruler, `coverage.py` scores each arm against them and `--queue` prints only where they differ | **live**; both arms green (`python3 frame-instruments/run_arms.py`), counted per arm and never summed; no network; see `frame-instruments/ARMS.md` |
 | `research/` | imported research bundle — notes 00–18, plans, briefs, terminology map, hardware, figures, cross-repo integration matrix, and `TODO.md` | reference material |
-| `frame-instruments/` | frame-instrument bundle — README, two liftable procedures, three work orders, and the four builds B1–B4 under `b1/`–`b4/` with shared `runrecord.py` | **live**; stdlib-only, 35 tests (`python3 frame-instruments/bN/test_bN.py`); `runs/` empty until a real run |
 | `assumption_lab.py` | `AssumptionPlayground` — label exploration | standalone |
 | `culture_ontology_notes.py` | cultural ontology notes script | standalone |
 | `.github/workflows/` | `tests.yml` (all four suites + a no-PyYAML run), `hypothesis-engine.yml` | active on push |
@@ -28,6 +27,18 @@ cd sims/fractal_basin   && python3 run.py
 Note the root README's `python run.py --config config/default.yaml` now means
 `cd simulation && python3 run.py --config config/default.yaml` — the piece moved into its own
 folder, its contents otherwise unchanged from the spec.
+
+## The held fork in `frame-instruments/`
+
+Merge `5997025` joined two builds of the same work orders by taking both sides.
+The damage was **exactly the path intersection**: 10 files at the same path in
+both parents were concatenated (nine failed to parse; the tenth was `README.md`,
+which has no syntax to break), and the 41 files at disjoint paths were untouched.
+Both builds, checked out clean, are green.
+
+They are now `arms/a` and `arms/b`, in disjoint namespaces, so no future arm can
+collide with them. Neither is selected. `coverage.py --queue` carries what would
+settle each difference. `ARMS.md` has the argument and the limits.
 
 ## How the pieces connect
 

@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        piece: [simulation, hypothesis-engine, sims, frame-instruments]
+        piece: [simulation, hypothesis-engine, sims]
     defaults:
       run:
         working-directory: ${{ matrix.piece }}
@@ -31,6 +31,34 @@ jobs:
       - name: Ledger integrity
         if: matrix.piece == 'sims'
         run: python3 ledger_hook.py --check
+
+  # frame-instruments holds more than one independent build of one work order,
+  # so it has no single tests/ directory and no single test count. Each arm is
+  # run on its own, and the arms are checked against the work order and against
+  # the commits they came from. See frame-instruments/ARMS.md.
+  frame-instruments:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: frame-instruments
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0          # --provenance compares against merge parents
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Every arm's suites
+        run: python3 run_arms.py
+      - name: Arms are their parents verbatim plus the declared edits
+        run: python3 coverage.py --provenance
+      - name: Checks on the arm machinery
+        run: python3 test_coverage.py
+      - name: Requirement coverage and the discriminator queue
+        run: |
+          python3 coverage.py
+          python3 coverage.py --queue
 
   # STATUS.md is the first thing anyone reads; a stale one is worse than none.
   status:

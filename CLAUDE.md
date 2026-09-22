@@ -32,8 +32,10 @@ sims/               physics sims under SIM HARNESS STANDARD v1:
 
 frame-instruments/  four stdlib instruments B1..B4 (runner-up trace
                     scoring, audit isolation, split authorship, dilemma
-                    reconstruction) + shared runrecord.py.
-                    ** DOES NOT IMPORT AT HEAD -- see Known defects. **
+                    reconstruction). TWO INDEPENDENT BUILDS are held as
+                    arms/a and arms/b; neither is canonical. The three
+                    work orders sit at the top as the shared ruler.
+                    Both arms green, 36 tests each, counted apart.
 
 research/           notes 00-18, plans, briefs, figures. Reference
                     material, not running code.
@@ -47,15 +49,17 @@ STATUS.md    GENERATED between the <!-- generated:begin/end --> markers
              marker is hand-written and survives regeneration.
              CI runs `status.py --check`, so a stale STATUS.md is red.
 
-REPO_MAP.md  hand-written layout. Currently lists frame-instruments
-             TWICE, with 36 tests in one row and 35 in the other.
+REPO_MAP.md  hand-written layout. One row per piece; it listed
+             frame-instruments twice with conflicting counts until
+             2026-09-22 and now carries the held fork instead.
 ```
 
-**HAZARD: `python3 status.py` rewrites STATUS.md in place.** Running it
-to see what it says *changes the repo's front page*, and in an
-environment missing pytest it writes `0 tests pass ()`. This is the
-instrument editing the tree it measures. Run it only when you intend to
-regenerate, and check `git status` after any exploratory run.
+**`python3 status.py` rewrites STATUS.md in place**, so it is still the
+instrument editing the tree it measures: run it when you intend to
+regenerate, and check `git status` after an exploratory run. What it no
+longer does is write a total it could not measure -- with no pytest it
+now REFUSES (exit 3) and touches nothing, where it used to put
+`0 tests pass ()` on the front page. An absent count is not a zero.
 
 ## Hard constraints
 
@@ -102,62 +106,76 @@ are about the method rather than the physics:
 - `shape_csd_g1` **reversed its parent's refutation** by fixing one
   control. A refutation can be wrong too.
 
-## Known defects (verified 2026-09-22, NOT repaired)
+## The held fork in frame-instruments (repaired 2026-09-22)
 
-**frame-instruments does not parse. Nine files are two versions
-concatenated.**
-
-```text
-frame-instruments/runrecord.py      307 lines = 151 + 164, both halves whole
-frame-instruments/b4/items.py       and 7 more under b4/
-        agreement.py  calibrate.py  grade.py  nullshuffle.py
-        reconstruct.py  report.py  requirements.py
-```
-
-Traced: merge `5997025` ("Merge branch 'main' into
-claude/frame-instruments-setup-jathyz", 2026-09-12) resolved by taking
-**both sides**. `git show 85a3714:frame-instruments/runrecord.py` is 151
-lines and `git show 5e04a33:...` is 164; the file on disk is the first
-truncated mid-`for`-body with the second appended whole. Every B1..B4
-test imports `runrecord`, so all 36 of them die at import with
-`IndentationError`, and the CI leg that runs `pytest tests/` in
-`frame-instruments/` is red at HEAD.
-
-`STATUS.md` states **190 tests pass (... frame-instruments 36)**. That
-is false at HEAD and not an environment artifact -- it is a syntax error
-in checked-in code.
-
-The repair is to pick ONE parent's version per file and re-run
-`python3 frame-instruments/bN/test_bN.py`. It is not a merge to redo by
-hand line by line.
-
-**frame-instruments is also duplicated, and the copies differ.**
+Merge `5997025` (2026-09-12) joined two independent builds of three
+byte-identical work orders by taking **both sides**.
 
 ```text
-frame-instruments/*.py       +  tests/       flat copy
-frame-instruments/bN/*.py    +  bN/test_bN.py nested copy
+  parent A  85a3714 nested     parent B  5e04a33 flat
+  PATH INTERSECTION  10 files -> 10 concatenations, both halves whole
+  PATH DISJOINT      41 files -> 41 intact
+
+  correlation: exact. The damage WAS the intersection.
 ```
 
-Every same-named pair DIFFERS (`score.py` vs `b1/score.py`, `agree.py`
-vs `b2/agree.py`, and so on, 13 pairs), as do all four test files. The
-three work orders are duplicated identically
-(`WORKORDER_*.md` == `workorders/*.md`). Files that live in one place do
-not drift; two copies already have. Deciding which tree is canonical is
-a prerequisite to the repair above, not a follow-up.
+Nine of the ten failed to parse. The tenth was `README.md` -- 40 + 99 =
+139 lines, both halves whole, no syntax to break, so nothing reported
+it. Checked out clean from their own parents, **both builds compile and
+both run 4/4 suites green**. Neither was broken; the merge was.
+
+Both are now kept, in disjoint namespaces:
+
+```text
+frame-instruments/
+  WORK_ORDER_*.md      the ruler, identical in both parents, one copy
+  coverage.py          each arm against the order. No total, no ranking.
+  run_arms.py          every arm's suites. No total across arms.
+  test_coverage.py     guards on the machinery, each planted against
+  arms/a               85a3714 verbatim + declared edits
+  arms/b               5e04a33 verbatim + declared edits
+```
+
+Nothing in an arm shares a path with anything in another arm, so the
+collision that caused 100% of the damage cannot recur;
+`test_coverage.py` asserts it. Neither arm is selected: on the 16
+checked requirements **7 differ and neither dominates**, and
+`coverage.py --queue` says what would settle each. `ARMS.md` carries
+the argument, the declared edits, and the limits.
+
+Rules that follow from it:
+
+- Do not pick an arm, merge one into the other, or build a third from
+  both without recording the decision. All three are live options and
+  each is the operator's call.
+- Do not add an arm's code to the top level, and do not move code
+  between arms. The top level holds the ruler and the instruments that
+  read it.
+- A new arm is `arms/<id>/` plus its provenance in `coverage.py`'s
+  `PARENT` and `DECLARED_EDITS`, and must return `VERBATIM+DECLARED`.
+- `coverage.py` must never total, rank or recommend an arm. An AST
+  guard in `test_coverage.py` enforces it and is planted against.
+- Counts stay per arm. Summing two arms reports 72 tests of coverage
+  where there are two implementations of one requirement set;
+  `status.py` prints them apart for that reason.
 
 ## What runs in this container
 
 ```text
-simulation/run.py           YES   (PyYAML present; fallback also exists)
-sims/                       NO    numpy absent
-*/tests via pytest          NO    pytest absent -- three of four suites
-frame-instruments/bN/test   NO    but for a CODE defect, not the environment
-status.py                   YES   and it REWRITES STATUS.md; see hazard
+simulation/run.py                  YES
+sims/<name>/run.py                 NO    numpy absent
+sims|simulation|hypothesis-engine
+  /tests via pytest                YES   after `pip install pytest`
+                                         (93 / 42 / 19 at time of writing)
+frame-instruments/run_arms.py      YES   stdlib; 36 per arm
+frame-instruments/coverage.py      YES   --provenance needs full git history
+status.py                          YES   REWRITES STATUS.md; refuses if it
+                                         cannot count
 ```
 
-So three suites are unverifiable here for an environment reason and one
-is broken for a real one. Do not report a change to `sims/` or
-`hypothesis-engine/` as tested.
+`pytest` is not preinstalled but installs cleanly, so the three suites
+are verifiable here. A `sims/<name>/run.py` is not -- numpy is absent,
+and no change to a sim may be reported as tested.
 
 ## Conventions when editing
 
@@ -191,7 +209,12 @@ cd hypothesis-engine && python3 scripts/hypothesis_engine.py --dry-run   # offli
 cd sims/fractal_basin && python3 run.py                          # needs numpy
 
 python3 -m pytest tests/ -q        # inside simulation/ hypothesis-engine/ sims/
-python3 frame-instruments/bN/test_bN.py                          # stdlib; broken at HEAD
+
+cd frame-instruments && python3 run_arms.py           # every arm, per build
+cd frame-instruments && python3 coverage.py           # arms vs the work order
+cd frame-instruments && python3 coverage.py --queue   # only where they differ
+cd frame-instruments && python3 coverage.py --provenance
+cd frame-instruments && python3 test_coverage.py      # prints its count
 python3 sims/ledger_hook.py --check                              # ledger integrity
 python3 sims/explore.py                                          # recycle refuted claims
 python3 sims/shadow.py                                           # what nothing measures
