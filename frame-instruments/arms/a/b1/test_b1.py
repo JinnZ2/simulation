@@ -106,8 +106,9 @@ class Schema(unittest.TestCase):
             self.assertEqual(rec["status"], "error")
             self.assertIn("b.jsonl:2", rec["notes"])
             self.assertIn("entropy_basis", rec["notes"])
-            self.assertEqual(set(rec), {"run_id", "utc", "script", "args_hash", "seed",
-                                        "input_files", "output_file", "status", "counts", "notes"})
+            self.assertEqual(set(rec), {"run_id", "utc", "script", "arm", "args_hash",
+                                        "seed", "input_files", "output_file", "status",
+                                        "counts", "notes"})
 
     def test_forbidden_field_rejected(self):
         with self.assertRaises(rr.Reject):

@@ -8,7 +8,9 @@ next-steps section is hand-written and survives regeneration.*
 
 **9 experiments run** — 3 supported, 5 refuted, 1 inconclusive.
 
-**190 tests pass** (sims 93, simulation 42, hypothesis-engine 19, frame-instruments 36).
+**154 tests pass** (sims 93, simulation 42, hypothesis-engine 19).
+
+**`frame-instruments` passes per arm** (arm a 36, arm b 36) — two independent builds of one work order, counted apart rather than summed. See `frame-instruments/ARMS.md`.
 
 *A refutation is a working experiment, not a broken one.*
 
@@ -29,7 +31,7 @@ next-steps section is hand-written and survives regeneration.*
 - `sims/` — experiments + harness, live
 - `simulation/` — the bounded world, live
 - `hypothesis-engine/` — research pipeline, live
-- `frame-instruments/` — runner-up trace scoring, audit isolation, split authorship, dilemma reconstruction, live
+- `frame-instruments/` — runner-up trace scoring, audit isolation, split authorship, dilemma reconstruction; two arms held, neither canonical, live
 - `research/` — notes 00–18, reference only
 
 ### Tools
@@ -37,6 +39,8 @@ next-steps section is hand-written and survives regeneration.*
 - `sims/explore.py` — recycle refuted claims
 - `sims/shadow.py` — find what nothing measures
 - `sims/ledger_hook.py --check` — verify integrity
+- `frame-instruments/coverage.py` — each arm against the work order
+- `frame-instruments/coverage.py --queue` — where the arms differ
 <!-- generated:end -->
 
 <!-- HAND-WRITTEN BELOW — status.py never touches this -->
