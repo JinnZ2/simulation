@@ -593,22 +593,25 @@
       "status": "active"
     },
     {
-      "text": "On topic world models and curiosity-driven learning, Visualizing Uncertainty in Non-linear Projections with Ensembles reports: Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections.",
+      "text": "On topic world models and curiosity-driven learning, Visualizing Uncertainty in Non-linear Projections with Ensembles reports: Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-24)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.3333333333333333,
+      "confidence": 0.5,
       "passed": 0,
-      "failed": 1,
+      "failed": 0,
       "logical_form": "",
       "scope": {
         "topic": "world models and curiosity-driven learning",
-        "source": "arxiv"
+        "source": "arxiv",
+        "restrictions": [
+          "narrower scope within world models and curiosity-driven learning (run 2026-09-24)"
+        ]
       },
       "reference_class": "world models and curiosity-driven learning / arxiv findings",
-      "reformulation_count": 0,
+      "reformulation_count": 1,
       "id": "925aae14311bd411900a43a8",
       "source_url": "http://arxiv.org/abs/2608.14513v1",
       "status_override": "",
-      "beta_confidence": 0.3333333333333333,
+      "beta_confidence": 0.5,
       "status": "active"
     },
     {
@@ -1637,22 +1640,25 @@
       "status": "survived"
     },
     {
-      "text": "On topic world models and curiosity-driven learning, State--Generator Geometry of Open Quantum Systems: Compatibility and Covariant Transport reports: We develop a geometry for transporting stationary-state response across the control space of an open quantum system.",
+      "text": "On topic world models and curiosity-driven learning, State--Generator Geometry of Open Quantum Systems: Compatibility and Covariant Transport reports: We develop a geometry for transporting stationary-state response across the control space of an open quantum system. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-24)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.3333333333333333,
+      "confidence": 0.5,
       "passed": 0,
-      "failed": 1,
+      "failed": 0,
       "logical_form": "",
       "scope": {
         "topic": "world models and curiosity-driven learning",
-        "source": "arxiv"
+        "source": "arxiv",
+        "restrictions": [
+          "narrower scope within world models and curiosity-driven learning (run 2026-09-24)"
+        ]
       },
       "reference_class": "world models and curiosity-driven learning / arxiv findings",
-      "reformulation_count": 0,
+      "reformulation_count": 1,
       "id": "fa74aba0e261abb17ee8e5e0",
       "source_url": "http://arxiv.org/abs/2608.19175v1",
       "status_override": "",
-      "beta_confidence": 0.3333333333333333,
+      "beta_confidence": 0.5,
       "status": "active"
     },
     {
@@ -2329,8 +2335,8 @@
     {
       "text": "On topic activation-aware quantization, Time-Aware Tranformer-Based Prediction Model for AECOPD reports: The rapid symptom change of Acute exacerbation of chronic obstructive pulmonary disease (AECOPD) makes it critical to have time-sensitive prediction models. [restricted: narrower scope within activation-aware quantization (run 2026-09-14)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.75,
-      "passed": 2,
+      "confidence": 0.8,
+      "passed": 3,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -2345,8 +2351,8 @@
       "id": "4fc41fcb8f24cd5a5fbf09ba",
       "source_url": "http://arxiv.org/abs/2608.21324v1",
       "status_override": "",
-      "beta_confidence": 0.75,
-      "status": "active"
+      "beta_confidence": 0.8,
+      "status": "survived"
     },
     {
       "text": "On topic activation-aware quantization, The first tight classification of skew-constacyclic codes over finite fields reports: We parametrize the isometry and equivalence classes of skew constacyclic codes over a finite field by classifying the corresponding classes of their ambient rings, and present algorithms for the parametrizations.",
@@ -3500,8 +3506,8 @@
     {
       "text": "On topic world models and curiosity-driven learning, Solvable relaxation in discrete unitary systems: Ruelle-Pollicott resonances and CMV matrices reports: Leading eigenvalues of the truncated propagator, known as Ruelle-Pollicott (RP) resonances, are an elegant way of addressing the dynamics of unitary many-body systems.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.6666666666666666,
-      "passed": 1,
+      "confidence": 0.75,
+      "passed": 2,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -3513,7 +3519,7 @@
       "id": "f59ddd1da0e5d7e252a12801",
       "source_url": "http://arxiv.org/abs/2608.28575v1",
       "status_override": "",
-      "beta_confidence": 0.6666666666666666,
+      "beta_confidence": 0.75,
       "status": "active"
     },
     {
@@ -3576,8 +3582,8 @@
     {
       "text": "On topic world models and curiosity-driven learning, Video Generative Models as Geometry Learner reports: Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.75,
-      "passed": 2,
+      "confidence": 0.8333333333333334,
+      "passed": 4,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -3589,8 +3595,8 @@
       "id": "5988ef63535558611a970195",
       "source_url": "http://arxiv.org/abs/2608.28549v1",
       "status_override": "",
-      "beta_confidence": 0.75,
-      "status": "active"
+      "beta_confidence": 0.8333333333333334,
+      "status": "survived"
     },
     {
       "text": "On topic world models and curiosity-driven learning, Continuity equation on metric spaces via measure-valued derivations and BV-Wasserstein curves reports: We introduce a notion of continuity equation on metric spaces that is capable of describing curves of probability measures which are absolutely continuous, and more generally of bounded variation (BV), with respect to the 1-Wasserstein distance.",
@@ -3902,8 +3908,8 @@
     {
       "text": "On topic representation geometry under compression, Modular Functors with Singularities from Vertex Operator Algebras Beyond Rigidity and Finiteness reports: For a vertex operator algebra $V$ and a suitable category of its modules, we propose a construction for spaces of conformal blocks organized into an open-closed modular functor with singularities.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -3915,7 +3921,7 @@
       "id": "70a9f4bd6b56a2eca084abf7",
       "source_url": "http://arxiv.org/abs/2608.28579v1",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
@@ -5001,8 +5007,8 @@
     {
       "text": "On topic world models and curiosity-driven learning, CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation reports: Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.6666666666666666,
-      "passed": 1,
+      "confidence": 0.75,
+      "passed": 2,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -5014,7 +5020,7 @@
       "id": "86abbea6462f1c7dee1d5dd8",
       "source_url": "http://arxiv.org/abs/2609.05397v1",
       "status_override": "",
-      "beta_confidence": 0.6666666666666666,
+      "beta_confidence": 0.75,
       "status": "active"
     },
     {
@@ -5134,9 +5140,9 @@
     {
       "text": "On topic activation-aware quantization, A Generalizable Feature Extractor for Alzheimer's-Related Brain MRI Tasks reports: When there is not enough labeled data to properly train deep learning models, transfer learning can help. [restricted: narrower scope within activation-aware quantization (run 2026-09-14)] [restricted: narrower scope within activation-aware quantization (run 2026-09-21)]",
       "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
-      "confidence": 0.5,
+      "confidence": 0.3333333333333333,
       "passed": 0,
-      "failed": 0,
+      "failed": 1,
       "logical_form": "abs_diff_lt",
       "scope": {
         "topic": "activation-aware quantization",
@@ -5151,7 +5157,7 @@
       "id": "e659abded9fa2dc017ed1317",
       "source_url": "http://arxiv.org/abs/2609.05400v1",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.3333333333333333,
       "status": "active"
     },
     {
@@ -5673,8 +5679,8 @@
     {
       "text": "On topic representation geometry under compression, A Deep Generative Model for Synthesizing Labeled Wireless Signals reports: Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.75,
-      "passed": 2,
+      "confidence": 0.8333333333333334,
+      "passed": 4,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -5686,8 +5692,8 @@
       "id": "044b70283e61ec258ee8eeb8",
       "source_url": "http://arxiv.org/abs/2609.05396v1",
       "status_override": "",
-      "beta_confidence": 0.75,
-      "status": "active"
+      "beta_confidence": 0.8333333333333334,
+      "status": "survived"
     },
     {
       "text": "On topic calibration and falsifiability of LLM agents, Symplectic Hopf Insulator: Delicate Topology in Bosonic Bogoliubov-de Gennes Systems reports: Recent advances in topological phases have highlighted the role of symplectic (Krein-space) topology in the classification of bosonic Bogoliubov-de Gennes (BBdG) systems.",
@@ -6395,8 +6401,8 @@
       "text": "On topic activation-aware quantization, Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements reports: We determine the optimal sample complexity of low-rank quantum state tomography when each measurement may act jointly on at most $t$ samples. [restricted: narrower scope within activation-aware quantization (run 2026-09-14)] [restricted: narrower scope within activation-aware quantization (run 2026-09-21)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
       "confidence": 0.5,
-      "passed": 0,
-      "failed": 0,
+      "passed": 1,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "activation-aware quantization",
@@ -6645,9 +6651,9 @@
     {
       "text": "On topic deployment-aware compression metrics, Information-theoretic Generalization Analysis for Expected Calibration Error reports: While the expected calibration error (ECE), which employs binning, is widely adopted to evaluate the calibration performance of machine learning models, theoretical understanding of its estimation bias is limited. [restricted: narrower scope within deployment-aware compression metrics (run 2026-09-14)] [restricted: narrower scope within deployment-aware compression metrics (run 2026-09-21)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
-      "failed": 0,
+      "confidence": 0.6,
+      "passed": 2,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "deployment-aware compression metrics",
@@ -6662,7 +6668,7 @@
       "id": "126bdd59c275dc4e14691ca4",
       "source_url": "https://doi.org/10.48550/arXiv.2405.15709",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6,
       "status": "active"
     },
     {
@@ -6747,8 +6753,8 @@
     {
       "text": "On topic world models and curiosity-driven learning, Cooperation and Social Rules Emerging From the Principle of Surprise Minimization reports: The surprise minimization principle has been applied to explain various cognitive processes in humans.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.75,
-      "passed": 2,
+      "confidence": 0.8,
+      "passed": 3,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -6760,8 +6766,8 @@
       "id": "5aaabf605d21e9d1ae951dea",
       "source_url": "https://doi.org/10.3389/fpsyg.2020.606174",
       "status_override": "",
-      "beta_confidence": 0.75,
-      "status": "active"
+      "beta_confidence": 0.8,
+      "status": "survived"
     },
     {
       "text": "On topic world models and curiosity-driven learning, of Suﬃcient Statistic Time Series for Active Inference reports: (no abstract)",
@@ -6899,9 +6905,9 @@
     {
       "text": "On topic representation geometry under compression, The Union of Manifolds Hypothesis and its Implications for Deep Generative Modelling reports: (no abstract) [restricted: narrower scope within representation geometry under compression (run 2026-09-21)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
+      "confidence": 0.3333333333333333,
       "passed": 0,
-      "failed": 0,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "representation geometry under compression",
@@ -6915,7 +6921,7 @@
       "id": "f9fc097f482cfe7167e551c9",
       "source_url": "https://doi.org/10.48550/arXiv.2207.02862",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.3333333333333333,
       "status": "active"
     },
     {
@@ -6940,8 +6946,8 @@
     {
       "text": "On topic representation geometry under compression, T HE U NION OF M ANIFOLDS H YPOTHESIS reports: (no abstract)",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -6953,15 +6959,15 @@
       "id": "a95770803da98c4a304ce8d2",
       "source_url": "https://www.semanticscholar.org/paper/cf7f407d4b173eb36d2d308ca75a84bd35271693",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
       "text": "On topic representation geometry under compression, A Survey and Comparative Evaluation of Intrinsic Dimension Estimators under the Manifold Hypothesis reports: The manifold hypothesis suggests that high-dimensional data often lie on or near a low-dimensional manifold. [restricted: narrower scope within representation geometry under compression (run 2026-09-21)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
       "confidence": 0.5,
-      "passed": 0,
-      "failed": 0,
+      "passed": 1,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "representation geometry under compression",
@@ -6981,8 +6987,8 @@
     {
       "text": "On topic representation geometry under compression, Deep Generative Models through the Lens of the Manifold Hypothesis: A Survey and New Connections reports: In recent years there has been increased interest in understanding the interplay between deep generative models (DGMs) and the manifold hypothesis. [restricted: narrower scope within representation geometry under compression (run 2026-09-21)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -6997,15 +7003,15 @@
       "id": "fb1a22f6ab67a91ecadfc241",
       "source_url": "https://doi.org/10.48550/arXiv.2404.02954",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
       "text": "On topic world models and curiosity-driven learning, Accelerating Model-Based Reinforcement Learning with State-Space World Models reports: Reinforcement learning (RL) is a powerful approach for robot learning. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-21)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
-      "failed": 0,
+      "confidence": 0.8,
+      "passed": 7,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "world models and curiosity-driven learning",
@@ -7019,11 +7025,11 @@
       "id": "91f9bf50eeab440d60ea6a0f",
       "source_url": "https://doi.org/10.48550/arXiv.2502.20168",
       "status_override": "",
-      "beta_confidence": 0.5,
-      "status": "active"
+      "beta_confidence": 0.8,
+      "status": "survived"
     },
     {
-      "text": "On topic world models and curiosity-driven learning, Differentiable Physics Models for Real-world Offline Model-based Reinforcement Learning reports: A limitation of model-based reinforcement learning (MBRL) is the exploitation of errors in the learned models. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-21)]",
+      "text": "On topic world models and curiosity-driven learning, Differentiable Physics Models for Real-world Offline Model-based Reinforcement Learning reports: A limitation of model-based reinforcement learning (MBRL) is the exploitation of errors in the learned models. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-21)] [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-24)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
       "confidence": 0.5,
       "passed": 0,
@@ -7033,11 +7039,12 @@
         "topic": "world models and curiosity-driven learning",
         "source": "semantic_scholar",
         "restrictions": [
-          "narrower scope within world models and curiosity-driven learning (run 2026-09-21)"
+          "narrower scope within world models and curiosity-driven learning (run 2026-09-21)",
+          "narrower scope within world models and curiosity-driven learning (run 2026-09-24)"
         ]
       },
       "reference_class": "world models and curiosity-driven learning / semantic_scholar findings",
-      "reformulation_count": 1,
+      "reformulation_count": 2,
       "id": "696551a09d39789c37c7807e",
       "source_url": "https://doi.org/10.1109/ICRA48506.2021.9561805",
       "status_override": "",
@@ -7067,8 +7074,8 @@
       "text": "On topic world models and curiosity-driven learning, World4RL: Diffusion World Models for Policy Refinement With Reinforcement Learning for Robotic Manipulation reports: Robotic manipulation policies are commonly initialized through imitation learning, but their performance is limited by the scarcity and narrow coverage of expert data. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-21)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
       "confidence": 0.5,
-      "passed": 0,
-      "failed": 0,
+      "passed": 1,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "world models and curiosity-driven learning",
@@ -7102,6 +7109,123 @@
       "source_url": "https://doi.org/10.48550/arXiv.2602.12099",
       "status_override": "",
       "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, When Does Model Compression Pay Off on a CPU? A Controlled Study of Quantization, Pruning and Distillation for Text Classification reports: Compression choices for CPU inference are often made from one benchmark run that reports one accuracy and one latency number per technique.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.8181818181818182,
+      "passed": 8,
+      "failed": 1,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "crossref"
+      },
+      "reference_class": "compression composition and ordering / crossref findings",
+      "reformulation_count": 0,
+      "id": "23bd042c3a36ca34b5241b14",
+      "source_url": "https://doi.org/10.2139/ssrn.7508159",
+      "status_override": "",
+      "beta_confidence": 0.8181818181818182,
+      "status": "survived"
+    },
+    {
+      "text": "On topic representation geometry under compression, Efficient Model Pruning via Selective Layer-wise Distillation with Dynamic CKA-based Weighting reports: Deploying deep convolutional neural networks in resource-constrained edge environments necessitates aggressive model compression.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "representation geometry under compression",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "representation geometry under compression / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "353358810203b4d3eb46585c",
+      "source_url": "https://doi.org/10.1109/MAPR72750.2026.11685733",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic representation geometry under compression, Rethinking Centered Kernel Alignment in Knowledge Distillation reports: Knowledge distillation has emerged as a highly effective method for bridging the representation discrepancy between large-scale models and lightweight models.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6,
+      "passed": 2,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "representation geometry under compression",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "representation geometry under compression / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "b270395932885236a025cf64",
+      "source_url": "https://doi.org/10.48550/arXiv.2401.11824",
+      "status_override": "",
+      "beta_confidence": 0.6,
+      "status": "active"
+    },
+    {
+      "text": "On topic representation geometry under compression, TRACK: Telemetry-based Representation Analysis via Centered Kernel Alignment for Silicon Lifecycle Management* reports: The increasing interconnectedness of compute platforms has amplified the need for peer-to-peer fleet security monitoring, where devices collectively assess system performance and detect anomalies without relying on centralized supervision.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "representation geometry under compression",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "representation geometry under compression / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "e0f7bcd14022f985225ed23f",
+      "source_url": "https://doi.org/10.1109/VTS69484.2026.11563391",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic representation geometry under compression, Equivalence between representational similarity analysis, centered kernel alignment, and canonical correlations analysis reports: Centered kernel alignment (CKA) and representational similarity analysis (RSA) of dissimilarity matrices are two popular methods for comparing neural systems in terms of representational geometry. [restricted: narrower scope within representation geometry under compression (run 2026-09-24)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "representation geometry under compression",
+        "source": "semantic_scholar",
+        "restrictions": [
+          "narrower scope within representation geometry under compression (run 2026-09-24)"
+        ]
+      },
+      "reference_class": "representation geometry under compression / semantic_scholar findings",
+      "reformulation_count": 1,
+      "id": "cd2128cea64f87cd2cb604f2",
+      "source_url": "https://doi.org/10.1101/2024.10.23.619871",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic representation geometry under compression, Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks reports: Centred Kernel Alignment (CKA) has recently emerged as a popular metric to compare activations from biological and artificial neural networks (ANNs) in order to quantify the alignment between internal representations derived from stimuli sets (e.g.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6,
+      "passed": 2,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "representation geometry under compression",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "representation geometry under compression / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "6f3045b1c69f657dfaf55d3d",
+      "source_url": "https://doi.org/10.48550/arXiv.2405.01012",
+      "status_override": "",
+      "beta_confidence": 0.6,
       "status": "active"
     }
   ]

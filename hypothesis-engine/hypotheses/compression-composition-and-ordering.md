@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-09-21T11:38:17+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-24T10:54:11+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic compression composition and ordering, Model Compression with Keras Pruning and Post-Training Quantization reports: This talks about the techniques used to compress a model as well as improve the inference latency: training a baseline model, fine-tuning it with magnitude-based weight pruning to high sparsity, and then exporting a deployment-ready TensorFlow Lite (TFLite) model using post-training quantization (PT
 
-Status: **NEW HYPOTHESIS** (34 surviving claims)
+Status: **NEW HYPOTHESIS** (35 surviving claims)
 
 ## Supporting claims
 
@@ -40,6 +40,7 @@ Status: **NEW HYPOTHESIS** (34 surviving claims)
 - (0.83) On topic compression composition and ordering, Pipeline of Pruning, Knowledge Distillation, and Quantization for Model Compression reports: (no abstract) [restricted: narrower scope within compression composition and ordering (run 2026-09-06)] — [source](https://doi.org/10.1007/s42835-025-02541-7)
 - (0.83) On topic compression composition and ordering, UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs reports: Deploying large language models (LLMs) on mobile platforms faces significant challenges due to the limited memory and shared computational resources of the device. — [source](https://doi.org/10.48550/arXiv.2512.03383)
 - (0.83) On topic compression composition and ordering, Data-Driven Generator Transient Prediction for Digital Twin Decision Support reports: This paper develops a calibrated transient forecasting surrogate model for generator digital twin (DT) decision support that evaluates planned active- and reactive power load commands before they are applied. — [source](http://arxiv.org/abs/2609.05356v1)
+- (0.82) On topic compression composition and ordering, When Does Model Compression Pay Off on a CPU? A Controlled Study of Quantization, Pruning and Distillation for Text Classification reports: Compression choices for CPU inference are often made from one benchmark run that reports one accuracy and one latency number per technique. — [source](https://doi.org/10.2139/ssrn.7508159)
 - (0.80) On topic compression composition and ordering, A tension–compression asymmetric constitutive model for foam cores: FE implementation and experimental validation reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2026.120570)
 - (0.80) On topic compression composition and ordering, Analytical model for CFRP confined masonry columns subjected to monotonic and cyclic compression reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2022.115696)
 - (0.80) On topic compression composition and ordering, Approximate Muon with low-rank adapters reports: The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. — [source](http://arxiv.org/abs/2608.14492v1)
