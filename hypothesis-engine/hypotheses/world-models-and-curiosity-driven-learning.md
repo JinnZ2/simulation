@@ -1,6 +1,6 @@
 # Hypothesis draft: world models and curiosity-driven learning
 
-_Regenerated 2026-09-24T10:54:11+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-28T12:33:19+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -25,15 +25,15 @@ Status: **NEW HYPOTHESIS** (23 surviving claims)
 - (0.80) On topic world models and curiosity-driven learning, The Structured Totient Preimage Problem: Reconstruction, Collisions, and Cryptographic Implications reports: We define and study the Structured Totient Preimage (STP) problem as a restricted reconstruction relation with a direct cryptographic motivation. — [source](http://arxiv.org/abs/2608.19191v1)
 - (0.80) On topic world models and curiosity-driven learning, Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication reports: Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. — [source](http://arxiv.org/abs/2608.19161v1)
 - (0.80) On topic world models and curiosity-driven learning, Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders reports: We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. — [source](http://arxiv.org/abs/2608.26090v1)
+- (0.80) On topic world models and curiosity-driven learning, Solvable relaxation in discrete unitary systems: Ruelle-Pollicott resonances and CMV matrices reports: Leading eigenvalues of the truncated propagator, known as Ruelle-Pollicott (RP) resonances, are an elegant way of addressing the dynamics of unitary many-body systems. — [source](http://arxiv.org/abs/2608.28575v1)
 - (0.80) On topic world models and curiosity-driven learning, Learning to Decode Concatenated Quantum Codes with Hierarchical Message Passing reports: We introduce a neural message-passing framework for decoding general concatenated stabilizer codes. — [source](http://arxiv.org/abs/2608.28571v1)
 - (0.80) On topic world models and curiosity-driven learning, Learning a Size-Weight Frontier for Synthetic-Augmented Inference reports: Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. — [source](http://arxiv.org/abs/2608.28576v1)
 - (0.80) On topic world models and curiosity-driven learning, Exact quantification of nonlocal magic reports: Magic, or nonstabilizerness, is the resource that lifts Clifford circuits to universal quantum computation and has become a standard diagnostic of many-body states. — [source](http://arxiv.org/abs/2608.28563v1)
+- (0.80) On topic world models and curiosity-driven learning, CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation reports: Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. — [source](http://arxiv.org/abs/2609.05397v1)
 - (0.80) On topic world models and curiosity-driven learning, The extremal cases of the Erd\H os--Sós conjecture reports: The Erd\H os--Sós conjecture states that every $n$-vertex graph $G$ with more than $(k-2)n/2$ edges contains every $k$-vertex tree. — [source](http://arxiv.org/abs/2609.05411v1)
 - (0.80) On topic world models and curiosity-driven learning, Prediction in action: toward an empirical science of active inference. reports: Active inference has emerged as an influential theoretical framework in cognitive neuroscience, offering a unifying account of perception, action, and cognition under the single principle of surprise minimization. — [source](https://doi.org/10.1016/j.neubiorev.2026.106817)
 - (0.80) On topic world models and curiosity-driven learning, Cooperation and Social Rules Emerging From the Principle of Surprise Minimization reports: The surprise minimization principle has been applied to explain various cognitive processes in humans. — [source](https://doi.org/10.3389/fpsyg.2020.606174)
 - (0.80) On topic world models and curiosity-driven learning, Accelerating Model-Based Reinforcement Learning with State-Space World Models reports: Reinforcement learning (RL) is a powerful approach for robot learning. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-21)] — [source](https://doi.org/10.48550/arXiv.2502.20168)
-- (0.75) On topic world models and curiosity-driven learning, Solvable relaxation in discrete unitary systems: Ruelle-Pollicott resonances and CMV matrices reports: Leading eigenvalues of the truncated propagator, known as Ruelle-Pollicott (RP) resonances, are an elegant way of addressing the dynamics of unitary many-body systems. — [source](http://arxiv.org/abs/2608.28575v1)
-- (0.75) On topic world models and curiosity-driven learning, CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation reports: Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. — [source](http://arxiv.org/abs/2609.05397v1)
 - (0.71) On topic world models and curiosity-driven learning, of Suﬃcient Statistic Time Series for Active Inference reports: (no abstract) — [source](https://www.semanticscholar.org/paper/b4ac341c718db504c56edd6ccc037b60bfb4fd24)
 
 ## Contradicted/refuted claims
@@ -46,4 +46,4 @@ Status: **NEW HYPOTHESIS** (23 surviving claims)
 
 ## Open unknowns
 
-- (none)
+- [escape-hatch] On topic world models and curiosity-driven learning, Differentiable Physics Models for Real-world Offline Model-based Reinforcement Learning reports: A limitati

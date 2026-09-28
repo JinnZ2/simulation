@@ -1,6 +1,6 @@
 # Hypothesis draft: deployment-aware compression metrics
 
-_Regenerated 2026-09-24T10:54:11+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-28T12:33:19+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -32,7 +32,6 @@ Status: **NEW HYPOTHESIS** (7 surviving claims)
 
 ## Open unknowns
 
-- [escape-hatch] On topic deployment-aware compression metrics, Low-Latency Model Compression for Real-Time Human Motion Prediction reports: One of the enablers of safety-critic
 - [escape-hatch] On topic deployment-aware compression metrics, When Compression Meets Model Compression: Memory-Efficient Double Compression for Large Language Models reports: 
 - [escape-hatch] On topic deployment-aware compression metrics, A Survey of Model Compression Techniques for TinyML Applications reports: The convergence of embedded systems and
 - [escape-hatch] On topic deployment-aware compression metrics, Accuracy-Latency Trade-offs Under Neural Network Compression in Safety-Critical Edge AI Applications: A Controlle
@@ -42,3 +41,4 @@ Status: **NEW HYPOTHESIS** (7 surviving claims)
 - [escape-hatch] On topic deployment-aware compression metrics, Quantized Can Still Be Calibrated: A Unified Framework to Calibration in Quantized Large Language Models reports:
 - [escape-hatch] On topic deployment-aware compression metrics, VillainNet: Targeted Poisoning Attacks Against SuperNets Along the Accuracy-Latency Pareto Frontier reports: (no 
 - [escape-hatch] On topic deployment-aware compression metrics, Improving Reliability in Quantized Graph Neural Networks with Node-Wise Entropy-driven Temperature Scaling report
+- [escape-hatch] On topic deployment-aware compression metrics, Information-theoretic Generalization Analysis for Expected Calibration Error reports: While the expected calibrat

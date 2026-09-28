@@ -1,6 +1,6 @@
 # Hypothesis draft: calibration and falsifiability of LLM agents
 
-_Regenerated 2026-09-24T10:54:11+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-28T12:33:19+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 

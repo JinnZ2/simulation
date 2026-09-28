@@ -1,6 +1,6 @@
 # Hypothesis draft: activation-aware quantization
 
-_Regenerated 2026-09-24T10:54:11+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-09-28T12:33:19+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -81,3 +81,5 @@ Status: **NEW HYPOTHESIS** (52 surviving claims)
 - [escape-hatch] On topic activation-aware quantization, Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models reports: Large language models 
 - [escape-hatch] On topic activation-aware quantization, AAAC: Activation-Aware Adaptive Codebooks for 4-bit LLM Weight Quantization reports: Post-training weight-only quantizat
 - [escape-hatch] On topic activation-aware quantization, IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier reports: Enterprises deploy 
+- [escape-hatch] On topic activation-aware quantization, A Generalizable Feature Extractor for Alzheimer's-Related Brain MRI Tasks reports: When there is not enough labeled data
+- [escape-hatch] On topic activation-aware quantization, Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements reports: We determine the optimal sampl
