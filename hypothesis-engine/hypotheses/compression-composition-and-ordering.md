@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-09-28T12:33:19+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-01T12:15:44+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 

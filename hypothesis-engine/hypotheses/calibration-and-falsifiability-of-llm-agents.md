@@ -1,6 +1,6 @@
 # Hypothesis draft: calibration and falsifiability of LLM agents
 
-_Regenerated 2026-09-28T12:33:19+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-01T12:15:44+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic calibration and falsifiability of LLM agents, Blazar Boosted Dark Matter in IceCube reports: We study the sensitivity of IceCube to blazar-boosted dark matter in a fermionic dark matter model with a massive vector mediator coupling to quarks.
 
-Status: **NEW HYPOTHESIS** (93 surviving claims)
+Status: **NEW HYPOTHESIS** (94 surviving claims)
 
 ## Supporting claims
 
@@ -45,6 +45,8 @@ Status: **NEW HYPOTHESIS** (93 surviving claims)
 - (0.83) On topic calibration and falsifiability of LLM agents, Variable Charge State, Magnetic Excitations, and Kondo Effect of Sm/g/Ir(111) reports: Using low-temperature scanning tunneling microscopy we investigate the charge state, magnetic excitations, and Kondo features of individual Sm adatoms on graphene/Ir(111). — [source](http://arxiv.org/abs/2609.05394v1)
 - (0.83) On topic calibration and falsifiability of LLM agents, IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications reports: A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. — [source](http://arxiv.org/abs/2609.10539v1)
 - (0.83) On topic calibration and falsifiability of LLM agents, Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning reports: Logic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust. — [source](http://arxiv.org/abs/2609.10537v1)
+- (0.83) On topic calibration and falsifiability of LLM agents, ScaleCal: Scale-Aware Confidence Calibration for Small Language Models reports: Abstract
+                Small language models (0.5B--7B) on edge devices must know when to abstain. [restricted: narrower scope within calibration and falsifiability of LLM agents (run 2026-09-28)] — [source](https://doi.org/10.21203/rs.3.rs-10911915/v1)
 - (0.82) On topic calibration and falsifiability of LLM agents, Large Language Model Agents reports: (no abstract) — [source](https://doi.org/10.1007/978-3-031-92285-5_8)
 - (0.82) On topic calibration and falsifiability of LLM agents, Data2Dialogue: Structured Enterprise Knowledge Grounding in LLM Agents for Personalized Wellness Sales reports: Abstract
         Large language models (LLMs) have the potential to revolutionize various domains, including personalized wellness sales, by integrating structured enterprise knowledge into their frameworks. — [source](https://doi.org/10.21203/rs.3.rs-6727135/v1)

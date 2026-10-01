@@ -1,6 +1,6 @@
 # Hypothesis draft: world models and curiosity-driven learning
 
-_Regenerated 2026-09-28T12:33:19+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-01T12:15:44+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic world models and curiosity-driven learning, The Structured Totient Preimage Problem: Reconstruction, Collisions, and Cryptographic Implications reports: We define and study the Structured Totient Preimage (STP) problem as a restricted reconstruction relation with a direct cryptographic motivation.
 
-Status: **NEW HYPOTHESIS** (23 surviving claims)
+Status: **NEW HYPOTHESIS** (26 surviving claims)
 
 ## Supporting claims
 
@@ -34,6 +34,9 @@ Status: **NEW HYPOTHESIS** (23 surviving claims)
 - (0.80) On topic world models and curiosity-driven learning, Prediction in action: toward an empirical science of active inference. reports: Active inference has emerged as an influential theoretical framework in cognitive neuroscience, offering a unifying account of perception, action, and cognition under the single principle of surprise minimization. — [source](https://doi.org/10.1016/j.neubiorev.2026.106817)
 - (0.80) On topic world models and curiosity-driven learning, Cooperation and Social Rules Emerging From the Principle of Surprise Minimization reports: The surprise minimization principle has been applied to explain various cognitive processes in humans. — [source](https://doi.org/10.3389/fpsyg.2020.606174)
 - (0.80) On topic world models and curiosity-driven learning, Accelerating Model-Based Reinforcement Learning with State-Space World Models reports: Reinforcement learning (RL) is a powerful approach for robot learning. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-21)] — [source](https://doi.org/10.48550/arXiv.2502.20168)
+- (0.80) On topic world models and curiosity-driven learning, Cogentic: Multi-Agent Orchestration for Automated Proof Discovery reports: We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. — [source](http://arxiv.org/abs/2609.40324v1)
+- (0.75) On topic world models and curiosity-driven learning, Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model reports: Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. — [source](http://arxiv.org/abs/2609.40358v1)
+- (0.75) On topic world models and curiosity-driven learning, AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents reports: The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. — [source](http://arxiv.org/abs/2609.40353v1)
 - (0.71) On topic world models and curiosity-driven learning, of Suﬃcient Statistic Time Series for Active Inference reports: (no abstract) — [source](https://www.semanticscholar.org/paper/b4ac341c718db504c56edd6ccc037b60bfb4fd24)
 
 ## Contradicted/refuted claims

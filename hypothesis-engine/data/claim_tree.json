@@ -1876,8 +1876,8 @@
     {
       "text": "On topic compression composition and ordering, An improved volume bound under Ricci and scalar curvature lower bounds reports: We study volume comparison for closed Riemannian manifolds satisfying a positive Ricci curvature lower bound together with an improved scalar curvature lower bound.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -1889,7 +1889,7 @@
       "id": "42affae4b7d71e0d07c3fec0",
       "source_url": "http://arxiv.org/abs/2608.19196v1",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
@@ -2183,8 +2183,8 @@
     {
       "text": "On topic hidden variable detection / causal discovery from residuals, Cohomological Reduction for Fiber-Contracting Extensions:From Subcohomology to Thermodynamic Formalism reports: We develop a reduction and transfer framework for cohomological, variational, and thermodynamic problems in fiber-contracting extensions of local homeomorphisms.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -2196,7 +2196,7 @@
       "id": "41e0b4e4ff442f3e7414e624",
       "source_url": "http://arxiv.org/abs/2608.21352v1",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
@@ -2702,8 +2702,8 @@
     {
       "text": "On topic hidden variable detection / causal discovery from residuals, Probing the Properties of Neutral Clouds in the Vicinity of the Local Bubble: Linking three-dimensional Dust with Neutral Hydrogen Absorption reports: The Local Bubble (LB) contains significant internal structure, with many interstellar clouds lying within or on its walls.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -2715,7 +2715,7 @@
       "id": "8726fc63d8c53c9a875f3f2f",
       "source_url": "http://arxiv.org/abs/2608.26098v1",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
@@ -3446,8 +3446,8 @@
     {
       "text": "On topic hidden variable detection / causal discovery from residuals, Some quartic control results for scalar-input systems reports: We investigate the role of quartic terms in the small-time local controllability of scalar-input systems. [restricted: narrower scope within hidden variable detection / causal discovery from residuals (run 2026-09-07)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -3462,7 +3462,7 @@
       "id": "b2b6751bc1b5e4900d04c850",
       "source_url": "http://arxiv.org/abs/2608.28582v1",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
@@ -3908,8 +3908,8 @@
     {
       "text": "On topic representation geometry under compression, Modular Functors with Singularities from Vertex Operator Algebras Beyond Rigidity and Finiteness reports: For a vertex operator algebra $V$ and a suitable category of its modules, we propose a construction for spaces of conformal blocks organized into an open-closed modular functor with singularities.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.75,
-      "passed": 2,
+      "confidence": 0.8,
+      "passed": 3,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -3921,8 +3921,8 @@
       "id": "70a9f4bd6b56a2eca084abf7",
       "source_url": "http://arxiv.org/abs/2608.28579v1",
       "status_override": "",
-      "beta_confidence": 0.75,
-      "status": "active"
+      "beta_confidence": 0.8,
+      "status": "survived"
     },
     {
       "text": "On topic calibration and falsifiability of LLM agents, A Common Measure of Communication for Speech Brain-Computer Interfaces reports: Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction.",
@@ -5969,8 +5969,8 @@
     {
       "text": "On topic hidden variable detection / causal discovery from residuals, Rigidity, sharp inequalities, and stability for $σ_2$-curvature reports: Using classical conformal divergence identities with a variable reference curvature, we prove four main results.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -5982,7 +5982,7 @@
       "id": "be7a8a6f5760ca3a90683a3f",
       "source_url": "http://arxiv.org/abs/2609.10523v1",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
@@ -6026,8 +6026,8 @@
     {
       "text": "On topic hidden variable detection / causal discovery from residuals, Guiding Image-to-3D Generation with Test-Time Partial Observations reports: Image-to-3D models can generate visually compelling 3D assets from a single RGB image, but their geometry is often only loosely constrained by the available observations, limiting their use in applications that require geometric fidelity.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -6039,14 +6039,14 @@
       "id": "81869199f0a4f90319551e45",
       "source_url": "http://arxiv.org/abs/2609.10531v1",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
       "text": "On topic hidden variable detection / causal discovery from residuals, Optimal Intermediate Hamiltonians for Non-Equilibrium Free Energy Calculations: A Numerical Study of Markov Models reports: The Jarzynski relation enables the estimation of equilibrium free energy differences from non-equilibrium, finite-time switching simulations.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -6058,7 +6058,7 @@
       "id": "55adb2bef601ab864d510d7e",
       "source_url": "http://arxiv.org/abs/2609.10519v1",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
@@ -6836,9 +6836,9 @@
     {
       "text": "On topic representation geometry under compression, The Union of Manifolds Hypothesis and its Implications for Deep Generative Modelling reports: (no abstract) [restricted: narrower scope within representation geometry under compression (run 2026-09-21)] [restricted: narrower scope within representation geometry under compression (run 2026-09-28)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
+      "confidence": 0.3333333333333333,
       "passed": 0,
-      "failed": 0,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "representation geometry under compression",
@@ -6853,7 +6853,7 @@
       "id": "f9fc097f482cfe7167e551c9",
       "source_url": "https://doi.org/10.48550/arXiv.2207.02862",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.3333333333333333,
       "status": "active"
     },
     {
@@ -6878,8 +6878,8 @@
     {
       "text": "On topic representation geometry under compression, T HE U NION OF M ANIFOLDS H YPOTHESIS reports: (no abstract)",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.75,
-      "passed": 2,
+      "confidence": 0.8,
+      "passed": 3,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -6891,15 +6891,15 @@
       "id": "a95770803da98c4a304ce8d2",
       "source_url": "https://www.semanticscholar.org/paper/cf7f407d4b173eb36d2d308ca75a84bd35271693",
       "status_override": "",
-      "beta_confidence": 0.75,
-      "status": "active"
+      "beta_confidence": 0.8,
+      "status": "survived"
     },
     {
       "text": "On topic representation geometry under compression, A Survey and Comparative Evaluation of Intrinsic Dimension Estimators under the Manifold Hypothesis reports: The manifold hypothesis suggests that high-dimensional data often lie on or near a low-dimensional manifold. [restricted: narrower scope within representation geometry under compression (run 2026-09-21)] [restricted: narrower scope within representation geometry under compression (run 2026-09-28)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
       "confidence": 0.5,
-      "passed": 0,
-      "failed": 0,
+      "passed": 1,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "representation geometry under compression",
@@ -6920,8 +6920,8 @@
     {
       "text": "On topic representation geometry under compression, Deep Generative Models through the Lens of the Manifold Hypothesis: A Survey and New Connections reports: In recent years there has been increased interest in understanding the interplay between deep generative models (DGMs) and the manifold hypothesis. [restricted: narrower scope within representation geometry under compression (run 2026-09-21)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.75,
-      "passed": 2,
+      "confidence": 0.8,
+      "passed": 3,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -6936,8 +6936,8 @@
       "id": "fb1a22f6ab67a91ecadfc241",
       "source_url": "https://doi.org/10.48550/arXiv.2404.02954",
       "status_override": "",
-      "beta_confidence": 0.75,
-      "status": "active"
+      "beta_confidence": 0.8,
+      "status": "survived"
     },
     {
       "text": "On topic world models and curiosity-driven learning, Accelerating Model-Based Reinforcement Learning with State-Space World Models reports: Reinforcement learning (RL) is a powerful approach for robot learning. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-21)]",
@@ -6984,8 +6984,8 @@
       "text": "On topic world models and curiosity-driven learning, World4RL: Diffusion World Models for Policy Refinement With Reinforcement Learning for Robotic Manipulation reports: Robotic manipulation policies are commonly initialized through imitation learning, but their performance is limited by the scarcity and narrow coverage of expert data. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-21)] [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-28)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
       "confidence": 0.5,
-      "passed": 0,
-      "failed": 0,
+      "passed": 1,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "world models and curiosity-driven learning",
@@ -7006,8 +7006,8 @@
     {
       "text": "On topic world models and curiosity-driven learning, GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning reports: Vision-language-action (VLA) models that directly predict multi-step action chunks from current observations face inherent limitations due to constrained scene understanding and weak future anticipation capabilities.",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -7019,7 +7019,7 @@
       "id": "2d7a4f8ae1dbb4c13dfd0212",
       "source_url": "https://doi.org/10.48550/arXiv.2602.12099",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
@@ -7063,8 +7063,8 @@
     {
       "text": "On topic representation geometry under compression, Rethinking Centered Kernel Alignment in Knowledge Distillation reports: Knowledge distillation has emerged as a highly effective method for bridging the representation discrepancy between large-scale models and lightweight models. [restricted: narrower scope within representation geometry under compression (run 2026-09-28)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.6666666666666666,
+      "passed": 1,
       "failed": 0,
       "logical_form": "",
       "scope": {
@@ -7079,7 +7079,7 @@
       "id": "b270395932885236a025cf64",
       "source_url": "https://doi.org/10.48550/arXiv.2401.11824",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6666666666666666,
       "status": "active"
     },
     {
@@ -7102,33 +7102,34 @@
       "status": "active"
     },
     {
-      "text": "On topic representation geometry under compression, Equivalence between representational similarity analysis, centered kernel alignment, and canonical correlations analysis reports: Centered kernel alignment (CKA) and representational similarity analysis (RSA) of dissimilarity matrices are two popular methods for comparing neural systems in terms of representational geometry. [restricted: narrower scope within representation geometry under compression (run 2026-09-24)]",
+      "text": "On topic representation geometry under compression, Equivalence between representational similarity analysis, centered kernel alignment, and canonical correlations analysis reports: Centered kernel alignment (CKA) and representational similarity analysis (RSA) of dissimilarity matrices are two popular methods for comparing neural systems in terms of representational geometry. [restricted: narrower scope within representation geometry under compression (run 2026-09-24)] [restricted: narrower scope within representation geometry under compression (run 2026-10-01)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.6,
-      "passed": 2,
-      "failed": 1,
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
       "logical_form": "",
       "scope": {
         "topic": "representation geometry under compression",
         "source": "semantic_scholar",
         "restrictions": [
-          "narrower scope within representation geometry under compression (run 2026-09-24)"
+          "narrower scope within representation geometry under compression (run 2026-09-24)",
+          "narrower scope within representation geometry under compression (run 2026-10-01)"
         ]
       },
       "reference_class": "representation geometry under compression / semantic_scholar findings",
-      "reformulation_count": 1,
+      "reformulation_count": 2,
       "id": "cd2128cea64f87cd2cb604f2",
       "source_url": "https://doi.org/10.1101/2024.10.23.619871",
       "status_override": "",
-      "beta_confidence": 0.6,
+      "beta_confidence": 0.5,
       "status": "active"
     },
     {
       "text": "On topic representation geometry under compression, Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks reports: Centred Kernel Alignment (CKA) has recently emerged as a popular metric to compare activations from biological and artificial neural networks (ANNs) in order to quantify the alignment between internal representations derived from stimuli sets (e.g. [restricted: narrower scope within representation geometry under compression (run 2026-09-28)]",
       "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
-      "confidence": 0.5,
-      "passed": 0,
-      "failed": 0,
+      "confidence": 0.6,
+      "passed": 2,
+      "failed": 1,
       "logical_form": "",
       "scope": {
         "topic": "representation geometry under compression",
@@ -7142,14 +7143,14 @@
       "id": "6f3045b1c69f657dfaf55d3d",
       "source_url": "https://doi.org/10.48550/arXiv.2405.01012",
       "status_override": "",
-      "beta_confidence": 0.5,
+      "beta_confidence": 0.6,
       "status": "active"
     },
     {
       "text": "On topic calibration and falsifiability of LLM agents, ScaleCal: Scale-Aware Confidence Calibration for Small Language Models reports: Abstract\n                Small language models (0.5B--7B) on edge devices must know when to abstain. [restricted: narrower scope within calibration and falsifiability of LLM agents (run 2026-09-28)]",
       "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
-      "confidence": 0.5,
-      "passed": 0,
+      "confidence": 0.8333333333333334,
+      "passed": 4,
       "failed": 0,
       "logical_form": "abs_diff_lt",
       "scope": {
@@ -7163,6 +7164,699 @@
       "reformulation_count": 1,
       "id": "5017049c1dc3d3a6166d8b6b",
       "source_url": "https://doi.org/10.21203/rs.3.rs-10911915/v1",
+      "status_override": "",
+      "beta_confidence": 0.8333333333333334,
+      "status": "survived"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, A Reversible Residual Network-Aided Canonical Correlation Analysis to Fault Detection and Diagnosis in Electrical Drive Systems reports: To ensure the safety of electrical drive systems, fault detection and diagnosis (FDD) has become an active approach over the past two decades.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "be10b4650d24f39bd3b74121",
+      "source_url": "https://doi.org/10.1109/TIM.2023.3348900",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, A new condition-monitoring method based on multi-variable correlation learning network for wind turbine fault detection reports: Reasonable and in-depth analysis of the supervisory control and data acquisition (SCADA) dataset can improve the accuracy and reliability of anomaly detection in wind turbines.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "4419beeda28ee63ee31aea6c",
+      "source_url": "https://doi.org/10.1088/1361-6501/ac9f5d",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, Vacuum Dependent Bell Local Hidden Variable Models and Generalized C.H.S.H. Inequalities reports: (no abstract)",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8333333333333334,
+      "passed": 4,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "7811390a76a6ede3601c4412",
+      "source_url": "https://www.semanticscholar.org/paper/e5fc7f71cc7a0d7c27f93998d13d23cc6cda5954",
+      "status_override": "",
+      "beta_confidence": 0.8333333333333334,
+      "status": "survived"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, A local hidden variable model of quantum correlation exploiting the detection loophole reports: A local hidden variable model exploiting the detection loophole to reproduce exactly the quantum correlation of the singlet state is presented.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "bfd1d5acac44b4f5c463177f",
+      "source_url": "https://doi.org/10.1016/S0375-9601(99)00519-8",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic hidden variable detection / causal discovery from residuals, OrthoFormer: Instrumental Variable Estimation in Transformer Hidden States via Neural Control Functions reports: Transformer architectures excel at sequential modeling yet remain fundamentally limited by correlational learning - they capture spurious associations induced by latent confounders rather than invariant causal mechanisms.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "hidden variable detection / causal discovery from residuals",
+        "source": "semantic_scholar"
+      },
+      "reference_class": "hidden variable detection / causal discovery from residuals / semantic_scholar findings",
+      "reformulation_count": 0,
+      "id": "b13b089ef516855209928636",
+      "source_url": "https://doi.org/10.48550/arXiv.2603.07431",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Probing the Reionization History and Bubble Sizes with JWST Lyman-$α$ Fraction Measurements reports: Recent James Webb Space Telescope (JWST) measurements quantify the fraction of ultraviolet-selected galaxies showing detectable Lyman-alpha (Ly-$α$) lines at $z \\sim 6-14$.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "1ef3c906a58236ecef42215a",
+      "source_url": "http://arxiv.org/abs/2609.40363v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces reports: We present Multimodal Flow, a fully continuous generative model of language and vision. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-10-01)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv",
+        "restrictions": [
+          "narrower scope within world models and curiosity-driven learning (run 2026-10-01)"
+        ]
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 1,
+      "id": "bae1dd180b8f283614138d9c",
+      "source_url": "http://arxiv.org/abs/2609.40362v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis reports: Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-10-01)]",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv",
+        "restrictions": [
+          "narrower scope within world models and curiosity-driven learning (run 2026-10-01)"
+        ]
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 1,
+      "id": "285eef573bff227d2bb8f52f",
+      "source_url": "http://arxiv.org/abs/2609.40361v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Semifactual Credit-Augmented Policy Optimization reports: Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-10-01)]",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv",
+        "restrictions": [
+          "narrower scope within world models and curiosity-driven learning (run 2026-10-01)"
+        ]
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 1,
+      "id": "ef17c6dbf59affaa7fb30bd1",
+      "source_url": "http://arxiv.org/abs/2609.40360v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text reports: We find that major reported improvements in decoding words from non-invasive brain recordings are largely reproducible without any brain data.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.3333333333333333,
+      "passed": 0,
+      "failed": 1,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "5821efbd38db86cd213e8743",
+      "source_url": "http://arxiv.org/abs/2609.40359v1",
+      "status_override": "",
+      "beta_confidence": 0.3333333333333333,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents reports: As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "a2423d814d91ddacab239481",
+      "source_url": "http://arxiv.org/abs/2609.40325v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Cogentic: Multi-Agent Orchestration for Automated Proof Discovery reports: We present Cogentic, a multi-agent harness for automated proof discovery on open research problems.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8,
+      "passed": 3,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "ed60ab382f70452785d2a0c5",
+      "source_url": "http://arxiv.org/abs/2609.40324v1",
+      "status_override": "",
+      "beta_confidence": 0.8,
+      "status": "survived"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Looped Diffusion Transformer reports: Improving text-to-image models has traditionally relied on increasing model size or the number of denoising steps.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "6708755567c548b325276b55",
+      "source_url": "http://arxiv.org/abs/2609.40305v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model reports: Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.75,
+      "passed": 2,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "21a1260a395a1a86be2121e2",
+      "source_url": "http://arxiv.org/abs/2609.40358v1",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents reports: The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.75,
+      "passed": 2,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "f16443207f071b29bbc92ea6",
+      "source_url": "http://arxiv.org/abs/2609.40353v1",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "active"
+    },
+    {
+      "text": "On topic world models and curiosity-driven learning, On The Simplest Quantum-Secure Block Cipher reports: Pseudorandom permutations are ubiquitous in theoretical and applied cryptography.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "world models and curiosity-driven learning",
+        "source": "arxiv"
+      },
+      "reference_class": "world models and curiosity-driven learning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "4747b1b42ad4fdae5a68cc6e",
+      "source_url": "http://arxiv.org/abs/2609.40350v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, Quantum hypothesis testing of non-mixed-unitarity: A multifaceted hierarchy of quantum channel discrimination reports: Given multiple uses of an unknown quantum channel, we determine whether it is a specified non-mixed-unitary channel or belongs to the set of mixed-unitary channels.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "arxiv"
+      },
+      "reference_class": "activation-aware quantization / arxiv findings",
+      "reformulation_count": 0,
+      "id": "4e10c0050664da307af40bfa",
+      "source_url": "http://arxiv.org/abs/2609.40355v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, Design of Mechanically Compliant Membrane Reflectors for Giant Optical Phase Nonlinearity reports: Optical nonlinearities arise when the response of a photonic system depends on light intensity.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "arxiv"
+      },
+      "reference_class": "activation-aware quantization / arxiv findings",
+      "reformulation_count": 0,
+      "id": "8b7f66164ad04b421504e4fd",
+      "source_url": "http://arxiv.org/abs/2609.40354v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, Image Classifiers are Efficient Self-Supervised Video Representation Learners reports: We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.75,
+      "passed": 2,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "arxiv"
+      },
+      "reference_class": "activation-aware quantization / arxiv findings",
+      "reformulation_count": 0,
+      "id": "73eacec7159fad17eed350e9",
+      "source_url": "http://arxiv.org/abs/2609.40347v1",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, A Fast Nonuniform Solver for the Poisson Equation over a Disk reports: We study fast numerical methods for the Poisson equation on a disk within the FFTRR (Fast Fourier Transform Radial Recurrence) framework, which is built on Green's function representations.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "arxiv"
+      },
+      "reference_class": "activation-aware quantization / arxiv findings",
+      "reformulation_count": 0,
+      "id": "748e18c11d087951a80fb7b6",
+      "source_url": "http://arxiv.org/abs/2609.40344v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, Quantization through Dissipation and the Optical Quantum Hall Effect reports: The integer quantum Hall effect remains the most paradigmatic and remarkable example of exact quantization in condensed matter physics.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "arxiv"
+      },
+      "reference_class": "activation-aware quantization / arxiv findings",
+      "reformulation_count": 0,
+      "id": "479c55a7c4450ce92d9588dc",
+      "source_url": "http://arxiv.org/abs/2609.40337v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic activation-aware quantization, Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD? reports: Differentially Private Stochastic Gradient Descent (DP-SGD) is a leading approach for privacy-preserving fine-tuning of large language models (LLMs).",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.75,
+      "passed": 5,
+      "failed": 1,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "activation-aware quantization",
+        "source": "arxiv"
+      },
+      "reference_class": "activation-aware quantization / arxiv findings",
+      "reformulation_count": 0,
+      "id": "dac8574fb9738ced355ebdab",
+      "source_url": "http://arxiv.org/abs/2609.40335v1",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "survived"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Learning Global Sensitivity Indices from Observational Data: A Metamodel-Based Approach reports: Classical variance-based Global Sensitivity Analysis (GSA) assumes that the input--output mechanism can be repeatedly evaluated under a designed sampling scheme, which is infeasible when only a given sample of observations is available.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.75,
+      "passed": 2,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "6e1c643033e404c8c1d48dcc",
+      "source_url": "http://arxiv.org/abs/2609.40342v1",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Weak Convergence Rates for Partial-Sum Processes of Nonlinear Stochastic Approximation reports: Stochastic approximation provides a general framework for online estimation and optimization.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "ce05fb06041ec8cd5bbe381c",
+      "source_url": "http://arxiv.org/abs/2609.40338v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, A Noise Operator Approach to Quantum Query Complexity and Time-Space Tradeoff Lower Bounds reports: Time and space (memory) are two of the most important measures of cost in computation, even more so for quantum computation.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.8,
+      "passed": 3,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "5ee8fbaaf6123f55230fde28",
+      "source_url": "http://arxiv.org/abs/2609.40334v1",
+      "status_override": "",
+      "beta_confidence": 0.8,
+      "status": "survived"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Tight Universal Bounds on Quantum Data Hiding with Multipartite Werner States reports: Quantum data hiding concerns pairs of states which are highly distinguishable with global measurements, yet nearly indistinguishable when restricted to local operations and classical communication.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "18f4a44877b7d35429f32b5c",
+      "source_url": "http://arxiv.org/abs/2609.40332v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Fast Quantum Algorithms for Learning Linear Threshold Functions reports: Linear threshold functions are $f_{w,θ}(x)=\\text{sign}(\\langle x,w \\rangle -θ)$, where the weight vector $w\\in\\mathbb{R}^n$ is a unit vector, $θ\\in\\mathbb R$ is a threshold, and typically $x\\in\\mathbb{R}^n$ or $x\\in\\{-1,1\\}^n$.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.75,
+      "passed": 2,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "efc379d97c7256714fc5e936",
+      "source_url": "http://arxiv.org/abs/2609.40331v1",
+      "status_override": "",
+      "beta_confidence": 0.75,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Exponential quantum speedup for $\\mathbb{F}_3^n$-Subset-Sum? Or, rigorous classical algorithms for Binary-Error LWE reports: We study vector subset sum over $\\mathbb{F}_3^n$: given $m$ random vectors from $\\mathbb{F}_3^n$, find a nonempty subset that sums to zero; the smaller $m$, the more difficult it is to find such a subset.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "5ca5d971e5e067d9d438c91f",
+      "source_url": "http://arxiv.org/abs/2609.40321v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Scaling Laws for Looped Mixture of Experts reports: Looped transformers and Mixture-of-Experts (MoE) offer complementary routes to efficient scaling: recurrence increases computational depth at fixed parameters, while MoE sparsity expands total capacity at fixed active compute.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 1,
+      "failed": 1,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "c5cf2c274e4bdb5a4c159505",
+      "source_url": "http://arxiv.org/abs/2609.40316v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Resonances control when multiterminal Josephson currents reduce to two-terminal couplings reports: Multiterminal Josephson junctions, in which one weak link couples three or more superconductors, are studied as hosts of topological Andreev bands, multi-pair supercurrents and tunable circuit elements.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "18d575e4d310bd087b76b5f2",
+      "source_url": "http://arxiv.org/abs/2609.40346v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery reports: Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks.",
+      "falsification": "Numeric check: an independent replication or reanalysis fails to reproduce the reported quantitative effect within a factor of 2.",
+      "confidence": 0.6666666666666666,
+      "passed": 3,
+      "failed": 1,
+      "logical_form": "abs_diff_lt",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "433b4d1d087f8c5cc55f24b5",
+      "source_url": "http://arxiv.org/abs/2609.40340v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "survived"
+    },
+    {
+      "text": "On topic structured sparsity and hardware-matched pruning, Local Relaxation Hierarchies for Quantum Ground State Energies: Convergence Guarantees and Message Passing Algorithms reports: Convex relaxation hierarchies provide lower bounds to the ground state energy of quantum many-body systems that can be computed in polynomial time on a classical computer, at any fixed hierarchy level.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.6666666666666666,
+      "passed": 1,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "structured sparsity and hardware-matched pruning",
+        "source": "arxiv"
+      },
+      "reference_class": "structured sparsity and hardware-matched pruning / arxiv findings",
+      "reformulation_count": 0,
+      "id": "904a16ac3603fe58be464450",
+      "source_url": "http://arxiv.org/abs/2609.40336v1",
+      "status_override": "",
+      "beta_confidence": 0.6666666666666666,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, Quantum de Finetti theorems for states and channels in any distance measure reports: Standard finite quantum de Finetti theorems approximate the $k$-system marginals of permutation-invariant states of $n$-systems by mixtures of independent and identically distributed (iid) states, usually in trace distance.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "arxiv"
+      },
+      "reference_class": "compression composition and ordering / arxiv findings",
+      "reformulation_count": 0,
+      "id": "c187f7292d407943cce69ca5",
+      "source_url": "http://arxiv.org/abs/2609.40343v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing reports: Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "arxiv"
+      },
+      "reference_class": "compression composition and ordering / arxiv findings",
+      "reformulation_count": 0,
+      "id": "c9e88dcc1aced7934aa73e9e",
+      "source_url": "http://arxiv.org/abs/2609.40356v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic compression composition and ordering, Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning? reports: Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "compression composition and ordering",
+        "source": "arxiv"
+      },
+      "reference_class": "compression composition and ordering / arxiv findings",
+      "reformulation_count": 0,
+      "id": "b5f7f5f00dfa1ce6871d006f",
+      "source_url": "http://arxiv.org/abs/2609.40341v1",
+      "status_override": "",
+      "beta_confidence": 0.5,
+      "status": "active"
+    },
+    {
+      "text": "On topic representation geometry under compression, Singularity of harmonic measures for hyperbolic lattices reports: Let $Γ<\\mathrm{Isom}(\\mathbb H^n)$, $n\\geq2$, be a cocompact lattice containing a convex cocompact codimension-one subgroup in the sense of Sageev.",
+      "falsification": "Replication check: an independent replication or reanalysis of the reported result contradicts it on the same task/metric class.",
+      "confidence": 0.5,
+      "passed": 0,
+      "failed": 0,
+      "logical_form": "",
+      "scope": {
+        "topic": "representation geometry under compression",
+        "source": "arxiv"
+      },
+      "reference_class": "representation geometry under compression / arxiv findings",
+      "reformulation_count": 0,
+      "id": "6265331127d0872cdf94e7a5",
+      "source_url": "http://arxiv.org/abs/2609.40357v1",
       "status_override": "",
       "beta_confidence": 0.5,
       "status": "active"

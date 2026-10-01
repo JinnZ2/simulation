@@ -1,6 +1,6 @@
 # Hypothesis draft: hidden variable detection / causal discovery from residuals
 
-_Regenerated 2026-09-28T12:33:19+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-01T12:15:44+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,12 +8,13 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals.
 
-Status: **NEW HYPOTHESIS** (11 surviving claims)
+Status: **NEW HYPOTHESIS** (12 surviving claims)
 
 ## Supporting claims
 
 - (0.83) On topic hidden variable detection / causal discovery from residuals, Renormalization-guided cascade upscaling for lattice field generation reports: We introduce a renormalization-group (RG) guided machine-learning algorithm for lattice field generation based on approximate inversion of an RG transformation. — [source](http://arxiv.org/abs/2608.28581v1)
 - (0.83) On topic hidden variable detection / causal discovery from residuals, Causal discovery for time series with latent confounders reports: Reconstructing the causal relationships behind the phenomena we observe is a fundamental challenge in all areas of science. — [source](https://doi.org/10.48550/arXiv.2209.03427)
+- (0.83) On topic hidden variable detection / causal discovery from residuals, Vacuum Dependent Bell Local Hidden Variable Models and Generalized C.H.S.H. Inequalities reports: (no abstract) — [source](https://www.semanticscholar.org/paper/e5fc7f71cc7a0d7c27f93998d13d23cc6cda5954)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals. — [source](http://arxiv.org/abs/2608.14536v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Probabilistic Representation and Convergence of Gromov-Wasserstein Gradient Flows reports: Wasserstein gradient flows are intimately connected with evolution partial differential equations and diffusion processes. — [source](http://arxiv.org/abs/2608.19198v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Classical versus non-classical photon states for detecting vacuum non-linearity reports: Quantum electrodynamics (QED) predicts that the vacuum should behave as a non-linear medium. — [source](http://arxiv.org/abs/2608.21361v1)

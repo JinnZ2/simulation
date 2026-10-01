@@ -1,6 +1,6 @@
 # Hypothesis draft: structured sparsity and hardware-matched pruning
 
-_Regenerated 2026-09-28T12:33:19+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-01T12:15:44+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic structured sparsity and hardware-matched pruning, GPU implementation of mixed quantum-classical Liouville molecular dynamics without momentum jump reports: We implemented on GPU a mixed quantum-classical Liouville molecular dynamics simulation based on a momentum-jump-free theory.
 
-Status: **NEW HYPOTHESIS** (49 surviving claims)
+Status: **NEW HYPOTHESIS** (53 surviving claims)
 
 ## Supporting claims
 
@@ -59,10 +59,14 @@ Status: **NEW HYPOTHESIS** (49 surviving claims)
 - (0.80) On topic structured sparsity and hardware-matched pruning, Cascade models of anisotropic turbulence in magnetized plasma of solar wind reports: We present a physical framework for Alfvénic solar wind turbulence in which the plasma is modeled as discrete domains with local rotational symmetry about the domain-mean magnetic field. — [source](http://arxiv.org/abs/2609.10418v1)
 - (0.80) On topic structured sparsity and hardware-matched pruning, A positive resolution of the gap-entropy conjecture reports: We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. — [source](http://arxiv.org/abs/2609.10529v1)
 - (0.80) On topic structured sparsity and hardware-matched pruning, Register Tiling for Unstructured Sparsity in Neural Network Inference reports: Unstructured sparse neural networks are an important class of machine learning (ML) models, as they compact model size and reduce floating point operations. — [source](https://doi.org/10.1145/3591302)
+- (0.80) On topic structured sparsity and hardware-matched pruning, A Noise Operator Approach to Quantum Query Complexity and Time-Space Tradeoff Lower Bounds reports: Time and space (memory) are two of the most important measures of cost in computation, even more so for quantum computation. — [source](http://arxiv.org/abs/2609.40334v1)
 - (0.78) On topic structured sparsity and hardware-matched pruning, Bridging the Gap between Unstructured SpMM and Structured Sparse Tensor Cores reports: The acceleration of Sparse-dense Matrix Multiplication (SpMM) using Tensor Cores (TCs) in GPUs has recently garnered significant attention. — [source](https://doi.org/10.1145/3712285.3759849)
 - (0.78) On topic structured sparsity and hardware-matched pruning, Coruscant: Co-Designing GPU Kernel and Sparse Tensor Core to Advocate Unstructured Sparsity in Efficient LLM Inference reports: In the era of large language models (LLMs) and long-context generation, model compression techniques such as pruning, quantization, and distillation offer effective ways to reduce memory usage. — [source](https://doi.org/10.1145/3725843.3756065)
 - (0.75) On topic structured sparsity and hardware-matched pruning, Mustafar: Promoting Unstructured Sparsity for KV Cache Pruning in LLM Inference reports: We demonstrate that unstructured sparsity significantly improves KV cache compression for LLMs, enabling sparsity levels up to 70% without compromising accuracy or requiring fine-tuning. — [source](https://doi.org/10.48550/arXiv.2505.22913)
+- (0.75) On topic structured sparsity and hardware-matched pruning, Learning Global Sensitivity Indices from Observational Data: A Metamodel-Based Approach reports: Classical variance-based Global Sensitivity Analysis (GSA) assumes that the input--output mechanism can be repeatedly evaluated under a designed sampling scheme, which is infeasible when only a given sample of observations is available. — [source](http://arxiv.org/abs/2609.40342v1)
+- (0.75) On topic structured sparsity and hardware-matched pruning, Fast Quantum Algorithms for Learning Linear Threshold Functions reports: Linear threshold functions are $f_{w,θ}(x)=\text{sign}(\langle x,w \rangle -θ)$, where the weight vector $w\in\mathbb{R}^n$ is a unit vector, $θ\in\mathbb R$ is a threshold, and typically $x\in\mathbb{R}^n$ or $x\in\{-1,1\}^n$. — [source](http://arxiv.org/abs/2609.40331v1)
 - (0.67) On topic structured sparsity and hardware-matched pruning, The Erd\H os-Sós conjecture in dense graphs reports: The Erd\H os--Sós conjecture states that every $n$-vertex graph with more than $(k-2)n/2$ edges contains every $k$-vertex tree. — [source](http://arxiv.org/abs/2609.05417v1)
+- (0.67) On topic structured sparsity and hardware-matched pruning, EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery reports: Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. — [source](http://arxiv.org/abs/2609.40340v1)
 
 ## Contradicted/refuted claims
 
