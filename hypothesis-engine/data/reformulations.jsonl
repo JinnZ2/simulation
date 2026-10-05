@@ -176,3 +176,13 @@
 {"id": "bae1dd180b8f283614138d9c", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-10-01)", "at": "2026-10-01T12:15:44+00:00"}
 {"id": "285eef573bff227d2bb8f52f", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-10-01)", "at": "2026-10-01T12:15:44+00:00"}
 {"id": "ef17c6dbf59affaa7fb30bd1", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-10-01)", "at": "2026-10-01T12:15:44+00:00"}
+{"id": "f9fc097f482cfe7167e551c9", "count": 3, "condition": "narrower scope within representation geometry under compression (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}
+{"id": "6c6ddebc397f312ba6ee9f8d", "count": 3, "condition": "narrower scope within representation geometry under compression (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}
+{"id": "980d701ac3755577116b287d", "count": 3, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}
+{"id": "6f3045b1c69f657dfaf55d3d", "count": 2, "condition": "narrower scope within representation geometry under compression (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}
+{"id": "5821efbd38db86cd213e8743", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}
+{"id": "c5cf2c274e4bdb5a4c159505", "count": 1, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}
+{"id": "368f22ea7fad766e4129b589", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}
+{"id": "d367cb44aa8d27bb6ab3b225", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}
+{"id": "59ba99fd231b82f8575c120a", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}
+{"id": "e6ffce228b34125478226fc9", "count": 1, "condition": "narrower scope within activation-aware quantization (run 2026-10-05)", "at": "2026-10-05T13:13:16+00:00"}

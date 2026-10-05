@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-10-01T12:15:44+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-05T13:13:16+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic compression composition and ordering, Model Compression with Keras Pruning and Post-Training Quantization reports: This talks about the techniques used to compress a model as well as improve the inference latency: training a baseline model, fine-tuning it with magnitude-based weight pruning to high sparsity, and then exporting a deployment-ready TensorFlow Lite (TFLite) model using post-training quantization (PT
 
-Status: **NEW HYPOTHESIS** (35 surviving claims)
+Status: **NEW HYPOTHESIS** (36 surviving claims)
 
 ## Supporting claims
 
@@ -46,6 +46,7 @@ Status: **NEW HYPOTHESIS** (35 surviving claims)
 - (0.80) On topic compression composition and ordering, Approximate Muon with low-rank adapters reports: The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. — [source](http://arxiv.org/abs/2608.14492v1)
 - (0.80) On topic compression composition and ordering, Joint Compression Strategies for CNNs: A Case Study on Low Rank Factorization, Filter-based Pruning and Unstructured Pruning reports: (no abstract) — [source](https://doi.org/10.1109/isvlsi65124.2025.11130268)
 - (0.80) On topic compression composition and ordering, RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation reports: Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. — [source](http://arxiv.org/abs/2609.02847v1)
+- (0.75) On topic compression composition and ordering, An improved volume bound under Ricci and scalar curvature lower bounds reports: We study volume comparison for closed Riemannian manifolds satisfying a positive Ricci curvature lower bound together with an improved scalar curvature lower bound. — [source](http://arxiv.org/abs/2608.19196v1)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
 
 ## Contradicted/refuted claims

@@ -1,6 +1,6 @@
 # Hypothesis draft: world models and curiosity-driven learning
 
-_Regenerated 2026-10-01T12:15:44+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-05T13:13:16+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,10 +8,11 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic world models and curiosity-driven learning, The Structured Totient Preimage Problem: Reconstruction, Collisions, and Cryptographic Implications reports: We define and study the Structured Totient Preimage (STP) problem as a restricted reconstruction relation with a direct cryptographic motivation.
 
-Status: **NEW HYPOTHESIS** (26 surviving claims)
+Status: **NEW HYPOTHESIS** (28 surviving claims)
 
 ## Supporting claims
 
+- (0.86) On topic world models and curiosity-driven learning, AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents reports: The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. — [source](http://arxiv.org/abs/2609.40353v1)
 - (0.83) On topic world models and curiosity-driven learning, ExoMOD II. A Statistical Model of Transit Timing Variations in Kepler Multi-Planet Systems reports: In Paper I (Nesvorný et al. — [source](http://arxiv.org/abs/2608.28550v1)
 - (0.83) On topic world models and curiosity-driven learning, Video Generative Models as Geometry Learner reports: Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. — [source](http://arxiv.org/abs/2608.28549v1)
 - (0.83) On topic world models and curiosity-driven learning, Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction reports: Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. — [source](http://arxiv.org/abs/2609.05404v1)
@@ -22,6 +23,7 @@ Status: **NEW HYPOTHESIS** (26 surviving claims)
 - (0.83) On topic world models and curiosity-driven learning, Collective behavior from surprise minimization reports: Significance We introduce a model of collective behavior, proposing that individual members within a group, such as a school of fish or a flock of birds, act to minimize surprise. — [source](https://doi.org/10.1073/pnas.2320239121)
 - (0.83) On topic world models and curiosity-driven learning, Exploration, novelty, surprise, and free energy minimization reports: This paper reviews recent developments under the free energy principle that introduce a normative perspective on classical economic (utilitarian) decision-making based on (active) Bayesian inference. — [source](https://doi.org/10.3389/fpsyg.2013.00710)
 - (0.83) On topic world models and curiosity-driven learning, Raw2Drive: Reinforcement Learning with Aligned World Models for End-to-End Autonomous Driving (in CARLA v2) reports: Reinforcement Learning (RL) can mitigate the causal confusion and distribution shift inherent to imitation learning (IL). — [source](https://doi.org/10.48550/arXiv.2505.16394)
+- (0.83) On topic world models and curiosity-driven learning, Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model reports: Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. — [source](http://arxiv.org/abs/2609.40358v1)
 - (0.80) On topic world models and curiosity-driven learning, The Structured Totient Preimage Problem: Reconstruction, Collisions, and Cryptographic Implications reports: We define and study the Structured Totient Preimage (STP) problem as a restricted reconstruction relation with a direct cryptographic motivation. — [source](http://arxiv.org/abs/2608.19191v1)
 - (0.80) On topic world models and curiosity-driven learning, Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication reports: Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. — [source](http://arxiv.org/abs/2608.19161v1)
 - (0.80) On topic world models and curiosity-driven learning, Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders reports: We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. — [source](http://arxiv.org/abs/2608.26090v1)
@@ -35,8 +37,8 @@ Status: **NEW HYPOTHESIS** (26 surviving claims)
 - (0.80) On topic world models and curiosity-driven learning, Cooperation and Social Rules Emerging From the Principle of Surprise Minimization reports: The surprise minimization principle has been applied to explain various cognitive processes in humans. — [source](https://doi.org/10.3389/fpsyg.2020.606174)
 - (0.80) On topic world models and curiosity-driven learning, Accelerating Model-Based Reinforcement Learning with State-Space World Models reports: Reinforcement learning (RL) is a powerful approach for robot learning. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-09-21)] — [source](https://doi.org/10.48550/arXiv.2502.20168)
 - (0.80) On topic world models and curiosity-driven learning, Cogentic: Multi-Agent Orchestration for Automated Proof Discovery reports: We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. — [source](http://arxiv.org/abs/2609.40324v1)
-- (0.75) On topic world models and curiosity-driven learning, Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model reports: Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. — [source](http://arxiv.org/abs/2609.40358v1)
-- (0.75) On topic world models and curiosity-driven learning, AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents reports: The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. — [source](http://arxiv.org/abs/2609.40353v1)
+- (0.75) On topic world models and curiosity-driven learning, GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning reports: Vision-language-action (VLA) models that directly predict multi-step action chunks from current observations face inherent limitations due to constrained scene understanding and weak future anticipation capabilities. — [source](https://doi.org/10.48550/arXiv.2602.12099)
+- (0.75) On topic world models and curiosity-driven learning, SpiderCSS: Scalable Fault-Tolerant CSS State Preparation reports: Fault-tolerant preparation of logical states is a critical primitive for the realization of large-scale fault-tolerant quantum computing. — [source](http://arxiv.org/abs/2610.03714v1)
 - (0.71) On topic world models and curiosity-driven learning, of Suﬃcient Statistic Time Series for Active Inference reports: (no abstract) — [source](https://www.semanticscholar.org/paper/b4ac341c718db504c56edd6ccc037b60bfb4fd24)
 
 ## Contradicted/refuted claims
@@ -50,3 +52,4 @@ Status: **NEW HYPOTHESIS** (26 surviving claims)
 ## Open unknowns
 
 - [escape-hatch] On topic world models and curiosity-driven learning, Differentiable Physics Models for Real-world Offline Model-based Reinforcement Learning reports: A limitati
+- [escape-hatch] On topic world models and curiosity-driven learning, World4RL: Diffusion World Models for Policy Refinement With Reinforcement Learning for Robotic Manipulation

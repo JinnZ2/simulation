@@ -1,36 +1,36 @@
 # Hypothesis engine run report
 
-Run at: 2026-10-01T12:15:44+00:00
+Run at: 2026-10-05T13:13:16+00:00
 
 ## Stage counts
 
 - **topics**: 8
-- **raw_findings**: 140
+- **raw_findings**: 185
 - **new_findings**: 36
-- **duplicates_skipped**: 104
+- **duplicates_skipped**: 149
 - **claims_staked**: 36
 - **routed_to_unknown**: 0
-- **test_pass**: 73
-- **test_fail**: 16
-- **test_untested**: 91
-- **modify_reformulated**: 4
-- **modify_escape_hatched**: 0
+- **test_pass**: 103
+- **test_fail**: 23
+- **test_untested**: 96
+- **modify_reformulated**: 10
+- **modify_escape_hatched**: 3
 - **hidden_variable_suggestions**: []
 - **hypothesis_files**: 8
-- **new_hypotheses**: ['hidden variable detection / causal discovery from residuals', 'calibration and falsifiability of LLM agents', 'representation geometry under compression', 'activation-aware quantization', 'structured sparsity and hardware-matched pruning', 'compression composition and ordering', 'deployment-aware compression metrics', 'world models and curiosity-driven learning']
-- **total_claims_in_tree**: 407
+- **new_hypotheses**: ['activation-aware quantization', 'calibration and falsifiability of LLM agents', 'deployment-aware compression metrics', 'compression composition and ordering', 'representation geometry under compression', 'hidden variable detection / causal discovery from residuals', 'world models and curiosity-driven learning', 'structured sparsity and hardware-matched pruning']
+- **total_claims_in_tree**: 440
 
 ## New hypotheses
 NEW HYPOTHESIS
 
-- hidden variable detection / causal discovery from residuals
-- calibration and falsifiability of LLM agents
-- representation geometry under compression
 - activation-aware quantization
-- structured sparsity and hardware-matched pruning
-- compression composition and ordering
+- calibration and falsifiability of LLM agents
 - deployment-aware compression metrics
+- compression composition and ordering
+- representation geometry under compression
+- hidden variable detection / causal discovery from residuals
 - world models and curiosity-driven learning
+- structured sparsity and hardware-matched pruning
 
 ## Top hidden-variable suspects
 

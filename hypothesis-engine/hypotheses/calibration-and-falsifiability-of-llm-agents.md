@@ -1,6 +1,6 @@
 # Hypothesis draft: calibration and falsifiability of LLM agents
 
-_Regenerated 2026-10-01T12:15:44+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-05T13:13:16+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic calibration and falsifiability of LLM agents, Blazar Boosted Dark Matter in IceCube reports: We study the sensitivity of IceCube to blazar-boosted dark matter in a fermionic dark matter model with a massive vector mediator coupling to quarks.
 
-Status: **NEW HYPOTHESIS** (94 surviving claims)
+Status: **NEW HYPOTHESIS** (97 surviving claims)
 
 ## Supporting claims
 
@@ -104,10 +104,13 @@ Status: **NEW HYPOTHESIS** (94 surviving claims)
 - (0.80) On topic calibration and falsifiability of LLM agents, iLogMap: Geodesic Polar Coordinates Parameterization with the Magnetic Laplacian reports: Geodesic polar coordinates (GPCs) provide an intrinsic parameterization over curved surfaces, but their accurate estimation remains challenging, particularly in the presence of anisotropic metrics, high curvature and complex topology. — [source](http://arxiv.org/abs/2609.10503v1)
 - (0.75) On topic calibration and falsifiability of LLM agents, DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging reports: Model merging combines multiple task-specific fine-tuned LLMs into a single multi-task model without additional training. — [source](http://arxiv.org/abs/2608.28547v1)
 - (0.75) On topic calibration and falsifiability of LLM agents, The Implications of Linguistic Illegibility for LLM Security reports: LLMs are trained to generate natural language. [restricted: narrower scope within calibration and falsifiability of LLM agents (run 2026-09-03)] [restricted: narrower scope within calibration and falsifiability of LLM agents (run 2026-09-07)] — [source](http://arxiv.org/abs/2609.02852v1)
+- (0.75) On topic calibration and falsifiability of LLM agents, Dark matter bound-states made easy reports: A light force carrier can mediate long-range interactions between dark matter particles and facilitate the formation of bound states. — [source](http://arxiv.org/abs/2610.03718v1)
 - (0.71) On topic calibration and falsifiability of LLM agents, Split the Labor: Separating Evidence Interpretation from Decision Aggregation reports: Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. — [source](http://arxiv.org/abs/2608.14509v1)
 - (0.71) On topic calibration and falsifiability of LLM agents, Falsifiability of Falsifiability: Neti - Neti in Advait Vedant - A Comparative Analysis in Search for Truer Knowledge reports: (no abstract) — [source](https://doi.org/10.21275/mr23917232519)
+- (0.71) On topic calibration and falsifiability of LLM agents, FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution reports: LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. — [source](http://arxiv.org/abs/2610.03675v1)
 - (0.67) On topic calibration and falsifiability of LLM agents, CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing reports: With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios. — [source](http://arxiv.org/abs/2608.14546v1)
 - (0.67) On topic calibration and falsifiability of LLM agents, Elaboration Drift: How Human–LLM Interaction Erodes Epistemic Traction reports: Sycophancy-a system's tendency to agree with the user-is a recognized epistemic risk in human-LLM interaction. — [source](https://doi.org/10.2139/ssrn.6480298)
+- (0.67) On topic calibration and falsifiability of LLM agents, Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis reports: This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. — [source](http://arxiv.org/abs/2610.03717v1)
 
 ## Contradicted/refuted claims
 
