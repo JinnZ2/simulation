@@ -1,36 +1,36 @@
 # Hypothesis engine run report
 
-Run at: 2026-10-05T13:13:16+00:00
+Run at: 2026-10-08T12:37:36+00:00
 
 ## Stage counts
 
 - **topics**: 8
-- **raw_findings**: 185
-- **new_findings**: 36
-- **duplicates_skipped**: 149
-- **claims_staked**: 36
+- **raw_findings**: 175
+- **new_findings**: 40
+- **duplicates_skipped**: 135
+- **claims_staked**: 40
 - **routed_to_unknown**: 0
-- **test_pass**: 103
-- **test_fail**: 23
-- **test_untested**: 96
-- **modify_reformulated**: 10
-- **modify_escape_hatched**: 3
+- **test_pass**: 184
+- **test_fail**: 49
+- **test_untested**: 105
+- **modify_reformulated**: 16
+- **modify_escape_hatched**: 1
 - **hidden_variable_suggestions**: []
 - **hypothesis_files**: 8
-- **new_hypotheses**: ['activation-aware quantization', 'calibration and falsifiability of LLM agents', 'deployment-aware compression metrics', 'compression composition and ordering', 'representation geometry under compression', 'hidden variable detection / causal discovery from residuals', 'world models and curiosity-driven learning', 'structured sparsity and hardware-matched pruning']
-- **total_claims_in_tree**: 440
+- **new_hypotheses**: ['hidden variable detection / causal discovery from residuals', 'compression composition and ordering', 'activation-aware quantization', 'deployment-aware compression metrics', 'representation geometry under compression', 'structured sparsity and hardware-matched pruning', 'calibration and falsifiability of LLM agents', 'world models and curiosity-driven learning']
+- **total_claims_in_tree**: 479
 
 ## New hypotheses
 NEW HYPOTHESIS
 
-- activation-aware quantization
-- calibration and falsifiability of LLM agents
-- deployment-aware compression metrics
-- compression composition and ordering
-- representation geometry under compression
 - hidden variable detection / causal discovery from residuals
-- world models and curiosity-driven learning
+- compression composition and ordering
+- activation-aware quantization
+- deployment-aware compression metrics
+- representation geometry under compression
 - structured sparsity and hardware-matched pruning
+- calibration and falsifiability of LLM agents
+- world models and curiosity-driven learning
 
 ## Top hidden-variable suspects
 

@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-10-05T13:13:16+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-08T12:37:36+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic compression composition and ordering, Model Compression with Keras Pruning and Post-Training Quantization reports: This talks about the techniques used to compress a model as well as improve the inference latency: training a baseline model, fine-tuning it with magnitude-based weight pruning to high sparsity, and then exporting a deployment-ready TensorFlow Lite (TFLite) model using post-training quantization (PT
 
-Status: **NEW HYPOTHESIS** (36 surviving claims)
+Status: **NEW HYPOTHESIS** (38 surviving claims)
 
 ## Supporting claims
 
@@ -27,6 +27,7 @@ Status: **NEW HYPOTHESIS** (36 surviving claims)
 - (0.88) On topic compression composition and ordering, PQK: Model Compression via Pruning, Quantization, and Knowledge Distillation reports: (no abstract) — [source](https://doi.org/10.21437/interspeech.2021-248)
 - (0.88) On topic compression composition and ordering, ICE-Pruning: An Iterative Cost-Efficient Pruning Pipeline for Deep Neural Networks reports: (no abstract) — [source](https://doi.org/10.1109/ijcnn64981.2025.11227410)
 - (0.88) On topic compression composition and ordering, Comparative analysis of lossless compression techniques in efficient DCT-based image compression system based on Laplacian Transparent Composite Model and An Innovative Lossless Compression Method for Discrete-Color Images reports: (no abstract) — [source](https://doi.org/10.1109/ICBDSC.2016.7460360)
+- (0.88) On topic compression composition and ordering, Budget-Aware LLM Quantization and Low-Rank Correction via Information-Guided Subspace Matrices reports: Compression techniques such as quantization and low-rank approximation enable large language models (LLMs) to run on current edge hardware with limited computing power, but the key challenge lies in balancing the allocation of precision and low rank within a fixed memory limit. — [source](https://doi.org/10.24963/ijcai.2026/475)
 - (0.86) On topic compression composition and ordering, Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning reports: (no abstract) — [source](https://doi.org/10.52202/068431-0323)
 - (0.86) On topic compression composition and ordering, Personalized Federated Learning with Low-Rank Pruning-Based Adaptation for Non-IID Data reports: (no abstract) — [source](https://doi.org/10.1109/jcc72984.2026.00034)
 - (0.83) On topic compression composition and ordering, Hierarchical Patch Compression for ColPali: Efficient Multi-Vector Document Retrieval with Dynamic Pruning and Quantization reports: (no abstract) — [source](https://doi.org/10.5220/0013732500004000)
@@ -45,9 +46,10 @@ Status: **NEW HYPOTHESIS** (36 surviving claims)
 - (0.80) On topic compression composition and ordering, Analytical model for CFRP confined masonry columns subjected to monotonic and cyclic compression reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2022.115696)
 - (0.80) On topic compression composition and ordering, Approximate Muon with low-rank adapters reports: The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. — [source](http://arxiv.org/abs/2608.14492v1)
 - (0.80) On topic compression composition and ordering, Joint Compression Strategies for CNNs: A Case Study on Low Rank Factorization, Filter-based Pruning and Unstructured Pruning reports: (no abstract) — [source](https://doi.org/10.1109/isvlsi65124.2025.11130268)
+- (0.80) On topic compression composition and ordering, An improved volume bound under Ricci and scalar curvature lower bounds reports: We study volume comparison for closed Riemannian manifolds satisfying a positive Ricci curvature lower bound together with an improved scalar curvature lower bound. — [source](http://arxiv.org/abs/2608.19196v1)
 - (0.80) On topic compression composition and ordering, RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation reports: Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. — [source](http://arxiv.org/abs/2609.02847v1)
-- (0.75) On topic compression composition and ordering, An improved volume bound under Ricci and scalar curvature lower bounds reports: We study volume comparison for closed Riemannian manifolds satisfying a positive Ricci curvature lower bound together with an improved scalar curvature lower bound. — [source](http://arxiv.org/abs/2608.19196v1)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
+- (0.75) On topic compression composition and ordering, A note on tomography of states with low stabilizer rank reports: In this note, we consider tomography of $n$-qubit quantum states $|ψ\rangle$ that are promised to have stabilizer rank $k$ i.e., admit a stabilizer decomposition of $|ψ\rangle = \sum_{i=1}^k c_i |φ_i\rangle$ where each $|φ_i\rangle$ is a stabilizer state. — [source](http://arxiv.org/abs/2610.03658v1)
 
 ## Contradicted/refuted claims
 
