@@ -1,6 +1,6 @@
 # Hypothesis draft: hidden variable detection / causal discovery from residuals
 
-_Regenerated 2026-10-08T12:37:36+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-12T14:04:17+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,13 +8,14 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals.
 
-Status: **NEW HYPOTHESIS** (23 surviving claims)
+Status: **NEW HYPOTHESIS** (24 surviving claims)
 
 ## Supporting claims
 
 - (0.83) On topic hidden variable detection / causal discovery from residuals, Renormalization-guided cascade upscaling for lattice field generation reports: We introduce a renormalization-group (RG) guided machine-learning algorithm for lattice field generation based on approximate inversion of an RG transformation. — [source](http://arxiv.org/abs/2608.28581v1)
 - (0.83) On topic hidden variable detection / causal discovery from residuals, Causal discovery for time series with latent confounders reports: Reconstructing the causal relationships behind the phenomena we observe is a fundamental challenge in all areas of science. — [source](https://doi.org/10.48550/arXiv.2209.03427)
 - (0.83) On topic hidden variable detection / causal discovery from residuals, Vacuum Dependent Bell Local Hidden Variable Models and Generalized C.H.S.H. Inequalities reports: (no abstract) — [source](https://www.semanticscholar.org/paper/e5fc7f71cc7a0d7c27f93998d13d23cc6cda5954)
+- (0.83) On topic hidden variable detection / causal discovery from residuals, Long-WAM: Scaling the Context of World-Action Models reports: Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. — [source](http://arxiv.org/abs/2610.10528v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals. — [source](http://arxiv.org/abs/2608.14536v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Probabilistic Representation and Convergence of Gromov-Wasserstein Gradient Flows reports: Wasserstein gradient flows are intimately connected with evolution partial differential equations and diffusion processes. — [source](http://arxiv.org/abs/2608.19198v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Classical versus non-classical photon states for detecting vacuum non-linearity reports: Quantum electrodynamics (QED) predicts that the vacuum should behave as a non-linear medium. — [source](http://arxiv.org/abs/2608.21361v1)
@@ -29,8 +30,8 @@ Status: **NEW HYPOTHESIS** (23 surviving claims)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Optimal Intermediate Hamiltonians for Non-Equilibrium Free Energy Calculations: A Numerical Study of Markov Models reports: The Jarzynski relation enables the estimation of equilibrium free energy differences from non-equilibrium, finite-time switching simulations. — [source](http://arxiv.org/abs/2609.10519v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, A local hidden variable model of quantum correlation exploiting the detection loophole reports: A local hidden variable model exploiting the detection loophole to reproduce exactly the quantum correlation of the singlet state is presented. — [source](https://doi.org/10.1016/S0375-9601(99)00519-8)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, OrthoFormer: Instrumental Variable Estimation in Transformer Hidden States via Neural Control Functions reports: Transformer architectures excel at sequential modeling yet remain fundamentally limited by correlational learning - they capture spurious associations induced by latent confounders rather than invariant causal mechanisms. — [source](https://doi.org/10.48550/arXiv.2603.07431)
-- (0.75) On topic hidden variable detection / causal discovery from residuals, Parity Isospectrality of the Kerr--Newman--de Sitter Black Hole reports: Vacuum Kerr perturbations in general relativity have identical even- and odd-parity quasinormal frequencies. — [source](http://arxiv.org/abs/2610.03701v1)
-- (0.75) On topic hidden variable detection / causal discovery from residuals, Long-WAM: Scaling the Context of World-Action Models reports: Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. — [source](http://arxiv.org/abs/2610.10528v1)
+- (0.80) On topic hidden variable detection / causal discovery from residuals, Parity Isospectrality of the Kerr--Newman--de Sitter Black Hole reports: Vacuum Kerr perturbations in general relativity have identical even- and odd-parity quasinormal frequencies. — [source](http://arxiv.org/abs/2610.03701v1)
+- (0.75) On topic hidden variable detection / causal discovery from residuals, GRACE: Generation-aware latent compression for efficient video generation reports: Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. — [source](http://arxiv.org/abs/2610.10524v1)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal discovery from time-series discrete data in the presence of latent confounders. reports: Learning causal structures from discrete time series data presents significant challenges, particularly in the presence of unobserved variables, or latent confounders, which are frequently encountered in real-world scenarios. — [source](https://doi.org/10.1016/j.neunet.2026.109426)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal Discovery for time series from multiple datasets with latent contexts reports: Causal discovery from time series data is a typical problem setting across the sciences. — [source](https://www.semanticscholar.org/paper/a36cefa2643a9bfa3a40c4543a2ffee3cbfc117e)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, High-recall causal discovery for autocorrelated time series with latent confounders reports: We present a new method for linear and nonlinear, lagged and contemporaneous constraint-based causal discovery from observational time series in the presence of latent confounders. — [source](https://www.semanticscholar.org/paper/311c8cc775770257d43b6e4e26f6b6470d0cb02a)

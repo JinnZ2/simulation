@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-10-08T12:37:36+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-12T14:04:17+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic compression composition and ordering, Model Compression with Keras Pruning and Post-Training Quantization reports: This talks about the techniques used to compress a model as well as improve the inference latency: training a baseline model, fine-tuning it with magnitude-based weight pruning to high sparsity, and then exporting a deployment-ready TensorFlow Lite (TFLite) model using post-training quantization (PT
 
-Status: **NEW HYPOTHESIS** (38 surviving claims)
+Status: **NEW HYPOTHESIS** (40 surviving claims)
 
 ## Supporting claims
 
@@ -48,8 +48,10 @@ Status: **NEW HYPOTHESIS** (38 surviving claims)
 - (0.80) On topic compression composition and ordering, Joint Compression Strategies for CNNs: A Case Study on Low Rank Factorization, Filter-based Pruning and Unstructured Pruning reports: (no abstract) — [source](https://doi.org/10.1109/isvlsi65124.2025.11130268)
 - (0.80) On topic compression composition and ordering, An improved volume bound under Ricci and scalar curvature lower bounds reports: We study volume comparison for closed Riemannian manifolds satisfying a positive Ricci curvature lower bound together with an improved scalar curvature lower bound. — [source](http://arxiv.org/abs/2608.19196v1)
 - (0.80) On topic compression composition and ordering, RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation reports: Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. — [source](http://arxiv.org/abs/2609.02847v1)
+- (0.80) On topic compression composition and ordering, A note on tomography of states with low stabilizer rank reports: In this note, we consider tomography of $n$-qubit quantum states $|ψ\rangle$ that are promised to have stabilizer rank $k$ i.e., admit a stabilizer decomposition of $|ψ\rangle = \sum_{i=1}^k c_i |φ_i\rangle$ where each $|φ_i\rangle$ is a stabilizer state. — [source](http://arxiv.org/abs/2610.03658v1)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
-- (0.75) On topic compression composition and ordering, A note on tomography of states with low stabilizer rank reports: In this note, we consider tomography of $n$-qubit quantum states $|ψ\rangle$ that are promised to have stabilizer rank $k$ i.e., admit a stabilizer decomposition of $|ψ\rangle = \sum_{i=1}^k c_i |φ_i\rangle$ where each $|φ_i\rangle$ is a stabilizer state. — [source](http://arxiv.org/abs/2610.03658v1)
+- (0.75) On topic compression composition and ordering, Constructive Bounds for the Topological Expressivity of Neural Networks reports: The expressivity of a neural network $Φ$ describes the class of functions that a network can express. — [source](http://arxiv.org/abs/2610.13931v1)
+- (0.75) On topic compression composition and ordering, Prune-then-Quantize or Quantize-then-Prune? Understanding the Impact of Compression Order in Joint Model Compression reports: What happens when multiple compression methods are combined-does the order in which they are applied matter? — [source](https://doi.org/10.48550/arXiv.2603.18426)
 
 ## Contradicted/refuted claims
 

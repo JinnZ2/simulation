@@ -1,6 +1,6 @@
 # Hypothesis draft: representation geometry under compression
 
-_Regenerated 2026-10-08T12:37:36+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-12T14:04:17+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -32,3 +32,4 @@ Status: **NEW HYPOTHESIS** (6 surviving claims)
 - [escape-hatch] On topic representation geometry under compression, The Union of Manifolds Hypothesis and its Implications for Deep Generative Modelling reports: (no abstract) 
 - [escape-hatch] On topic representation geometry under compression, A Survey and Comparative Evaluation of Intrinsic Dimension Estimators under the Manifold Hypothesis reports:
 - [escape-hatch] On topic representation geometry under compression, Equivalence between representational similarity analysis, centered kernel alignment, and canonical correlati
+- [escape-hatch] On topic representation geometry under compression, Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks reports: C
