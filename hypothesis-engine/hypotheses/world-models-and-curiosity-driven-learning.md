@@ -1,6 +1,6 @@
 # Hypothesis draft: world models and curiosity-driven learning
 
-_Regenerated 2026-10-12T14:04:17+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-15T10:42:24+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic world models and curiosity-driven learning, The Structured Totient Preimage Problem: Reconstruction, Collisions, and Cryptographic Implications reports: We define and study the Structured Totient Preimage (STP) problem as a restricted reconstruction relation with a direct cryptographic motivation.
 
-Status: **NEW HYPOTHESIS** (33 surviving claims)
+Status: **NEW HYPOTHESIS** (36 surviving claims)
 
 ## Supporting claims
 
@@ -44,6 +44,9 @@ Status: **NEW HYPOTHESIS** (33 surviving claims)
 - (0.80) On topic world models and curiosity-driven learning, Cogentic: Multi-Agent Orchestration for Automated Proof Discovery reports: We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. — [source](http://arxiv.org/abs/2609.40324v1)
 - (0.80) On topic world models and curiosity-driven learning, Higgsino dark matter compatible with the LUX-ZEPLIN high-energy nuclear-recoil event and IceCube constraints reports: We examine Higgsino dark matter (DM) as a potential explanation of the $248~\mathrm{keV}$ nuclear-recoil event of interest reported by the LUX-ZEPLIN (LZ) experiment, taking into account IceCube constraints on DM annihilation in the Sun. — [source](http://arxiv.org/abs/2610.03692v1)
 - (0.80) On topic world models and curiosity-driven learning, Finite-momentum pairing and magnetic halos in a spin-imbalanced Holstein model reports: Fulde-Ferrell-Larkin-Ovchinnikov (FFLO) superconductivity, Cooper pairing at finite-momentum driven by spin imbalance, remains difficult to study numerically in two dimensions. — [source](http://arxiv.org/abs/2610.03678v1)
+- (0.75) On topic world models and curiosity-driven learning, RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input reports: End-to-end robot policies trained through imitation learning remain constrained by limited data diversity, making reliable zero-shot deployment in real-world settings challenging. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-10-12)] — [source](http://arxiv.org/abs/2610.10534v1)
+- (0.75) On topic world models and curiosity-driven learning, Noise Space Learning for VLA Adaptation reports: Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. — [source](http://arxiv.org/abs/2610.13943v1)
+- (0.75) On topic world models and curiosity-driven learning, Where to Look Matters: Rethinking Sub-Volume Sampling in 3D Medical Self-supervised Learning reports: Self-supervised learning on 3D medical images commonly relies on random sub-volume sampling during pretraining. — [source](http://arxiv.org/abs/2610.13915v1)
 - (0.71) On topic world models and curiosity-driven learning, of Suﬃcient Statistic Time Series for Active Inference reports: (no abstract) — [source](https://www.semanticscholar.org/paper/b4ac341c718db504c56edd6ccc037b60bfb4fd24)
 
 ## Contradicted/refuted claims
@@ -59,3 +62,4 @@ Status: **NEW HYPOTHESIS** (33 surviving claims)
 - [escape-hatch] On topic world models and curiosity-driven learning, Differentiable Physics Models for Real-world Offline Model-based Reinforcement Learning reports: A limitati
 - [escape-hatch] On topic world models and curiosity-driven learning, World4RL: Diffusion World Models for Policy Refinement With Reinforcement Learning for Robotic Manipulation
 - [escape-hatch] On topic world models and curiosity-driven learning, Planning to Learn reports: Policy-gradient methods are central to modern reinforcement learning, including 
+- [escape-hatch] On topic world models and curiosity-driven learning, Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis reports: Multimodal large language mode

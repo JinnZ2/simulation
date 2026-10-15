@@ -1,36 +1,36 @@
 # Hypothesis engine run report
 
-Run at: 2026-10-12T14:04:17+00:00
+Run at: 2026-10-15T10:42:24+00:00
 
 ## Stage counts
 
 - **topics**: 8
-- **raw_findings**: 185
-- **new_findings**: 39
-- **duplicates_skipped**: 146
-- **claims_staked**: 39
+- **raw_findings**: 175
+- **new_findings**: 28
+- **duplicates_skipped**: 147
+- **claims_staked**: 28
 - **routed_to_unknown**: 0
-- **test_pass**: 177
-- **test_fail**: 51
-- **test_untested**: 109
-- **modify_reformulated**: 19
-- **modify_escape_hatched**: 3
+- **test_pass**: 152
+- **test_fail**: 33
+- **test_untested**: 119
+- **modify_reformulated**: 15
+- **modify_escape_hatched**: 5
 - **hidden_variable_suggestions**: []
 - **hypothesis_files**: 8
-- **new_hypotheses**: ['compression composition and ordering', 'hidden variable detection / causal discovery from residuals', 'activation-aware quantization', 'calibration and falsifiability of LLM agents', 'structured sparsity and hardware-matched pruning', 'representation geometry under compression', 'world models and curiosity-driven learning', 'deployment-aware compression metrics']
-- **total_claims_in_tree**: 515
+- **new_hypotheses**: ['calibration and falsifiability of LLM agents', 'deployment-aware compression metrics', 'compression composition and ordering', 'representation geometry under compression', 'activation-aware quantization', 'structured sparsity and hardware-matched pruning', 'hidden variable detection / causal discovery from residuals', 'world models and curiosity-driven learning']
+- **total_claims_in_tree**: 538
 
 ## New hypotheses
 NEW HYPOTHESIS
 
-- compression composition and ordering
-- hidden variable detection / causal discovery from residuals
-- activation-aware quantization
 - calibration and falsifiability of LLM agents
-- structured sparsity and hardware-matched pruning
-- representation geometry under compression
-- world models and curiosity-driven learning
 - deployment-aware compression metrics
+- compression composition and ordering
+- representation geometry under compression
+- activation-aware quantization
+- structured sparsity and hardware-matched pruning
+- hidden variable detection / causal discovery from residuals
+- world models and curiosity-driven learning
 
 ## Top hidden-variable suspects
 

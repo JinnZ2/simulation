@@ -221,3 +221,18 @@
 {"id": "21ccfe308342de17e21f09b9", "count": 1, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-12)", "at": "2026-10-12T14:04:17+00:00"}
 {"id": "3585c3f560c3c5d77fa196f9", "count": 1, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-12)", "at": "2026-10-12T14:04:17+00:00"}
 {"id": "9663e587c9047b31670e0072", "count": 1, "condition": "narrower scope within compression composition and ordering (run 2026-10-12)", "at": "2026-10-12T14:04:17+00:00"}
+{"id": "285eef573bff227d2bb8f52f", "count": 3, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "c416b8b982f0febd0ce83709", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "f445c78d8cdbfd55071f9aed", "count": 2, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "b1bc8ab6443e87991739e974", "count": 1, "condition": "narrower scope within compression composition and ordering (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "0d66845de9a836ca583f30ba", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "6f80f0d3ee2afe2d65c81ee9", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "bf815097bd09705f8d4a3732", "count": 2, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "3a16e165b73b52bc1bb3dd98", "count": 3, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "6f64f2369c0df39438601b81", "count": 3, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "2ee40ce7e7647d7e5222b4ae", "count": 2, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "44aa97e0b05048f19cedbbaa", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "74c50e90c127ae5f38d9142d", "count": 2, "condition": "narrower scope within activation-aware quantization (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "9663e587c9047b31670e0072", "count": 2, "condition": "narrower scope within compression composition and ordering (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "080bbbd91d448905bfdba8a3", "count": 1, "condition": "narrower scope within representation geometry under compression (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "d45aada7855a92e32f3de2ed", "count": 1, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
