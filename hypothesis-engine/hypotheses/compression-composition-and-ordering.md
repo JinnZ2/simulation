@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-10-15T10:42:24+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-19T11:45:49+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -50,9 +50,9 @@ Status: **NEW HYPOTHESIS** (41 surviving claims)
 - (0.80) On topic compression composition and ordering, An improved volume bound under Ricci and scalar curvature lower bounds reports: We study volume comparison for closed Riemannian manifolds satisfying a positive Ricci curvature lower bound together with an improved scalar curvature lower bound. — [source](http://arxiv.org/abs/2608.19196v1)
 - (0.80) On topic compression composition and ordering, RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation reports: Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. — [source](http://arxiv.org/abs/2609.02847v1)
 - (0.80) On topic compression composition and ordering, A note on tomography of states with low stabilizer rank reports: In this note, we consider tomography of $n$-qubit quantum states $|ψ\rangle$ that are promised to have stabilizer rank $k$ i.e., admit a stabilizer decomposition of $|ψ\rangle = \sum_{i=1}^k c_i |φ_i\rangle$ where each $|φ_i\rangle$ is a stabilizer state. — [source](http://arxiv.org/abs/2610.03658v1)
+- (0.80) On topic compression composition and ordering, Nimbus Studio reproduces reference BCI decoding pipelines: a validation study on public benchmarks across protocols and paradigms reports: Nimbus Studio is a visual pipeline platform for brain-computer interface (BCI) experiments: researchers assemble preprocessing, feature extraction, decoding, and evaluation over public benchmark datasets or their own recordings, with cross-validated evaluation protocols (including leave-one-subject- — [source](http://arxiv.org/abs/2610.13894v1)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
 - (0.75) On topic compression composition and ordering, Prune-then-Quantize or Quantize-then-Prune? Understanding the Impact of Compression Order in Joint Model Compression reports: What happens when multiple compression methods are combined-does the order in which they are applied matter? — [source](https://doi.org/10.48550/arXiv.2603.18426)
-- (0.75) On topic compression composition and ordering, Nimbus Studio reproduces reference BCI decoding pipelines: a validation study on public benchmarks across protocols and paradigms reports: Nimbus Studio is a visual pipeline platform for brain-computer interface (BCI) experiments: researchers assemble preprocessing, feature extraction, decoding, and evaluation over public benchmark datasets or their own recordings, with cross-validated evaluation protocols (including leave-one-subject- — [source](http://arxiv.org/abs/2610.13894v1)
 
 ## Contradicted/refuted claims
 
@@ -65,3 +65,4 @@ Status: **NEW HYPOTHESIS** (41 surviving claims)
 ## Open unknowns
 
 - [escape-hatch] On topic compression composition and ordering, Order-Aware Compression for RF-DETR on Edge Devices: Overcoming Graph Fragmentation and Quantization Instability 
+- [escape-hatch] On topic compression composition and ordering, Unified Model Compression Via One-Order Quantization Decomposition reports: Unified model compression conducts pr

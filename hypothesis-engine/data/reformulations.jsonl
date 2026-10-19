@@ -236,3 +236,11 @@
 {"id": "9663e587c9047b31670e0072", "count": 2, "condition": "narrower scope within compression composition and ordering (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
 {"id": "080bbbd91d448905bfdba8a3", "count": 1, "condition": "narrower scope within representation geometry under compression (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
 {"id": "d45aada7855a92e32f3de2ed", "count": 1, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-15)", "at": "2026-10-15T10:42:24+00:00"}
+{"id": "d367cb44aa8d27bb6ab3b225", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-10-19)", "at": "2026-10-19T11:45:49+00:00"}
+{"id": "ebb7c01541c0b7b33ed6c729", "count": 2, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-19)", "at": "2026-10-19T11:45:49+00:00"}
+{"id": "74c50e90c127ae5f38d9142d", "count": 3, "condition": "narrower scope within activation-aware quantization (run 2026-10-19)", "at": "2026-10-19T11:45:49+00:00"}
+{"id": "3585c3f560c3c5d77fa196f9", "count": 2, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-19)", "at": "2026-10-19T11:45:49+00:00"}
+{"id": "9663e587c9047b31670e0072", "count": 3, "condition": "narrower scope within compression composition and ordering (run 2026-10-19)", "at": "2026-10-19T11:45:49+00:00"}
+{"id": "c0ee3dfd3761c2f48a7d8898", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-10-19)", "at": "2026-10-19T11:45:49+00:00"}
+{"id": "655634960102ec5b39c9fbfd", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-10-19)", "at": "2026-10-19T11:45:49+00:00"}
+{"id": "2399bf50dd302fa6a24ab2a6", "count": 1, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-10-19)", "at": "2026-10-19T11:45:49+00:00"}
