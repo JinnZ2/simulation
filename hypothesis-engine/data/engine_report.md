@@ -1,36 +1,36 @@
 # Hypothesis engine run report
 
-Run at: 2026-10-19T11:45:49+00:00
+Run at: 2026-10-22T10:59:56+00:00
 
 ## Stage counts
 
 - **topics**: 8
-- **raw_findings**: 175
-- **new_findings**: 31
-- **duplicates_skipped**: 144
-- **claims_staked**: 31
+- **raw_findings**: 185
+- **new_findings**: 35
+- **duplicates_skipped**: 150
+- **claims_staked**: 35
 - **routed_to_unknown**: 0
-- **test_pass**: 125
-- **test_fail**: 29
-- **test_untested**: 132
-- **modify_reformulated**: 8
-- **modify_escape_hatched**: 3
+- **test_pass**: 116
+- **test_fail**: 40
+- **test_untested**: 139
+- **modify_reformulated**: 12
+- **modify_escape_hatched**: 4
 - **hidden_variable_suggestions**: []
 - **hypothesis_files**: 8
-- **new_hypotheses**: ['deployment-aware compression metrics', 'world models and curiosity-driven learning', 'compression composition and ordering', 'calibration and falsifiability of LLM agents', 'activation-aware quantization', 'representation geometry under compression', 'hidden variable detection / causal discovery from residuals', 'structured sparsity and hardware-matched pruning']
-- **total_claims_in_tree**: 566
+- **new_hypotheses**: ['structured sparsity and hardware-matched pruning', 'calibration and falsifiability of LLM agents', 'activation-aware quantization', 'deployment-aware compression metrics', 'world models and curiosity-driven learning', 'representation geometry under compression', 'hidden variable detection / causal discovery from residuals', 'compression composition and ordering']
+- **total_claims_in_tree**: 597
 
 ## New hypotheses
 NEW HYPOTHESIS
 
-- deployment-aware compression metrics
-- world models and curiosity-driven learning
-- compression composition and ordering
+- structured sparsity and hardware-matched pruning
 - calibration and falsifiability of LLM agents
 - activation-aware quantization
+- deployment-aware compression metrics
+- world models and curiosity-driven learning
 - representation geometry under compression
 - hidden variable detection / causal discovery from residuals
-- structured sparsity and hardware-matched pruning
+- compression composition and ordering
 
 ## Top hidden-variable suspects
 
