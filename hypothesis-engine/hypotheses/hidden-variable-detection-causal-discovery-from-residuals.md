@@ -1,6 +1,6 @@
 # Hypothesis draft: hidden variable detection / causal discovery from residuals
 
-_Regenerated 2026-10-22T10:59:56+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-26T12:03:13+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals.
 
-Status: **NEW HYPOTHESIS** (30 surviving claims)
+Status: **NEW HYPOTHESIS** (33 surviving claims)
 
 ## Supporting claims
 
@@ -37,7 +37,10 @@ Status: **NEW HYPOTHESIS** (30 surviving claims)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, AI Models Can Provably Hide Arbitrary Capabilities reports: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. — [source](http://arxiv.org/abs/2610.13928v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Constructive Arboricity in Almost-Linear Time for Dense Graphs reports: The arboricity of a graph is the minimum number of forests needed to partition its edges. — [source](http://arxiv.org/abs/2610.13937v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Heavy-Heavy-Light-Light correlators from holography on the worldsheet reports: We study correlation functions of light local operators and defect changing operators on the conformal line set by the 1/2 BPS Wilson line of $\mathcal N=4$ super Yang-Mills. — [source](http://arxiv.org/abs/2610.20602v1)
-- (0.75) On topic hidden variable detection / causal discovery from residuals, Analyticity of the correlation length in subcritical FK-percolation and Potts models reports: We prove that the correlation length of FK-percolation and Potts models on $\mathbb{Z}^d$ is analytic in the whole subcritical regime of parameters. — [source](http://arxiv.org/abs/2610.23843v1)
+- (0.80) On topic hidden variable detection / causal discovery from residuals, Analyticity of the correlation length in subcritical FK-percolation and Potts models reports: We prove that the correlation length of FK-percolation and Potts models on $\mathbb{Z}^d$ is analytic in the whole subcritical regime of parameters. — [source](http://arxiv.org/abs/2610.23843v1)
+- (0.75) On topic hidden variable detection / causal discovery from residuals, The role of locality and weight sharing in convolutional neural networks reports: The success of convolutional neural networks is often attributed to locality and weight sharing. — [source](http://arxiv.org/abs/2610.30118v1)
+- (0.75) On topic hidden variable detection / causal discovery from residuals, Temporal Exploration and Rendezvous via Weisfeiler-Leman Colorings reports: Temporal graphs are graphs whose edge relation changes in discrete time steps. — [source](http://arxiv.org/abs/2610.30123v1)
+- (0.75) On topic hidden variable detection / causal discovery from residuals, Ideal interaction dynamics of defects and background fields in condensed matter reports: While defect dynamics in condensed matter systems is widely studied and several methods are available to track the defect position over time, the formulation of dynamical models for the coupled evolution of both defect and background field quantities seems to be more challenging. — [source](http://arxiv.org/abs/2610.32973v1)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal discovery from time-series discrete data in the presence of latent confounders. reports: Learning causal structures from discrete time series data presents significant challenges, particularly in the presence of unobserved variables, or latent confounders, which are frequently encountered in real-world scenarios. — [source](https://doi.org/10.1016/j.neunet.2026.109426)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal Discovery for time series from multiple datasets with latent contexts reports: Causal discovery from time series data is a typical problem setting across the sciences. — [source](https://www.semanticscholar.org/paper/a36cefa2643a9bfa3a40c4543a2ffee3cbfc117e)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, High-recall causal discovery for autocorrelated time series with latent confounders reports: We present a new method for linear and nonlinear, lagged and contemporaneous constraint-based causal discovery from observational time series in the presence of latent confounders. — [source](https://www.semanticscholar.org/paper/311c8cc775770257d43b6e4e26f6b6470d0cb02a)
