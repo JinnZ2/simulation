@@ -1,6 +1,6 @@
 # Hypothesis draft: world models and curiosity-driven learning
 
-_Regenerated 2026-10-26T12:03:13+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-29T12:06:50+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -47,7 +47,7 @@ Status: **NEW HYPOTHESIS** (37 surviving claims)
 - (0.80) On topic world models and curiosity-driven learning, Finite-momentum pairing and magnetic halos in a spin-imbalanced Holstein model reports: Fulde-Ferrell-Larkin-Ovchinnikov (FFLO) superconductivity, Cooper pairing at finite-momentum driven by spin imbalance, remains difficult to study numerically in two dimensions. — [source](http://arxiv.org/abs/2610.03678v1)
 - (0.80) On topic world models and curiosity-driven learning, Noise Space Learning for VLA Adaptation reports: Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. — [source](http://arxiv.org/abs/2610.13943v1)
 - (0.80) On topic world models and curiosity-driven learning, Where to Look Matters: Rethinking Sub-Volume Sampling in 3D Medical Self-supervised Learning reports: Self-supervised learning on 3D medical images commonly relies on random sub-volume sampling during pretraining. — [source](http://arxiv.org/abs/2610.13915v1)
-- (0.75) On topic world models and curiosity-driven learning, Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching reports: Flow matching trains a continuum of velocity regression problems but usually reports a loss averaged over interpolation time, obscuring which regions are limited by intrinsic ambiguity and which remain data-limited. — [source](http://arxiv.org/abs/2610.30107v1)
+- (0.80) On topic world models and curiosity-driven learning, Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching reports: Flow matching trains a continuum of velocity regression problems but usually reports a loss averaged over interpolation time, obscuring which regions are limited by intrinsic ambiguity and which remain data-limited. — [source](http://arxiv.org/abs/2610.30107v1)
 - (0.71) On topic world models and curiosity-driven learning, of Suﬃcient Statistic Time Series for Active Inference reports: (no abstract) — [source](https://www.semanticscholar.org/paper/b4ac341c718db504c56edd6ccc037b60bfb4fd24)
 
 ## Contradicted/refuted claims
@@ -64,3 +64,4 @@ Status: **NEW HYPOTHESIS** (37 surviving claims)
 - [escape-hatch] On topic world models and curiosity-driven learning, World4RL: Diffusion World Models for Policy Refinement With Reinforcement Learning for Robotic Manipulation
 - [escape-hatch] On topic world models and curiosity-driven learning, Planning to Learn reports: Policy-gradient methods are central to modern reinforcement learning, including 
 - [escape-hatch] On topic world models and curiosity-driven learning, Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis reports: Multimodal large language mode
+- [escape-hatch] On topic world models and curiosity-driven learning, Chronos Policy: Learning Robot Policies on Physical Time reports: Robot policies often convert sensing and 

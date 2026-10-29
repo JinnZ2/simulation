@@ -1,6 +1,6 @@
 # Hypothesis draft: deployment-aware compression metrics
 
-_Regenerated 2026-10-26T12:03:13+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-10-29T12:06:50+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
