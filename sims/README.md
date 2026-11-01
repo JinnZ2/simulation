@@ -21,8 +21,14 @@ being caught downstream.
 | [`kappa_eff_g1`](kappa_eff_g1/) | **REFUTED** | Successor testing onset rather than peak. At widths 16 and 64 curvature never rises at all — it declines monotonically. Baseline κ spans 0.23 to 59 across widths, and the networks turn out not to be trained to a minimum |
 | [`kappa_eff_g2`](kappa_eff_g2/) | **INCONCLUSIVE** | Measured from genuine minima this time (‖∇L‖ ≤ 0.007 against a 0.02 gate). Curvature rises 10–20× along the ascent ray vs ~1× for a random ray at width 16, 5/5 seeds — but degrades with width, because wide nets often show no accuracy collapse in range to lead. Escape hatch fired; lineage closed |
 | [`basin_convergence`](basin_convergence/) | **REFUTED** | Audit of a SUPPORTED result. α is **not converged in grid resolution**: doubling N moves it 0.08–0.15 against a 0.001–0.019 noise floor. Wada at γ=0.25 goes 8% → 0%. Integration time is converged |
+| [`render_ledger`](render_ledger/) | **SUPPORTED** | Simulation-hypothesis toy (stdlib). Render-on-observation saves 43% at 1% observation, 4.5% at 10% (the record covers every cell in 200 steps), 0% if any interaction counts as observation; only true deletion saves real compute, and 99.9% of its re-observations contradict history. An accounting check, largely true by construction, stated before running |
+| [`ising_critical_slowing`](ising_critical_slowing/) | **REFUTED** | Critical slowing is large (tau at Tc 3 → 32 from L = 4 to 16) but the pre-registered split failed: off-critical (T = 3.0) tau still grows at these sizes (z 0.47-0.88 vs < 0.5 required). G7: no domain trapping from random starts at L ≤ 16 |
+| [`lattice_anisotropy`](lattice_anisotropy/) | **INCONCLUSIVE** | Cubic-axis statistic with orientation scan + exposure-matched null: power 0.9-0.98 at n = 2000, 10% aligned; a 6.5% dipole does not fire it. The required negative case — uneven exposure WITHOUT correction must fake a signal — did not fire (≤ 0.025), so the correction's necessity is untested. Synthetic skies; Auger data unreachable |
 
 Each writes findings alongside the raw artifacts — see the `FINDINGS.md` in each folder.
+
+The last three rows are the simulation-hypothesis toys; their assumption register, gaps and
+calculators are in [`simulation_register/`](simulation_register/) (stdlib only, no ledger entries).
 
 Retrofit queue status (HARNESS.md §5): items **1** (`ep2_prereg`), **2** (`shape_csd`, the
 headline CSD claim), **3** (`kappa_eff`), **4** (`fractal_basin`) and part of **5**
