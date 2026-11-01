@@ -1,0 +1,717 @@
+{
+  "details": {
+    "failing_seeds": {}
+  },
+  "elapsed_s": 9.727,
+  "environment": {
+    "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+    "python": "3.13.18"
+  },
+  "name": "render_ledger",
+  "null_model": "full_compute",
+  "null_observations": [
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    }
+  ],
+  "observations": [
+    {
+      "metrics": {
+        "contra_delete": 0.9990221759724415,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 0.86539,
+        "reobs_after_gap": 111472.0,
+        "saving_delete": 0.99,
+        "saving_keep": 0.42922384999999996,
+        "saving_recompute": 0.42838734999999994
+      },
+      "seed": 0,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.9989781833174982,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 0.86512,
+        "reobs_after_gap": 111566.0,
+        "saving_delete": 0.99,
+        "saving_keep": 0.42872295000000005,
+        "saving_recompute": 0.42873174999999997
+      },
+      "seed": 1,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.9989952904238618,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 0.8654,
+        "reobs_after_gap": 111475.0,
+        "saving_delete": 0.99,
+        "saving_keep": 0.42884714999999995,
+        "saving_recompute": 0.42844174999999995
+      },
+      "seed": 2,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.9991820592332928,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 0.86744,
+        "reobs_after_gap": 111255.0,
+        "saving_delete": 0.99,
+        "saving_keep": 0.42804485000000003,
+        "saving_recompute": 0.42855485000000004
+      },
+      "seed": 3,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.9991382405745063,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 0.86657,
+        "reobs_after_gap": 111400.0,
+        "saving_delete": 0.99,
+        "saving_keep": 0.42830484999999996,
+        "saving_recompute": 0.4284103
+      },
+      "seed": 4,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.01
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.9990510839044076,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 1700888.0,
+        "saving_delete": 0.9,
+        "saving_keep": 0.045160549999999966,
+        "saving_recompute": 0.04500289999999996
+      },
+      "seed": 0,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.9989790520524756,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 1701360.0,
+        "saving_delete": 0.9,
+        "saving_keep": 0.04510745000000005,
+        "saving_recompute": 0.04507910000000004
+      },
+      "seed": 1,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.999041541248713,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 1700647.0,
+        "saving_delete": 0.9,
+        "saving_keep": 0.044960650000000046,
+        "saving_recompute": 0.04499589999999998
+      },
+      "seed": 2,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.9990361700689667,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 1701545.0,
+        "saving_delete": 0.9,
+        "saving_keep": 0.045139700000000005,
+        "saving_recompute": 0.04472275000000003
+      },
+      "seed": 3,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.999000476831347,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 1700811.0,
+        "saving_delete": 0.9,
+        "saving_keep": 0.044942999999999955,
+        "saving_recompute": 0.045118699999999956
+      },
+      "seed": 4,
+      "sweep": {
+        "observer": "humans_only",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 0,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 1,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 2,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 3,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    },
+    {
+      "metrics": {
+        "contra_delete": 0.0,
+        "contra_keep": 0.0,
+        "contra_recompute": 0.0,
+        "coverage_keep": 1.0,
+        "reobs_after_gap": 0.0,
+        "saving_delete": 0.0,
+        "saving_keep": 0.0,
+        "saving_recompute": 0.0
+      },
+      "seed": 4,
+      "sweep": {
+        "observer": "any_interaction",
+        "p_observe": 0.1
+      }
+    }
+  ],
+  "pilot": false,
+  "reason": "all parts hold at 5 of 5 seeds; delete contradiction rate 0.999-0.999; any-interaction saving 0 for every policy",
+  "run_at": "2026-11-01T21:22:23Z",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "observer": [
+      "humans_only",
+      "any_interaction"
+    ],
+    "p_observe": [
+      0.01,
+      0.1
+    ]
+  },
+  "verdict": "SUPPORTED"
+}
