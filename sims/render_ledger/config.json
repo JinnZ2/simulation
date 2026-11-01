@@ -1,0 +1,39 @@
+{
+  "name": "render_ledger",
+  "claim": "Render-on-observation saves compute only when the observer set is restricted (A1): with any-interaction observers the saving is below 1% for every consistency policy; with humans-only observation at p=0.1 the keep-record policy covers at least 99% of cells within 200 steps; and only true deletion produces contradictions on repeat observation (delete rate > 0, keep-record and recompute rate = 0, humans-only).",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "p_observe": [
+      0.01,
+      0.1
+    ],
+    "observer": [
+      "humans_only",
+      "any_interaction"
+    ]
+  },
+  "null_model": "full_compute",
+  "refute_if": "any_interaction saving >= 0.01 for any policy, OR keep-record coverage < 0.99 at p_observe=0.1 humans_only, OR delete contradiction rate == 0 humans_only, OR keep-record/recompute contradiction rate > 0 - any of these at >=3 of 5 seeds",
+  "refute_params": {
+    "max_saving_any_interaction": 0.01,
+    "min_coverage_p01": 0.99,
+    "refute_at_seeds": 3,
+    "support_at_seeds": 4
+  },
+  "tier": 0,
+  "runtime_estimate_s": 120,
+  "depends_on": [],
+  "world": {
+    "cells": 100000,
+    "steps": 200,
+    "states": 1000
+  },
+  "stdlib_only": true,
+  "co_authored": "Kavik + Claude, 2026-11-01, CC0"
+}

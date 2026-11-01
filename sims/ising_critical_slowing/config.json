@@ -1,0 +1,48 @@
+{
+  "name": "ising_critical_slowing",
+  "claim": "Under single-spin Metropolis on the 2-D Ising model, the integrated autocorrelation time of |m| grows with lattice size at Tc = 2.269 with fitted exponent z >= 1.5 (L = 4..16), while at T = 3.0 its exponent is below 0.5.",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "T": [
+      1.5,
+      2.269,
+      3.0
+    ],
+    "L": [
+      4,
+      8,
+      16
+    ]
+  },
+  "null_model": "time_shuffled_series",
+  "refute_if": "z(Tc) < 1.5 OR z(T=3.0) >= 0.5 - either at >=3 of 5 seeds; INCONCLUSIVE if tau(Tc, L=16) < 5x the shuffled-series floor at >=2 of 5 seeds",
+  "refute_params": {
+    "z_tc_min": 1.5,
+    "z_hot_max": 0.5,
+    "floor_multiple": 5.0,
+    "refute_at_seeds": 3,
+    "support_at_seeds": 4
+  },
+  "tier": 0,
+  "runtime_estimate_s": 600,
+  "depends_on": [],
+  "mc": {
+    "burn_in": 1000,
+    "sweeps_by_L": {
+      "4": 4000,
+      "8": 8000,
+      "16": 16000
+    },
+    "sweeps_T_1_5": 4000,
+    "window_c": 6.0
+  },
+  "recorded_not_graded": "G7: at T = 1.5 both an ordered start and a random start are run and both tau values recorded",
+  "stdlib_only": true,
+  "co_authored": "Kavik + Claude, 2026-11-01, CC0"
+}

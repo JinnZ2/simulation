@@ -1,0 +1,48 @@
+{
+  "name": "lattice_anisotropy",
+  "claim": "With an orientation scan corrected for trials and a null drawn with the same exposure, a cubic-axis alignment statistic keeps its false-alarm rate at or below 5% on isotropic skies, on a 6.5% dipole and on non-uniform exposure, while detecting a 10% axis-aligned fraction at n = 2000 events with power >= 0.5; without the exposure correction, non-uniform exposure alone triggers it (> 5%).",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sweeps": {
+    "n_events": [
+      500,
+      2000
+    ],
+    "aligned_fraction": [
+      0.03,
+      0.1
+    ]
+  },
+  "null_model": "isotropic_same_exposure",
+  "refute_if": "false alarm > 0.05 on the dipole OR on exposure-corrected skies, OR power < 0.5 at n=2000 & f=0.10 - any at >=3 of 5 seeds; INCONCLUSIVE if uncorrected exposure does NOT exceed 0.05 false alarm at >=4 of 5 seeds (the negative case then tested nothing)",
+  "refute_params": {
+    "max_false_alarm": 0.05,
+    "min_power": 0.5,
+    "power_point": {
+      "n_events": 2000,
+      "aligned_fraction": 0.1
+    },
+    "refute_at_seeds": 3,
+    "support_at_seeds": 4
+  },
+  "tier": 0,
+  "runtime_estimate_s": 900,
+  "depends_on": [],
+  "stat": {
+    "orientations": 16,
+    "orientation_seed": 12345,
+    "null_skies": 150,
+    "test_skies": 40,
+    "alpha": 0.01,
+    "aligned_spread_deg": 5.0,
+    "dipole_amplitude": 0.065,
+    "exposure": "Auger-like: accept with weight max(0, cos(dec + 35 deg)) for dec < 45 deg, else 0"
+  },
+  "stdlib_only": true,
+  "co_authored": "Kavik + Claude, 2026-11-01, CC0"
+}
