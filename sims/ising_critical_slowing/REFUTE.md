@@ -1,6 +1,6 @@
 # Refutation condition — ising_critical_slowing
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. **Written before run.py existed.** Generation 0,
+Co-authored (2026-11-01). CC0. **Written before run.py existed.** Generation 0,
 MEASURE. Source: work order WO3 #5(b) and SIMULATION_REGISTER.md G4, G7.
 
 ## Model

@@ -1,6 +1,6 @@
 # Refutation condition — lattice_anisotropy
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. **Written before run.py existed.** Generation 0,
+Co-authored (2026-11-01). CC0. **Written before run.py existed.** Generation 0,
 MEASURE. Source: work order WO3 #3 and SIMULATION_REGISTER.md G5. SYNTHETIC skies only; no
 observational data (the Auger release was unreachable 2026-11-01; auger_loader_stub.py refuses).
 

@@ -1,6 +1,6 @@
 # Null model — lattice_anisotropy
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. Written before run.py existed.
+Co-authored (2026-11-01). CC0. Written before run.py existed.
 
 `isotropic_same_exposure`: arrival directions drawn isotropically and then filtered through the
 SAME exposure as the sky being tested. The detection threshold is the 99th percentile of the

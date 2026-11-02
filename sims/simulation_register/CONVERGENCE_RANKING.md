@@ -1,6 +1,6 @@
 # Convergence ranking -- test design (PROPOSED, no sim yet)
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. Part of [`SIMULATION_REGISTER.md`](SIMULATION_REGISTER.md).
+Co-authored (2026-11-01). CC0. Part of [`SIMULATION_REGISTER.md`](SIMULATION_REGISTER.md).
 
 ## Question
 

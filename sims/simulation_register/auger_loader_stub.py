@@ -2,7 +2,7 @@
 """
 auger_loader_stub.py -- loader stub for the Pierre Auger Observatory public data release.
 
-STATUS: STUB, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib.
+STATUS: STUB, co-authored (2026-11-01). CC0. stdlib.
 
 The lattice-anisotropy statistic (../lattice_anisotropy/) needs arrival directions of the
 highest-energy cosmic rays plus the exposure map. Release name, event count and license must be

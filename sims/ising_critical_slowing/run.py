@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ising_critical_slowing -- autocorrelation time vs L at Tc, plus the G7 start-state record.
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only. Pre-registration: REFUTE.md, NULL.md
+Co-authored (2026-11-01). CC0. stdlib only. Pre-registration: REFUTE.md, NULL.md
 (committed before this file). Synthetic model; says nothing observational.
 
 Estimator note (implementation detail REFUTE.md left open): the normalised autocorrelation of

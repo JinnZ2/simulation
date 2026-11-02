@@ -1,6 +1,6 @@
 # Null model — render_ledger
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. Written before run.py existed.
+Co-authored (2026-11-01). CC0. Written before run.py existed.
 
 `full_compute`: every cell is computed at every step, whatever is observed. Saving = 0 by
 definition, contradictions = 0. A render-on-observation policy shows an effect only where it

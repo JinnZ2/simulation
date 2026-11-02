@@ -1,6 +1,6 @@
 # Refutation condition — render_ledger
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. **Written before run.py existed.** Generation 0,
+Co-authored (2026-11-01). CC0. **Written before run.py existed.** Generation 0,
 MEASURE. Source: work order WO3 #4 (render_ledger_toy) and SIMULATION_REGISTER.md A1, A6, G6.
 
 ## World

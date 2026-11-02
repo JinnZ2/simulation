@@ -2,7 +2,7 @@
 """
 landauer_budget.py -- order-of-magnitude energy budget for simulating the observable universe.
 
-STATUS: DERIVED arithmetic on cited inputs, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib.
+STATUS: DERIVED arithmetic on cited inputs, co-authored (2026-11-01). CC0. stdlib.
 Not a harness sim (no claim graded); a calculator for SIMULATION_REGISTER.md. Assumptions A2
 (our physics) and A3 (irreversible compute) are REQUIRED for these numbers to mean anything.
 

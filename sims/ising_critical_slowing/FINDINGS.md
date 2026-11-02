@@ -1,6 +1,6 @@
 # Findings — ising_critical_slowing
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. Synthetic model.
+Co-authored (2026-11-01). CC0. Synthetic model.
 
 **REFUTED** against the pre-committed condition (4 of 5 seeds fail), mostly on the off-critical
 half of the claim.

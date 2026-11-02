@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """render_ledger -- cost of rendering only observed cells, and the deletion signature.
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only. Pre-registration: REFUTE.md, NULL.md
+Co-authored (2026-11-01). CC0. stdlib only. Pre-registration: REFUTE.md, NULL.md
 (committed before this file). SYNTHETIC world; says nothing observational.
 """
 from __future__ import annotations

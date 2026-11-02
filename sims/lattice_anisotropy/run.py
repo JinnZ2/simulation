@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """lattice_anisotropy -- cubic-axis alignment statistic with orientation scan + exposure correction.
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only. Pre-registration: REFUTE.md, NULL.md
+Co-authored (2026-11-01). CC0. stdlib only. Pre-registration: REFUTE.md, NULL.md
 (committed before this file). SYNTHETIC skies only -- no observational data (the Pierre Auger
 release was unreachable 2026-11-01; ../simulation_register/auger_loader_stub.py refuses).
 """

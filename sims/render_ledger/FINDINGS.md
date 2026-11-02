@@ -1,6 +1,6 @@
 # Findings — render_ledger
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. SYNTHETIC world; nothing observational.
+Co-authored (2026-11-01). CC0. SYNTHETIC world; nothing observational.
 
 **SUPPORTED at 5/5 seeds.** As REFUTE.md stated before the run, parts 1 and 3 hold largely by
 construction of the policies: this is an accounting check of A1 and A6, not a discovery.

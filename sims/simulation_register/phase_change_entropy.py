@@ -2,8 +2,8 @@
 """
 phase_change_entropy.py -- G4 part (a): entropy jump per transition, in bits.
 
-STATUS: DERIVED arithmetic; inputs from memory, every one VERIFY. Co-authored (Kavik + Claude,
-2026-11-01). CC0. stdlib. Not a harness sim. Part (b), the compute needed to REACH a transition
+STATUS: DERIVED arithmetic; inputs from memory, every one VERIFY. Co-authored
+(2026-11-01). CC0. stdlib. Not a harness sim. Part (b), the compute needed to REACH a transition
 (critical slowing), is ../ising_critical_slowing/.
 
 dS = dH / T_transition (first-order); bits per molecule = dS / (R ln 2); bits per mole x N_A.

@@ -1,11 +1,11 @@
 # Simulation hypothesis -- assumption register
 
-STATUS: PROPOSED register, co-authored (Kavik + Claude, 2026-11-01). CC0.
+STATUS: PROPOSED register, co-authored (2026-11-01). CC0.
 Toys: [`../lattice_anisotropy/`](../lattice_anisotropy/), [`../render_ledger/`](../render_ledger/),
 [`../ising_critical_slowing/`](../ising_critical_slowing/) (Sim Harness Standard v1, self-graded);
 calculators in this folder. Index: [`README.md`](README.md).
 
-## Filter (Kavik)
+## Filter
 
 Engineerability. A claim that cannot fail costs the person making it nothing -- a luxury claim.
 The burden of a cost accounting sits with the hypothesis. These files turn "we live in a

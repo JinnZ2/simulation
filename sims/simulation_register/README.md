@@ -1,6 +1,6 @@
 # simulation_register/ -- simulation hypothesis: assumptions, gaps, calculators
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only (unlike most of `sims/`, no numpy).
+Co-authored (2026-11-01). CC0. stdlib only (unlike most of `sims/`, no numpy).
 Not a harness sim: nothing here grades a claim or writes to `../ledger.jsonl`. The graded toys are
 harness sims beside it.
 

@@ -1,6 +1,6 @@
 # Findings — lattice_anisotropy
 
-Co-authored (Kavik + Claude, 2026-11-01). CC0. SYNTHETIC skies; no observational data.
+Co-authored (2026-11-01). CC0. SYNTHETIC skies; no observational data.
 
 **INCONCLUSIVE**, by the pre-committed rule: the required negative case did not fire. Without the
 exposure correction, uneven exposure raised the false-alarm rate to at most 0.025 -- under the
