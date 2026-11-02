@@ -6,7 +6,7 @@ next-steps section is hand-written and survives regeneration.*
 <!-- generated:begin -->
 ## Where things stand
 
-**9 experiments run** — 3 supported, 5 refuted, 1 inconclusive.
+**12 experiments run** — 4 supported, 6 refuted, 2 inconclusive.
 
 **154 tests pass** (sims 93, simulation 42, hypothesis-engine 19).
 
@@ -18,9 +18,12 @@ next-steps section is hand-written and survives regeneration.*
 
 - `ep2_prereg` — **supported**
 - `fractal_basin` — **supported**
+- `render_ledger` — **supported**
 - `shape_csd_g1` — **supported** *(exploratory)*
 - `kappa_eff_g2` — **inconclusive** *(exploratory)*
+- `lattice_anisotropy` — **inconclusive**
 - `basin_convergence` — **refuted**
+- `ising_critical_slowing` — **refuted**
 - `kappa_eff` — **refuted**
 - `kappa_eff_g1` — **refuted** *(exploratory)*
 - `shape_csd` — **refuted**
