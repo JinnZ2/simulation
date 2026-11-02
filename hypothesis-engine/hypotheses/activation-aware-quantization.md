@@ -1,6 +1,6 @@
 # Hypothesis draft: activation-aware quantization
 
-_Regenerated 2026-10-29T12:06:50+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-02T14:25:37+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic activation-aware quantization, Compressive Domains and a Bound for the Number of Components of the Fixed Locus of a Self-Map of the Berkovich Line reports: We introduce the notion of a "compressive domain" for the action of a rational function on the Berkovich projective line over a complete nontrivially-valued algebraically closed nonarchimedean field.
 
-Status: **NEW HYPOTHESIS** (96 surviving claims)
+Status: **NEW HYPOTHESIS** (99 surviving claims)
 
 ## Supporting claims
 
@@ -95,11 +95,14 @@ Status: **NEW HYPOTHESIS** (96 surviving claims)
 - (0.80) On topic activation-aware quantization, AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation reports: Vision-language-action (VLA) models have shown promise in robotic manipulation, but imitation learning (IL) alone often struggles to master complex long-horizon skills. — [source](http://arxiv.org/abs/2610.30097v1)
 - (0.80) On topic activation-aware quantization, Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence reports: We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. — [source](http://arxiv.org/abs/2610.30119v1)
 - (0.80) On topic activation-aware quantization, Low-Complexity Wideband Channel Estimation for ISAC in Analog Millimeter-Wave Systems reports: Accurate wideband channel estimation is a key enabler for millimeter-wave (mmWave) integrated sensing and communication (ISAC) systems. — [source](http://arxiv.org/abs/2610.32953v1)
+- (0.80) On topic activation-aware quantization, Generating entanglement in quantum matter with pathway-entangled photons via resonant inelastic X-ray scattering reports: Resonant inelastic X-ray scattering (RIXS) is conventionally used to probe elementary excitations and correlations in quantum materials. — [source](http://arxiv.org/abs/2610.32936v1)
+- (0.80) On topic activation-aware quantization, A direct proof of the equivalence of the A2 and the Helson--Szego conditions reports: We give a direct proof of the equivalence between the Muckenhoupt $\mathcal{A}_2$ and the Helson--Szegő conditions on the unit circle $T$. — [source](http://arxiv.org/abs/2610.32922v1)
+- (0.80) On topic activation-aware quantization, Optimal collective investment under regulatory uncertainty reports: We study optimal collective investment subject to a Value-at-Risk (VaR)-type constraint that accounts for uncertainty about future regulatory requirements. — [source](http://arxiv.org/abs/2610.32959v1)
+- (0.80) On topic activation-aware quantization, ACCT: Asymmetric Cross-LLM Context Transfer reports: In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. — [source](http://arxiv.org/abs/2610.42116v1)
+- (0.80) On topic activation-aware quantization, Charge Pumping Leptogenesis from the Symmetric Mass Generation Phase on a Four-Leg Ladder Lattice reports: Quantized charge pumping in quantum Hall systems is a bulk topological property, typically manifesting on gapless boundaries as spectral flow through chiral edge modes upon flux insertion. — [source](http://arxiv.org/abs/2610.42103v1)
 - (0.75) On topic activation-aware quantization, Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD? reports: Differentially Private Stochastic Gradient Descent (DP-SGD) is a leading approach for privacy-preserving fine-tuning of large language models (LLMs). — [source](http://arxiv.org/abs/2609.40335v1)
 - (0.75) On topic activation-aware quantization, Geometric Algebra for Neural Networks: A Survey reports: Geometric algebra (GA) unifies geometric primitives and transformations in a single algebraic framework. — [source](http://arxiv.org/abs/2610.30121v1)
-- (0.75) On topic activation-aware quantization, Generating entanglement in quantum matter with pathway-entangled photons via resonant inelastic X-ray scattering reports: Resonant inelastic X-ray scattering (RIXS) is conventionally used to probe elementary excitations and correlations in quantum materials. — [source](http://arxiv.org/abs/2610.32936v1)
-- (0.75) On topic activation-aware quantization, A direct proof of the equivalence of the A2 and the Helson--Szego conditions reports: We give a direct proof of the equivalence between the Muckenhoupt $\mathcal{A}_2$ and the Helson--Szegő conditions on the unit circle $T$. — [source](http://arxiv.org/abs/2610.32922v1)
-- (0.75) On topic activation-aware quantization, Optimal collective investment under regulatory uncertainty reports: We study optimal collective investment subject to a Value-at-Risk (VaR)-type constraint that accounts for uncertainty about future regulatory requirements. — [source](http://arxiv.org/abs/2610.32959v1)
+- (0.75) On topic activation-aware quantization, Applications of the fixed point theorem for mappings contracting perimeters of triangles: ODEs, PDEs, integer and difference equations reports: Mappings contracting perimeters of triangles are Banach contractions whenever every point of the underlying metric space is an accumulation point. — [source](http://arxiv.org/abs/2610.37644v1)
 - (0.71) On topic activation-aware quantization, Text-speech collaboration LLM embedding low-rank adaptation, activation-aware weight quantization and knowledge distillation reports: Large Language Model, or LLM, are enabling more and more real world applications. [restricted: narrower scope within activation-aware quantization (run 2026-09-10)] — [source](https://doi.org/10.1109/CyberC66434.2025.00042)
 - (0.71) On topic activation-aware quantization, MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control reports: Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. — [source](http://arxiv.org/abs/2610.37647v1)
 - (0.67) On topic activation-aware quantization, SignRR: Retrieve and Refine Real Motion for Sign Language Production reports: Sign language production (SLP) aims to generate continuous signing motion from spoken language, often through gloss-to-pose generation. — [source](http://arxiv.org/abs/2608.28568v1)
