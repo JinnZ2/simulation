@@ -1,18 +1,20 @@
 # Hypothesis draft: world models and curiosity-driven learning
 
-_Regenerated 2026-11-02T14:25:37+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-05T13:51:43+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
 Across corroborated findings, the following claims survived staked testing (beta_confidence >= 0.7 or status=survived):
 
-> On topic world models and curiosity-driven learning, The Structured Totient Preimage Problem: Reconstruction, Collisions, and Cryptographic Implications reports: We define and study the Structured Totient Preimage (STP) problem as a restricted reconstruction relation with a direct cryptographic motivation.
+> On topic world models and curiosity-driven learning, Generation-Powered Inference for Distribution-Valued Outcomes reports: Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics.
 
-Status: **NEW HYPOTHESIS** (38 surviving claims)
+Status: **NEW HYPOTHESIS** (42 surviving claims)
 
 ## Supporting claims
 
 - (0.86) On topic world models and curiosity-driven learning, AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents reports: The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. — [source](http://arxiv.org/abs/2609.40353v1)
+- (0.86) On topic world models and curiosity-driven learning, Value of Adding AI Weather Model Ensembles to a Multi-model Probabilistic Blend reports: Many weather forecasting organizations use a multi-model blend of ensemble members from different prediction systems to obtain a more accurate forecast. — [source](http://arxiv.org/abs/2610.42130v1)
+- (0.86) On topic world models and curiosity-driven learning, FrontierPhysics: Evaluating Agents for End-to-End Physics Research reports: AI agents are playing an increasingly important role in physics research. — [source](http://arxiv.org/abs/2611.06910v1)
 - (0.83) On topic world models and curiosity-driven learning, ExoMOD II. A Statistical Model of Transit Timing Variations in Kepler Multi-Planet Systems reports: In Paper I (Nesvorný et al. — [source](http://arxiv.org/abs/2608.28550v1)
 - (0.83) On topic world models and curiosity-driven learning, Video Generative Models as Geometry Learner reports: Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. — [source](http://arxiv.org/abs/2608.28549v1)
 - (0.83) On topic world models and curiosity-driven learning, Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction reports: Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. — [source](http://arxiv.org/abs/2609.05404v1)
@@ -48,7 +50,9 @@ Status: **NEW HYPOTHESIS** (38 surviving claims)
 - (0.80) On topic world models and curiosity-driven learning, Noise Space Learning for VLA Adaptation reports: Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. — [source](http://arxiv.org/abs/2610.13943v1)
 - (0.80) On topic world models and curiosity-driven learning, Where to Look Matters: Rethinking Sub-Volume Sampling in 3D Medical Self-supervised Learning reports: Self-supervised learning on 3D medical images commonly relies on random sub-volume sampling during pretraining. — [source](http://arxiv.org/abs/2610.13915v1)
 - (0.80) On topic world models and curiosity-driven learning, Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching reports: Flow matching trains a continuum of velocity regression problems but usually reports a loss averaged over interpolation time, obscuring which regions are limited by intrinsic ambiguity and which remain data-limited. — [source](http://arxiv.org/abs/2610.30107v1)
-- (0.75) On topic world models and curiosity-driven learning, Value of Adding AI Weather Model Ensembles to a Multi-model Probabilistic Blend reports: Many weather forecasting organizations use a multi-model blend of ensemble members from different prediction systems to obtain a more accurate forecast. — [source](http://arxiv.org/abs/2610.42130v1)
+- (0.75) On topic world models and curiosity-driven learning, Generation-Powered Inference for Distribution-Valued Outcomes reports: Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics. — [source](http://arxiv.org/abs/2608.14542v1)
+- (0.75) On topic world models and curiosity-driven learning, Landau quantization of $C_3$ high-fold fermions in honeycomb lattices reports: We present the theory of the Landau levels of $C_3$ high-fold fermions in honeycomb lattices. — [source](http://arxiv.org/abs/2610.20595v1)
+- (0.75) On topic world models and curiosity-driven learning, Learning Time-Varying Connectomes for Stable Behavior Across Development reports: Neural circuits must maintain functionality to drive effective behavior while their size, topology, geometry, and intrinsic dynamics change across development. — [source](http://arxiv.org/abs/2611.06895v1)
 - (0.71) On topic world models and curiosity-driven learning, of Suﬃcient Statistic Time Series for Active Inference reports: (no abstract) — [source](https://www.semanticscholar.org/paper/b4ac341c718db504c56edd6ccc037b60bfb4fd24)
 
 ## Contradicted/refuted claims

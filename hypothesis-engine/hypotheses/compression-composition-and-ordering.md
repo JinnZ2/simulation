@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-11-02T14:25:37+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-05T13:51:43+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic compression composition and ordering, Model Compression with Keras Pruning and Post-Training Quantization reports: This talks about the techniques used to compress a model as well as improve the inference latency: training a baseline model, fine-tuning it with magnitude-based weight pruning to high sparsity, and then exporting a deployment-ready TensorFlow Lite (TFLite) model using post-training quantization (PT
 
-Status: **NEW HYPOTHESIS** (41 surviving claims)
+Status: **NEW HYPOTHESIS** (43 surviving claims)
 
 ## Supporting claims
 
@@ -53,6 +53,8 @@ Status: **NEW HYPOTHESIS** (41 surviving claims)
 - (0.80) On topic compression composition and ordering, Nimbus Studio reproduces reference BCI decoding pipelines: a validation study on public benchmarks across protocols and paradigms reports: Nimbus Studio is a visual pipeline platform for brain-computer interface (BCI) experiments: researchers assemble preprocessing, feature extraction, decoding, and evaluation over public benchmark datasets or their own recordings, with cross-validated evaluation protocols (including leave-one-subject- — [source](http://arxiv.org/abs/2610.13894v1)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
 - (0.75) On topic compression composition and ordering, Prune-then-Quantize or Quantize-then-Prune? Understanding the Impact of Compression Order in Joint Model Compression reports: What happens when multiple compression methods are combined-does the order in which they are applied matter? — [source](https://doi.org/10.48550/arXiv.2603.18426)
+- (0.75) On topic compression composition and ordering, Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products reports: Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. — [source](http://arxiv.org/abs/2610.42119v1)
+- (0.75) On topic compression composition and ordering, Tracking turbulence for wind-driven halo removal using MagAO-X pyramid wavefront sensor images reports: The wind-driven halo (WDH) is a persistent, low spatial frequency noise artifact that arises due to the servo-lag error inherent to all adaptive optics (AO) instruments. — [source](http://arxiv.org/abs/2611.06873v1)
 
 ## Contradicted/refuted claims
 
