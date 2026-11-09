@@ -1,6 +1,6 @@
 # Hypothesis draft: representation geometry under compression
 
-_Regenerated 2026-11-05T13:51:43+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-09T14:52:32+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -34,3 +34,5 @@ Status: **NEW HYPOTHESIS** (7 surviving claims)
 - [escape-hatch] On topic representation geometry under compression, A Survey and Comparative Evaluation of Intrinsic Dimension Estimators under the Manifold Hypothesis reports:
 - [escape-hatch] On topic representation geometry under compression, Equivalence between representational similarity analysis, centered kernel alignment, and canonical correlati
 - [escape-hatch] On topic representation geometry under compression, Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks reports: C
+- [escape-hatch] On topic representation geometry under compression, Nonlinear spiked covariance matrices and signal propagation in deep neural networks reports: Many recent wor
+- [escape-hatch] On topic representation geometry under compression, Low-Rank Prehab: Preparing Neural Networks for SVD Compression reports: Low-rank approximation methods such 

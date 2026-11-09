@@ -312,3 +312,22 @@
 {"id": "c53bf139fc7b2896de271462", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-11-05)", "at": "2026-11-05T13:51:43+00:00"}
 {"id": "5c8a0eac5aca34c59cd3586a", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-11-05)", "at": "2026-11-05T13:51:43+00:00"}
 {"id": "9f64d5a47b63d6623e56db86", "count": 1, "condition": "narrower scope within representation geometry under compression (run 2026-11-05)", "at": "2026-11-05T13:51:43+00:00"}
+{"id": "3e2c6b2e0bd641314ee9b438", "count": 1, "condition": "narrower scope within hidden variable detection / causal discovery from residuals (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "1cf6ddfdfc495fcd54fec056", "count": 3, "condition": "narrower scope within activation-aware quantization (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "ee31a46303f9e9852656f6c2", "count": 3, "condition": "narrower scope within representation geometry under compression (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "16d2d8b708b507d27969077c", "count": 3, "condition": "narrower scope within representation geometry under compression (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "59a3eb5921d644c868e9c833", "count": 3, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "1d1c2a3b8190d2933b81d29f", "count": 2, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "92e27f3b57fc1605f8e92515", "count": 3, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "1b06a93ece054d04a11d7ad2", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "ae338ea9a58633d1e8882740", "count": 2, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "a6cb9f4c027d6035ef033f8d", "count": 1, "condition": "narrower scope within hidden variable detection / causal discovery from residuals (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "d1cfeaa83e99de67a0999f62", "count": 1, "condition": "narrower scope within hidden variable detection / causal discovery from residuals (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "5c8a0eac5aca34c59cd3586a", "count": 2, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "6c8387b5355df9014bffcadb", "count": 1, "condition": "narrower scope within world models and curiosity-driven learning (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "9af5e476fe5c8f30d9973562", "count": 1, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "b971b51809edc3f6a2a2dc42", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "f09db682af9df0387f3c2b8f", "count": 1, "condition": "narrower scope within calibration and falsifiability of LLM agents (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "4136d379d0068d501a5a53a9", "count": 1, "condition": "narrower scope within activation-aware quantization (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "1d8a549ffd1b6f82a8867830", "count": 1, "condition": "narrower scope within activation-aware quantization (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
+{"id": "548d014e7494e17bf12a962f", "count": 1, "condition": "narrower scope within structured sparsity and hardware-matched pruning (run 2026-11-09)", "at": "2026-11-09T14:52:32+00:00"}
