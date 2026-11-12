@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-11-09T14:52:32+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-12T14:26:37+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic compression composition and ordering, Model Compression with Keras Pruning and Post-Training Quantization reports: This talks about the techniques used to compress a model as well as improve the inference latency: training a baseline model, fine-tuning it with magnitude-based weight pruning to high sparsity, and then exporting a deployment-ready TensorFlow Lite (TFLite) model using post-training quantization (PT
 
-Status: **NEW HYPOTHESIS** (45 surviving claims)
+Status: **NEW HYPOTHESIS** (47 surviving claims)
 
 ## Supporting claims
 
@@ -43,7 +43,9 @@ Status: **NEW HYPOTHESIS** (45 surviving claims)
 - (0.83) On topic compression composition and ordering, UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs reports: Deploying large language models (LLMs) on mobile platforms faces significant challenges due to the limited memory and shared computational resources of the device. — [source](https://doi.org/10.48550/arXiv.2512.03383)
 - (0.83) On topic compression composition and ordering, Data-Driven Generator Transient Prediction for Digital Twin Decision Support reports: This paper develops a calibrated transient forecasting surrogate model for generator digital twin (DT) decision support that evaluates planned active- and reactive power load commands before they are applied. — [source](http://arxiv.org/abs/2609.05356v1)
 - (0.83) On topic compression composition and ordering, Constructive Bounds for the Topological Expressivity of Neural Networks reports: The expressivity of a neural network $Φ$ describes the class of functions that a network can express. — [source](http://arxiv.org/abs/2610.13931v1)
+- (0.83) On topic compression composition and ordering, A Better Critic Matters for Distribution Matching Distillation reports: Distribution Matching Distillation (DMD) trains a few-step student using the difference between a teacher's score and an online critic's estimate of the student distribution's score. [restricted: narrower scope within compression composition and ordering (run 2026-11-05)] — [source](http://arxiv.org/abs/2610.42135v1)
 - (0.83) On topic compression composition and ordering, Tracking turbulence for wind-driven halo removal using MagAO-X pyramid wavefront sensor images reports: The wind-driven halo (WDH) is a persistent, low spatial frequency noise artifact that arises due to the servo-lag error inherent to all adaptive optics (AO) instruments. — [source](http://arxiv.org/abs/2611.06873v1)
+- (0.83) On topic compression composition and ordering, Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion reports: Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. — [source](http://arxiv.org/abs/2611.14498v1)
 - (0.82) On topic compression composition and ordering, When Does Model Compression Pay Off on a CPU? A Controlled Study of Quantization, Pruning and Distillation for Text Classification reports: Compression choices for CPU inference are often made from one benchmark run that reports one accuracy and one latency number per technique. — [source](https://doi.org/10.2139/ssrn.7508159)
 - (0.80) On topic compression composition and ordering, A tension–compression asymmetric constitutive model for foam cores: FE implementation and experimental validation reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2026.120570)
 - (0.80) On topic compression composition and ordering, Analytical model for CFRP confined masonry columns subjected to monotonic and cyclic compression reports: (no abstract) — [source](https://doi.org/10.1016/j.compstruct.2022.115696)
@@ -56,7 +58,7 @@ Status: **NEW HYPOTHESIS** (45 surviving claims)
 - (0.80) On topic compression composition and ordering, Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products reports: Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. — [source](http://arxiv.org/abs/2610.42119v1)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
 - (0.75) On topic compression composition and ordering, Prune-then-Quantize or Quantize-then-Prune? Understanding the Impact of Compression Order in Joint Model Compression reports: What happens when multiple compression methods are combined-does the order in which they are applied matter? — [source](https://doi.org/10.48550/arXiv.2603.18426)
-- (0.75) On topic compression composition and ordering, A Better Critic Matters for Distribution Matching Distillation reports: Distribution Matching Distillation (DMD) trains a few-step student using the difference between a teacher's score and an online critic's estimate of the student distribution's score. [restricted: narrower scope within compression composition and ordering (run 2026-11-05)] — [source](http://arxiv.org/abs/2610.42135v1)
+- (0.75) On topic compression composition and ordering, Bayesian inverse problems and epidemic-threshold uncertainty for a heterogeneous SIS reaction-diffusion model reports: We study Bayesian inference of persistence from early observations of a heterogeneous susceptible--infected--susceptible (SIS) reaction--diffusion model with standard incidence. — [source](http://arxiv.org/abs/2611.14468v1)
 
 ## Contradicted/refuted claims
 
@@ -70,3 +72,4 @@ Status: **NEW HYPOTHESIS** (45 surviving claims)
 
 - [escape-hatch] On topic compression composition and ordering, Order-Aware Compression for RF-DETR on Edge Devices: Overcoming Graph Fragmentation and Quantization Instability 
 - [escape-hatch] On topic compression composition and ordering, Unified Model Compression Via One-Order Quantization Decomposition reports: Unified model compression conducts pr
+- [escape-hatch] On topic compression composition and ordering, Shared clones make random cell halves look reproducible in pooled screens reports: Single-cell perturbation scree

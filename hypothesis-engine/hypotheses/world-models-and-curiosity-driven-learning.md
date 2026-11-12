@@ -1,6 +1,6 @@
 # Hypothesis draft: world models and curiosity-driven learning
 
-_Regenerated 2026-11-09T14:52:32+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-12T14:26:37+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic world models and curiosity-driven learning, Generation-Powered Inference for Distribution-Valued Outcomes reports: Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics.
 
-Status: **NEW HYPOTHESIS** (43 surviving claims)
+Status: **NEW HYPOTHESIS** (44 surviving claims)
 
 ## Supporting claims
 
@@ -29,6 +29,8 @@ Status: **NEW HYPOTHESIS** (43 surviving claims)
 - (0.83) On topic world models and curiosity-driven learning, SpiderCSS: Scalable Fault-Tolerant CSS State Preparation reports: Fault-tolerant preparation of logical states is a critical primitive for the realization of large-scale fault-tolerant quantum computing. — [source](http://arxiv.org/abs/2610.03714v1)
 - (0.83) On topic world models and curiosity-driven learning, RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input reports: End-to-end robot policies trained through imitation learning remain constrained by limited data diversity, making reliable zero-shot deployment in real-world settings challenging. [restricted: narrower scope within world models and curiosity-driven learning (run 2026-10-12)] — [source](http://arxiv.org/abs/2610.10534v1)
 - (0.83) On topic world models and curiosity-driven learning, Learning Time-Varying Connectomes for Stable Behavior Across Development reports: Neural circuits must maintain functionality to drive effective behavior while their size, topology, geometry, and intrinsic dynamics change across development. — [source](http://arxiv.org/abs/2611.06895v1)
+- (0.83) On topic world models and curiosity-driven learning, Geometric Pairwise Classification of Affine Constraints over Ellipsoidal Regions reports: This paper presents a deterministic geometric procedure for analysing affine constraints over fixed ellipsoidal regions, motivated by chance-constrained set approximation. — [source](http://arxiv.org/abs/2611.09860v1)
+- (0.83) On topic world models and curiosity-driven learning, Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game reports: Research ideation is iterative: researchers refine their ideas step by step based on feedback. — [source](http://arxiv.org/abs/2611.14487v1)
 - (0.80) On topic world models and curiosity-driven learning, Generation-Powered Inference for Distribution-Valued Outcomes reports: Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics. — [source](http://arxiv.org/abs/2608.14542v1)
 - (0.80) On topic world models and curiosity-driven learning, The Structured Totient Preimage Problem: Reconstruction, Collisions, and Cryptographic Implications reports: We define and study the Structured Totient Preimage (STP) problem as a restricted reconstruction relation with a direct cryptographic motivation. — [source](http://arxiv.org/abs/2608.19191v1)
 - (0.80) On topic world models and curiosity-driven learning, Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication reports: Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. — [source](http://arxiv.org/abs/2608.19161v1)
@@ -53,7 +55,6 @@ Status: **NEW HYPOTHESIS** (43 surviving claims)
 - (0.80) On topic world models and curiosity-driven learning, Where to Look Matters: Rethinking Sub-Volume Sampling in 3D Medical Self-supervised Learning reports: Self-supervised learning on 3D medical images commonly relies on random sub-volume sampling during pretraining. — [source](http://arxiv.org/abs/2610.13915v1)
 - (0.80) On topic world models and curiosity-driven learning, Landau quantization of $C_3$ high-fold fermions in honeycomb lattices reports: We present the theory of the Landau levels of $C_3$ high-fold fermions in honeycomb lattices. — [source](http://arxiv.org/abs/2610.20595v1)
 - (0.80) On topic world models and curiosity-driven learning, Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching reports: Flow matching trains a continuum of velocity regression problems but usually reports a loss averaged over interpolation time, obscuring which regions are limited by intrinsic ambiguity and which remain data-limited. — [source](http://arxiv.org/abs/2610.30107v1)
-- (0.75) On topic world models and curiosity-driven learning, Geometric Pairwise Classification of Affine Constraints over Ellipsoidal Regions reports: This paper presents a deterministic geometric procedure for analysing affine constraints over fixed ellipsoidal regions, motivated by chance-constrained set approximation. — [source](http://arxiv.org/abs/2611.09860v1)
 - (0.71) On topic world models and curiosity-driven learning, of Suﬃcient Statistic Time Series for Active Inference reports: (no abstract) — [source](https://www.semanticscholar.org/paper/b4ac341c718db504c56edd6ccc037b60bfb4fd24)
 
 ## Contradicted/refuted claims
@@ -71,3 +72,4 @@ Status: **NEW HYPOTHESIS** (43 surviving claims)
 - [escape-hatch] On topic world models and curiosity-driven learning, Planning to Learn reports: Policy-gradient methods are central to modern reinforcement learning, including 
 - [escape-hatch] On topic world models and curiosity-driven learning, Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis reports: Multimodal large language mode
 - [escape-hatch] On topic world models and curiosity-driven learning, Chronos Policy: Learning Robot Policies on Physical Time reports: Robot policies often convert sensing and 
+- [escape-hatch] On topic world models and curiosity-driven learning, Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement reports: The introduction of gen

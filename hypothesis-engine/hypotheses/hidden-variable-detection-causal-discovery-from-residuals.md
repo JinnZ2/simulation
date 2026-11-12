@@ -1,6 +1,6 @@
 # Hypothesis draft: hidden variable detection / causal discovery from residuals
 
-_Regenerated 2026-11-09T14:52:32+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-12T14:26:37+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals.
 
-Status: **NEW HYPOTHESIS** (37 surviving claims)
+Status: **NEW HYPOTHESIS** (38 surviving claims)
 
 ## Supporting claims
 
@@ -39,11 +39,12 @@ Status: **NEW HYPOTHESIS** (37 surviving claims)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Constructive Arboricity in Almost-Linear Time for Dense Graphs reports: The arboricity of a graph is the minimum number of forests needed to partition its edges. — [source](http://arxiv.org/abs/2610.13937v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Heavy-Heavy-Light-Light correlators from holography on the worldsheet reports: We study correlation functions of light local operators and defect changing operators on the conformal line set by the 1/2 BPS Wilson line of $\mathcal N=4$ super Yang-Mills. — [source](http://arxiv.org/abs/2610.20602v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Analyticity of the correlation length in subcritical FK-percolation and Potts models reports: We prove that the correlation length of FK-percolation and Potts models on $\mathbb{Z}^d$ is analytic in the whole subcritical regime of parameters. — [source](http://arxiv.org/abs/2610.23843v1)
+- (0.80) On topic hidden variable detection / causal discovery from residuals, Random Euclidean CFT$_2$ from Triangulated dS$_3$ Gravity reports: We propose a random Euclidean CFT description of three-dimensional de Sitter gravity, with fixed central charge and primary spectrum but fluctuating operator product coefficients. — [source](http://arxiv.org/abs/2610.30126v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, The role of locality and weight sharing in convolutional neural networks reports: The success of convolutional neural networks is often attributed to locality and weight sharing. — [source](http://arxiv.org/abs/2610.30118v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Temporal Exploration and Rendezvous via Weisfeiler-Leman Colorings reports: Temporal graphs are graphs whose edge relation changes in discrete time steps. — [source](http://arxiv.org/abs/2610.30123v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, On the continuity of conditional distributions and stratification for derivative pricing reports: Stratification can reduce the estimator variance in Monte Carlo simulations by partitioning the sample space according to a low-dimensional factor and sampling separately within the resulting strata, making it well suited to the valuation of path-dependent claims in high-dimensional financial models — [source](http://arxiv.org/abs/2610.32970v1)
-- (0.75) On topic hidden variable detection / causal discovery from residuals, Random Euclidean CFT$_2$ from Triangulated dS$_3$ Gravity reports: We propose a random Euclidean CFT description of three-dimensional de Sitter gravity, with fixed central charge and primary spectrum but fluctuating operator product coefficients. — [source](http://arxiv.org/abs/2610.30126v1)
-- (0.75) On topic hidden variable detection / causal discovery from residuals, Sublinear multi-type preferential attachment reports: We consider a random growing graph model with two \emph{types}, or \emph{communities}, that belongs to the class of preferential attachment models. — [source](http://arxiv.org/abs/2611.06904v1)
+- (0.80) On topic hidden variable detection / causal discovery from residuals, Sublinear multi-type preferential attachment reports: We consider a random growing graph model with two \emph{types}, or \emph{communities}, that belongs to the class of preferential attachment models. — [source](http://arxiv.org/abs/2611.06904v1)
+- (0.75) On topic hidden variable detection / causal discovery from residuals, Emergent Biological Capabilities in a Foundation Model for Molecular Interactions reports: Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. — [source](http://arxiv.org/abs/2611.14504v1)
 - (0.71) On topic hidden variable detection / causal discovery from residuals, High-recall causal discovery for autocorrelated time series with latent confounders reports: We present a new method for linear and nonlinear, lagged and contemporaneous constraint-based causal discovery from observational time series in the presence of latent confounders. — [source](https://doi.org/10.48550/arXiv.2007.01884)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal discovery from time-series discrete data in the presence of latent confounders. reports: Learning causal structures from discrete time series data presents significant challenges, particularly in the presence of unobserved variables, or latent confounders, which are frequently encountered in real-world scenarios. — [source](https://doi.org/10.1016/j.neunet.2026.109426)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal Discovery for time series from multiple datasets with latent contexts reports: Causal discovery from time series data is a typical problem setting across the sciences. — [source](https://www.semanticscholar.org/paper/a36cefa2643a9bfa3a40c4543a2ffee3cbfc117e)
