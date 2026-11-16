@@ -1,6 +1,6 @@
 # Hypothesis draft: world models and curiosity-driven learning
 
-_Regenerated 2026-11-12T14:26:37+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-16T14:30:10+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic world models and curiosity-driven learning, Generation-Powered Inference for Distribution-Valued Outcomes reports: Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics.
 
-Status: **NEW HYPOTHESIS** (44 surviving claims)
+Status: **NEW HYPOTHESIS** (48 surviving claims)
 
 ## Supporting claims
 
@@ -55,6 +55,10 @@ Status: **NEW HYPOTHESIS** (44 surviving claims)
 - (0.80) On topic world models and curiosity-driven learning, Where to Look Matters: Rethinking Sub-Volume Sampling in 3D Medical Self-supervised Learning reports: Self-supervised learning on 3D medical images commonly relies on random sub-volume sampling during pretraining. — [source](http://arxiv.org/abs/2610.13915v1)
 - (0.80) On topic world models and curiosity-driven learning, Landau quantization of $C_3$ high-fold fermions in honeycomb lattices reports: We present the theory of the Landau levels of $C_3$ high-fold fermions in honeycomb lattices. — [source](http://arxiv.org/abs/2610.20595v1)
 - (0.80) On topic world models and curiosity-driven learning, Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching reports: Flow matching trains a continuum of velocity regression problems but usually reports a loss averaged over interpolation time, obscuring which regions are limited by intrinsic ambiguity and which remain data-limited. — [source](http://arxiv.org/abs/2610.30107v1)
+- (0.80) On topic world models and curiosity-driven learning, C$^2$-Routing: Complementary Cropping and Compression for Efficient Vision-Language Inference reports: Visual Question Answering (VQA) imposes substantial computational overhead on vision-language models (VLMs), motivating model-agnostic input reduction methods that can be readily applied across diverse VLMs, including in black-box settings. — [source](http://arxiv.org/abs/2611.14469v1)
+- (0.80) On topic world models and curiosity-driven learning, Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling reports: Branch-and-Bound (B&B) and $A^*$ are popular exact search methods originating from Operations Research and Artificial Intelligence, respectively. — [source](http://arxiv.org/abs/2611.14426v1)
+- (0.75) On topic world models and curiosity-driven learning, CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning reports: Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. — [source](http://arxiv.org/abs/2610.23820v1)
+- (0.75) On topic world models and curiosity-driven learning, Limitations of nonreversible lifts for subgeometric diffusions reports: We study the effect of lifting on continuous-time Markov processes with potentially subgeometric convergence rates. — [source](http://arxiv.org/abs/2611.18548v1)
 - (0.71) On topic world models and curiosity-driven learning, of Suﬃcient Statistic Time Series for Active Inference reports: (no abstract) — [source](https://www.semanticscholar.org/paper/b4ac341c718db504c56edd6ccc037b60bfb4fd24)
 
 ## Contradicted/refuted claims

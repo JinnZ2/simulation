@@ -1,6 +1,6 @@
 # Hypothesis draft: hidden variable detection / causal discovery from residuals
 
-_Regenerated 2026-11-12T14:26:37+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-16T14:30:10+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals.
 
-Status: **NEW HYPOTHESIS** (38 surviving claims)
+Status: **NEW HYPOTHESIS** (40 surviving claims)
 
 ## Supporting claims
 
@@ -18,6 +18,7 @@ Status: **NEW HYPOTHESIS** (38 surviving claims)
 - (0.83) On topic hidden variable detection / causal discovery from residuals, Long-WAM: Scaling the Context of World-Action Models reports: Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. — [source](http://arxiv.org/abs/2610.10528v1)
 - (0.83) On topic hidden variable detection / causal discovery from residuals, Representation Conditioning for Generation reports: Representation-alignment methods effectively accelerate the diffusion transformer training. — [source](http://arxiv.org/abs/2610.20608v1)
 - (0.83) On topic hidden variable detection / causal discovery from residuals, Ideal interaction dynamics of defects and background fields in condensed matter reports: While defect dynamics in condensed matter systems is widely studied and several methods are available to track the defect position over time, the formulation of dynamical models for the coupled evolution of both defect and background field quantities seems to be more challenging. — [source](http://arxiv.org/abs/2610.32973v1)
+- (0.83) On topic hidden variable detection / causal discovery from residuals, Emergent Biological Capabilities in a Foundation Model for Molecular Interactions reports: Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. — [source](http://arxiv.org/abs/2611.14504v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals. — [source](http://arxiv.org/abs/2608.14536v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Probabilistic Representation and Convergence of Gromov-Wasserstein Gradient Flows reports: Wasserstein gradient flows are intimately connected with evolution partial differential equations and diffusion processes. — [source](http://arxiv.org/abs/2608.19198v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Classical versus non-classical photon states for detecting vacuum non-linearity reports: Quantum electrodynamics (QED) predicts that the vacuum should behave as a non-linear medium. — [source](http://arxiv.org/abs/2608.21361v1)
@@ -44,7 +45,8 @@ Status: **NEW HYPOTHESIS** (38 surviving claims)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Temporal Exploration and Rendezvous via Weisfeiler-Leman Colorings reports: Temporal graphs are graphs whose edge relation changes in discrete time steps. — [source](http://arxiv.org/abs/2610.30123v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, On the continuity of conditional distributions and stratification for derivative pricing reports: Stratification can reduce the estimator variance in Monte Carlo simulations by partitioning the sample space according to a low-dimensional factor and sampling separately within the resulting strata, making it well suited to the valuation of path-dependent claims in high-dimensional financial models — [source](http://arxiv.org/abs/2610.32970v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Sublinear multi-type preferential attachment reports: We consider a random growing graph model with two \emph{types}, or \emph{communities}, that belongs to the class of preferential attachment models. — [source](http://arxiv.org/abs/2611.06904v1)
-- (0.75) On topic hidden variable detection / causal discovery from residuals, Emergent Biological Capabilities in a Foundation Model for Molecular Interactions reports: Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. — [source](http://arxiv.org/abs/2611.14504v1)
+- (0.75) On topic hidden variable detection / causal discovery from residuals, Gradient Estimates for Singular-Degenerate Elliptic Equations with Solution-Dependent Coefficients reports: We study a conormal boundary value problem for a class of singular-degenerate quasilinear elliptic equations in divergence form in bounded domains. — [source](http://arxiv.org/abs/2611.14510v1)
+- (0.75) On topic hidden variable detection / causal discovery from residuals, Valid Inequalities for Bilevel 0-1 Shortest-Path Problems reports: We characterize valid inequalities for bilevel programs in which the leader makes binary decisions, and the follower solves a shortest-path problem. — [source](http://arxiv.org/abs/2611.18537v1)
 - (0.71) On topic hidden variable detection / causal discovery from residuals, High-recall causal discovery for autocorrelated time series with latent confounders reports: We present a new method for linear and nonlinear, lagged and contemporaneous constraint-based causal discovery from observational time series in the presence of latent confounders. — [source](https://doi.org/10.48550/arXiv.2007.01884)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal discovery from time-series discrete data in the presence of latent confounders. reports: Learning causal structures from discrete time series data presents significant challenges, particularly in the presence of unobserved variables, or latent confounders, which are frequently encountered in real-world scenarios. — [source](https://doi.org/10.1016/j.neunet.2026.109426)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal Discovery for time series from multiple datasets with latent contexts reports: Causal discovery from time series data is a typical problem setting across the sciences. — [source](https://www.semanticscholar.org/paper/a36cefa2643a9bfa3a40c4543a2ffee3cbfc117e)
