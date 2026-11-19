@@ -1,6 +1,6 @@
 # Hypothesis draft: deployment-aware compression metrics
 
-_Regenerated 2026-11-16T14:30:10+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-19T15:03:17+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,10 +8,11 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic deployment-aware compression metrics, Information-theoretic Generalization Analysis for Expected Calibration Error reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)]
 
-Status: **NEW HYPOTHESIS** (8 surviving claims)
+Status: **NEW HYPOTHESIS** (11 surviving claims)
 
 ## Supporting claims
 
+- (0.88) On topic deployment-aware compression metrics, Real-time sub-milliwatt epilepsy detection implemented on a spiking neural network edge inference processor reports: Analyzing electroencephalogram (EEG) signals to detect the epileptic seizure status of a subject presents a challenge to existing technologies aimed at providing timely and efficient diagnosis. — [source](https://doi.org/10.1016/j.compbiomed.2024.109225)
 - (0.83) On topic deployment-aware compression metrics, Regression Calibration for Covariate Measurement Error reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)] — [source](https://doi.org/10.1201/9781315101279-7)
 - (0.83) On topic deployment-aware compression metrics, Calibration of Variational Quantum Classifiers Under Depolarizing Noise: Expected Calibration Error, Ansatz Expressibility, and Post-Hoc Temperature Scaling reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-20)] — [source](https://doi.org/10.1109/icosaas68663.2026.11648877)
 - (0.83) On topic deployment-aware compression metrics, A Confidence Interval for the $\ell_2$ Expected Calibration Error reports: Recent advances in machine learning have significantly improved prediction accuracy in various applications. [restricted: narrower scope within deployment-aware compression metrics (run 2026-09-14)] — [source](https://www.semanticscholar.org/paper/c4205b2fc71b07571e38c862c1e01e1fe83cbe21)
@@ -19,6 +20,8 @@ Status: **NEW HYPOTHESIS** (8 surviving claims)
 - (0.80) On topic deployment-aware compression metrics, Information-theoretic Generalization Analysis for Expected Calibration Error reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-17)] — [source](https://doi.org/10.52202/079017-2677)
 - (0.80) On topic deployment-aware compression metrics, RegCalReliab: Regression Calibration Using Reliability Studies reports: (no abstract) [restricted: narrower scope within deployment-aware compression metrics (run 2026-08-20)] — [source](https://doi.org/10.32614/cran.package.regcalreliab)
 - (0.80) On topic deployment-aware compression metrics, Soft Mean Expected Calibration Error (SMECE): A Calibration Metric for Probabilistic Labels reports: The Expected Calibration Error (ece), the dominant calibration metric in machine learning, compares predicted probabilities against empirical frequencies of binary outcomes. — [source](https://doi.org/10.48550/arXiv.2603.14092)
+- (0.80) On topic deployment-aware compression metrics, ETHEREAL: A 25.6-$\mu$s/inf. Low-latency Event-driven Graph-neural-network Processor for High-resolution Vision at the Edge reports: Dynamic vision sensors (DVS) are enticing candidates to reach the low-latency, sub-ms target of edge-vision applications, as they generate events with a $\mu$s-level time resolution. — [source](https://www.semanticscholar.org/paper/25f7da445081c345f20cfc9d9c4322a959ef80a8)
+- (0.75) On topic deployment-aware compression metrics, A 25-$\mu$s/inf Event-driven Graph Neural Network Processor with Spatiotemporal Caching and Spline Convolution for Ultra-low-latency AI at the Edge reports: Dynamic-vision-sensor (DVS) cameras generate events on a per-pixel basis with a $\mu$s-level temporal resolution, calling for new algorithm-hardware co-design approaches compared to standard frame-based vision. — [source](https://www.semanticscholar.org/paper/4ccb4ac54b943c870c6ce4f192d00f355a2dfc26)
 - (0.71) On topic deployment-aware compression metrics, Understanding Model Calibration - A gentle introduction and visual exploration of calibration and the expected calibration error (ECE) reports: To be considered reliable, a model must be calibrated so that its confidence in each decision closely reflects its true outcome. — [source](https://doi.org/10.48550/arXiv.2501.19047)
 
 ## Contradicted/refuted claims
