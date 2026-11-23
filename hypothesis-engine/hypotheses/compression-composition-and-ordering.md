@@ -1,6 +1,6 @@
 # Hypothesis draft: compression composition and ordering
 
-_Regenerated 2026-11-19T15:03:17+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-23T17:01:48+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -58,9 +58,9 @@ Status: **NEW HYPOTHESIS** (49 surviving claims)
 - (0.80) On topic compression composition and ordering, Nimbus Studio reproduces reference BCI decoding pipelines: a validation study on public benchmarks across protocols and paradigms reports: Nimbus Studio is a visual pipeline platform for brain-computer interface (BCI) experiments: researchers assemble preprocessing, feature extraction, decoding, and evaluation over public benchmark datasets or their own recordings, with cross-validated evaluation protocols (including leave-one-subject- — [source](http://arxiv.org/abs/2610.13894v1)
 - (0.80) On topic compression composition and ordering, Optimal Decay Exponents for Fractional Burgers Rarefaction Waves reports: We establish decay estimates toward rarefaction waves for the one-dimensional fractional Burgers equation when the order of dissipation lies between one and two. — [source](http://arxiv.org/abs/2610.42125v1)
 - (0.80) On topic compression composition and ordering, Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products reports: Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. — [source](http://arxiv.org/abs/2610.42119v1)
+- (0.80) On topic compression composition and ordering, Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond reports: Generative modeling based on stochastic interpolants requires specifying two key choices: an interpolant schedule bridging the initial and target distributions, and an efficient discretization of the resulting probability-flow ODE. — [source](http://arxiv.org/abs/2611.18542v1)
 - (0.75) On topic compression composition and ordering, An Efficient DCT-Based Image Compression System Based on Laplacian Transparent Composite Model reports: (no abstract) — [source](https://doi.org/10.1109/TIP.2014.2383324)
 - (0.75) On topic compression composition and ordering, Prune-then-Quantize or Quantize-then-Prune? Understanding the Impact of Compression Order in Joint Model Compression reports: What happens when multiple compression methods are combined-does the order in which they are applied matter? — [source](https://doi.org/10.48550/arXiv.2603.18426)
-- (0.75) On topic compression composition and ordering, Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond reports: Generative modeling based on stochastic interpolants requires specifying two key choices: an interpolant schedule bridging the initial and target distributions, and an efficient discretization of the resulting probability-flow ODE. — [source](http://arxiv.org/abs/2611.18542v1)
 
 ## Contradicted/refuted claims
 

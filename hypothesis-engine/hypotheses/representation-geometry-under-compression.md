@@ -1,6 +1,6 @@
 # Hypothesis draft: representation geometry under compression
 
-_Regenerated 2026-11-19T15:03:17+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-23T17:01:48+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
