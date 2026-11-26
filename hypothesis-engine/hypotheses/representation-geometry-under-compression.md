@@ -1,6 +1,6 @@
 # Hypothesis draft: representation geometry under compression
 
-_Regenerated 2026-11-23T17:01:48+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-26T16:10:30+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -37,3 +37,4 @@ Status: **NEW HYPOTHESIS** (7 surviving claims)
 - [escape-hatch] On topic representation geometry under compression, Nonlinear spiked covariance matrices and signal propagation in deep neural networks reports: Many recent wor
 - [escape-hatch] On topic representation geometry under compression, Low-Rank Prehab: Preparing Neural Networks for SVD Compression reports: Low-rank approximation methods such 
 - [escape-hatch] On topic representation geometry under compression, Motion-guided Contrastive Regularization For Latent World Models reports: JEPA-style world models learn acti
+- [escape-hatch] On topic representation geometry under compression, Pure mapping class group fixed points in $\mathrm{PU}(2,1)$ reports: We classify all the fixed points for th

@@ -1,6 +1,6 @@
 # Hypothesis draft: hidden variable detection / causal discovery from residuals
 
-_Regenerated 2026-11-23T17:01:48+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-26T16:10:30+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -8,7 +8,7 @@ Across corroborated findings, the following claims survived staked testing (beta
 
 > On topic hidden variable detection / causal discovery from residuals, Joint Estimation of Sparse Multilayer Networks via Graph Limits reports: Network datasets in modern applications often involve multiple types of interactions occurring over a shared set of individuals.
 
-Status: **NEW HYPOTHESIS** (44 surviving claims)
+Status: **NEW HYPOTHESIS** (46 surviving claims)
 
 ## Supporting claims
 
@@ -51,6 +51,8 @@ Status: **NEW HYPOTHESIS** (44 surviving claims)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Distribution-based canonical correlation residual monitoring for industrial processes fault detection reports: Reliable fault detection is essential for safe, efficient, and sustainable industrial processes. [restricted: narrower scope within hidden variable detection / causal discovery from residuals (run 2026-11-12)] — [source](https://doi.org/10.1038/s41598-026-74736-5)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Gradient Estimates for Singular-Degenerate Elliptic Equations with Solution-Dependent Coefficients reports: We study a conormal boundary value problem for a class of singular-degenerate quasilinear elliptic equations in divergence form in bounded domains. — [source](http://arxiv.org/abs/2611.14510v1)
 - (0.80) On topic hidden variable detection / causal discovery from residuals, Jailbreak Detection on Large Language Models via Contrastive Prototype Structures reports: Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. — [source](http://arxiv.org/abs/2611.24936v1)
+- (0.75) On topic hidden variable detection / causal discovery from residuals, Optimal Linear Regression Without a Variance reports: We study high-probability linear regression in the infinite variance regime, wherecthe regression noise has only a finite conditional $α$-moment $ν$ for some unknown $α\in(1,2)$, and the covariates may only have finite moments up to a given order (e.g., 4th moment). — [source](http://arxiv.org/abs/2611.27983v1)
+- (0.75) On topic hidden variable detection / causal discovery from residuals, On the Complete Feature Set for ADHD Classification in Children and Adolescents Based on EEG Signals reports: Attention-deficit/hyperactivity disorder is a neurodevelopmental condition that can affect attention, activity and impulse control. — [source](http://arxiv.org/abs/2611.27970v1)
 - (0.71) On topic hidden variable detection / causal discovery from residuals, High-recall causal discovery for autocorrelated time series with latent confounders reports: We present a new method for linear and nonlinear, lagged and contemporaneous constraint-based causal discovery from observational time series in the presence of latent confounders. — [source](https://doi.org/10.48550/arXiv.2007.01884)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal discovery from time-series discrete data in the presence of latent confounders. reports: Learning causal structures from discrete time series data presents significant challenges, particularly in the presence of unobserved variables, or latent confounders, which are frequently encountered in real-world scenarios. — [source](https://doi.org/10.1016/j.neunet.2026.109426)
 - (0.67) On topic hidden variable detection / causal discovery from residuals, Causal Discovery for time series from multiple datasets with latent contexts reports: Causal discovery from time series data is a typical problem setting across the sciences. — [source](https://www.semanticscholar.org/paper/a36cefa2643a9bfa3a40c4543a2ffee3cbfc117e)

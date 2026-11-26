@@ -1,6 +1,6 @@
 # Hypothesis draft: deployment-aware compression metrics
 
-_Regenerated 2026-11-23T17:01:48+00:00 by hypothesis_engine.py — do not hand-edit._
+_Regenerated 2026-11-26T16:10:30+00:00 by hypothesis_engine.py — do not hand-edit._
 
 ## Hypothesis statement
 
@@ -36,8 +36,6 @@ Status: **NEW HYPOTHESIS** (11 surviving claims)
 
 ## Open unknowns
 
-- [escape-hatch] On topic deployment-aware compression metrics, When Compression Meets Model Compression: Memory-Efficient Double Compression for Large Language Models reports: 
-- [escape-hatch] On topic deployment-aware compression metrics, A Survey of Model Compression Techniques for TinyML Applications reports: The convergence of embedded systems and
 - [escape-hatch] On topic deployment-aware compression metrics, Accuracy-Latency Trade-offs Under Neural Network Compression in Safety-Critical Edge AI Applications: A Controlle
 - [escape-hatch] On topic deployment-aware compression metrics, On-Device Large Language Models for Mobile Applications: A Systematic Survey of Compression, Runtime Efficiency, 
 - [escape-hatch] On topic deployment-aware compression metrics, DevOps-Aware Model Evaluation: Simulating Latency-Accuracy Trade-Offs in ML Pipelines reports: An extensive machi
@@ -46,3 +44,5 @@ Status: **NEW HYPOTHESIS** (11 surviving claims)
 - [escape-hatch] On topic deployment-aware compression metrics, VillainNet: Targeted Poisoning Attacks Against SuperNets Along the Accuracy-Latency Pareto Frontier reports: (no 
 - [escape-hatch] On topic deployment-aware compression metrics, Improving Reliability in Quantized Graph Neural Networks with Node-Wise Entropy-driven Temperature Scaling report
 - [escape-hatch] On topic deployment-aware compression metrics, Information-theoretic Generalization Analysis for Expected Calibration Error reports: While the expected calibrat
+- [escape-hatch] On topic deployment-aware compression metrics, Impact of Joint Heat and Memory Constraints of Mobile Device in Edge-Assisted On-Device Artificial Intelligence r
+- [escape-hatch] On topic deployment-aware compression metrics, Optimizing Latency–Accuracy Pareto Trade-offs in ColPali-Based Multimodal Retrieval-Augmented Generation reports:
