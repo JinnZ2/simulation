@@ -1,0 +1,136 @@
+{
+ "engine_unplanted_flags": [],
+ "summary": {
+  "0": {
+   "a": {
+    "rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.0188
+    ]
+   },
+   "a2": {
+    "rate": 0.02,
+    "wilson95": [
+     0.0078,
+     0.0503
+    ]
+   },
+   "b": {
+    "rate": 0.045,
+    "wilson95": [
+     0.0239,
+     0.0833
+    ]
+   },
+   "b_median_abs_r": 0.13645000000000002
+  },
+  "1": {
+   "a": {
+    "rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.0188
+    ]
+   },
+   "a2": {
+    "rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.0188
+    ]
+   },
+   "b": {
+    "rate": 0.275,
+    "wilson95": [
+     0.2178,
+     0.3407
+    ]
+   },
+   "b_median_abs_r": 0.33804999999999996
+  },
+  "2": {
+   "a": {
+    "rate": 0.01,
+    "wilson95": [
+     0.0027,
+     0.0357
+    ]
+   },
+   "a2": {
+    "rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.0188
+    ]
+   },
+   "b": {
+    "rate": 0.555,
+    "wilson95": [
+     0.4857,
+     0.6222
+    ]
+   },
+   "b_median_abs_r": 0.5115000000000001
+  },
+  "4": {
+   "a": {
+    "rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.0188
+    ]
+   },
+   "a2": {
+    "rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.0188
+    ]
+   },
+   "b": {
+    "rate": 0.715,
+    "wilson95": [
+     0.6488,
+     0.7731
+    ]
+   },
+   "b_median_abs_r": 0.7039
+  }
+ },
+ "b_k2_by_topic": {
+  "world models and curiosity-driven learning": [
+   19,
+   19
+  ],
+  "activation-aware quantization": [
+   28,
+   30
+  ],
+  "compression composition and ordering": [
+   5,
+   22
+  ],
+  "structured sparsity and hardware-matched pruning": [
+   7,
+   18
+  ],
+  "hidden variable detection / causal discovery from residuals": [
+   25,
+   31
+  ],
+  "calibration and falsifiability of LLM agents": [
+   8,
+   22
+  ],
+  "representation geometry under compression": [
+   19,
+   34
+  ],
+  "deployment-aware compression metrics": [
+   0,
+   24
+  ]
+ }
+}
+runtime_s 77.3

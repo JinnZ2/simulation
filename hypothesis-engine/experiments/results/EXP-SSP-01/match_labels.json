@@ -1,0 +1,16 @@
+{
+ "_written": "2026-11-27, before any EXP-SSP-01 timing (committed in the same PR; file mtime precedes session_*.json)",
+ "_platform": "x86 CPU, numpy (OpenBLAS dense GEMM) + scipy.sparse (CSR/BSR reference kernels), 1 thread",
+ "_rule": "matched = the runtime has a kernel that skips the zeros of this format (FLOP or byte reduction is executed); unmatched = zeros are stored and multiplied by the dense kernel",
+ "labels": {
+  "masked_dense_50": "unmatched",
+  "nm_2of4_dense": "unmatched",
+  "csr_50": "matched",
+  "csr_70": "matched",
+  "csr_90": "matched",
+  "bsr32_50": "matched",
+  "bsr32_75": "matched",
+  "struct_50": "matched"
+ },
+ "grid": {"d_batch": [[2048, 1], [2048, 16], [2048, 256], [4096, 1], [4096, 16]], "warmup": 10, "reps": 100, "sessions": 3}
+}
