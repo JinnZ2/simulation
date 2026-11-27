@@ -1,0 +1,4404 @@
+{
+ "env": {
+  "python": "3.14.8",
+  "platform": "Linux-6.1.155-x86_64-with-glibc2.43",
+  "machine": "x86_64",
+  "cpu_count": 4,
+  "commit": "f5284363f777551d8b2d09ead1ff88de6fd0cbbf",
+  "utc_start": "2026-11-27T18:07:05Z",
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.90GHz",
+  "numpy": "2.5.5",
+  "scipy": "1.18.1"
+ },
+ "n_runs": 31,
+ "run_dates": [
+  "2026-08-17",
+  "2026-08-20",
+  "2026-08-24",
+  "2026-08-27",
+  "2026-08-31",
+  "2026-09-03",
+  "2026-09-06",
+  "2026-09-07",
+  "2026-09-10",
+  "2026-09-14",
+  "2026-09-17",
+  "2026-09-21",
+  "2026-09-24",
+  "2026-09-28",
+  "2026-10-01",
+  "2026-10-05",
+  "2026-10-08",
+  "2026-10-12",
+  "2026-10-15",
+  "2026-10-19",
+  "2026-10-22",
+  "2026-10-26",
+  "2026-10-29",
+  "2026-11-02",
+  "2026-11-05",
+  "2026-11-09",
+  "2026-11-12",
+  "2026-11-16",
+  "2026-11-19",
+  "2026-11-23",
+  "2026-11-26"
+ ],
+ "arms": {
+  "a": {
+   "first_crossing": {
+    "calibration and falsifiability of LLM agents": "2026-08-17",
+    "compression composition and ordering": "2026-08-17",
+    "activation-aware quantization": "2026-08-20",
+    "deployment-aware compression metrics": "2026-08-24",
+    "hidden variable detection / causal discovery from residuals": "2026-09-06",
+    "structured sparsity and hardware-matched pruning": "2026-09-07",
+    "world models and curiosity-driven learning": "2026-09-10",
+    "representation geometry under compression": "2026-09-28"
+   },
+   "topic_runs_after_first_crossing": 203,
+   "flagged_after_first_crossing": 203,
+   "topic_runs_after_crossing_with_0_new_on_topic": 152,
+   "of_which_flagged": 152,
+   "unflagged_after_crossing": [],
+   "flags_total": 211
+  },
+  "b": {
+   "first_crossing": {
+    "calibration and falsifiability of LLM agents": "2026-08-17",
+    "compression composition and ordering": "2026-08-17",
+    "activation-aware quantization": "2026-08-27",
+    "hidden variable detection / causal discovery from residuals": "2026-09-06",
+    "structured sparsity and hardware-matched pruning": "2026-09-07",
+    "world models and curiosity-driven learning": "2026-09-10",
+    "deployment-aware compression metrics": "2026-10-12"
+   },
+   "topic_runs_after_first_crossing": 169,
+   "flagged_after_first_crossing": 169,
+   "topic_runs_after_crossing_with_0_new_on_topic": 122,
+   "of_which_flagged": 122,
+   "unflagged_after_crossing": [],
+   "flags_total": 176
+  },
+  "c": {
+   "first_crossing": {
+    "calibration and falsifiability of LLM agents": "2026-08-17",
+    "compression composition and ordering": "2026-08-27",
+    "structured sparsity and hardware-matched pruning": "2026-09-07",
+    "activation-aware quantization": "2026-09-10",
+    "world models and curiosity-driven learning": "2026-09-21",
+    "hidden variable detection / causal discovery from residuals": "2026-10-12",
+    "deployment-aware compression metrics": "2026-10-12"
+   },
+   "topic_runs_after_first_crossing": 147,
+   "flagged_after_first_crossing": 147,
+   "topic_runs_after_crossing_with_0_new_on_topic": 109,
+   "of_which_flagged": 109,
+   "unflagged_after_crossing": [],
+   "flags_total": 154
+  }
+ },
+ "per_run": {
+  "a": [
+   {
+    "date": "2026-08-17",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 15,
+     "activation-aware quantization": 1,
+     "compression composition and ordering": 13
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 6,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 11,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 9
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 25,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 17,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 20
+    }
+   },
+   {
+    "date": "2026-08-20",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 28,
+     "activation-aware quantization": 3,
+     "compression composition and ordering": 16,
+     "deployment-aware compression metrics": 1
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 7,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 20,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 2,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-08-24",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 36,
+     "activation-aware quantization": 5,
+     "compression composition and ordering": 16,
+     "deployment-aware compression metrics": 3
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-08-27",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 45,
+     "activation-aware quantization": 6,
+     "compression composition and ordering": 22,
+     "deployment-aware compression metrics": 4,
+     "structured sparsity and hardware-matched pruning": 1
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 2,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 4,
+     "structured sparsity and hardware-matched pruning": 4,
+     "compression composition and ordering": 6,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-08-31",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 54,
+     "activation-aware quantization": 8,
+     "compression composition and ordering": 23,
+     "deployment-aware compression metrics": 4,
+     "world models and curiosity-driven learning": 1,
+     "structured sparsity and hardware-matched pruning": 1
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 2,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 7,
+     "world models and curiosity-driven learning": 9,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-03",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 62,
+     "activation-aware quantization": 9,
+     "compression composition and ordering": 23,
+     "deployment-aware compression metrics": 4,
+     "world models and curiosity-driven learning": 2,
+     "structured sparsity and hardware-matched pruning": 1,
+     "hidden variable detection / causal discovery from residuals": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-06",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 69,
+     "activation-aware quantization": 9,
+     "compression composition and ordering": 32,
+     "deployment-aware compression metrics": 4,
+     "world models and curiosity-driven learning": 2,
+     "structured sparsity and hardware-matched pruning": 1,
+     "hidden variable detection / causal discovery from residuals": 6
+    },
+    "new_on_topic": {
+     "hidden variable detection / causal discovery from residuals": 5,
+     "compression composition and ordering": 10
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 10,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-07",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 72,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "activation-aware quantization": 13,
+     "structured sparsity and hardware-matched pruning": 11,
+     "compression composition and ordering": 34,
+     "deployment-aware compression metrics": 4,
+     "world models and curiosity-driven learning": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 12,
+     "structured sparsity and hardware-matched pruning": 11,
+     "compression composition and ordering": 4,
+     "representation geometry under compression": 4,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-10",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 85,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "activation-aware quantization": 20,
+     "structured sparsity and hardware-matched pruning": 37,
+     "compression composition and ordering": 34,
+     "deployment-aware compression metrics": 4,
+     "world models and curiosity-driven learning": 9
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 5,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 14,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 12,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "date": "2026-09-14",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 92,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "activation-aware quantization": 51,
+     "structured sparsity and hardware-matched pruning": 44,
+     "compression composition and ordering": 34,
+     "deployment-aware compression metrics": 6,
+     "world models and curiosity-driven learning": 13
+    },
+    "new_on_topic": {
+     "deployment-aware compression metrics": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 5
+    }
+   },
+   {
+    "date": "2026-09-17",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 93,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "activation-aware quantization": 51,
+     "structured sparsity and hardware-matched pruning": 49,
+     "compression composition and ordering": 34,
+     "deployment-aware compression metrics": 7,
+     "world models and curiosity-driven learning": 17,
+     "representation geometry under compression": 1
+    },
+    "new_on_topic": {
+     "world models and curiosity-driven learning": 4,
+     "structured sparsity and hardware-matched pruning": 5,
+     "representation geometry under compression": 3
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-21",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 93,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "activation-aware quantization": 52,
+     "structured sparsity and hardware-matched pruning": 49,
+     "compression composition and ordering": 34,
+     "deployment-aware compression metrics": 7,
+     "world models and curiosity-driven learning": 20,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "world models and curiosity-driven learning": 5
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-24",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 93,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "activation-aware quantization": 52,
+     "structured sparsity and hardware-matched pruning": 49,
+     "compression composition and ordering": 35,
+     "deployment-aware compression metrics": 7,
+     "world models and curiosity-driven learning": 23,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 5
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-28",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 93,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "activation-aware quantization": 52,
+     "structured sparsity and hardware-matched pruning": 49,
+     "compression composition and ordering": 35,
+     "deployment-aware compression metrics": 7,
+     "world models and curiosity-driven learning": 23,
+     "representation geometry under compression": 5
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-01",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 94,
+     "hidden variable detection / causal discovery from residuals": 12,
+     "activation-aware quantization": 54,
+     "structured sparsity and hardware-matched pruning": 53,
+     "compression composition and ordering": 35,
+     "deployment-aware compression metrics": 7,
+     "world models and curiosity-driven learning": 26,
+     "representation geometry under compression": 5
+    },
+    "new_on_topic": {
+     "hidden variable detection / causal discovery from residuals": 1,
+     "world models and curiosity-driven learning": 1,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 11,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 10,
+     "compression composition and ordering": 3,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-05",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 97,
+     "hidden variable detection / causal discovery from residuals": 20,
+     "activation-aware quantization": 63,
+     "structured sparsity and hardware-matched pruning": 58,
+     "compression composition and ordering": 36,
+     "deployment-aware compression metrics": 7,
+     "world models and curiosity-driven learning": 28,
+     "representation geometry under compression": 6
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 9,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 3,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-08",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 104,
+     "hidden variable detection / causal discovery from residuals": 23,
+     "activation-aware quantization": 68,
+     "structured sparsity and hardware-matched pruning": 67,
+     "compression composition and ordering": 38,
+     "deployment-aware compression metrics": 7,
+     "world models and curiosity-driven learning": 33,
+     "representation geometry under compression": 6
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 12,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 2
+    }
+   },
+   {
+    "date": "2026-10-12",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 112,
+     "hidden variable detection / causal discovery from residuals": 24,
+     "activation-aware quantization": 70,
+     "structured sparsity and hardware-matched pruning": 71,
+     "compression composition and ordering": 40,
+     "deployment-aware compression metrics": 8,
+     "world models and curiosity-driven learning": 33,
+     "representation geometry under compression": 6
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 5,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "date": "2026-10-15",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 124,
+     "hidden variable detection / causal discovery from residuals": 28,
+     "activation-aware quantization": 78,
+     "structured sparsity and hardware-matched pruning": 77,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 8,
+     "world models and curiosity-driven learning": 36,
+     "representation geometry under compression": 6
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 8,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 3,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-19",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 129,
+     "hidden variable detection / causal discovery from residuals": 29,
+     "activation-aware quantization": 79,
+     "structured sparsity and hardware-matched pruning": 81,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 8,
+     "world models and curiosity-driven learning": 36,
+     "representation geometry under compression": 6
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 3,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-22",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 138,
+     "hidden variable detection / causal discovery from residuals": 30,
+     "activation-aware quantization": 86,
+     "structured sparsity and hardware-matched pruning": 84,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 8,
+     "world models and curiosity-driven learning": 36,
+     "representation geometry under compression": 6
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-26",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 147,
+     "hidden variable detection / causal discovery from residuals": 33,
+     "activation-aware quantization": 91,
+     "structured sparsity and hardware-matched pruning": 91,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 8,
+     "world models and curiosity-driven learning": 37,
+     "representation geometry under compression": 6
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 2,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 7,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 8,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-29",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 153,
+     "hidden variable detection / causal discovery from residuals": 34,
+     "activation-aware quantization": 96,
+     "structured sparsity and hardware-matched pruning": 95,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 8,
+     "world models and curiosity-driven learning": 37,
+     "representation geometry under compression": 7
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 4,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-02",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 161,
+     "hidden variable detection / causal discovery from residuals": 34,
+     "activation-aware quantization": 99,
+     "structured sparsity and hardware-matched pruning": 99,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 8,
+     "world models and curiosity-driven learning": 38,
+     "representation geometry under compression": 7
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 6,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-05",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 165,
+     "hidden variable detection / causal discovery from residuals": 34,
+     "world models and curiosity-driven learning": 42,
+     "activation-aware quantization": 106,
+     "structured sparsity and hardware-matched pruning": 101,
+     "compression composition and ordering": 43,
+     "deployment-aware compression metrics": 8,
+     "representation geometry under compression": 7
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 8,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 4,
+     "structured sparsity and hardware-matched pruning": 3,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-09",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 177,
+     "hidden variable detection / causal discovery from residuals": 37,
+     "world models and curiosity-driven learning": 43,
+     "activation-aware quantization": 110,
+     "structured sparsity and hardware-matched pruning": 105,
+     "compression composition and ordering": 45,
+     "deployment-aware compression metrics": 8,
+     "representation geometry under compression": 7
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 1,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 3,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 6,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-12",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 184,
+     "hidden variable detection / causal discovery from residuals": 38,
+     "world models and curiosity-driven learning": 44,
+     "activation-aware quantization": 117,
+     "structured sparsity and hardware-matched pruning": 109,
+     "compression composition and ordering": 47,
+     "deployment-aware compression metrics": 8,
+     "representation geometry under compression": 7
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 3,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-16",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 191,
+     "hidden variable detection / causal discovery from residuals": 40,
+     "world models and curiosity-driven learning": 48,
+     "activation-aware quantization": 124,
+     "structured sparsity and hardware-matched pruning": 112,
+     "compression composition and ordering": 48,
+     "deployment-aware compression metrics": 8,
+     "representation geometry under compression": 7
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 8,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 3,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-19",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 199,
+     "hidden variable detection / causal discovery from residuals": 44,
+     "world models and curiosity-driven learning": 105,
+     "activation-aware quantization": 128,
+     "structured sparsity and hardware-matched pruning": 121,
+     "compression composition and ordering": 49,
+     "deployment-aware compression metrics": 11,
+     "representation geometry under compression": 7
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 8,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 6
+    }
+   },
+   {
+    "date": "2026-11-23",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 208,
+     "hidden variable detection / causal discovery from residuals": 44,
+     "world models and curiosity-driven learning": 111,
+     "activation-aware quantization": 135,
+     "structured sparsity and hardware-matched pruning": 126,
+     "compression composition and ordering": 49,
+     "deployment-aware compression metrics": 11,
+     "representation geometry under compression": 7
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 7,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "date": "2026-11-26",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 218,
+     "hidden variable detection / causal discovery from residuals": 46,
+     "world models and curiosity-driven learning": 119,
+     "activation-aware quantization": 140,
+     "structured sparsity and hardware-matched pruning": 132,
+     "compression composition and ordering": 49,
+     "deployment-aware compression metrics": 11,
+     "representation geometry under compression": 7
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 3,
+     "structured sparsity and hardware-matched pruning": 8,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 1
+    }
+   }
+  ],
+  "b": [
+   {
+    "date": "2026-08-17",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 15,
+     "activation-aware quantization": 1,
+     "compression composition and ordering": 13,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 6,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 11,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 9
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 25,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 17,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 20
+    }
+   },
+   {
+    "date": "2026-08-20",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 22,
+     "activation-aware quantization": 1,
+     "compression composition and ordering": 13,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 7,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 20,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 2,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-08-24",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 24,
+     "activation-aware quantization": 1,
+     "compression composition and ordering": 13,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-08-27",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 26,
+     "activation-aware quantization": 3,
+     "compression composition and ordering": 21,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 2,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 4,
+     "structured sparsity and hardware-matched pruning": 4,
+     "compression composition and ordering": 6,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-08-31",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 31,
+     "activation-aware quantization": 4,
+     "compression composition and ordering": 22,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 2,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 7,
+     "world models and curiosity-driven learning": 9,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-03",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 33,
+     "activation-aware quantization": 5,
+     "compression composition and ordering": 22,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-06",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 33,
+     "activation-aware quantization": 5,
+     "compression composition and ordering": 31,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "hidden variable detection / causal discovery from residuals": 5,
+     "compression composition and ordering": 10
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 10,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-07",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 37,
+     "activation-aware quantization": 12,
+     "structured sparsity and hardware-matched pruning": 11,
+     "compression composition and ordering": 32,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 12,
+     "structured sparsity and hardware-matched pruning": 11,
+     "compression composition and ordering": 4,
+     "representation geometry under compression": 4,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-10",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 53,
+     "activation-aware quantization": 22,
+     "structured sparsity and hardware-matched pruning": 11,
+     "compression composition and ordering": 32,
+     "world models and curiosity-driven learning": 8,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 5,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 14,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 12,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "date": "2026-09-14",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 53,
+     "activation-aware quantization": 22,
+     "structured sparsity and hardware-matched pruning": 11,
+     "compression composition and ordering": 32,
+     "world models and curiosity-driven learning": 8,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "deployment-aware compression metrics": 2,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "deployment-aware compression metrics": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 5
+    }
+   },
+   {
+    "date": "2026-09-17",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 53,
+     "activation-aware quantization": 22,
+     "structured sparsity and hardware-matched pruning": 21,
+     "compression composition and ordering": 32,
+     "world models and curiosity-driven learning": 12,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "deployment-aware compression metrics": 2,
+     "representation geometry under compression": 1
+    },
+    "new_on_topic": {
+     "world models and curiosity-driven learning": 4,
+     "structured sparsity and hardware-matched pruning": 5,
+     "representation geometry under compression": 3
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-21",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 53,
+     "activation-aware quantization": 22,
+     "structured sparsity and hardware-matched pruning": 21,
+     "compression composition and ordering": 32,
+     "world models and curiosity-driven learning": 16,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "deployment-aware compression metrics": 2,
+     "representation geometry under compression": 1
+    },
+    "new_on_topic": {
+     "world models and curiosity-driven learning": 5
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-24",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 53,
+     "activation-aware quantization": 22,
+     "structured sparsity and hardware-matched pruning": 21,
+     "compression composition and ordering": 33,
+     "world models and curiosity-driven learning": 16,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 2
+    },
+    "new_on_topic": {
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 5
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-28",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 53,
+     "activation-aware quantization": 22,
+     "structured sparsity and hardware-matched pruning": 21,
+     "compression composition and ordering": 33,
+     "world models and curiosity-driven learning": 16,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-01",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 53,
+     "activation-aware quantization": 24,
+     "structured sparsity and hardware-matched pruning": 25,
+     "compression composition and ordering": 33,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "world models and curiosity-driven learning": 19,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 2
+    },
+    "new_on_topic": {
+     "hidden variable detection / causal discovery from residuals": 1,
+     "world models and curiosity-driven learning": 1,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 11,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 10,
+     "compression composition and ordering": 3,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-05",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 58,
+     "activation-aware quantization": 30,
+     "structured sparsity and hardware-matched pruning": 25,
+     "compression composition and ordering": 33,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "world models and curiosity-driven learning": 20,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 9,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 3,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-08",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 60,
+     "activation-aware quantization": 32,
+     "structured sparsity and hardware-matched pruning": 32,
+     "compression composition and ordering": 34,
+     "hidden variable detection / causal discovery from residuals": 13,
+     "world models and curiosity-driven learning": 20,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 12,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 2
+    }
+   },
+   {
+    "date": "2026-10-12",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 64,
+     "activation-aware quantization": 32,
+     "structured sparsity and hardware-matched pruning": 34,
+     "compression composition and ordering": 36,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 13,
+     "world models and curiosity-driven learning": 21,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 5,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "date": "2026-10-15",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 70,
+     "activation-aware quantization": 35,
+     "structured sparsity and hardware-matched pruning": 36,
+     "compression composition and ordering": 36,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 14,
+     "world models and curiosity-driven learning": 21,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 8,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 3,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-19",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 76,
+     "activation-aware quantization": 35,
+     "structured sparsity and hardware-matched pruning": 36,
+     "compression composition and ordering": 36,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 14,
+     "world models and curiosity-driven learning": 21,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 3,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-22",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 82,
+     "activation-aware quantization": 36,
+     "structured sparsity and hardware-matched pruning": 34,
+     "compression composition and ordering": 36,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 14,
+     "world models and curiosity-driven learning": 21,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-26",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 86,
+     "activation-aware quantization": 38,
+     "structured sparsity and hardware-matched pruning": 35,
+     "compression composition and ordering": 36,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 15,
+     "world models and curiosity-driven learning": 21,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 2,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 7,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 8,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-29",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 97,
+     "activation-aware quantization": 40,
+     "structured sparsity and hardware-matched pruning": 35,
+     "compression composition and ordering": 36,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 15,
+     "world models and curiosity-driven learning": 21,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 4,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-02",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 100,
+     "activation-aware quantization": 43,
+     "structured sparsity and hardware-matched pruning": 36,
+     "compression composition and ordering": 37,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 15,
+     "world models and curiosity-driven learning": 22,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 6,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-05",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 105,
+     "activation-aware quantization": 45,
+     "structured sparsity and hardware-matched pruning": 37,
+     "compression composition and ordering": 38,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 15,
+     "world models and curiosity-driven learning": 25,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 8,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 4,
+     "structured sparsity and hardware-matched pruning": 3,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-09",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 114,
+     "activation-aware quantization": 48,
+     "structured sparsity and hardware-matched pruning": 38,
+     "compression composition and ordering": 39,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 16,
+     "world models and curiosity-driven learning": 26,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 1,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 3,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 6,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-12",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 120,
+     "activation-aware quantization": 50,
+     "structured sparsity and hardware-matched pruning": 38,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 17,
+     "world models and curiosity-driven learning": 26,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 3,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-16",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 128,
+     "world models and curiosity-driven learning": 52,
+     "activation-aware quantization": 52,
+     "structured sparsity and hardware-matched pruning": 39,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 5,
+     "hidden variable detection / causal discovery from residuals": 19,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 8,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 3,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-19",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 133,
+     "world models and curiosity-driven learning": 52,
+     "activation-aware quantization": 56,
+     "structured sparsity and hardware-matched pruning": 42,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 9,
+     "hidden variable detection / causal discovery from residuals": 22,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 8,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 6
+    }
+   },
+   {
+    "date": "2026-11-23",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 139,
+     "world models and curiosity-driven learning": 57,
+     "activation-aware quantization": 59,
+     "structured sparsity and hardware-matched pruning": 46,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 9,
+     "hidden variable detection / causal discovery from residuals": 22,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 7,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "date": "2026-11-26",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 144,
+     "world models and curiosity-driven learning": 59,
+     "activation-aware quantization": 61,
+     "structured sparsity and hardware-matched pruning": 48,
+     "compression composition and ordering": 41,
+     "deployment-aware compression metrics": 9,
+     "hidden variable detection / causal discovery from residuals": 22,
+     "representation geometry under compression": 2
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 3,
+     "structured sparsity and hardware-matched pruning": 8,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 1
+    }
+   }
+  ],
+  "c": [
+   {
+    "date": "2026-08-17",
+    "flagged": [
+     "calibration and falsifiability of LLM agents"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 7,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 6,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 11,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 9
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 25,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 17,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 20
+    }
+   },
+   {
+    "date": "2026-08-20",
+    "flagged": [
+     "calibration and falsifiability of LLM agents"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 7,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 20,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 2,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-08-24",
+    "flagged": [
+     "calibration and falsifiability of LLM agents"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-08-27",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 12,
+     "compression composition and ordering": 9,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 2,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 4,
+     "structured sparsity and hardware-matched pruning": 4,
+     "compression composition and ordering": 6,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-08-31",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 14,
+     "compression composition and ordering": 9,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 2,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 7,
+     "world models and curiosity-driven learning": 9,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-03",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 15,
+     "compression composition and ordering": 9,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-06",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 15,
+     "compression composition and ordering": 28,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "hidden variable detection / causal discovery from residuals": 5,
+     "compression composition and ordering": 10
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 10,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-07",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 15,
+     "compression composition and ordering": 28,
+     "structured sparsity and hardware-matched pruning": 3,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 12,
+     "structured sparsity and hardware-matched pruning": 11,
+     "compression composition and ordering": 4,
+     "representation geometry under compression": 4,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-10",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 34,
+     "compression composition and ordering": 28,
+     "activation-aware quantization": 5,
+     "world models and curiosity-driven learning": 1,
+     "structured sparsity and hardware-matched pruning": 3,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 5,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 14,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 12,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "date": "2026-09-14",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 34,
+     "compression composition and ordering": 28,
+     "activation-aware quantization": 5,
+     "world models and curiosity-driven learning": 1,
+     "structured sparsity and hardware-matched pruning": 3,
+     "deployment-aware compression metrics": 2,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "deployment-aware compression metrics": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 5
+    }
+   },
+   {
+    "date": "2026-09-17",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 34,
+     "compression composition and ordering": 28,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 4,
+     "deployment-aware compression metrics": 2,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "world models and curiosity-driven learning": 4,
+     "structured sparsity and hardware-matched pruning": 5,
+     "representation geometry under compression": 3
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-21",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 34,
+     "compression composition and ordering": 28,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 4,
+     "deployment-aware compression metrics": 2,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "world models and curiosity-driven learning": 5
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-24",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 34,
+     "compression composition and ordering": 29,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 4,
+     "deployment-aware compression metrics": 2,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 5
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-09-28",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 34,
+     "compression composition and ordering": 29,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 4,
+     "deployment-aware compression metrics": 2,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-01",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 34,
+     "compression composition and ordering": 29,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 8,
+     "deployment-aware compression metrics": 2,
+     "hidden variable detection / causal discovery from residuals": 1,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "hidden variable detection / causal discovery from residuals": 1,
+     "world models and curiosity-driven learning": 1,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 11,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 10,
+     "compression composition and ordering": 3,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-05",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 35,
+     "compression composition and ordering": 29,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 10,
+     "structured sparsity and hardware-matched pruning": 8,
+     "deployment-aware compression metrics": 2,
+     "hidden variable detection / causal discovery from residuals": 1,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 9,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 3,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-08",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 37,
+     "compression composition and ordering": 31,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 10,
+     "structured sparsity and hardware-matched pruning": 10,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "deployment-aware compression metrics": 2,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 12,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 2
+    }
+   },
+   {
+    "date": "2026-10-12",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 40,
+     "compression composition and ordering": 32,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 10,
+     "structured sparsity and hardware-matched pruning": 10,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 1
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 4,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 5,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "date": "2026-10-15",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 44,
+     "compression composition and ordering": 32,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 10,
+     "structured sparsity and hardware-matched pruning": 10,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 8,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 3,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-19",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 47,
+     "compression composition and ordering": 32,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 10,
+     "structured sparsity and hardware-matched pruning": 10,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 3,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-22",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 54,
+     "activation-aware quantization": 13,
+     "compression composition and ordering": 32,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 7,
+     "structured sparsity and hardware-matched pruning": 10,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-26",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 58,
+     "activation-aware quantization": 15,
+     "compression composition and ordering": 32,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 7,
+     "structured sparsity and hardware-matched pruning": 10,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 2,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 7,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 8,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-10-29",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 66,
+     "activation-aware quantization": 16,
+     "compression composition and ordering": 32,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 7,
+     "structured sparsity and hardware-matched pruning": 11,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 4,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-02",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 69,
+     "activation-aware quantization": 18,
+     "compression composition and ordering": 33,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 9,
+     "structured sparsity and hardware-matched pruning": 11,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 6,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-05",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 72,
+     "activation-aware quantization": 18,
+     "compression composition and ordering": 33,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 12,
+     "structured sparsity and hardware-matched pruning": 12,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 8,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 4,
+     "structured sparsity and hardware-matched pruning": 3,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-09",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 76,
+     "activation-aware quantization": 20,
+     "compression composition and ordering": 34,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 12,
+     "structured sparsity and hardware-matched pruning": 12,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 1,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 3,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 6,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-12",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 84,
+     "activation-aware quantization": 22,
+     "compression composition and ordering": 35,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 13,
+     "structured sparsity and hardware-matched pruning": 12,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 11,
+     "hidden variable detection / causal discovery from residuals": 5,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 3,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-16",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 89,
+     "activation-aware quantization": 23,
+     "compression composition and ordering": 35,
+     "deployment-aware compression metrics": 3,
+     "world models and curiosity-driven learning": 21,
+     "structured sparsity and hardware-matched pruning": 12,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 3,
+     "activation-aware quantization": 5,
+     "structured sparsity and hardware-matched pruning": 8,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 3,
+     "deployment-aware compression metrics": 0
+    }
+   },
+   {
+    "date": "2026-11-19",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 91,
+     "activation-aware quantization": 25,
+     "compression composition and ordering": 35,
+     "deployment-aware compression metrics": 6,
+     "world models and curiosity-driven learning": 21,
+     "structured sparsity and hardware-matched pruning": 12,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 0,
+     "structured sparsity and hardware-matched pruning": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 8,
+     "hidden variable detection / causal discovery from residuals": 4,
+     "world models and curiosity-driven learning": 5,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 7,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 6
+    }
+   },
+   {
+    "date": "2026-11-23",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 94,
+     "world models and curiosity-driven learning": 23,
+     "activation-aware quantization": 27,
+     "compression composition and ordering": 35,
+     "deployment-aware compression metrics": 7,
+     "structured sparsity and hardware-matched pruning": 13,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 0,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 10,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 7,
+     "activation-aware quantization": 7,
+     "structured sparsity and hardware-matched pruning": 5,
+     "compression composition and ordering": 1,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "date": "2026-11-26",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 98,
+     "world models and curiosity-driven learning": 23,
+     "activation-aware quantization": 28,
+     "compression composition and ordering": 35,
+     "deployment-aware compression metrics": 7,
+     "structured sparsity and hardware-matched pruning": 13,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "representation geometry under compression": 0
+    },
+    "new_on_topic": {
+     "calibration and falsifiability of LLM agents": 1,
+     "hidden variable detection / causal discovery from residuals": 0,
+     "world models and curiosity-driven learning": 0,
+     "activation-aware quantization": 1,
+     "structured sparsity and hardware-matched pruning": 0,
+     "compression composition and ordering": 0,
+     "representation geometry under compression": 0,
+     "deployment-aware compression metrics": 0
+    },
+    "new_findings": {
+     "calibration and falsifiability of LLM agents": 9,
+     "hidden variable detection / causal discovery from residuals": 3,
+     "world models and curiosity-driven learning": 6,
+     "activation-aware quantization": 3,
+     "structured sparsity and hardware-matched pruning": 8,
+     "compression composition and ordering": 2,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 1
+    }
+   }
+  ]
+ },
+ "validation": {
+  "final_surviving_replay_a": {
+   "calibration and falsifiability of LLM agents": 218,
+   "hidden variable detection / causal discovery from residuals": 46,
+   "world models and curiosity-driven learning": 119,
+   "activation-aware quantization": 140,
+   "structured sparsity and hardware-matched pruning": 132,
+   "compression composition and ordering": 49,
+   "deployment-aware compression metrics": 11,
+   "representation geometry under compression": 7
+  },
+  "final_surviving_real_tree": {
+   "calibration and falsifiability of LLM agents": 218,
+   "hidden variable detection / causal discovery from residuals": 46,
+   "world models and curiosity-driven learning": 119,
+   "activation-aware quantization": 140,
+   "structured sparsity and hardware-matched pruning": 132,
+   "compression composition and ordering": 49,
+   "deployment-aware compression metrics": 11,
+   "representation geometry under compression": 7
+  },
+  "claims_replay_a": 900,
+  "claims_real": 900,
+  "actual_history": [
+   {
+    "commit": "3b3ae4f",
+    "date": "2026-08-17",
+    "flagged": [
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 15,
+     "activation-aware quantization": 1,
+     "compression composition and ordering": 13
+    }
+   },
+   {
+    "commit": "d54a7ad",
+    "date": "2026-08-20",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 28,
+     "activation-aware quantization": 3,
+     "compression composition and ordering": 16,
+     "deployment-aware compression metrics": 1
+    }
+   },
+   {
+    "commit": "30feb99",
+    "date": "2026-08-24",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 36,
+     "activation-aware quantization": 5,
+     "compression composition and ordering": 16,
+     "deployment-aware compression metrics": 3
+    }
+   },
+   {
+    "commit": "5571fc5",
+    "date": "2026-08-27",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 45,
+     "activation-aware quantization": 6,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 22,
+     "deployment-aware compression metrics": 4
+    }
+   },
+   {
+    "commit": "b7e721c",
+    "date": "2026-08-31",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 54,
+     "world models and curiosity-driven learning": 1,
+     "activation-aware quantization": 8,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 23,
+     "deployment-aware compression metrics": 4
+    }
+   },
+   {
+    "commit": "ef0fa9e",
+    "date": "2026-09-03",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 62,
+     "hidden variable detection / causal discovery from residuals": 2,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 9,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 23,
+     "deployment-aware compression metrics": 4
+    }
+   },
+   {
+    "commit": "f38ac12",
+    "date": "2026-09-06",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 69,
+     "hidden variable detection / causal discovery from residuals": 6,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 9,
+     "structured sparsity and hardware-matched pruning": 1,
+     "compression composition and ordering": 32,
+     "deployment-aware compression metrics": 4
+    }
+   },
+   {
+    "commit": "c036b79",
+    "date": "2026-09-07",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 72,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "world models and curiosity-driven learning": 2,
+     "activation-aware quantization": 13,
+     "structured sparsity and hardware-matched pruning": 11,
+     "compression composition and ordering": 34,
+     "deployment-aware compression metrics": 4
+    }
+   },
+   {
+    "commit": "5e04a33",
+    "date": "2026-09-10",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 85,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "world models and curiosity-driven learning": 9,
+     "activation-aware quantization": 20,
+     "structured sparsity and hardware-matched pruning": 37,
+     "compression composition and ordering": 34,
+     "deployment-aware compression metrics": 4
+    }
+   },
+   {
+    "commit": "6518518",
+    "date": "2026-09-14",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 92,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "world models and curiosity-driven learning": 13,
+     "activation-aware quantization": 51,
+     "structured sparsity and hardware-matched pruning": 44,
+     "compression composition and ordering": 34,
+     "deployment-aware compression metrics": 6
+    }
+   },
+   {
+    "commit": "492c402",
+    "date": "2026-09-17",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 93,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "world models and curiosity-driven learning": 17,
+     "activation-aware quantization": 51,
+     "structured sparsity and hardware-matched pruning": 49,
+     "compression composition and ordering": 34,
+     "representation geometry under compression": 1,
+     "deployment-aware compression metrics": 7
+    }
+   },
+   {
+    "commit": "4c75494",
+    "date": "2026-09-21",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 93,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "world models and curiosity-driven learning": 20,
+     "activation-aware quantization": 52,
+     "structured sparsity and hardware-matched pruning": 49,
+     "compression composition and ordering": 34,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 7
+    }
+   },
+   {
+    "commit": "61bbc82",
+    "date": "2026-09-24",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 93,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "world models and curiosity-driven learning": 23,
+     "activation-aware quantization": 52,
+     "structured sparsity and hardware-matched pruning": 49,
+     "compression composition and ordering": 35,
+     "representation geometry under compression": 2,
+     "deployment-aware compression metrics": 7
+    }
+   },
+   {
+    "commit": "88ecfaf",
+    "date": "2026-09-28",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 93,
+     "hidden variable detection / causal discovery from residuals": 11,
+     "world models and curiosity-driven learning": 23,
+     "activation-aware quantization": 52,
+     "structured sparsity and hardware-matched pruning": 49,
+     "compression composition and ordering": 35,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 7
+    }
+   },
+   {
+    "commit": "9543619",
+    "date": "2026-10-01",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 94,
+     "hidden variable detection / causal discovery from residuals": 12,
+     "world models and curiosity-driven learning": 26,
+     "activation-aware quantization": 54,
+     "structured sparsity and hardware-matched pruning": 53,
+     "compression composition and ordering": 35,
+     "representation geometry under compression": 5,
+     "deployment-aware compression metrics": 7
+    }
+   },
+   {
+    "commit": "411c352",
+    "date": "2026-10-05",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 97,
+     "hidden variable detection / causal discovery from residuals": 20,
+     "world models and curiosity-driven learning": 28,
+     "activation-aware quantization": 63,
+     "structured sparsity and hardware-matched pruning": 58,
+     "compression composition and ordering": 36,
+     "representation geometry under compression": 6,
+     "deployment-aware compression metrics": 7
+    }
+   },
+   {
+    "commit": "945a879",
+    "date": "2026-10-08",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 104,
+     "hidden variable detection / causal discovery from residuals": 23,
+     "world models and curiosity-driven learning": 33,
+     "activation-aware quantization": 68,
+     "structured sparsity and hardware-matched pruning": 67,
+     "compression composition and ordering": 38,
+     "representation geometry under compression": 6,
+     "deployment-aware compression metrics": 7
+    }
+   },
+   {
+    "commit": "3116c96",
+    "date": "2026-10-12",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 112,
+     "hidden variable detection / causal discovery from residuals": 24,
+     "world models and curiosity-driven learning": 33,
+     "activation-aware quantization": 70,
+     "structured sparsity and hardware-matched pruning": 71,
+     "compression composition and ordering": 40,
+     "representation geometry under compression": 6,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "ebf223f",
+    "date": "2026-10-15",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 124,
+     "hidden variable detection / causal discovery from residuals": 28,
+     "world models and curiosity-driven learning": 36,
+     "activation-aware quantization": 78,
+     "structured sparsity and hardware-matched pruning": 77,
+     "compression composition and ordering": 41,
+     "representation geometry under compression": 6,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "7c305a2",
+    "date": "2026-10-19",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 129,
+     "hidden variable detection / causal discovery from residuals": 29,
+     "world models and curiosity-driven learning": 36,
+     "activation-aware quantization": 79,
+     "structured sparsity and hardware-matched pruning": 81,
+     "compression composition and ordering": 41,
+     "representation geometry under compression": 6,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "27126cc",
+    "date": "2026-10-22",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 138,
+     "hidden variable detection / causal discovery from residuals": 30,
+     "world models and curiosity-driven learning": 36,
+     "activation-aware quantization": 86,
+     "structured sparsity and hardware-matched pruning": 84,
+     "compression composition and ordering": 41,
+     "representation geometry under compression": 6,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "0a03e57",
+    "date": "2026-10-26",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 147,
+     "hidden variable detection / causal discovery from residuals": 33,
+     "world models and curiosity-driven learning": 37,
+     "activation-aware quantization": 91,
+     "structured sparsity and hardware-matched pruning": 91,
+     "compression composition and ordering": 41,
+     "representation geometry under compression": 6,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "035a2d7",
+    "date": "2026-10-29",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 153,
+     "hidden variable detection / causal discovery from residuals": 34,
+     "world models and curiosity-driven learning": 37,
+     "activation-aware quantization": 96,
+     "structured sparsity and hardware-matched pruning": 95,
+     "compression composition and ordering": 41,
+     "representation geometry under compression": 7,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "3731536",
+    "date": "2026-11-02",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 161,
+     "hidden variable detection / causal discovery from residuals": 34,
+     "world models and curiosity-driven learning": 38,
+     "activation-aware quantization": 99,
+     "structured sparsity and hardware-matched pruning": 99,
+     "compression composition and ordering": 41,
+     "representation geometry under compression": 7,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "63b0660",
+    "date": "2026-11-05",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 165,
+     "hidden variable detection / causal discovery from residuals": 34,
+     "world models and curiosity-driven learning": 42,
+     "activation-aware quantization": 106,
+     "structured sparsity and hardware-matched pruning": 101,
+     "compression composition and ordering": 43,
+     "representation geometry under compression": 7,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "697756b",
+    "date": "2026-11-09",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 177,
+     "hidden variable detection / causal discovery from residuals": 37,
+     "world models and curiosity-driven learning": 43,
+     "activation-aware quantization": 110,
+     "structured sparsity and hardware-matched pruning": 105,
+     "compression composition and ordering": 45,
+     "representation geometry under compression": 7,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "9a4af0e",
+    "date": "2026-11-12",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 184,
+     "hidden variable detection / causal discovery from residuals": 38,
+     "world models and curiosity-driven learning": 44,
+     "activation-aware quantization": 117,
+     "structured sparsity and hardware-matched pruning": 109,
+     "compression composition and ordering": 47,
+     "representation geometry under compression": 7,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "4b4247c",
+    "date": "2026-11-16",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 191,
+     "hidden variable detection / causal discovery from residuals": 40,
+     "world models and curiosity-driven learning": 48,
+     "activation-aware quantization": 124,
+     "structured sparsity and hardware-matched pruning": 112,
+     "compression composition and ordering": 48,
+     "representation geometry under compression": 7,
+     "deployment-aware compression metrics": 8
+    }
+   },
+   {
+    "commit": "24b0f14",
+    "date": "2026-11-19",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 199,
+     "hidden variable detection / causal discovery from residuals": 44,
+     "world models and curiosity-driven learning": 105,
+     "activation-aware quantization": 128,
+     "structured sparsity and hardware-matched pruning": 121,
+     "compression composition and ordering": 49,
+     "representation geometry under compression": 7,
+     "deployment-aware compression metrics": 11
+    }
+   },
+   {
+    "commit": "0419d47",
+    "date": "2026-11-23",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 208,
+     "hidden variable detection / causal discovery from residuals": 44,
+     "world models and curiosity-driven learning": 111,
+     "activation-aware quantization": 135,
+     "structured sparsity and hardware-matched pruning": 126,
+     "compression composition and ordering": 49,
+     "representation geometry under compression": 7,
+     "deployment-aware compression metrics": 11
+    }
+   },
+   {
+    "commit": "f528436",
+    "date": "2026-11-26",
+    "flagged": [
+     "activation-aware quantization",
+     "calibration and falsifiability of LLM agents",
+     "compression composition and ordering",
+     "deployment-aware compression metrics",
+     "hidden variable detection / causal discovery from residuals",
+     "representation geometry under compression",
+     "structured sparsity and hardware-matched pruning",
+     "world models and curiosity-driven learning"
+    ],
+    "surviving": {
+     "calibration and falsifiability of LLM agents": 218,
+     "hidden variable detection / causal discovery from residuals": 46,
+     "world models and curiosity-driven learning": 119,
+     "activation-aware quantization": 140,
+     "structured sparsity and hardware-matched pruning": 132,
+     "compression composition and ordering": 49,
+     "representation geometry under compression": 7,
+     "deployment-aware compression metrics": 11
+    }
+   }
+  ]
+ },
+ "runtime_s": 55.1
+}

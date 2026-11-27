@@ -1,0 +1,22 @@
+== main_b4_out8_g20 median rel MSE {'rtn': '1.626e-02', 'awq': '7.307e-03', 'awq_perm': '1.626e-02', 'wnorm': '1.624e-02', 'had_rtn': '1.620e-02', 'had_awq': '1.587e-02'}
+   rtn       ratio vs awq median 2.211 [2.034,2.296] awq better in 100%  wilcoxon p=0.0020
+   awq_perm  ratio vs awq median 2.211 [2.034,2.296] awq better in 100%  wilcoxon p=0.0020
+   wnorm     ratio vs awq median 2.204 [2.034,2.296] awq better in 100%  wilcoxon p=0.0020
+   had_rtn   ratio vs awq median 2.218 [2.076,2.371] awq better in 100%  wilcoxon p=0.0020
+   had_awq   ratio vs awq median 2.186 [2.010,2.256] awq better in 100%  wilcoxon p=0.0020
+   had_rtn strictly between awq and rtn in 0.5
+== sens_b3_out8_g20 median rel MSE {'rtn': '8.727e-02', 'awq': '4.042e-02', 'awq_perm': '8.727e-02', 'wnorm': '8.714e-02', 'had_rtn': '8.669e-02', 'had_awq': '8.565e-02'}
+   rtn       ratio vs awq median 2.140 [2.054,2.304] awq better in 100%  wilcoxon p=0.0020
+   awq_perm  ratio vs awq median 2.140 [2.054,2.304] awq better in 100%  wilcoxon p=0.0020
+   wnorm     ratio vs awq median 2.139 [2.054,2.304] awq better in 100%  wilcoxon p=0.0020
+   had_rtn   ratio vs awq median 2.120 [2.045,2.306] awq better in 100%  wilcoxon p=0.0020
+   had_awq   ratio vs awq median 2.089 [2.025,2.315] awq better in 100%  wilcoxon p=0.0020
+   had_rtn strictly between awq and rtn in 0.7
+== sens_b4_no_outliers median rel MSE {'rtn': '1.589e-02', 'awq': '1.592e-02', 'awq_perm': '1.589e-02', 'wnorm': '1.589e-02', 'had_rtn': '1.604e-02', 'had_awq': '1.603e-02'}
+   rtn       ratio vs awq median 0.999 [0.996,1.002] awq better in 20%  wilcoxon p=0.0977
+   awq_perm  ratio vs awq median 1.000 [0.997,1.003] awq better in 30%  wilcoxon p=0.3594
+   wnorm     ratio vs awq median 0.999 [0.996,1.002] awq better in 20%  wilcoxon p=0.0977
+   had_rtn   ratio vs awq median 1.006 [0.969,1.049] awq better in 80%  wilcoxon p=0.2324
+   had_awq   ratio vs awq median 1.007 [0.969,1.049] awq better in 80%  wilcoxon p=0.2324
+   had_rtn strictly between awq and rtn in 0.0
+runtime_s 131.9

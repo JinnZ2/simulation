@@ -1,0 +1,245 @@
+s1 d=2048 b=1 masked_dense_50  p50     0.531 ms p95     0.567
+s1 d=2048 b=1 nm_2of4_dense    p50     0.535 ms p95     0.571
+s1 d=2048 b=1 struct_50        p50     0.260 ms p95     0.298
+s1 d=2048 b=1 csr_50           p50     3.168 ms p95    42.817
+s1 d=2048 b=1 csr_70           p50     1.509 ms p95    57.966
+s1 d=2048 b=1 csr_90           p50     0.423 ms p95    61.583
+s1 d=2048 b=1 bsr32_50         p50     1.320 ms p95    49.345
+s1 d=2048 b=1 bsr32_75         p50     0.486 ms p95    20.644
+s1 d=2048 b=1 dense            p50     0.547 ms p95    16.803
+s1 d=2048 b=16 nm_2of4_dense    p50     7.882 ms p95    20.156
+s1 d=2048 b=16 struct_50        p50     2.448 ms p95    41.153
+s1 d=2048 b=16 csr_50           p50     7.190 ms p95    22.249
+s1 d=2048 b=16 csr_70           p50     4.793 ms p95    96.852
+s1 d=2048 b=16 csr_90           p50     1.453 ms p95     1.466
+s1 d=2048 b=16 bsr32_50         p50    19.320 ms p95   199.849
+s1 d=2048 b=16 bsr32_75         p50    37.710 ms p95   154.951
+s1 d=2048 b=16 dense            p50    39.981 ms p95    96.572
+s1 d=2048 b=16 masked_dense_50  p50    19.445 ms p95    93.275
+s1 d=2048 b=256 struct_50        p50    32.361 ms p95   154.199
+s1 d=2048 b=256 csr_50           p50   689.236 ms p95  1738.558
+s1 d=2048 b=256 csr_70           p50   531.506 ms p95  1130.220
+s1 d=2048 b=256 csr_90           p50   290.229 ms p95   458.460
+s1 d=2048 b=256 bsr32_50         p50  2605.676 ms p95  3921.949
+s1 d=2048 b=256 bsr32_75         p50  1114.251 ms p95  2180.573
+s1 d=2048 b=256 dense            p50    96.856 ms p95   282.443
+s1 d=2048 b=256 masked_dense_50  p50    38.012 ms p95   254.877
+s1 d=2048 b=256 nm_2of4_dense    p50    87.353 ms p95   252.636
+s1 d=4096 b=1 csr_50           p50    10.119 ms p95   174.459
+s1 d=4096 b=1 csr_70           p50    32.409 ms p95    62.263
+s1 d=4096 b=1 csr_90           p50    10.324 ms p95    33.961
+s1 d=4096 b=1 bsr32_50         p50    10.222 ms p95    54.173
+s1 d=4096 b=1 bsr32_75         p50     1.916 ms p95     7.130
+s1 d=4096 b=1 dense            p50     3.469 ms p95     3.715
+s1 d=4096 b=1 masked_dense_50  p50     3.434 ms p95    24.341
+s1 d=4096 b=1 nm_2of4_dense    p50    32.079 ms p95    39.908
+s1 d=4096 b=1 struct_50        p50     1.736 ms p95    25.692
+s1 d=4096 b=16 csr_70           p50   128.287 ms p95   248.393
+s1 d=4096 b=16 csr_90           p50    30.138 ms p95   102.301
+s1 d=4096 b=16 bsr32_50         p50   326.391 ms p95   898.622
+s1 d=4096 b=16 bsr32_75         p50   324.798 ms p95   542.055
+s1 d=4096 b=16 dense            p50   152.910 ms p95   261.869
+s1 d=4096 b=16 masked_dense_50  p50   166.025 ms p95   264.422
+s1 d=4096 b=16 nm_2of4_dense    p50   148.339 ms p95   238.178
+s1 d=4096 b=16 struct_50        p50    73.458 ms p95   113.279
+s1 d=4096 b=16 csr_50           p50   217.829 ms p95   361.469
+s2 d=2048 b=1 nm_2of4_dense    p50     0.602 ms p95    69.737
+s2 d=2048 b=1 struct_50        p50     0.285 ms p95    24.474
+s2 d=2048 b=1 csr_50           p50    22.634 ms p95    38.824
+s2 d=2048 b=1 csr_70           p50     1.531 ms p95    61.698
+s2 d=2048 b=1 csr_90           p50     0.424 ms p95    40.486
+s2 d=2048 b=1 bsr32_50         p50     1.185 ms p95    45.452
+s2 d=2048 b=1 bsr32_75         p50     0.473 ms p95    15.739
+s2 d=2048 b=1 dense            p50     0.606 ms p95    32.451
+s2 d=2048 b=1 masked_dense_50  p50     0.721 ms p95    56.778
+s2 d=2048 b=16 struct_50        p50     1.950 ms p95    54.307
+s2 d=2048 b=16 csr_50           p50    31.462 ms p95    87.368
+s2 d=2048 b=16 csr_70           p50    31.070 ms p95    65.196
+s2 d=2048 b=16 csr_90           p50     1.522 ms p95    29.521
+s2 d=2048 b=16 bsr32_50         p50    94.611 ms p95   279.788
+s2 d=2048 b=16 bsr32_75         p50    49.284 ms p95    98.583
+s2 d=2048 b=16 dense            p50    14.035 ms p95    49.160
+s2 d=2048 b=16 masked_dense_50  p50    23.872 ms p95    72.849
+s2 d=2048 b=16 nm_2of4_dense    p50    20.388 ms p95    59.664
+s2 d=2048 b=256 csr_50           p50   622.692 ms p95  1139.844
+s2 d=2048 b=256 csr_70           p50   438.374 ms p95   644.344
+s2 d=2048 b=256 csr_90           p50    47.122 ms p95   235.992
+s2 d=2048 b=256 bsr32_50         p50  1718.156 ms p95  2826.171
+s2 d=2048 b=256 bsr32_75         p50   484.188 ms p95  1182.083
+s2 d=2048 b=256 dense            p50   104.712 ms p95   175.379
+s2 d=2048 b=256 masked_dense_50  p50    38.876 ms p95   174.497
+s2 d=2048 b=256 nm_2of4_dense    p50    33.341 ms p95   159.545
+s2 d=2048 b=256 struct_50        p50    34.467 ms p95    97.247
+s2 d=4096 b=1 csr_70           p50     5.973 ms p95     6.118
+s2 d=4096 b=1 csr_90           p50     1.820 ms p95     1.845
+s2 d=4096 b=1 bsr32_50         p50     4.891 ms p95     5.094
+s2 d=4096 b=1 bsr32_75         p50     1.952 ms p95     3.895
+s2 d=4096 b=1 dense            p50     3.836 ms p95     4.040
+s2 d=4096 b=1 masked_dense_50  p50     3.831 ms p95     3.997
+s2 d=4096 b=1 nm_2of4_dense    p50     3.772 ms p95     3.938
+s2 d=4096 b=1 struct_50        p50     1.363 ms p95     1.558
+s2 d=4096 b=1 csr_50           p50    10.614 ms p95    60.374
+s2 d=4096 b=16 csr_90           p50    30.749 ms p95    66.389
+s2 d=4096 b=16 bsr32_50         p50   164.539 ms p95   655.157
+s2 d=4096 b=16 bsr32_75         p50   193.916 ms p95   373.682
+s2 d=4096 b=16 dense            p50    98.059 ms p95   168.808
+s2 d=4096 b=16 masked_dense_50  p50   106.242 ms p95   196.142
+s2 d=4096 b=16 nm_2of4_dense    p50    92.514 ms p95   176.285
+s2 d=4096 b=16 struct_50        p50    67.934 ms p95   108.108
+s2 d=4096 b=16 csr_50           p50    29.339 ms p95   202.005
+s2 d=4096 b=16 csr_70           p50    86.891 ms p95   139.031
+s3 d=2048 b=1 struct_50        p50     0.259 ms p95     0.275
+s3 d=2048 b=1 csr_50           p50     2.377 ms p95     2.419
+s3 d=2048 b=1 csr_70           p50     1.391 ms p95     1.431
+s3 d=2048 b=1 csr_90           p50     0.421 ms p95     0.434
+s3 d=2048 b=1 bsr32_50         p50     0.908 ms p95     0.958
+s3 d=2048 b=1 bsr32_75         p50     0.456 ms p95     0.498
+s3 d=2048 b=1 dense            p50     0.530 ms p95     0.554
+s3 d=2048 b=1 masked_dense_50  p50     0.579 ms p95     0.765
+s3 d=2048 b=1 nm_2of4_dense    p50     0.534 ms p95     0.579
+s3 d=2048 b=16 csr_50           p50    40.105 ms p95    91.615
+s3 d=2048 b=16 csr_70           p50    24.619 ms p95    57.629
+s3 d=2048 b=16 csr_90           p50     1.609 ms p95    29.519
+s3 d=2048 b=16 bsr32_50         p50    92.169 ms p95   208.717
+s3 d=2048 b=16 bsr32_75         p50    60.568 ms p95   126.412
+s3 d=2048 b=16 dense            p50     2.983 ms p95    19.881
+s3 d=2048 b=16 masked_dense_50  p50     3.134 ms p95     5.267
+s3 d=2048 b=16 nm_2of4_dense    p50     2.892 ms p95     3.175
+s3 d=2048 b=16 struct_50        p50     1.209 ms p95     1.251
+s3 d=2048 b=256 csr_70           p50   358.456 ms p95   510.821
+s3 d=2048 b=256 csr_90           p50    74.208 ms p95   165.256
+s3 d=2048 b=256 bsr32_50         p50  1109.735 ms p95  2025.857
+s3 d=2048 b=256 bsr32_75         p50   474.980 ms p95   953.102
+s3 d=2048 b=256 dense            p50    90.326 ms p95   139.137
+s3 d=2048 b=256 masked_dense_50  p50    39.383 ms p95    94.676
+s3 d=2048 b=256 nm_2of4_dense    p50    18.244 ms p95    76.160
+s3 d=2048 b=256 struct_50        p50    30.180 ms p95    77.670
+s3 d=2048 b=256 csr_50           p50   397.873 ms p95   647.198
+s3 d=4096 b=1 csr_90           p50     2.010 ms p95    21.451
+s3 d=4096 b=1 bsr32_50         p50    20.674 ms p95    39.735
+s3 d=4096 b=1 bsr32_75         p50     2.699 ms p95    13.495
+s3 d=4096 b=1 dense            p50     3.912 ms p95     5.060
+s3 d=4096 b=1 masked_dense_50  p50     3.917 ms p95     5.421
+s3 d=4096 b=1 nm_2of4_dense    p50     3.811 ms p95     3.971
+s3 d=4096 b=1 struct_50        p50     1.530 ms p95     1.764
+s3 d=4096 b=1 csr_50           p50    20.249 ms p95    41.594
+s3 d=4096 b=1 csr_70           p50    17.413 ms p95    49.100
+s3 d=4096 b=16 bsr32_50         p50   362.540 ms p95   599.020
+s3 d=4096 b=16 bsr32_75         p50   112.418 ms p95   220.245
+s3 d=4096 b=16 dense            p50    19.633 ms p95   103.051
+s3 d=4096 b=16 masked_dense_50  p50    19.808 ms p95    72.363
+s3 d=4096 b=16 nm_2of4_dense    p50    84.529 ms p95   136.473
+s3 d=4096 b=16 struct_50        p50    20.746 ms p95    53.419
+s3 d=4096 b=16 csr_50           p50    29.304 ms p95    34.321
+s3 d=4096 b=16 csr_70           p50    39.396 ms p95    70.008
+s3 d=4096 b=16 csr_90           p50     6.055 ms p95     6.775
+d= 2048 b=   1 bsr32_50         matched   speedup 0.512 [0.415, 0.584] sessions [0.415, 0.512, 0.584]
+d= 2048 b=   1 bsr32_75         matched   speedup 1.163 [1.127, 1.281] sessions [1.127, 1.281, 1.163]
+d= 2048 b=   1 csr_50           matched   speedup 0.173 [0.027, 0.223] sessions [0.173, 0.027, 0.223]
+d= 2048 b=   1 csr_70           matched   speedup 0.381 [0.363, 0.396] sessions [0.363, 0.396, 0.381]
+d= 2048 b=   1 csr_90           matched   speedup 1.295 [1.259, 1.431] sessions [1.295, 1.431, 1.259]
+d= 2048 b=   1 masked_dense_50  unmatched speedup 0.916 [0.840, 1.030] sessions [1.03, 0.84, 0.916]
+d= 2048 b=   1 nm_2of4_dense    unmatched speedup 1.007 [0.994, 1.023] sessions [1.023, 1.007, 0.994]
+d= 2048 b=   1 struct_50        matched   speedup 2.105 [2.046, 2.125] sessions [2.105, 2.125, 2.046]
+d= 2048 b=  16 bsr32_50         matched   speedup 0.148 [0.032, 2.069] sessions [2.069, 0.148, 0.032]
+d= 2048 b=  16 bsr32_75         matched   speedup 0.285 [0.049, 1.060] sessions [1.06, 0.285, 0.049]
+d= 2048 b=  16 csr_50           matched   speedup 0.446 [0.074, 5.561] sessions [5.561, 0.446, 0.074]
+d= 2048 b=  16 csr_70           matched   speedup 0.452 [0.121, 8.342] sessions [8.342, 0.452, 0.121]
+d= 2048 b=  16 csr_90           matched   speedup 9.220 [1.854, 27.526] sessions [27.526, 9.22, 1.854]
+d= 2048 b=  16 masked_dense_50  unmatched speedup 0.952 [0.588, 2.056] sessions [2.056, 0.588, 0.952]
+d= 2048 b=  16 nm_2of4_dense    unmatched speedup 1.031 [0.688, 5.072] sessions [5.072, 0.688, 1.031]
+d= 2048 b=  16 struct_50        matched   speedup 7.199 [2.467, 16.333] sessions [16.333, 7.199, 2.467]
+d= 2048 b= 256 bsr32_50         matched   speedup 0.061 [0.037, 0.081] sessions [0.037, 0.061, 0.081]
+d= 2048 b= 256 bsr32_75         matched   speedup 0.190 [0.087, 0.216] sessions [0.087, 0.216, 0.19]
+d= 2048 b= 256 csr_50           matched   speedup 0.168 [0.141, 0.227] sessions [0.141, 0.168, 0.227]
+d= 2048 b= 256 csr_70           matched   speedup 0.239 [0.182, 0.252] sessions [0.182, 0.239, 0.252]
+d= 2048 b= 256 csr_90           matched   speedup 1.217 [0.334, 2.222] sessions [0.334, 2.222, 1.217]
+d= 2048 b= 256 masked_dense_50  unmatched speedup 2.548 [2.294, 2.693] sessions [2.548, 2.693, 2.294]
+d= 2048 b= 256 nm_2of4_dense    unmatched speedup 3.141 [1.109, 4.951] sessions [1.109, 3.141, 4.951]
+d= 2048 b= 256 struct_50        matched   speedup 2.993 [2.993, 3.038] sessions [2.993, 3.038, 2.993]
+d= 4096 b=   1 bsr32_50         matched   speedup 0.339 [0.189, 0.784] sessions [0.339, 0.784, 0.189]
+d= 4096 b=   1 bsr32_75         matched   speedup 1.810 [1.450, 1.965] sessions [1.81, 1.965, 1.45]
+d= 4096 b=   1 csr_50           matched   speedup 0.343 [0.193, 0.361] sessions [0.343, 0.361, 0.193]
+d= 4096 b=   1 csr_70           matched   speedup 0.225 [0.107, 0.642] sessions [0.107, 0.642, 0.225]
+d= 4096 b=   1 csr_90           matched   speedup 1.946 [0.336, 2.108] sessions [0.336, 2.108, 1.946]
+d= 4096 b=   1 masked_dense_50  unmatched speedup 1.001 [0.999, 1.010] sessions [1.01, 1.001, 0.999]
+d= 4096 b=   1 nm_2of4_dense    unmatched speedup 1.017 [0.108, 1.027] sessions [0.108, 1.017, 1.027]
+d= 4096 b=   1 struct_50        matched   speedup 2.557 [1.999, 2.813] sessions [1.999, 2.813, 2.557]
+d= 4096 b=  16 bsr32_50         matched   speedup 0.468 [0.054, 0.596] sessions [0.468, 0.596, 0.054]
+d= 4096 b=  16 bsr32_75         matched   speedup 0.471 [0.175, 0.506] sessions [0.471, 0.506, 0.175]
+d= 4096 b=  16 csr_50           matched   speedup 0.702 [0.670, 3.342] sessions [0.702, 3.342, 0.67]
+d= 4096 b=  16 csr_70           matched   speedup 1.129 [0.498, 1.192] sessions [1.192, 1.129, 0.498]
+d= 4096 b=  16 csr_90           matched   speedup 3.243 [3.189, 5.074] sessions [5.074, 3.189, 3.243]
+d= 4096 b=  16 masked_dense_50  unmatched speedup 0.923 [0.921, 0.991] sessions [0.921, 0.923, 0.991]
+d= 4096 b=  16 nm_2of4_dense    unmatched speedup 1.031 [0.232, 1.060] sessions [1.031, 1.06, 0.232]
+d= 4096 b=  16 struct_50        matched   speedup 1.443 [0.946, 2.082] sessions [2.082, 1.443, 0.946]
+{
+ "n_sessions": 3,
+ "matched_cells_d>=4096_b>=16": [
+  [
+   "bsr32_50",
+   4096,
+   16,
+   0.468
+  ],
+  [
+   "bsr32_75",
+   4096,
+   16,
+   0.471
+  ],
+  [
+   "csr_50",
+   4096,
+   16,
+   0.702
+  ],
+  [
+   "csr_70",
+   4096,
+   16,
+   1.129
+  ],
+  [
+   "csr_90",
+   4096,
+   16,
+   3.243
+  ],
+  [
+   "struct_50",
+   4096,
+   16,
+   1.443
+  ]
+ ],
+ "all_matched_big_>=1.1": false,
+ "unmatched_robust_>=1.1": [
+  [
+   "masked_dense_50",
+   2048,
+   256,
+   2.548
+  ],
+  [
+   "nm_2of4_dense",
+   2048,
+   256,
+   3.141
+  ]
+ ],
+ "any_unmatched_>=1.1_any_shape": [
+  [
+   "masked_dense_50",
+   2048,
+   256,
+   2.548
+  ],
+  [
+   "nm_2of4_dense",
+   2048,
+   256,
+   3.141
+  ]
+ ]
+}
